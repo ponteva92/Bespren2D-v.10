@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://7tbpp8rakjnm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_summoner_dante_a_3ee618faaf.png" id="1_3lnxk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tqeiu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3lnxk")
+region = Rect2(0, 0, 244, 214)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tqeiu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

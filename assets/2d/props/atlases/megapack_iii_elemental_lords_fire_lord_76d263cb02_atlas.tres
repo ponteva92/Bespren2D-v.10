@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cc6t5px4a85x7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_elemental_lords_fire_lord_21a7290ce2.png" id="1_korhc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_korhc")
+region = Rect2(0, 0, 744, 509)

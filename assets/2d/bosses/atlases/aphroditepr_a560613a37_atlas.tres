@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ded16e01ukx2v"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/aphroditepr_13bd642bc2.png" id="1_gogyc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gogyc")
+region = Rect2(0, 0, 48, 192)

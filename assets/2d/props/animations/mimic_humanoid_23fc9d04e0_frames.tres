@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ccejxexgauykw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mimic_humanoid_c19125a916.png" id="1_jfikv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3rdkl"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jfikv")
+region = Rect2(0, 0, 389, 245)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3rdkl")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

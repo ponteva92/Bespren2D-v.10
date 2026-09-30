@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://m871mqm5g11t"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/freebies_icons_botany_4581deb41f.png" id="1_su6d0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_df3yh"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_su6d0")
+region = Rect2(0, 0, 160, 160)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_df3yh")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

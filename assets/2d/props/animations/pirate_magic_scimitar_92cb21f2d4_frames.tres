@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://df16iiqacgyaf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pirate_magic_scimitar_976e3b7dc1.png" id="1_odhp8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wns3k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_odhp8")
+region = Rect2(0, 0, 172, 254)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wns3k")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d30qn0g8kqheh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/earth_bull_d568c6ff0c.png" id="1_b8g2s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_74vwr"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_b8g2s")
+region = Rect2(0, 0, 404, 290)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_74vwr")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

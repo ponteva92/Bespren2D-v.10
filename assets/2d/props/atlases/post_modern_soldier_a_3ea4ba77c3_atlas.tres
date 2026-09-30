@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://5q4eqmmfqk4g"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/post_modern_soldier_a_fc89f6ab16.png" id="1_l556s"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l556s")
+region = Rect2(0, 0, 232, 188)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cxgra6l2lx3o4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_ice_spirit_helida_143cb7e4bb.png" id="1_ig261"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xdv3r"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ig261")
+region = Rect2(0, 0, 125, 241)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xdv3r")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

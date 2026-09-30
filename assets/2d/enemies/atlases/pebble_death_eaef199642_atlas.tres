@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dqvcohj6xikcq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/pebble_death_b339abb1ac.png" id="1_2sfjq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2sfjq")
+region = Rect2(0, 0, 128, 128)

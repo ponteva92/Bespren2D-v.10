@@ -1,0 +1,56 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://25gsw1tivlut"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/bigmonster9_1d8da00d5d.png" id="1_kav8e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_15s64"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kav8e")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxv4l"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_kav8e")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1x6cf"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_kav8e")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtxrl"]
+resource_name = "frame_001_001"
+atlas = ExtResource("1_kav8e")
+region = Rect2(96, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_drcew"]
+resource_name = "frame_001_002"
+atlas = ExtResource("1_kav8e")
+region = Rect2(192, 96, 96, 96)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_15s64")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yxv4l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1x6cf")
+}],
+"loop": 1,
+"name": &"walk_down",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtxrl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_drcew")
+}],
+"loop": 1,
+"name": &"walk_left",
+"speed": 6.0
+}]

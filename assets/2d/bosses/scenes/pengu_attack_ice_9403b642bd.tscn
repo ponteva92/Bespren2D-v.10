@@ -1,0 +1,160 @@
+[gd_scene format=3 uid="uid://1sb4acdhj5qa"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_6h8gw"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/pengu_attack_ice_68a6e6e6ab.png" id="2_jcxrn"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_6h8gw")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijakw"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cgae6"]
+resource_name = "frame_000_004"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ca2vv"]
+resource_name = "frame_000_005"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u425i"]
+resource_name = "frame_000_007"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y1xj2"]
+resource_name = "frame_000_008"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(1024, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_crp30"]
+resource_name = "frame_000_010"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k3gtw"]
+resource_name = "frame_000_011"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(1408, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g0xn3"]
+resource_name = "frame_000_013"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(1664, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsw8s"]
+resource_name = "frame_000_014"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(1792, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w54bg"]
+resource_name = "frame_000_016"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(2048, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_am22v"]
+resource_name = "frame_000_017"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(2176, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4t4a"]
+resource_name = "frame_000_019"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(2432, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ia3gx"]
+resource_name = "frame_000_020"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(2560, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yd1xv"]
+resource_name = "frame_000_022"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(2816, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2uri5"]
+resource_name = "frame_000_023"
+atlas = ExtResource("2_jcxrn")
+region = Rect2(2944, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qgwd2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ijakw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cgae6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2vv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u425i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y1xj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_crp30")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k3gtw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g0xn3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsw8s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w54bg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_am22v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l4t4a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ia3gx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yd1xv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2uri5")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]
+
+[node name="PenguAttackIce" type="Node2D" unique_id=182645487 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "pengu_attack_ice_9403b642bd"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=807120405]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_qgwd2")
+animation = &"attack"
+autoplay = "attack"
+offset = Vector2(0, -64)

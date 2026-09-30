@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ccrm7ul4ye7hl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_succubus_lariatt_83f0082166.png" id="1_ndfi8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ndfi8")
+region = Rect2(0, 0, 265, 228)

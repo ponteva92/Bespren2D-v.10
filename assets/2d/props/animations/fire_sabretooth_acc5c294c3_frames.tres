@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://n3kkbwjukian"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_sabretooth_c587779a7e.png" id="1_0ga3c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lpwlo"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0ga3c")
+region = Rect2(0, 0, 297, 313)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lpwlo")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

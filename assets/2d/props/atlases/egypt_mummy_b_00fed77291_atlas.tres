@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dswtcuoc0b0gc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_mummy_b_4ed6eb68dd.png" id="1_cfx55"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cfx55")
+region = Rect2(0, 0, 121, 219)

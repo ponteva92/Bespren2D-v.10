@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bs4i2byfas48l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dark_elves_healer_priestess_6dbea0fbcd.png" id="1_l25ji"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_goufx"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l25ji")
+region = Rect2(0, 0, 213, 249)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_goufx")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

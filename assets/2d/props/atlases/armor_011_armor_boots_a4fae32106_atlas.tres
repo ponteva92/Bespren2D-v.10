@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://chpyijero7y0v"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/armor_011_armor_boots_61c2323c36.png" id="1_qeiss"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qeiss")
+region = Rect2(0, 0, 64, 64)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://blprc4mi0lrhs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/floor_spikes_anim_f2_bdc409a11e.png" id="1_t6si3"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t6si3")
+region = Rect2(0, 0, 16, 16)

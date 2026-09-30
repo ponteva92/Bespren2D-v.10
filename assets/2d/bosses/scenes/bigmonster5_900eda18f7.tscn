@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://cnl0yd8tclqh2"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_gulht"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/bigmonster5_b672d837af.png" id="2_wd1jm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_gulht")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ww7w"]
+resource_name = "frame_002_000"
+atlas = ExtResource("2_wd1jm")
+region = Rect2(0, 192, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c3tm1"]
+resource_name = "frame_002_001"
+atlas = ExtResource("2_wd1jm")
+region = Rect2(96, 192, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_si0m4"]
+resource_name = "frame_002_002"
+atlas = ExtResource("2_wd1jm")
+region = Rect2(192, 192, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7g5yn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ww7w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c3tm1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_si0m4")
+}],
+"loop": 1,
+"name": &"walk_right",
+"speed": 6.0
+}]
+
+[node name="$Bigmonster5" type="Node2D" unique_id=1780873776 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "bigmonster5_900eda18f7"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "rpg_maker_3x4"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=471657495]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_7g5yn")
+animation = &"walk_right"
+autoplay = "walk_right"
+offset = Vector2(0, -48)

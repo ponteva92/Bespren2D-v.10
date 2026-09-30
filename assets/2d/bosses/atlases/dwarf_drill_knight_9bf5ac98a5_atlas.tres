@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://s56kma64sfix"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dwarf_drill_knight_e1e0117017.png" id="1_ws6gy"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ws6gy")
+region = Rect2(0, 0, 352, 313)

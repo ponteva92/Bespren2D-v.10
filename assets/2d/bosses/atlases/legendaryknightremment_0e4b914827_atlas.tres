@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bgpmodbxevoef"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendaryknightremment_b0be6f20dc.png" id="1_6kfkm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6kfkm")
+region = Rect2(0, 0, 129, 216)

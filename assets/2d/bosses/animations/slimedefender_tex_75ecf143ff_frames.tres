@@ -1,0 +1,115 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c4mmceqrn4wy7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/slimedefender_tex_8874de5c5a.png" id="1_ciluu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o42cs"]
+resource_name = "shadow"
+atlas = ExtResource("1_ciluu")
+region = Rect2(1, 81, 75, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oun2u"]
+resource_name = "slime"
+atlas = ExtResource("1_ciluu")
+region = Rect2(63, 1, 73, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p61vk"]
+resource_name = "shield"
+atlas = ExtResource("1_ciluu")
+region = Rect2(1, 1, 60, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pp7ha"]
+resource_name = "chaind"
+atlas = ExtResource("1_ciluu")
+region = Rect2(96, 93, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5uw2k"]
+resource_name = "chainc"
+atlas = ExtResource("1_ciluu")
+region = Rect2(113, 93, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_24dbf"]
+resource_name = "chainb"
+atlas = ExtResource("1_ciluu")
+region = Rect2(130, 75, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_porhv"]
+resource_name = "chaina"
+atlas = ExtResource("1_ciluu")
+region = Rect2(116, 53, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kynsi"]
+resource_name = "ballshade"
+atlas = ExtResource("1_ciluu")
+region = Rect2(90, 53, 21, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_obnya"]
+resource_name = "ball"
+atlas = ExtResource("1_ciluu")
+region = Rect2(63, 53, 25, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avdq3"]
+resource_name = "hand"
+atlas = ExtResource("1_ciluu")
+region = Rect2(1, 111, 18, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_35v52"]
+resource_name = "handle"
+atlas = ExtResource("1_ciluu")
+region = Rect2(78, 79, 16, 29)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_757vv"]
+resource_name = "fingers"
+atlas = ExtResource("1_ciluu")
+region = Rect2(96, 73, 18, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0tw2"]
+resource_name = "thumb"
+atlas = ExtResource("1_ciluu")
+region = Rect2(116, 75, 9, 9)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o42cs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oun2u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p61vk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pp7ha")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5uw2k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_24dbf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_porhv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kynsi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_obnya")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avdq3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_35v52")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_757vv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0tw2")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

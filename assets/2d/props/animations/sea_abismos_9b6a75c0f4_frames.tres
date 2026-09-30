@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://clxirdd8k3f77"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_abismos_796fcd8c4d.png" id="1_d6p5p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1e1jw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_d6p5p")
+region = Rect2(0, 0, 244, 200)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1e1jw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

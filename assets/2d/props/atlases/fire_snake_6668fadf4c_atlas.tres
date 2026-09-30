@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c13yfqoaud7ck"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_snake_754b2c5e5e.png" id="1_dcati"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dcati")
+region = Rect2(0, 0, 212, 159)

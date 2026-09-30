@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cqn6meokwkq3j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_dryad_mini_8563cfaf50.png" id="1_dej4i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42cbw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dej4i")
+region = Rect2(0, 0, 219, 132)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42cbw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

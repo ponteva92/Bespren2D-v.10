@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b5ujxjp2w6kx7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_grasshopper_bc3bdf7019.png" id="1_natcr"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_natcr")
+region = Rect2(0, 0, 130, 120)

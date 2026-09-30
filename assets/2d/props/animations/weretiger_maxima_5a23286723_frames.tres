@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d2d8j3v0dq4pj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/weretiger_maxima_b2038b836b.png" id="1_2veh6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thwjq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2veh6")
+region = Rect2(0, 0, 358, 352)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_thwjq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bpxrj6cnq8irt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_dryad_queen_rafflesia_e7290692f4.png" id="1_dcqqh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dcqqh")
+region = Rect2(0, 0, 587, 431)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bregrm0f0kph5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_fish_a_5d16934547.png" id="1_1wq4n"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1wq4n")
+region = Rect2(0, 0, 78, 116)

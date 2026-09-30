@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cqiuq4ya0bu4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/possessed_knights_gun_6f4838d09a.png" id="1_ff5a7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ff5a7")
+region = Rect2(0, 0, 442, 359)

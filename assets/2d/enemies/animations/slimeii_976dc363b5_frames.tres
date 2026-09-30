@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dw1obvhmcauor"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slimeii_597060914e.png" id="1_jp50q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g6gel"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jp50q")
+region = Rect2(0, 0, 139, 83)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6gel")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

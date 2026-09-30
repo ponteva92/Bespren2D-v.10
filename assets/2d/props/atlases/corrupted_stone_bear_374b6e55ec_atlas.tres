@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cu43soa136f03"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/corrupted_stone_bear_9231572a58.png" id="1_oa5t5"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_oa5t5")
+region = Rect2(0, 0, 424, 308)

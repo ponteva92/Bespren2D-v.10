@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d3cfpmbqdgfvl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/possessed_knights_gun_6f4838d09a.png" id="1_smesb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cbmji"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_smesb")
+region = Rect2(0, 0, 442, 359)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cbmji")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

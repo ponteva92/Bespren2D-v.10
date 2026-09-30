@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cp6og30knolgp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_mermaid_warrior_sion_921cb53737.png" id="1_tbmkb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tbmkb")
+region = Rect2(0, 0, 280, 304)

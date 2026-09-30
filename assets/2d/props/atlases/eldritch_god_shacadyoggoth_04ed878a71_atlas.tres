@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c8h1vvp85dotb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_god_shacadyoggoth_5b57842fde.png" id="1_xus01"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xus01")
+region = Rect2(0, 0, 728, 421)

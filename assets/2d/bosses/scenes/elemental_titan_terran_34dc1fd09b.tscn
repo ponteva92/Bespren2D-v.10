@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://cvfypy1jy4jho"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_nvuj6"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_titan_terran_9af26c769f.png" id="2_cjxyl"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_nvuj6")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0dppf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_cjxyl")
+region = Rect2(0, 0, 719, 450)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sqr6u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0dppf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="ElementalTitanTerran" type="Node2D" unique_id=27021961 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "elemental_titan_terran_34dc1fd09b"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1532207482]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_sqr6u")
+offset = Vector2(0, -225)

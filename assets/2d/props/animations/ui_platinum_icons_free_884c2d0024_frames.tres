@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cba3fv40h3hup"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/ui_platinum_icons_free_60d829afc1.png" id="1_6qsk5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_calpt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6qsk5")
+region = Rect2(0, 0, 1024, 384)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_calpt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://q3q7h62y0nj6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_mermaid_warrior_sion_921cb53737.png" id="1_i3cyb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s0h7d"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_i3cyb")
+region = Rect2(0, 0, 280, 304)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s0h7d")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

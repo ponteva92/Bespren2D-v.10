@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bvdnjhes7pe18"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_mecha_dragon_ladon_1a5c2ceac6.png" id="1_gx5ck"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gx5ck")
+region = Rect2(0, 0, 293, 461)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cggvt0vfudgfh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/summon_alicorn_82df96b3a6.png" id="1_6f24v"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6f24v")
+region = Rect2(0, 0, 404, 347)

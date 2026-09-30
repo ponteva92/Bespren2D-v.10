@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bainsptdqvtwh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_wbishop_a86c296130.png" id="1_swxwb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7r8ou"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_swxwb")
+region = Rect2(0, 0, 122, 166)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7r8ou")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

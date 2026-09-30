@@ -1,0 +1,44 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://src/combat/player_projectile.gd" id="1_projectile"]
+[ext_resource type="Texture2D" path="res://assets/sprites/projectile_tracer.svg" id="2_tracer"]
+[ext_resource type="Shader" path="res://shaders/projectile_glow.gdshader" id="3_glow"]
+[ext_resource type="Texture2D" path="res://assets/sprites/projectile_bullet_strip.png" id="4_bullet"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tracer"]
+resource_local_to_scene = true
+shader = ExtResource("3_glow")
+shader_parameter/energy_tint = Color(1, 0.71, 0.18, 1)
+shader_parameter/pulse_speed = 11.0
+shader_parameter/emission = 1.35
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_projectile"]
+size = Vector2(14, 5)
+
+[node name="PlayerProjectile" type="Area2D"]
+z_index = 20
+z_as_relative = false
+collision_layer = 0
+collision_mask = 6
+monitoring = true
+monitorable = true
+script = ExtResource("1_projectile")
+
+[node name="Tracer" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_tracer")
+texture = ExtResource("2_tracer")
+scale = Vector2(0.55, 0.55)
+
+[node name="ProjectileHead" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+texture_filter = 1
+material = SubResource("ShaderMaterial_tracer")
+texture = ExtResource("4_bullet")
+position = Vector2(20, 0)
+scale = Vector2(1.35, 1.35)
+hframes = 6
+frame = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_projectile")

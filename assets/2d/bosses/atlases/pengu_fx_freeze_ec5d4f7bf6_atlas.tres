@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://1o2olep5xo5g"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/pengu_fx_freeze_a2058f03ef.png" id="1_t2m7b"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t2m7b")
+region = Rect2(0, 0, 240, 128)

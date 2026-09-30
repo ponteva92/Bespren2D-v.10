@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dw7koicsr6ufw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knight_pizarro_b_324385732a.png" id="1_nige0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3bhkw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nige0")
+region = Rect2(0, 0, 480, 349)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3bhkw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

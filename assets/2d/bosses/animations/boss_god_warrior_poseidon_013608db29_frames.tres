@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://baxqjlnyw7r60"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_warrior_poseidon_76bd892c52.png" id="1_aypae"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uwrhu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_aypae")
+region = Rect2(0, 0, 339, 473)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uwrhu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

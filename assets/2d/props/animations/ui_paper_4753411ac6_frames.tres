@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhkjmpx0a4d7e"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/ui_paper_6edc31939d.png" id="1_da67k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rbx4n"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_da67k")
+region = Rect2(0, 0, 576, 480)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rbx4n")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

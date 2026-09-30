@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cwmqorwgwk8e0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_salamander_b032605fdf.png" id="1_qjj0d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hopkv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qjj0d")
+region = Rect2(0, 0, 318, 109)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hopkv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

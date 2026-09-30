@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bxdrrr2ohdfx5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_giant_bug_hercules_98f7a1c283.png" id="1_d70vl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vwnwc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_d70vl")
+region = Rect2(0, 0, 512, 416)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vwnwc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

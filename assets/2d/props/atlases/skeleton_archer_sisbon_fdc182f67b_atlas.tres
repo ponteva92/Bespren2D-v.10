@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bcdkkkoecb6qf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skeleton_archer_sisbon_ebb60a1d36.png" id="1_3nyu0"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3nyu0")
+region = Rect2(0, 0, 102, 216)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bircrn6xf4xto"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_maneater_plan_a_889d8f60d1.png" id="1_bv101"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u73ik"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bv101")
+region = Rect2(0, 0, 209, 167)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u73ik")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

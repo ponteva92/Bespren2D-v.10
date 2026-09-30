@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://45nig2w64rbb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_jellyfish_bdb92ec7c1.png" id="1_xl8x7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xl8x7")
+region = Rect2(0, 0, 127, 137)

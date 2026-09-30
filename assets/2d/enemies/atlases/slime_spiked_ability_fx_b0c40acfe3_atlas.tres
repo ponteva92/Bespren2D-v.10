@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cae7d10uhr1u4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/slime_spiked_ability_fx_4b01d5f1cf.png" id="1_0n35b"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0n35b")
+region = Rect2(0, 0, 128, 128)

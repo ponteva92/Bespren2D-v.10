@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dg4ya08bta1np"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cave_dweller_blind_dragon_4f492e5dfc.png" id="1_8v62r"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8v62r")
+region = Rect2(0, 0, 347, 424)

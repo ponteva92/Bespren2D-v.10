@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmr6w3brqhlqt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/xmas_penguin_5a548e6cad.png" id="1_nr3p2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8h6cl"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nr3p2")
+region = Rect2(0, 0, 139, 85)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8h6cl")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

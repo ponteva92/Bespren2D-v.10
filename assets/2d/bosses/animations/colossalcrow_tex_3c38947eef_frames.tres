@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b2yrbwjx420ug"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossalcrow_tex_90fee20f4d.png" id="1_mof8j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_anlde"]
+resource_name = "shadow"
+atlas = ExtResource("1_mof8j")
+region = Rect2(1, 525, 321, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqqov"]
+resource_name = "tail"
+atlas = ExtResource("1_mof8j")
+region = Rect2(1, 314, 196, 154)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r0dcd"]
+resource_name = "left_wing"
+atlas = ExtResource("1_mof8j")
+region = Rect2(317, 1, 180, 269)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c85x1"]
+resource_name = "right_wing"
+atlas = ExtResource("1_mof8j")
+region = Rect2(1, 1, 314, 311)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p1o0c"]
+resource_name = "left_leg"
+atlas = ExtResource("1_mof8j")
+region = Rect2(199, 436, 125, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x6jir"]
+resource_name = "body"
+atlas = ExtResource("1_mof8j")
+region = Rect2(317, 272, 117, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6d55j"]
+resource_name = "right_leg"
+atlas = ExtResource("1_mof8j")
+region = Rect2(199, 314, 60, 81)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_anlde")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqqov")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r0dcd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c85x1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p1o0c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x6jir")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6d55j")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

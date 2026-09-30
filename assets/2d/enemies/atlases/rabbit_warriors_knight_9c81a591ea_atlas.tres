@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dcp8cgx43xee5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rabbit_warriors_knight_812d26efbb.png" id="1_c3heu"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c3heu")
+region = Rect2(0, 0, 153, 231)

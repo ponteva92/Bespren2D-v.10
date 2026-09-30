@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ccm8ga3xdbxoy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/desert_sand_snake_b5c822de2e.png" id="1_inv5c"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_inv5c")
+region = Rect2(0, 0, 116, 90)

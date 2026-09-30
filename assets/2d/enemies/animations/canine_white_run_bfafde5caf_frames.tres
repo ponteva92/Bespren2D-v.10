@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cutjyt6vkooap"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/canine_white_run_db4faa5ad7.png" id="1_ksj7b"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1aan7"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ksj7b")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3rx5w"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_ksj7b")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r500u"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_ksj7b")
+region = Rect2(128, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1aan7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3rx5w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r500u")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]

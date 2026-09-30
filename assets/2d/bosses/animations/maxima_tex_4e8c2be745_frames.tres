@@ -1,0 +1,99 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://btuf65l51idfq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/maxima_tex_096d169ede.png" id="1_soqlp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hiv65"]
+resource_name = "shadow_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(1, 765, 480, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fthte"]
+resource_name = "tail_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(1, 315, 358, 195)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ua348"]
+resource_name = "right_leg_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(159, 512, 127, 156)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vs8cy"]
+resource_name = "left_leg_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(361, 493, 125, 160)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ragkr"]
+resource_name = "left_arm_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(361, 291, 133, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r2b8a"]
+resource_name = "neck_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(1, 512, 156, 138)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdpia"]
+resource_name = "chest_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(1, 1, 278, 312)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fd218"]
+resource_name = "head_action_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(1, 652, 105, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_44njv"]
+resource_name = "head_default_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(397, 655, 104, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c5aca"]
+resource_name = "head_damage_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(288, 655, 107, 105)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ythhj"]
+resource_name = "right_arm_copy"
+atlas = ExtResource("1_soqlp")
+region = Rect2(281, 1, 210, 288)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hiv65")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fthte")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ua348")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vs8cy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ragkr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r2b8a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdpia")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fd218")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_44njv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c5aca")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ythhj")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b7hy0m55bsewn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_pumpkin_chariot_minion_a_b0f8d5393d.png" id="1_1sinu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a4hhb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1sinu")
+region = Rect2(0, 0, 70, 49)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a4hhb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

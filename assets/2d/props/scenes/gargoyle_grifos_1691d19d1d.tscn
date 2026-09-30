@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://7gy1bbcsvyl8"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_4u64u"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gargoyle_grifos_8b9efb4c03.png" id="2_r62ee"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6nef"]
+resource_name = "Bespren Rusted Prop weathering"
+shader = ExtResource("1_4u64u")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.78
+shader_parameter/structural_damage = 0.1
+shader_parameter/rust_streaks = 0.61
+shader_parameter/toxic_intensity = 0.1
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.2
+shader_parameter/pattern_scale = 27.0
+shader_parameter/damage_seed = 17.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_itcw4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_r62ee")
+region = Rect2(0, 0, 322, 220)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_78rf5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_itcw4")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="GargoyleGrifos" type="Node2D" unique_id=90036694 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "gargoyle_grifos_1691d19d1d"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=2004524682]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6nef")
+sprite_frames = SubResource("SpriteFrames_78rf5")
+offset = Vector2(0, -110)

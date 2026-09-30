@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b8ou1dxd3mucf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/crocodile_warriors_rogue_413eb2353f.png" id="1_b1uch"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_scaxv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_b1uch")
+region = Rect2(0, 0, 259, 264)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_scaxv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

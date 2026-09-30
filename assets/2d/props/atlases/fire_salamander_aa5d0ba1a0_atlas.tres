@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://n4tgwdkb1cdc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_salamander_3fc5a6d84a.png" id="1_erkmx"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_erkmx")
+region = Rect2(0, 0, 318, 109)

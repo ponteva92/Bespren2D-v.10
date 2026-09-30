@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bamslf4nucjxr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_wateriii_7fa2c3f16e.png" id="1_qthui"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qkhpn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qthui")
+region = Rect2(0, 0, 224, 150)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qkhpn")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

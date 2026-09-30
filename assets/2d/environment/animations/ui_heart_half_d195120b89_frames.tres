@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ddrhrajep1l30"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/ui_heart_half_b919523b97.png" id="1_k1okq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpy5s"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_k1okq")
+region = Rect2(0, 0, 13, 12)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpy5s")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

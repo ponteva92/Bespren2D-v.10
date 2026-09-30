@@ -1,0 +1,115 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dy73idoutgjft"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mknightgoldnharl_tex_ad954916ab.png" id="1_4q37e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jjc1"]
+resource_name = "ellipse_14"
+atlas = ExtResource("1_4q37e")
+region = Rect2(1, 570, 239, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f6bny"]
+resource_name = "group_73"
+atlas = ExtResource("1_4q37e")
+region = Rect2(1, 226, 286, 182)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1rns1"]
+resource_name = "layer_250"
+atlas = ExtResource("1_4q37e")
+region = Rect2(370, 555, 54, 91)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5guy0"]
+resource_name = "layer_251"
+atlas = ExtResource("1_4q37e")
+region = Rect2(390, 324, 30, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mbjwq"]
+resource_name = "legalternate"
+atlas = ExtResource("1_4q37e")
+region = Rect2(362, 226, 76, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_liwdb"]
+resource_name = "layer_252"
+atlas = ExtResource("1_4q37e")
+region = Rect2(324, 555, 44, 119)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ld5x"]
+resource_name = "layer_253"
+atlas = ExtResource("1_4q37e")
+region = Rect2(362, 324, 26, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eudyg"]
+resource_name = "layer_254"
+atlas = ExtResource("1_4q37e")
+region = Rect2(440, 226, 57, 121)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2chm"]
+resource_name = "layer_255"
+atlas = ExtResource("1_4q37e")
+region = Rect2(289, 226, 71, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_837j3"]
+resource_name = "layer_257"
+atlas = ExtResource("1_4q37e")
+region = Rect2(1, 410, 250, 158)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5r56x"]
+resource_name = "layer_256"
+atlas = ExtResource("1_4q37e")
+region = Rect2(253, 410, 236, 143)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1m5n7"]
+resource_name = "layer_258"
+atlas = ExtResource("1_4q37e")
+region = Rect2(253, 555, 69, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mqsc3"]
+resource_name = "stabsmear"
+atlas = ExtResource("1_4q37e")
+region = Rect2(1, 1, 494, 223)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1jjc1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f6bny")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1rns1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5guy0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mbjwq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_liwdb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ld5x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eudyg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u2chm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_837j3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5r56x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1m5n7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mqsc3")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

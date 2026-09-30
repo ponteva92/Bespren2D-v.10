@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://drjpgpm4guxuq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_frog_a2_f36bfba98a.png" id="1_k6uhl"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_k6uhl")
+region = Rect2(0, 0, 175, 112)

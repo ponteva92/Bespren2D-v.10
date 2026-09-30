@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cqddcshefsd63"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/canine_gray_hit_27879c6f75.png" id="1_boyno"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8q1if"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_boyno")
+region = Rect2(0, 0, 192, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8q1if")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

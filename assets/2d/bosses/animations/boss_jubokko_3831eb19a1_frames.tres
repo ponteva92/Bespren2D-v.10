@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bnnksl5gcny27"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_jubokko_d989c2b586.png" id="1_bdr8p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3awhp"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bdr8p")
+region = Rect2(0, 0, 358, 423)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3awhp")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

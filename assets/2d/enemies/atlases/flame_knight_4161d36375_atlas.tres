@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://by56yw1gunukh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/flame_knight_9f3729043d.png" id="1_q5pjd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_q5pjd")
+region = Rect2(0, 0, 213, 260)

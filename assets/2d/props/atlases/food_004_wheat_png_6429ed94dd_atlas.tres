@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://5cyqfx75phdo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_004_wheat_png_b283515479.png" id="1_u4wpa"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_u4wpa")
+region = Rect2(0, 0, 64, 64)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dognyy3ikseuu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_emperor_zalaras_6b9977a45a.png" id="1_2uwsw"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2uwsw")
+region = Rect2(0, 0, 663, 489)

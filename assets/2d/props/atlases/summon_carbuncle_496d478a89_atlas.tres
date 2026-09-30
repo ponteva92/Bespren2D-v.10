@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ci6li3qnlyjsp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/summon_carbuncle_b7bfcd9f9f.png" id="1_xu4ts"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xu4ts")
+region = Rect2(0, 0, 343, 279)

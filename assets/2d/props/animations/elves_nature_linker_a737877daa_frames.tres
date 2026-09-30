@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cllqnejc64igv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elves_nature_linker_c58d3d5187.png" id="1_3od0f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4bs8f"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3od0f")
+region = Rect2(0, 0, 128, 141)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4bs8f")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

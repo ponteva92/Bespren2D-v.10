@@ -1,0 +1,341 @@
+{
+	"atlas": {
+		"bytes": 682568,
+		"layout": "4x2 deterministic frame order; 8 occupied cells",
+		"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_atlas.png",
+		"sha256": "a73801d26937c0e2c958895c3817b9c9bc101958743b8ec23a73dea6f8242161",
+		"size": [
+			1536,
+			768
+		]
+	},
+	"atlas_generator": "res://tools/asset_pipeline/build_polyhaven_district_atlas.gd",
+	"atlas_generator_bytes": 9734,
+	"atlas_generator_sha256": "7cdaa964fe38cfb7255cbf2d60efd35191ff1ebbaaa3fa32ae33eed52a71f975",
+	"blender_renderer": "res://tools/art/render_polyhaven_district_sprites.py",
+	"blender_renderer_bytes": 34286,
+	"blender_renderer_sha256": "453cea68843f865d3c20820389277bebbb46b06dfd6fa471daafde4efddf5b3a",
+	"blender_version": "5.0.0",
+	"derived_assets": [
+		{
+			"alpha_coverage": 0.457934,
+			"alpha_weighted_luma": 123.135,
+			"alpha_weighted_luma_255": 123.135,
+			"bytes": 121294,
+			"cell_region": [
+				0,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				32,
+				30,
+				320,
+				324
+			],
+			"edge_margin_px": 30,
+			"key": "urban_apartment_block",
+			"padded_atlas_region": [
+				26,
+				24,
+				332,
+				336
+			],
+			"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_urban_apartment_block.png",
+			"sha256": "bb7fd49cfe3076e7946b1006927ec8f451290d68c2900a32477b2620859e68c9",
+			"source_id": "modular_urban_apartments_facade",
+			"visible_pixel_count": 68968
+		},
+		{
+			"alpha_coverage": 0.44432,
+			"alpha_weighted_luma": 75.105,
+			"alpha_weighted_luma_255": 75.105,
+			"bytes": 122331,
+			"cell_region": [
+				384,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				35,
+				30,
+				314,
+				324
+			],
+			"edge_margin_px": 30,
+			"key": "factory_block",
+			"padded_atlas_region": [
+				413,
+				24,
+				326,
+				336
+			],
+			"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_factory_block.png",
+			"sha256": "5729ffb501f748e0fae7550caa59c613f0e34f6ff992979be7606c9d38117550",
+			"source_id": "modular_factory_facade",
+			"visible_pixel_count": 66901
+		},
+		{
+			"alpha_coverage": 0.291239,
+			"alpha_weighted_luma": 70.31,
+			"alpha_weighted_luma_255": 70.31,
+			"bytes": 119312,
+			"cell_region": [
+				768,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				48,
+				52,
+				288,
+				284
+			],
+			"edge_margin_px": 48,
+			"key": "chainlink_gate",
+			"padded_atlas_region": [
+				810,
+				46,
+				300,
+				296
+			],
+			"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_chainlink_gate.png",
+			"sha256": "492d0d83ccb3dcd3d48f687dfa8685905b94613f05553f90bf444e56f4d35946",
+			"source_id": "modular_chainlink_fence",
+			"visible_pixel_count": 42945
+		},
+		{
+			"alpha_coverage": 0.25946,
+			"alpha_weighted_luma": 65.967,
+			"alpha_weighted_luma_255": 65.967,
+			"bytes": 77457,
+			"cell_region": [
+				1152,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				58,
+				72,
+				271,
+				254
+			],
+			"edge_margin_px": 55,
+			"key": "covered_car",
+			"padded_atlas_region": [
+				1204,
+				66,
+				283,
+				266
+			],
+			"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_covered_car.png",
+			"sha256": "127e08c7335f3063dff27bd86c5e1bb505f1113d38c9b040bfb7aab5e0d08bce",
+			"source_id": "covered_car",
+			"visible_pixel_count": 39326
+		},
+		{
+			"alpha_coverage": 0.125665,
+			"alpha_weighted_luma": 109.945,
+			"alpha_weighted_luma_255": 109.945,
+			"bytes": 32743,
+			"cell_region": [
+				0,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				51,
+				92,
+				278,
+				175
+			],
+			"edge_margin_px": 51,
+			"key": "aircon_cluster",
+			"padded_atlas_region": [
+				45,
+				470,
+				290,
+				187
+			],
+			"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_aircon_cluster.png",
+			"sha256": "c70bced8f7f4c1526d65ab58f1b93830bf3c025783bf66bc7d0f3de3f198b369",
+			"source_id": "exterior_aircon_unit",
+			"visible_pixel_count": 18530
+		},
+		{
+			"alpha_coverage": 0.19312,
+			"alpha_weighted_luma": 81.68,
+			"alpha_weighted_luma_255": 81.68,
+			"bytes": 88739,
+			"cell_region": [
+				384,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				39,
+				58,
+				305,
+				253
+			],
+			"edge_margin_px": 39,
+			"key": "street_bench",
+			"padded_atlas_region": [
+				417,
+				436,
+				317,
+				265
+			],
+			"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_street_bench.png",
+			"sha256": "1f0c4a6704f0d9faf8113083ccf56adf1c9491ae6365f5a88d35a80204ceb713",
+			"source_id": "modular_street_seating",
+			"visible_pixel_count": 30359
+		},
+		{
+			"alpha_coverage": 0.123212,
+			"alpha_weighted_luma": 104.878,
+			"alpha_weighted_luma_255": 104.878,
+			"bytes": 58999,
+			"cell_region": [
+				768,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				125,
+				89,
+				124,
+				229
+			],
+			"edge_margin_px": 66,
+			"key": "aged_fire_hydrant",
+			"padded_atlas_region": [
+				887,
+				467,
+				136,
+				241
+			],
+			"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_aged_fire_hydrant.png",
+			"sha256": "87ac0b3adc582c709df87b3c2fe049cb98ec12ae956962a4d69fb10938a83cb7",
+			"source_id": "fire_hydrant",
+			"visible_pixel_count": 18998
+		},
+		{
+			"alpha_coverage": 0.236815,
+			"alpha_weighted_luma": 93.495,
+			"alpha_weighted_luma_255": 93.495,
+			"bytes": 94051,
+			"cell_region": [
+				1152,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				114,
+				64,
+				156,
+				255
+			],
+			"edge_margin_px": 64,
+			"key": "barrel_stove",
+			"padded_atlas_region": [
+				1260,
+				442,
+				168,
+				267
+			],
+			"path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_barrel_stove.png",
+			"sha256": "6b62eaa3abb4078a17f862d15faf637f4a5d1f2e54a05b265ac77f0681e82c6b",
+			"source_id": "barrel_stove",
+			"visible_pixel_count": 35778
+		}
+	],
+	"family": "hidden_alley_district",
+	"license": "CC0-1.0",
+	"license_evidence": "res://assets/licenses/polyhaven_cc0.md",
+	"license_url": "https://polyhaven.com/license",
+	"quality_gates": {
+		"minimum_alpha_weighted_luma_255": 50.0,
+		"minimum_frame_margin": 8
+	},
+	"render_policy": "orthographic_transparent_freestyle_agx_hidden_alley_mobile_midtones",
+	"runtime_policy": "offline_baked_2d_atlas_only_no_runtime_mesh_or_node3d",
+	"schema_version": 1,
+	"source_assets": [
+		{
+			"format": "gltf",
+			"id": "modular_urban_apartments_facade",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/modular_urban_apartments_facade"
+		},
+		{
+			"format": "gltf",
+			"id": "modular_factory_facade",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/modular_factory_facade"
+		},
+		{
+			"format": "gltf",
+			"id": "modular_chainlink_fence",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/modular_chainlink_fence"
+		},
+		{
+			"format": "gltf",
+			"id": "covered_car",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/covered_car"
+		},
+		{
+			"format": "gltf",
+			"id": "exterior_aircon_unit",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/exterior_aircon_unit"
+		},
+		{
+			"format": "gltf",
+			"id": "modular_street_seating",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/modular_street_seating"
+		},
+		{
+			"format": "gltf",
+			"id": "fire_hydrant",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/fire_hydrant"
+		},
+		{
+			"format": "gltf",
+			"id": "barrel_stove",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/barrel_stove"
+		}
+	],
+	"workshop": "res://tools/art/blender/bespren_polyhaven_district_workshop.blend",
+	"workshop_bytes": 62125255,
+	"workshop_sha256": "c4a83d6629b93fca0e8418f18483c6c8c5c66dacdfa81647e49c284ce47ba5e9"
+}

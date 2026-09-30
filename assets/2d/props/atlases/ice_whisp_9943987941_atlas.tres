@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dbmy2igrikspe"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_whisp_38fae2336a.png" id="1_up82x"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_up82x")
+region = Rect2(0, 0, 134, 182)

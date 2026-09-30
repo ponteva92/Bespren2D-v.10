@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://2jae2pchix4t"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_toad_e836970f8c.png" id="1_la6e7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_la6e7")
+region = Rect2(0, 0, 279, 205)

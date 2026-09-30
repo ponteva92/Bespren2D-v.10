@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://rg5s1aiy4560"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_triple_head_venom_e95ee8f444.png" id="1_ps077"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ps077")
+region = Rect2(0, 0, 561, 383)

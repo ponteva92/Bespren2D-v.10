@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bui1b7q4squn8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_ice_slimeii_a08745c643.png" id="1_fdu6u"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqjvb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fdu6u")
+region = Rect2(0, 0, 163, 191)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fqjvb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

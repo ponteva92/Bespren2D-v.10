@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bcgw7se338xbh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_reaper_0a6b752f4c.png" id="1_w5ije"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q5l8f"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w5ije")
+region = Rect2(0, 0, 281, 264)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q5l8f")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

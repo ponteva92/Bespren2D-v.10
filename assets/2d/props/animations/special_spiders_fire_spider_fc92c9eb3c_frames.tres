@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bsx7cad60n62i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/special_spiders_fire_spider_185bfe2aac.png" id="1_242bu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sqkrc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_242bu")
+region = Rect2(0, 0, 486, 366)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sqkrc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

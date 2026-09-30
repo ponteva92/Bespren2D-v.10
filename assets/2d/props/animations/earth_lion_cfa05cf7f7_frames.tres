@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bts6xo2vf2oi8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/earth_lion_5a7e7de1ca.png" id="1_6fo5p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vkb3i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6fo5p")
+region = Rect2(0, 0, 371, 290)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vkb3i")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

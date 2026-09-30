@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b1kt2fj8gob4q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_bat_1a33a3db07.png" id="1_harro"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_do7wu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_harro")
+region = Rect2(0, 0, 328, 292)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_do7wu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

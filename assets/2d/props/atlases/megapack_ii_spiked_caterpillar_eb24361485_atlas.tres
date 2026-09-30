@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://n3vb1ljtdpqw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_spiked_caterpillar_6944d2c1a6.png" id="1_fwq6w"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fwq6w")
+region = Rect2(0, 0, 174, 131)

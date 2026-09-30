@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://sm0cnta4aa74"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_knight_magellan_22ea1ea9c7.png" id="1_c6jmj"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c6jmj")
+region = Rect2(0, 0, 289, 227)

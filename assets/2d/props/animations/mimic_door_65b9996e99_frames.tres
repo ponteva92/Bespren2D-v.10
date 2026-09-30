@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c827d5qq6lk2a"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mimic_door_c57db2775b.png" id="1_hsigp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oqdqo"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hsigp")
+region = Rect2(0, 0, 317, 230)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oqdqo")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

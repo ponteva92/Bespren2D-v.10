@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cqoccmmkxloof"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/machines_fantasy_tank_b_fc4949a3ad.png" id="1_fkun8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g7ey5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fkun8")
+region = Rect2(0, 0, 344, 161)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g7ey5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

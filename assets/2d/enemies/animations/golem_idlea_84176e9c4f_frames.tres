@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://crpaawu0j42xq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_idlea_40d5bc6651.png" id="1_642lf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hwstt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_642lf")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w775w"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_642lf")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1a4es"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_642lf")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52x4p"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_642lf")
+region = Rect2(192, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hwstt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w775w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1a4es")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52x4p")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]

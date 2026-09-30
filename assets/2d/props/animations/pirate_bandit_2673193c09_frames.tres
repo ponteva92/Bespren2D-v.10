@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bysypvcyjs7bc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pirate_bandit_32f0605607.png" id="1_t6jqb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8aulb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t6jqb")
+region = Rect2(0, 0, 294, 191)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8aulb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

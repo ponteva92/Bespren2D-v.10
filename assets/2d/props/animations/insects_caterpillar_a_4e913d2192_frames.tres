@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c6v273doschfu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_caterpillar_a_bdd0082765.png" id="1_pjeei"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_klp6o"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_pjeei")
+region = Rect2(0, 0, 134, 116)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_klp6o")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d1iv6p7wwdnff"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titans_thunder_dynamo_2ce66dc0f0.png" id="1_aa5m3"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_aa5m3")
+region = Rect2(0, 0, 214, 264)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dfn8r6xqpaf3f"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_horn_willow_1bf5da7b02.png" id="1_2adpw"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2adpw")
+region = Rect2(0, 0, 173, 129)

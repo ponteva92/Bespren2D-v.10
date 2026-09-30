@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://em4se505hi5r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/muddy_anim_f0_97c909de19.png" id="1_s0nc7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_s0nc7")
+region = Rect2(0, 0, 16, 16)

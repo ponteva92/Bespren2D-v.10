@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://src/visual/resource_node_view.gd" id="1_view"]
+[ext_resource type="Texture2D" path="res://assets/2d/resources/resource_wood.svg" id="2_icon"]
+[ext_resource type="Texture2D" path="res://assets/2d/effects/radial_light_neutral.svg" id="3_light"]
+[ext_resource type="Shader" path="res://shaders/toon_emissive_outline.gdshader" id="4_toon"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_icon"]
+shader = ExtResource("4_toon")
+shader_parameter/outline_color = Color(1, 0.843137255, 0, 1)
+shader_parameter/glow_color = Color(1, 0.843137255, 0, 1)
+shader_parameter/outline_width = 1.4
+shader_parameter/emission_strength = 0.48
+shader_parameter/pulse_speed = 2.0
+
+[node name="WoodResourceNode" type="Node2D"]
+z_index = 5
+z_as_relative = false
+script = ExtResource("1_view")
+kind = 0
+glow_color = Color(1, 0.843137255, 0, 1)
+
+[node name="Glow" type="PointLight2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+color = Color(1, 0.843137255, 0, 1)
+energy = 0.32
+texture = ExtResource("3_light")
+texture_scale = 0.27
+
+[node name="Icon" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+material = SubResource("ShaderMaterial_icon")
+texture = ExtResource("2_icon")
+scale = Vector2(0.46, 0.46)
+texture_filter = 4
+
+[node name="VisibilityNotifier" type="VisibleOnScreenNotifier2D" parent="."]
+unique_name_in_owner = true
+rect = Rect2(-96, -96, 192, 192)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bpe5h3fn6xlwd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_elemental_lords_ice_maiden_f6e8d16677.png" id="1_wt51t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0umv2"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wt51t")
+region = Rect2(0, 0, 564, 534)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0umv2")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

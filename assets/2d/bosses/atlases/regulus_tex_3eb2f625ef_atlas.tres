@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cr4t2ah0eu7lc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/regulus_tex_6b178dc79b.png" id="1_faaxv"]
+
+[resource]
+resource_name = "weapon"
+atlas = ExtResource("1_faaxv")
+region = Rect2(343, 1, 112, 416)

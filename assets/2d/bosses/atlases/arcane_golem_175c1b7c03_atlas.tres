@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b08htad0nqvfi"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/arcane_golem_ea1a0d997c.png" id="1_ytbgo"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ytbgo")
+region = Rect2(0, 0, 640, 565)

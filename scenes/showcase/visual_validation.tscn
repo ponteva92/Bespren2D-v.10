@@ -1,0 +1,117 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/world/base_core.tscn" id="1_core"]
+[ext_resource type="PackedScene" path="res://scenes/resources/resource_node_wood.tscn" id="2_wood"]
+[ext_resource type="PackedScene" path="res://scenes/resources/resource_node_metal.tscn" id="3_metal"]
+[ext_resource type="PackedScene" path="res://scenes/resources/resource_node_tech.tscn" id="4_tech"]
+[ext_resource type="PackedScene" path="res://scenes/characters/heikki.tscn" id="5_heikki"]
+[ext_resource type="PackedScene" path="res://scenes/characters/shane.tscn" id="6_shane"]
+[ext_resource type="Shader" path="res://shaders/surface_weathering.gdshader" id="7_surface"]
+[ext_resource type="Shader" path="res://shaders/weather_overlay.gdshader" id="8_weather"]
+[ext_resource type="Script" path="res://src/visual/weather_overlay.gd" id="9_weather_script"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rust"]
+shader = ExtResource("7_surface")
+shader_parameter/surface_mode = 0
+shader_parameter/weathering = 0.78
+shader_parameter/texture_scale = 22.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wood"]
+shader = ExtResource("7_surface")
+shader_parameter/surface_mode = 1
+shader_parameter/weathering = 0.74
+shader_parameter/texture_scale = 28.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_copper"]
+shader = ExtResource("7_surface")
+shader_parameter/surface_mode = 2
+shader_parameter/weathering = 0.82
+shader_parameter/texture_scale = 19.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_weather"]
+shader = ExtResource("8_weather")
+shader_parameter/storm_tint = Color(0.063, 0.192, 0.204, 1)
+shader_parameter/intensity = 0.42
+shader_parameter/wind = 0.46
+
+[node name="VisualValidation" type="Node2D"]
+
+[node name="RustField" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_rust")
+offset_right = 160.0
+offset_bottom = 270.0
+color = Color(0.24, 0.105, 0.045, 1)
+mouse_filter = 2
+
+[node name="DecayedWoodField" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_wood")
+offset_left = 160.0
+offset_right = 320.0
+offset_bottom = 270.0
+color = Color(0.18, 0.115, 0.06, 1)
+mouse_filter = 2
+
+[node name="CopperField" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_copper")
+offset_left = 320.0
+offset_right = 480.0
+offset_bottom = 270.0
+color = Color(0.055, 0.19, 0.18, 1)
+mouse_filter = 2
+
+[node name="TopRail" type="Line2D" parent="."]
+points = PackedVector2Array(0, 20, 480, 20)
+width = 3.0
+default_color = Color(0.98, 0.56, 0.14, 0.68)
+
+[node name="Core" parent="." instance=ExtResource("1_core")]
+position = Vector2(240, 102)
+
+[node name="Wood" parent="." instance=ExtResource("2_wood")]
+position = Vector2(70, 108)
+
+[node name="Metal" parent="." instance=ExtResource("3_metal")]
+position = Vector2(410, 108)
+
+[node name="Tech" parent="." instance=ExtResource("4_tech")]
+position = Vector2(240, 224)
+
+[node name="Heikki" parent="." instance=ExtResource("5_heikki")]
+position = Vector2(165, 205)
+
+[node name="Shane" parent="." instance=ExtResource("6_shane")]
+position = Vector2(315, 205)
+
+[node name="Title" type="Label" parent="."]
+z_index = 20
+offset_left = 16.0
+offset_top = 4.0
+offset_right = 246.0
+offset_bottom = 22.0
+theme_override_colors/font_color = Color(1, 0.83, 0.36, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.9)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 12
+text = "BESPREN // SURVIVAL SIGNAL"
+
+[node name="PaletteKey" type="Label" parent="."]
+z_index = 20
+offset_left = 285.0
+offset_top = 5.0
+offset_right = 468.0
+offset_bottom = 22.0
+theme_override_colors/font_color = Color(0.68, 0.82, 0.78, 1)
+theme_override_font_sizes/font_size = 9
+text = "RUST // ROT // PATINA"
+horizontal_alignment = 2
+
+[node name="Weather" type="ColorRect" parent="."]
+z_index = 100
+material = SubResource("ShaderMaterial_weather")
+offset_right = 480.0
+offset_bottom = 270.0
+mouse_filter = 2
+script = ExtResource("9_weather_script")
+intensity = 0.42
+

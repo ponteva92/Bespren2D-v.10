@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://tests/enemy_body_rebake_candidate_render_validation.gd" id="1_test"]
+[ext_resource type="PackedScene" path="res://scenes/world/world_map_2d.tscn" id="2_world"]
+[ext_resource type="PackedScene" path="res://scenes/characters/network_player.tscn" id="3_player"]
+
+[node name="EnemyBodyRebakeCandidateRenderValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="NeutralCanvasModulate" type="CanvasModulate" parent="."]
+unique_name_in_owner = true
+color = Color(1, 1, 1, 1)
+
+[node name="WorldMap2D" parent="." instance=ExtResource("2_world")]
+unique_name_in_owner = true
+
+[node name="YSortWorld" type="Node2D" parent="."]
+unique_name_in_owner = true
+y_sort_enabled = true
+
+[node name="ValidationCamera" type="Camera2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-5200, 1800)
+zoom = Vector2(0.38, 0.38)
+position_smoothing_enabled = false

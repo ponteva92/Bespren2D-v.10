@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://rp4a7ek3qlpk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/boar_a750028ca0/boar_gif_f000.png" id="1_d6yob"]
+
+[resource]
+resource_name = "default_000"
+atlas = ExtResource("1_d6yob")
+region = Rect2(0, 0, 480, 480)

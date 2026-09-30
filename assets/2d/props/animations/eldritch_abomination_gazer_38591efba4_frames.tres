@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://juy2w6e8rnvr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_abomination_gazer_cdadc04c78.png" id="1_dcqj5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_036t7"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dcqj5")
+region = Rect2(0, 0, 254, 265)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_036t7")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c0ts22k83kuyj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/piggy_idle_a8cfc3daec.png" id="1_wtk6a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_suv05"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wtk6a")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2kv0h"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_wtk6a")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pcktl"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_wtk6a")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_05a6b"]
+resource_name = "frame_000_005"
+atlas = ExtResource("1_wtk6a")
+region = Rect2(320, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_suv05")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2kv0h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pcktl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_05a6b")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]

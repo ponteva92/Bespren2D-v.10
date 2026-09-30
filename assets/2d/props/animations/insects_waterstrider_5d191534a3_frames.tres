@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b2ihf145ee6pw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_waterstrider_b8e5910496.png" id="1_nseh5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cqyfu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nseh5")
+region = Rect2(0, 0, 239, 138)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cqyfu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

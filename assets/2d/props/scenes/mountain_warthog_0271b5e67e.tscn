@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://b1m0n30hvmqd7"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_bvehm"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_warthog_179aacb47d.png" id="2_gt2ru"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6nef"]
+resource_name = "Bespren Rusted Prop weathering"
+shader = ExtResource("1_bvehm")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.78
+shader_parameter/structural_damage = 0.1
+shader_parameter/rust_streaks = 0.61
+shader_parameter/toxic_intensity = 0.1
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.2
+shader_parameter/pattern_scale = 27.0
+shader_parameter/damage_seed = 17.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tnwuo"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_gt2ru")
+region = Rect2(0, 0, 126, 111)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qv7nm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tnwuo")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="MountainWarthog" type="Node2D" unique_id=1233888455 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "mountain_warthog_0271b5e67e"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1906146901]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6nef")
+sprite_frames = SubResource("SpriteFrames_qv7nm")
+offset = Vector2(0, -55.5)

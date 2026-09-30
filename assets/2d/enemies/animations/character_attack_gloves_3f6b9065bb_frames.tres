@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://sw715ci0cdah"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_attack_gloves_54dd976419.png" id="1_fd8ux"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e3joh"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fd8ux")
+region = Rect2(0, 0, 768, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e3joh")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

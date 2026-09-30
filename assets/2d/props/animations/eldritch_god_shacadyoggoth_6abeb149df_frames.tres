@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d02ynsgeww0mg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_god_shacadyoggoth_5f200cb1fd.png" id="1_x2ddw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_55to1"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_x2ddw")
+region = Rect2(0, 0, 728, 421)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_55to1")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

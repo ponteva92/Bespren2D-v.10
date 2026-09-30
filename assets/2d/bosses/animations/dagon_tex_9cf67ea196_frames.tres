@@ -1,0 +1,155 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://okdf0q6f0nsr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dagon_tex_706474ebb4.png" id="1_5wgth"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0vtg"]
+resource_name = "layer_81"
+atlas = ExtResource("1_5wgth")
+region = Rect2(400, 407, 218, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a6iww"]
+resource_name = "folder_54_copy_5"
+atlas = ExtResource("1_5wgth")
+region = Rect2(788, 319, 87, 86)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bcdl0"]
+resource_name = "folder_54_copy_8"
+atlas = ExtResource("1_5wgth")
+region = Rect2(506, 245, 66, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxj0n"]
+resource_name = "folder_54_copy_6"
+atlas = ExtResource("1_5wgth")
+region = Rect2(690, 146, 128, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p351j"]
+resource_name = "folder_54_copy_4"
+atlas = ExtResource("1_5wgth")
+region = Rect2(877, 364, 83, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dowuc"]
+resource_name = "layer_82"
+atlas = ExtResource("1_5wgth")
+region = Rect2(788, 230, 95, 87)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y214s"]
+resource_name = "folder_54_copy_7"
+atlas = ExtResource("1_5wgth")
+region = Rect2(885, 286, 106, 76)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3fjd7"]
+resource_name = "megapack_ii_betafish"
+atlas = ExtResource("1_5wgth")
+region = Rect2(577, 124, 111, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3d07"]
+resource_name = "boss_big_fish"
+atlas = ExtResource("1_5wgth")
+region = Rect2(1, 1, 397, 406)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ckiik"]
+resource_name = "megapack_ii_biofish"
+atlas = ExtResource("1_5wgth")
+region = Rect2(902, 1, 118, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tghwo"]
+resource_name = "sea_arman"
+atlas = ExtResource("1_5wgth")
+region = Rect2(400, 1, 188, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q5n15"]
+resource_name = "sea_armes"
+atlas = ExtResource("1_5wgth")
+region = Rect2(400, 123, 175, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j5vvo"]
+resource_name = "sea_armon"
+atlas = ExtResource("1_5wgth")
+region = Rect2(590, 1, 185, 121)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hnx0r"]
+resource_name = "sea_beach_dark_star"
+atlas = ExtResource("1_5wgth")
+region = Rect2(400, 245, 104, 104)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sh0ij"]
+resource_name = "sea_blue_dragon"
+atlas = ExtResource("1_5wgth")
+region = Rect2(690, 230, 96, 92)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h2qqh"]
+resource_name = "sea_fish_a"
+atlas = ExtResource("1_5wgth")
+region = Rect2(820, 146, 78, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6668y"]
+resource_name = "sea_fish_b"
+atlas = ExtResource("1_5wgth")
+region = Rect2(777, 1, 123, 143)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_keasf"]
+resource_name = "sea_fish_c"
+atlas = ExtResource("1_5wgth")
+region = Rect2(902, 124, 107, 160)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o0vtg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a6iww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bcdl0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kxj0n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p351j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dowuc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y214s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3fjd7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3d07")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ckiik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tghwo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q5n15")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j5vvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hnx0r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sh0ij")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2qqh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6668y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_keasf")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

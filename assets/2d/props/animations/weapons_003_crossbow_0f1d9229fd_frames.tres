@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c3qairyhph31l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/weapons_003_crossbow_ab4712f2c2.png" id="1_wo7xa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxnss"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wo7xa")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxnss")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

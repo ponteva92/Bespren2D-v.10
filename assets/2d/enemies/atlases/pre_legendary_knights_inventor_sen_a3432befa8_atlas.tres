@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dc2cytvi1kj14"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pre_legendary_knights_inventor_sen_52c5999fc9.png" id="1_6pap4"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6pap4")
+region = Rect2(0, 0, 323, 203)

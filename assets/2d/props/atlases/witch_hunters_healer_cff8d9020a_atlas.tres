@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b33kwbjsx4x6l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/witch_hunters_healer_9482b382b2.png" id="1_koyxl"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_koyxl")
+region = Rect2(0, 0, 200, 257)

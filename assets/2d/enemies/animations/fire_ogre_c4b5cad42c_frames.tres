@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cidowipiun02x"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_ogre_207da6dedf.png" id="1_bcybr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2dn4c"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bcybr")
+region = Rect2(0, 0, 351, 317)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2dn4c")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

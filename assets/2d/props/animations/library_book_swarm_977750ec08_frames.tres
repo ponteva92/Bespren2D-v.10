@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cuydaqcha5ata"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/library_book_swarm_591b78c1d1.png" id="1_gefhj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ef5ii"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gefhj")
+region = Rect2(0, 0, 187, 213)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ef5ii")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

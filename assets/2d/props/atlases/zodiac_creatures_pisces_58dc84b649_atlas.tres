@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cbxr7gudvp0br"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_creatures_pisces_64293fa93f.png" id="1_4wiy0"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4wiy0")
+region = Rect2(0, 0, 641, 485)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://thnv3x5ypgv1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/dino_tri_sit_3_end_2cf9e1a779.png" id="1_k4xf7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_k4xf7")
+region = Rect2(0, 0, 3072, 128)

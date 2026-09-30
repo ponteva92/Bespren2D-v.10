@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dhy56fao4i0jw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_idle_sword_2_7945c83ff4.png" id="1_yr3p5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jii10"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yr3p5")
+region = Rect2(0, 0, 512, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jii10")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://co00virco4ijb"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_i57n7"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/aekashics_librarium_clockwork_prototype_57bf40fcc0/prototype_751891ea7c.png" id="2_56pqb"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o613s"]
+resource_name = "Bespren Tech Cyan weathering"
+shader = ExtResource("1_i57n7")
+shader_parameter/treatment = 2
+shader_parameter/weathering = 0.74
+shader_parameter/structural_damage = 0.12
+shader_parameter/rust_streaks = 0.28
+shader_parameter/toxic_intensity = 0.34
+shader_parameter/glow_color = Color(0, 1, 1, 1)
+shader_parameter/emission_strength = 0.92
+shader_parameter/pattern_scale = 35.0
+shader_parameter/damage_seed = 23.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cgetd"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_56pqb")
+region = Rect2(0, 0, 576, 384)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_itfv0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cgetd")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="Prototype" type="Node2D" unique_id=1635273195 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "prototype_e0a16b2e2e"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=726296234]
+texture_filter = 1
+material = SubResource("ShaderMaterial_o613s")
+sprite_frames = SubResource("SpriteFrames_itfv0")
+offset = Vector2(0, -192)

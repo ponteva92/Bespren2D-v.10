@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b57hbifsfiujg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_slime_7ecae91e10.png" id="1_8v7r1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lb1ea"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8v7r1")
+region = Rect2(0, 0, 105, 46)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lb1ea")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

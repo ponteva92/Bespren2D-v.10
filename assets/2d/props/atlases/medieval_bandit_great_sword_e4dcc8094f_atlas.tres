@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cfyq3xvlrdtta"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/medieval_bandit_great_sword_d7931a771e.png" id="1_0k6wn"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0k6wn")
+region = Rect2(0, 0, 269, 232)

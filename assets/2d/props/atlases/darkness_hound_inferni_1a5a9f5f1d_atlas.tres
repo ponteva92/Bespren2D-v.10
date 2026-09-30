@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dvonqufeyygck"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_hound_inferni_3f87f8886d.png" id="1_qa50f"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qa50f")
+region = Rect2(0, 0, 252, 252)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cu2hvawuru2in"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gazers_tenteye_ac05825d0c.png" id="1_aw0p8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_aw0p8")
+region = Rect2(0, 0, 312, 210)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dl8shkjj63dis"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gunblin_gibson_5c116a3127.png" id="1_51oyy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1nohd"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_51oyy")
+region = Rect2(0, 0, 184, 138)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1nohd")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

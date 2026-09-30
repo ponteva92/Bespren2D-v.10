@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b2ptkn2ioyhoo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ghost_knight_destrand_5ce2c28c9b.png" id="1_7lrjd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7lrjd")
+region = Rect2(0, 0, 216, 181)

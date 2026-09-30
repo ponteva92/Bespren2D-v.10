@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dir51rgso12hr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pre_legendary_knights_cursed_swordsman_michael_edcd65d7f7.png" id="1_ca71o"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ca71o")
+region = Rect2(0, 0, 673, 428)

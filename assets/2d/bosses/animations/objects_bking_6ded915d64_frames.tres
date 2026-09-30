@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhhneq84fgx8d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_bking_a63de901a5.png" id="1_8gu4c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c7c1d"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8gu4c")
+region = Rect2(0, 0, 272, 284)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c7c1d")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

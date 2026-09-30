@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/structure_gameplay_scale_render_validation.gd" id="1_test"]
+
+[node name="StructureGameplayScaleRenderValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Backdrop" type="CanvasLayer" parent="."]
+layer = -2
+
+[node name="BackdropColor" type="ColorRect" parent="Backdrop"]
+offset_right = 480.0
+offset_bottom = 270.0
+mouse_filter = 2
+color = Color(0.025, 0.04, 0.03, 1)
+
+[node name="Overlay" type="CanvasLayer" parent="."]
+layer = 3
+
+[node name="OverlayTitle" type="Label" parent="Overlay"]
+offset_left = 8.0
+offset_top = 7.0
+offset_right = 472.0
+offset_bottom = 20.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.84, 0.76, 0.6, 1)
+theme_override_colors/font_outline_color = Color(0.01, 0.015, 0.01, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "T1 FIELD READ // LIVE CAMERA 0.38x // RUNTIME SCALE"
+horizontal_alignment = 1
+

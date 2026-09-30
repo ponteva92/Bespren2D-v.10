@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://7gxh0noh2sn8"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_03haf"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_goddess_forest_flora_43c1e24da3.png" id="2_xop76"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_20k0a"]
+resource_name = "Bespren Wood Spore weathering"
+shader = ExtResource("1_03haf")
+shader_parameter/treatment = 1
+shader_parameter/weathering = 0.86
+shader_parameter/structural_damage = 0.08
+shader_parameter/rust_streaks = 0.3
+shader_parameter/toxic_intensity = 0.18
+shader_parameter/glow_color = Color(1, 0.84313726, 0, 1)
+shader_parameter/emission_strength = 0.58
+shader_parameter/pattern_scale = 31.0
+shader_parameter/damage_seed = 11.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xcwlq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_xop76")
+region = Rect2(0, 0, 292, 265)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ll5j0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xcwlq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="ElementalGoddessForestFlora" type="Node2D" unique_id=48295352 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "elemental_goddess_forest_flora_40e52bf581"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=550157357]
+texture_filter = 1
+material = SubResource("ShaderMaterial_20k0a")
+sprite_frames = SubResource("SpriteFrames_ll5j0")
+offset = Vector2(0, -132.5)

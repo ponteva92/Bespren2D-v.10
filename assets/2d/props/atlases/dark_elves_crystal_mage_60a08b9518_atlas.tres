@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://8edycjp74qcb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dark_elves_crystal_mage_f0bb1885d3.png" id="1_ks7qh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ks7qh")
+region = Rect2(0, 0, 282, 320)

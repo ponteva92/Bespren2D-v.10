@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dn4lrccfjbp1o"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/knight_sword_elite_7cdfe64a85.png" id="1_ndvt5"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ndvt5")
+region = Rect2(0, 0, 263, 222)

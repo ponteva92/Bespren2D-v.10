@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://blqql6m73dmqi"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/desert_feral_cactus_a501e51bbf.png" id="1_0a40r"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0a40r")
+region = Rect2(0, 0, 158, 141)

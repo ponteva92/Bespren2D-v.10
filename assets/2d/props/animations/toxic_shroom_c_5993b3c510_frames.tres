@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bgaqlek0e7olb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_shroom_c_20a9f854d9.png" id="1_dph5y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wl8ki"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dph5y")
+region = Rect2(0, 0, 384, 317)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wl8ki")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

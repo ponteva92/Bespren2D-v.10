@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bwq4itiour685"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/freebies_icons_emoticons_d5c8ea31ee.png" id="1_rp4cm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rp4cm")
+region = Rect2(0, 0, 256, 256)

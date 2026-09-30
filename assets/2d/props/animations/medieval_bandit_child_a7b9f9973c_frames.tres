@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://deocna3hprnma"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/medieval_bandit_child_1dfafcd692.png" id="1_bumjd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_equ5c"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bumjd")
+region = Rect2(0, 0, 110, 162)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_equ5c")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

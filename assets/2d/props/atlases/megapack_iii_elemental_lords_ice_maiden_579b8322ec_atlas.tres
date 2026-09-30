@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c1f8dx4fa0tmr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_elemental_lords_ice_maiden_f6e8d16677.png" id="1_pmf3e"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_pmf3e")
+region = Rect2(0, 0, 564, 534)

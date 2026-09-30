@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://wix036rs6qbl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/plant_warriors_screamer_mandrake_b796fa729f.png" id="1_hpfqc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hpfqc")
+region = Rect2(0, 0, 214, 210)

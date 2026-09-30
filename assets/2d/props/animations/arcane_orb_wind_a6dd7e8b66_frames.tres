@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c8ioq1ctvn041"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/arcane_orb_wind_2c305b7c92.png" id="1_qvonf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vwfl"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qvonf")
+region = Rect2(0, 0, 125, 86)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1vwfl")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

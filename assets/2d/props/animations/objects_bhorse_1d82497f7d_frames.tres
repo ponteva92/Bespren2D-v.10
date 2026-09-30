@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://figmyi1td3yh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_bhorse_84af80d04b.png" id="1_vojo1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_45evn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vojo1")
+region = Rect2(0, 0, 92, 122)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_45evn")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

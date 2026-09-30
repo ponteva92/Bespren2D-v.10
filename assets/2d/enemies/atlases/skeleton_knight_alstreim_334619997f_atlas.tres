@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dfho525i0i5hd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skeleton_knight_alstreim_6a66f4f775.png" id="1_yc4oh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yc4oh")
+region = Rect2(0, 0, 248, 215)

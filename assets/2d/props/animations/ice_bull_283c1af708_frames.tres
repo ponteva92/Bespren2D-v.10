@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b2hny6e7hhrbw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_bull_b7497ad810.png" id="1_2le63"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nfq4w"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2le63")
+region = Rect2(0, 0, 352, 258)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nfq4w")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

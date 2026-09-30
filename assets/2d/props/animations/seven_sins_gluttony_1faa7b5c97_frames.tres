@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://1rnwxe80xbqd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/seven_sins_gluttony_1e529aee5b.png" id="1_6y26l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ykma5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6y26l")
+region = Rect2(0, 0, 500, 345)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ykma5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

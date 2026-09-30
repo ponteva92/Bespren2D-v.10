@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://vvonh8yh6moy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_urchin_73b62e1a48.png" id="1_5dxhb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k01ek"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5dxhb")
+region = Rect2(0, 0, 101, 60)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k01ek")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

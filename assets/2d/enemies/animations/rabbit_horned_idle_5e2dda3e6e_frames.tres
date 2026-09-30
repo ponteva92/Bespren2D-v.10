@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b03ng1trh757f"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/rabbit_horned_idle_413c1ae613.png" id="1_q4klg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_klk2n"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_q4klg")
+region = Rect2(0, 0, 512, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_klk2n")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

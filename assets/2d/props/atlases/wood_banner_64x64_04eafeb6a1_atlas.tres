@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dkomh4dkt4qmq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/wood_banner_64x64_e5886c62c0.png" id="1_mgpag"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mgpag")
+region = Rect2(0, 0, 64, 64)

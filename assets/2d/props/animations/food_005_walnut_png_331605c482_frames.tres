@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bb26th1cmdiph"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_005_walnut_png_c7a9cd07e2.png" id="1_ina4q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_06vyx"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ina4q")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_06vyx")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

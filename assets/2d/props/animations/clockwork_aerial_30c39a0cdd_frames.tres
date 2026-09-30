@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbm2rd88sfb47"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_aerial_32f391d08a.png" id="1_cm67f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m8o7x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cm67f")
+region = Rect2(0, 0, 347, 249)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m8o7x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

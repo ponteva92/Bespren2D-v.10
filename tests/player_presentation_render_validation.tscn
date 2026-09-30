@@ -1,0 +1,122 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/player_presentation_render_validation.gd" id="1_test"]
+
+[node name="PlayerPresentationRenderValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 480.0
+offset_bottom = 270.0
+mouse_filter = 2
+color = Color(0.025, 0.038, 0.042, 1)
+
+[node name="UpperTerrain" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 42, 480, 31, 480, 167, 0, 181)
+color = Color(0.105, 0.112, 0.086, 1)
+
+[node name="LowerTerrain" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 181, 480, 167, 480, 270, 0, 270)
+color = Color(0.067, 0.091, 0.078, 1)
+
+[node name="Header" type="ColorRect" parent="."]
+offset_right = 480.0
+offset_bottom = 31.0
+mouse_filter = 2
+color = Color(0.012, 0.022, 0.025, 0.92)
+
+[node name="Title" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 472.0
+offset_bottom = 25.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.91, 0.83, 0.61, 1)
+theme_override_colors/font_shadow_color = Color(0.01, 0.015, 0.018, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 11
+text = "LIVE SURVIVOR READABILITY // 0.38 GAMEPLAY SCALE"
+horizontal_alignment = 1
+
+[node name="ColumnA" type="ColorRect" parent="."]
+offset_left = 120.0
+offset_top = 42.0
+offset_right = 121.0
+offset_bottom = 224.0
+mouse_filter = 2
+color = Color(0.56, 0.68, 0.62, 0.3)
+
+[node name="ColumnB" type="ColorRect" parent="."]
+offset_left = 240.0
+offset_top = 42.0
+offset_right = 241.0
+offset_bottom = 224.0
+mouse_filter = 2
+color = Color(0.56, 0.68, 0.62, 0.3)
+
+[node name="ColumnC" type="ColorRect" parent="."]
+offset_left = 360.0
+offset_top = 42.0
+offset_right = 361.0
+offset_bottom = 224.0
+mouse_filter = 2
+color = Color(0.56, 0.68, 0.62, 0.3)
+
+[node name="IdleLabel" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 212.0
+offset_right = 112.0
+offset_bottom = 232.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.79, 0.39, 1)
+theme_override_font_sizes/font_size = 9
+text = "HEIKKI // IDLE"
+horizontal_alignment = 1
+
+[node name="RunLabel" type="Label" parent="."]
+offset_left = 128.0
+offset_top = 212.0
+offset_right = 232.0
+offset_bottom = 232.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.79, 0.39, 1)
+theme_override_font_sizes/font_size = 9
+text = "HEIKKI // RUN"
+horizontal_alignment = 1
+
+[node name="ShootLabel" type="Label" parent="."]
+offset_left = 248.0
+offset_top = 212.0
+offset_right = 352.0
+offset_bottom = 232.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.28, 0.93, 0.91, 1)
+theme_override_font_sizes/font_size = 9
+text = "SHANE // FIRE"
+horizontal_alignment = 1
+
+[node name="DeathLabel" type="Label" parent="."]
+offset_left = 368.0
+offset_top = 212.0
+offset_right = 472.0
+offset_bottom = 232.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.94, 0.42, 0.34, 1)
+theme_override_font_sizes/font_size = 9
+text = "SHANE // DOWN"
+horizontal_alignment = 1
+
+[node name="Footer" type="Label" parent="."]
+offset_left = 12.0
+offset_top = 244.0
+offset_right = 468.0
+offset_bottom = 261.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.58, 0.73, 0.67, 1)
+theme_override_font_sizes/font_size = 8
+text = "SAME PLAYERAVATAR PATH // AUTHORITY-DRIVEN STATE // DAY + SAPPHIRE NIGHT"
+horizontal_alignment = 1
+
+[node name="Lighting" type="CanvasModulate" parent="."]
+unique_name_in_owner = true

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://crndfwuuianmp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pirate_captain_bd9c8daa89.png" id="1_s3kdf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2yo3q"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_s3kdf")
+region = Rect2(0, 0, 282, 235)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2yo3q")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

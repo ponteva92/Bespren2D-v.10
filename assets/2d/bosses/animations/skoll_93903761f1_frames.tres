@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://2x6n2folefpq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skoll_da282298c0.png" id="1_e1vmu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jg1y8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_e1vmu")
+region = Rect2(0, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vjtil"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_e1vmu")
+region = Rect2(48, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6530p"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_e1vmu")
+region = Rect2(96, 0, 48, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jg1y8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vjtil")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6530p")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

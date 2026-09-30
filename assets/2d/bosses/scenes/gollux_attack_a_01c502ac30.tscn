@@ -1,0 +1,176 @@
+[gd_scene format=3 uid="uid://2sylorv8u8ae"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_0xlkk"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/gollux_attack_a_27efb6c53c.png" id="2_tf8f2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_0xlkk")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lidwo"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1mylk"]
+resource_name = "frame_000_004"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u7q6w"]
+resource_name = "frame_000_007"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n0vud"]
+resource_name = "frame_000_010"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i2kl4"]
+resource_name = "frame_000_013"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(1664, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ffhg0"]
+resource_name = "frame_000_016"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(2048, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lstg0"]
+resource_name = "frame_000_019"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(2432, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jtfem"]
+resource_name = "frame_000_022"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(2816, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sy104"]
+resource_name = "frame_000_025"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(3200, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pcn15"]
+resource_name = "frame_000_028"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(3584, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_djdm7"]
+resource_name = "frame_000_031"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(3968, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h4vv8"]
+resource_name = "frame_000_034"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(4352, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f13qq"]
+resource_name = "frame_000_037"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(4736, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m3ykd"]
+resource_name = "frame_000_040"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(5120, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bfy5t"]
+resource_name = "frame_000_043"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(5504, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dv0vn"]
+resource_name = "frame_000_046"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(5888, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v72ss"]
+resource_name = "frame_000_049"
+atlas = ExtResource("2_tf8f2")
+region = Rect2(6272, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vniir"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lidwo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1mylk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u7q6w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n0vud")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i2kl4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ffhg0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lstg0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jtfem")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sy104")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pcn15")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_djdm7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h4vv8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f13qq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m3ykd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bfy5t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dv0vn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v72ss")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]
+
+[node name="GolluxAttackA" type="Node2D" unique_id=1305638508 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "gollux_attack_a_01c502ac30"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1200480483]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_vniir")
+animation = &"attack"
+autoplay = "attack"
+offset = Vector2(0, -64)

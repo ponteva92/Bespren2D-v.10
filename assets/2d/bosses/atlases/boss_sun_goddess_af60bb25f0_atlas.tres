@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bj607hf43de6d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_sun_goddess_cdb3c78654.png" id="1_vnapv"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vnapv")
+region = Rect2(0, 0, 253, 212)

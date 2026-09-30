@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://gmqsyu62bh6t"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_horntle_f9b86e63bf.png" id="1_a6x7r"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_a6x7r")
+region = Rect2(0, 0, 196, 132)

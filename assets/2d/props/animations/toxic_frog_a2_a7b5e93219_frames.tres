@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c6grtt3jecio7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_frog_a2_24031709d8.png" id="1_j2hyy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thyst"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j2hyy")
+region = Rect2(0, 0, 175, 112)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_thyst")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bbylo87nhd7vb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/piggy_move_3538c44c5e.png" id="1_4mlym"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j5qep"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4mlym")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bowv"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_4mlym")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lmfor"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_4mlym")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5agil"]
+resource_name = "frame_000_005"
+atlas = ExtResource("1_4mlym")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l5172"]
+resource_name = "frame_000_006"
+atlas = ExtResource("1_4mlym")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a4tjk"]
+resource_name = "frame_000_008"
+atlas = ExtResource("1_4mlym")
+region = Rect2(512, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j5qep")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bowv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lmfor")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5agil")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l5172")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a4tjk")
+}],
+"loop": 1,
+"name": &"move",
+"speed": 10.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d3b52xhf44q5w"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_022_raspberry_88887965ea.png" id="1_f6js2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_phaqc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_f6js2")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_phaqc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

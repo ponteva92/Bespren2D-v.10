@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://byjtq1lm6sjqy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_earth_spirit_tellia_14b3f8b1bd.png" id="1_mqgdh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_te3xn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mqgdh")
+region = Rect2(0, 0, 262, 241)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_te3xn")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

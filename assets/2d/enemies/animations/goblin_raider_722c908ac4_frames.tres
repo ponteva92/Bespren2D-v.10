@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d0q4iqjpheuoh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/goblin_raider_04428c5e98.png" id="1_empxh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n70m5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_empxh")
+region = Rect2(0, 0, 162, 160)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n70m5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

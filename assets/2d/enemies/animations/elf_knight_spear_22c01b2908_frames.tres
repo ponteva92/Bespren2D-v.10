@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bdcy0vd8wun0q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elf_knight_spear_3a6bd15859.png" id="1_ugm80"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yn8hj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ugm80")
+region = Rect2(0, 0, 281, 207)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yn8hj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

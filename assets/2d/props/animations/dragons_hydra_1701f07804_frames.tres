@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://g5wbw2th2fqu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragons_hydra_74b8870509.png" id="1_y6vwb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ypndu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_y6vwb")
+region = Rect2(0, 0, 498, 439)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ypndu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

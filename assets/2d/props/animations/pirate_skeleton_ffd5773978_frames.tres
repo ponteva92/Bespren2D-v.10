@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ypydiuynitlj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pirate_skeleton_c28dd3133e.png" id="1_ar64r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_go32h"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ar64r")
+region = Rect2(0, 0, 207, 232)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_go32h")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

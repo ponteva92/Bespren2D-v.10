@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dphhn5m4xo6oe"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/bones_singleskull_idle_629e5acbef.png" id="1_mu4ct"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mu4ct")
+region = Rect2(0, 0, 64, 64)

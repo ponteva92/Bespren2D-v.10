@@ -1,0 +1,51 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://br6qde0wc2hcg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/urmica_tex_122bd3fc01.png" id="1_ejnoe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cqehm"]
+resource_name = "layer_187"
+atlas = ExtResource("1_ejnoe")
+region = Rect2(1, 1027, 484, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mhndo"]
+resource_name = "layer_188"
+atlas = ExtResource("1_ejnoe")
+region = Rect2(563, 1, 147, 347)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_njp27"]
+resource_name = "layer_189"
+atlas = ExtResource("1_ejnoe")
+region = Rect2(1, 535, 538, 490)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51sbb"]
+resource_name = "layer_190"
+atlas = ExtResource("1_ejnoe")
+region = Rect2(1, 1, 560, 532)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5mblt"]
+resource_name = "layer_191"
+atlas = ExtResource("1_ejnoe")
+region = Rect2(541, 535, 389, 272)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cqehm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mhndo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_njp27")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51sbb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5mblt")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

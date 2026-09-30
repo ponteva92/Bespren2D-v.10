@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cimut48gs6u34"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_cave_bat_ce2a279123.png" id="1_hk6ga"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hk6ga")
+region = Rect2(0, 0, 158, 126)

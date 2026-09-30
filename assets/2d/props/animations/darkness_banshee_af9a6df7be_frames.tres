@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dbyp5yiqsg4pt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_banshee_166cc9fce2.png" id="1_fyxiy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qh5m"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fyxiy")
+region = Rect2(0, 0, 103, 202)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0qh5m")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

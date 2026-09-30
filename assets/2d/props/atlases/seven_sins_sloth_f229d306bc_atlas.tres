@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cvkebo20as5jl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/seven_sins_sloth_2d6c4e9af9.png" id="1_2mm3w"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2mm3w")
+region = Rect2(0, 0, 462, 544)

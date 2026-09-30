@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bbxydw5oiy1c3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dynamo_tex_f863f19a93.png" id="1_4k8fq"]
+
+[resource]
+resource_name = "cast_arm"
+atlas = ExtResource("1_4k8fq")
+region = Rect2(1, 1, 300, 300)

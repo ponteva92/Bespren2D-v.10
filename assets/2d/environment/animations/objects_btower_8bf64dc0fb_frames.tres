@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dqxdgp75elq3b"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_btower_3696637db2.png" id="1_bbnqd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uawew"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bbnqd")
+region = Rect2(0, 0, 161, 117)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uawew")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

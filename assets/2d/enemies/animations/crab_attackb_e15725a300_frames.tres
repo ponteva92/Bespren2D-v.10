@@ -1,0 +1,27 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cgequ0x41wkqp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/crab_attackb_8ee25daf05.png" id="1_vki7a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qvoa"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vki7a")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bsrk1"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_vki7a")
+region = Rect2(128, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0qvoa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bsrk1")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]

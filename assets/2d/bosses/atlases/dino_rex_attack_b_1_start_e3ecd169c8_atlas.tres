@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://67fg42osetar"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/dino_rex_attack_b_1_start_1f2117c870.png" id="1_2147s"]
+
+[resource]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_2147s")
+region = Rect2(128, 0, 128, 128)

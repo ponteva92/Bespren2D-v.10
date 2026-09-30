@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://7l5dkhmw6je0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_creatures_cancer_03a53f5494.png" id="1_smaty"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_smaty")
+region = Rect2(0, 0, 644, 300)

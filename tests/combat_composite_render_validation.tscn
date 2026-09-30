@@ -1,0 +1,49 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://tests/combat_composite_render_validation.gd" id="1_test"]
+[ext_resource type="PackedScene" path="res://scenes/world/world_map_2d.tscn" id="2_map"]
+[ext_resource type="PackedScene" path="res://scenes/world/base_core.tscn" id="3_core"]
+[ext_resource type="Script" path="res://src/visual/night_atmosphere_2d.gd" id="4_atmosphere"]
+[ext_resource type="PackedScene" path="res://scenes/ui/game_hud.tscn" id="5_hud"]
+[ext_resource type="PackedScene" path="res://scenes/ui/MobileControls.tscn" id="6_controls"]
+
+[node name="CombatCompositeRenderValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="SapphireCanvasModulate" type="CanvasModulate" parent="."]
+unique_name_in_owner = true
+
+[node name="YSortWorld" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+y_sort_enabled = true
+
+[node name="WorldMap2D" parent="YSortWorld" instance=ExtResource("2_map")]
+unique_name_in_owner = true
+y_sort_enabled = true
+
+[node name="BaseCore" parent="YSortWorld" instance=ExtResource("3_core")]
+unique_name_in_owner = true
+position = Vector2(-5210, 1650)
+scale = Vector2(0.82, 0.82)
+
+[node name="NightAtmosphere2D" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("4_atmosphere")
+canvas_modulate_path = NodePath("../SapphireCanvasModulate")
+
+[node name="ValidationCamera" type="Camera2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-5200, 1800)
+zoom = Vector2(0.38, 0.38)
+position_smoothing_enabled = false
+
+[node name="GameHUD" parent="." instance=ExtResource("5_hud")]
+unique_name_in_owner = true
+
+[node name="Interface" type="CanvasLayer" parent="."]
+layer = 100
+
+[node name="MobileControls" parent="Interface" instance=ExtResource("6_controls")]
+unique_name_in_owner = true

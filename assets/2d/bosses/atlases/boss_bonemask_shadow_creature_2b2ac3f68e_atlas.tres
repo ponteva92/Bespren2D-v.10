@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://jtdpm1qjnp6v"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_bonemask_shadow_creature_ac4bf70409.png" id="1_5cji2"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5cji2")
+region = Rect2(0, 0, 391, 305)

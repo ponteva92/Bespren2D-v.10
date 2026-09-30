@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ce5frhwiua5iu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_benkei_22de3f6631.png" id="1_sgjjp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adgli"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sgjjp")
+region = Rect2(0, 0, 141, 157)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_adgli")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

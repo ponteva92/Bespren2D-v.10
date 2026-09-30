@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://6wsjeb60eye2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_black_lance_knight_09ed0bf13c.png" id="1_1rvuc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1rvuc")
+region = Rect2(0, 0, 567, 280)

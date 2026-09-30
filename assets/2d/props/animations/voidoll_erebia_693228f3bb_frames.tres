@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://da7gc1u6x1cmb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/voidoll_erebia_f77cf52d4c.png" id="1_wtl0y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_as1cc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wtl0y")
+region = Rect2(0, 0, 92, 72)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_as1cc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

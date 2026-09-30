@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://t351ixphg1r8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_attack_leggings_49e08e9cd6.png" id="1_m645e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7uucu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_m645e")
+region = Rect2(0, 0, 768, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7uucu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

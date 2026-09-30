@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://df4k8x8lg2x80"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/doors_leaf_closed_a465a6d28d.png" id="1_sqb62"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t7mqg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sqb62")
+region = Rect2(0, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t7mqg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

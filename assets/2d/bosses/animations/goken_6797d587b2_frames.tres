@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b87mluy3tjkgs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/goken_49d12ad48d.png" id="1_amauf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwmc6"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_amauf")
+region = Rect2(0, 0, 64, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3im2e"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_amauf")
+region = Rect2(64, 0, 64, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mhkg3"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_amauf")
+region = Rect2(128, 0, 64, 256)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwmc6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3im2e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mhkg3")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

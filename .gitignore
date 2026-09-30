@@ -1,0 +1,32 @@
+# Godot
+.godot/
+*.translation
+
+# Editor / agent caches
+.codex_godot_profile*/
+export_templates/
+feature_profiles/
+script_templates/
+text_editor_themes/
+
+# Generated / local build
+artifacts/
+build/*
+!build/android/
+build/android/*
+!build/android/*.apk
+*.pck
+
+# Third-party vault and offline source imports (not runtime)
+Addons/
+assets/2d/_source_imports/
+tools/art/blender/vault/
+*.blend1
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+Desktop.ini

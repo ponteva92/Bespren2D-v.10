@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c2r6jufbdajup"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/ratcomplete_71c15d4e3f/ratcomplete_gif_f000.png" id="1_k10lx"]
+
+[resource]
+resource_name = "default_000"
+atlas = ExtResource("1_k10lx")
+region = Rect2(0, 0, 1024, 640)

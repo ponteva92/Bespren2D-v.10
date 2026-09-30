@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://coplqy46bx2pi"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dwarf_dragon_slayer_7ab8505105.png" id="1_01veo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oxyqp"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_01veo")
+region = Rect2(0, 0, 328, 311)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oxyqp")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

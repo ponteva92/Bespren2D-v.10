@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c7llysxsr0h0w"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/flame_knight_29c62c6074.png" id="1_yltyl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bd7fj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yltyl")
+region = Rect2(0, 0, 213, 260)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bd7fj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

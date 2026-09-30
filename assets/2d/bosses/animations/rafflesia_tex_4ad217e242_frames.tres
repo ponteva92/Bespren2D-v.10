@@ -1,0 +1,283 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://2fw0vhrs463b"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rafflesia_tex_5311d31eec.png" id="1_3xp4u"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jaxq6"]
+resource_name = "shadow"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(1, 911, 654, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3vyf2"]
+resource_name = "small_flower_a"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(733, 957, 84, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oij6q"]
+resource_name = "leaf_b"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(971, 950, 37, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_momtr"]
+resource_name = "tentacle_m"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(657, 832, 93, 83)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vt6j4"]
+resource_name = "tentacle_k"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(893, 766, 42, 91)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_32skk"]
+resource_name = "tentacle_j"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(819, 950, 42, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aok74"]
+resource_name = "bush_plant"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(928, 950, 41, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_spnp5"]
+resource_name = "tentacle_i"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(752, 832, 58, 123)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bguvj"]
+resource_name = "tentacle_p"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(499, 353, 133, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wbfwa"]
+resource_name = "main_bush"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(1, 382, 496, 225)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nti5h"]
+resource_name = "secondary_mouth"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(812, 837, 65, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_upe12"]
+resource_name = "tentacle_x"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(504, 832, 73, 59)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o8xys"]
+resource_name = "tentacle_n"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(747, 595, 155, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qr6hf"]
+resource_name = "tentacle_o"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(227, 832, 205, 65)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kx5j5"]
+resource_name = "tentacle_h"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(863, 950, 63, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_urnji"]
+resource_name = "tentacle_g"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(1, 832, 224, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i17ot"]
+resource_name = "tentacle_f"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(904, 595, 94, 169)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_en1bx"]
+resource_name = "tentacle_e"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(499, 488, 149, 104)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_evy3h"]
+resource_name = "tentacle_c"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(499, 595, 246, 159)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_brv50"]
+resource_name = "tentacle_d"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(373, 250, 227, 101)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3qk3l"]
+resource_name = "tentacle_b"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(689, 442, 313, 151)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s8ovc"]
+resource_name = "lilybase"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(689, 1, 323, 228)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ade11"]
+resource_name = "small_flower_b"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(434, 832, 68, 68)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hic8o"]
+resource_name = "small_flower_c"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(634, 324, 37, 131)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ku88l"]
+resource_name = "arm_left"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(579, 832, 56, 69)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hrtnc"]
+resource_name = "body"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(823, 719, 68, 116)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rhvh2"]
+resource_name = "head_damage"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(602, 250, 74, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmkd2"]
+resource_name = "head_copy"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(657, 917, 74, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frki0"]
+resource_name = "arm_right"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(812, 896, 59, 52)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ixf0"]
+resource_name = "flower_front"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(650, 457, 23, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_argmn"]
+resource_name = "flower_base"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(373, 1, 314, 247)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tjye5"]
+resource_name = "flower_main"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(1, 1, 370, 379)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7pb4b"]
+resource_name = "tentacle_a"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(499, 756, 322, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6xj47"]
+resource_name = "tentacles_front"
+atlas = ExtResource("1_3xp4u")
+region = Rect2(689, 231, 317, 209)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jaxq6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3vyf2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oij6q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_momtr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vt6j4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_32skk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aok74")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_spnp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bguvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wbfwa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nti5h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_upe12")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o8xys")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qr6hf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kx5j5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_urnji")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i17ot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_en1bx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_evy3h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_brv50")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3qk3l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s8ovc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ade11")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hic8o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ku88l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hrtnc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rhvh2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rmkd2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frki0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ixf0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_argmn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tjye5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7pb4b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6xj47")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

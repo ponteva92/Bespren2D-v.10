@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ufbo3w30qup1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_carnivorous_plant_a_4bc14149f7.png" id="1_5712d"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5712d")
+region = Rect2(0, 0, 265, 265)

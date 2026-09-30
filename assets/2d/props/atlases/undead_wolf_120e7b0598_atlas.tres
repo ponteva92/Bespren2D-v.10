@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dma6obdisrln6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_wolf_e0c1a2cf96.png" id="1_vrowf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vrowf")
+region = Rect2(0, 0, 137, 139)

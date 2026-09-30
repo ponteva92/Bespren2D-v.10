@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cj0e1vu0vpbub"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_armor_armorbreak_7ad72f2554.png" id="1_nyx5o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vc03i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nyx5o")
+region = Rect2(0, 0, 256, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vc03i")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dk7l0n2qsxvpa"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/godot_4_tower_defense_template_master_f723e8af01/pixel_f697b709f0.png" id="1_umefa"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_umefa")
+region = Rect2(0, 0, 1, 1)

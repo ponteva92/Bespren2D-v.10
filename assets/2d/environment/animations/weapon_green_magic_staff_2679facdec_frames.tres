@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bxb6if6p4uns"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_green_magic_staff_fae3b619a4.png" id="1_vissp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxa34"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vissp")
+region = Rect2(0, 0, 8, 30)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxa34")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

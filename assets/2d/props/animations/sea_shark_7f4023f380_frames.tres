@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dgi6twcugsplq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_shark_4fe680cf7d.png" id="1_qfloa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ua1r5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qfloa")
+region = Rect2(0, 0, 204, 278)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ua1r5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

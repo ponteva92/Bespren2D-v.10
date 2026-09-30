@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ckd6v7q2k473p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/bonemask_tex_dc90554567.png" id="1_hhcle"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_hhcle")
+region = Rect2(327, 277, 502, 23)

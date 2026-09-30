@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://e78qsythkyhf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_toucan_panther_eac539e181.png" id="1_b5opo"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_b5opo")
+region = Rect2(0, 0, 273, 250)

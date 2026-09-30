@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b3ky8x26xouik"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/bat_death_fx_3498fe26a3.png" id="1_lh6p4"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lh6p4")
+region = Rect2(0, 0, 64, 64)

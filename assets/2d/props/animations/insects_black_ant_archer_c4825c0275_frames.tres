@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://3gc38w3anume"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_black_ant_archer_f57d7699ad.png" id="1_nt7xm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h07uu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nt7xm")
+region = Rect2(0, 0, 194, 254)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h07uu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

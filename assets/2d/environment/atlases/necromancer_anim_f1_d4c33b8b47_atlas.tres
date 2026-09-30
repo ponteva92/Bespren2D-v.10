@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dx6pip1l6p2fl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/necromancer_anim_f1_f42b778be4.png" id="1_nvy7u"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nvy7u")
+region = Rect2(0, 0, 16, 23)

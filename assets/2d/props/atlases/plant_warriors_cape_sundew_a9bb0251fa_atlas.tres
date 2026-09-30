@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b2pwgnrc8vn4m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/plant_warriors_cape_sundew_f35e4a56f0.png" id="1_ktlal"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ktlal")
+region = Rect2(0, 0, 498, 241)

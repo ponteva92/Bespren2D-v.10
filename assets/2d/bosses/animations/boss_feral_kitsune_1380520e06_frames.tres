@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cwg23av5sjjle"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_feral_kitsune_2a740c08f2.png" id="1_w4x2h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6y7e5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w4x2h")
+region = Rect2(0, 0, 592, 402)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6y7e5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

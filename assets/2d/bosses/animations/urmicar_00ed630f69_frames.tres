@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://uoja73nl3no3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/urmicar_97af099483.png" id="1_a12w3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gw07h"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_a12w3")
+region = Rect2(0, 0, 130, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sn1ck"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_a12w3")
+region = Rect2(130, 0, 130, 412)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14p0v"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_a12w3")
+region = Rect2(260, 0, 130, 412)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gw07h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sn1ck")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14p0v")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://chbmr7tw7oo3h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/crab_attacka_fx_ba790b9f21.png" id="1_51ysf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_51ysf")
+region = Rect2(0, 0, 64, 64)

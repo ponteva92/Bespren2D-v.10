@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c2tos475bqw0v"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_harpy_eb075a8c95.png" id="1_cn2ro"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cn2ro")
+region = Rect2(0, 0, 312, 291)

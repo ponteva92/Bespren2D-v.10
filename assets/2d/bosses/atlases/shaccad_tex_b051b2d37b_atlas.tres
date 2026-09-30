@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://s8jqmawoikfi"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/shaccad_tex_8a901f1ee1.png" id="1_x6blm"]
+
+[resource]
+resource_name = "shadow_botton"
+atlas = ExtResource("1_x6blm")
+region = Rect2(1, 481, 857, 47)

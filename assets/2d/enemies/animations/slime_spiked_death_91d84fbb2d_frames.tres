@@ -1,0 +1,27 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dstg6rm38p0lx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/slime_spiked_death_e9c26e8589.png" id="1_t64qm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qvyc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t64qm")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ih6jt"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_t64qm")
+region = Rect2(128, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qvyc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ih6jt")
+}],
+"loop": 1,
+"name": &"death",
+"speed": 10.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d2jchi4f2ip2m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/swampy_anim_f3_21093e0ee9.png" id="1_2ghmf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r4ru4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2ghmf")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r4ru4")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

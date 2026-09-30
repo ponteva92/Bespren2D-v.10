@@ -1,0 +1,129 @@
+[gd_scene format=3 uid="uid://bu6vtm308506f"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_l8ac4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_hit_anim_f0_4ac52f1a17.png" id="2_eiob2"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_idle_anim_f0_1b48c5f190.png" id="3_t7sxn"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_idle_anim_f1_65144f67da.png" id="4_0i0jo"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_idle_anim_f2_c07e7c8290.png" id="5_1tsth"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_idle_anim_f3_17aecc1f79.png" id="6_6o6ba"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_run_anim_f0_a38a1463ba.png" id="7_wyjc3"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_run_anim_f1_d88f17ea3c.png" id="8_5ft4c"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_run_anim_f2_392b1f56fa.png" id="9_4l5a0"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_run_anim_f3_8030969c2f.png" id="10_o4yuq"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6nef"]
+resource_name = "Bespren Rusted Prop weathering"
+shader = ExtResource("1_l8ac4")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.78
+shader_parameter/structural_damage = 0.1
+shader_parameter/rust_streaks = 0.61
+shader_parameter/toxic_intensity = 0.1
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.2
+shader_parameter/pattern_scale = 27.0
+shader_parameter/damage_seed = 17.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_232nc"]
+resource_name = "hit_000"
+atlas = ExtResource("2_eiob2")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cjvur"]
+resource_name = "idle_000"
+atlas = ExtResource("3_t7sxn")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hspon"]
+resource_name = "idle_001"
+atlas = ExtResource("4_0i0jo")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5gvl"]
+resource_name = "idle_002"
+atlas = ExtResource("5_1tsth")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4vsaw"]
+resource_name = "idle_003"
+atlas = ExtResource("6_6o6ba")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n74if"]
+resource_name = "run_000"
+atlas = ExtResource("7_wyjc3")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i74a5"]
+resource_name = "run_001"
+atlas = ExtResource("8_5ft4c")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v0q8c"]
+resource_name = "run_002"
+atlas = ExtResource("9_4l5a0")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2bkxh"]
+resource_name = "run_003"
+atlas = ExtResource("10_o4yuq")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5af1h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_232nc")
+}],
+"loop": 0,
+"name": &"hit",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cjvur")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hspon")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5gvl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4vsaw")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n74if")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i74a5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v0q8c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2bkxh")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 8.0
+}]
+
+[node name="WizzardF" type="Node2D" unique_id=1201310689 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "wizzard_f_5dbdab6e62"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1661549956]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6nef")
+sprite_frames = SubResource("SpriteFrames_5af1h")
+animation = &"hit"
+offset = Vector2(0, -14)

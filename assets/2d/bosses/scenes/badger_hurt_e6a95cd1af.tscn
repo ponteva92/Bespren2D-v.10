@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://8y4c546uicvl"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_wwqv4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/badger_hurt_3562e87951.png" id="2_k563r"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_wwqv4")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqg8p"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_k563r")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3rxml"]
+resource_name = "frame_000_004"
+atlas = ExtResource("2_k563r")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_deaii"]
+resource_name = "frame_000_007"
+atlas = ExtResource("2_k563r")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7la0e"]
+resource_name = "frame_000_010"
+atlas = ExtResource("2_k563r")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_reptg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqg8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3rxml")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_deaii")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7la0e")
+}],
+"loop": 1,
+"name": &"hurt",
+"speed": 10.0
+}]
+
+[node name="BadgerHurt" type="Node2D" unique_id=1054505271 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "badger_hurt_e6a95cd1af"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=317672678]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_reptg")
+animation = &"hurt"
+autoplay = "hurt"
+offset = Vector2(0, -64)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bkaac2x5bt4ji"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fallen_dragon_knight_710bdd9ca3.png" id="1_5sylj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d3uhv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5sylj")
+region = Rect2(0, 0, 532, 304)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d3uhv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cndreathk4x7j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_novus_2fb2a6e412.png" id="1_jdtyh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jdtyh")
+region = Rect2(0, 0, 379, 318)

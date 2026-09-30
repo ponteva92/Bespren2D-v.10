@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cjb4yqkvinfvc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/seven_sins_greed_f1d38a4218.png" id="1_2c5sh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2c5sh")
+region = Rect2(0, 0, 173, 177)

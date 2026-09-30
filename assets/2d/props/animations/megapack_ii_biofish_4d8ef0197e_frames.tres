@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://hhsam58ejhld"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_biofish_d67cc9e2c1.png" id="1_8d0ry"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i632p"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8d0ry")
+region = Rect2(0, 0, 127, 131)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i632p")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c22d8kc83pomm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_eyehopper_2aeb8420ce.png" id="1_mjsyt"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mjsyt")
+region = Rect2(0, 0, 103, 95)

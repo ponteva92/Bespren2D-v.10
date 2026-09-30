@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cb55ivw653fqs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/vampiric_creatures_flying_leech_839cf7ad91.png" id="1_vtfdv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_npyvc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vtfdv")
+region = Rect2(0, 0, 92, 97)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_npyvc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

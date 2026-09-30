@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cd7xan8yxlt1c"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_spider_10f4372049.png" id="1_qw7vc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4x3g"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qw7vc")
+region = Rect2(0, 0, 373, 351)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4x3g")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

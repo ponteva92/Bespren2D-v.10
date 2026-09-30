@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bnxy148o2aiwr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_angel_reaper_792c7d7d3d.png" id="1_oo2sy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lxo6x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_oo2sy")
+region = Rect2(0, 0, 434, 310)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lxo6x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bri1m33g1ngyr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mimic_sword_5408a1c57f.png" id="1_j83ky"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r4uu5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j83ky")
+region = Rect2(0, 0, 280, 303)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r4uu5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

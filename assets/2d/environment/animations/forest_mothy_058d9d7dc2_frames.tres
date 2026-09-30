@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b78pq5trgoy4x"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_mothy_9745d15131.png" id="1_nkt30"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ur8dh"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nkt30")
+region = Rect2(0, 0, 202, 180)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ur8dh")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

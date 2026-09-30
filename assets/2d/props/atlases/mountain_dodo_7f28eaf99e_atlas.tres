@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://df4cnai30w5yh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_dodo_7d2e7f89dd.png" id="1_sj1ye"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sj1ye")
+region = Rect2(0, 0, 121, 138)

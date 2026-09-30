@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://y5wmqnmgk3le"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_minion_spear_2d590df402.png" id="1_qitbc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ns0ny"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qitbc")
+region = Rect2(0, 0, 366, 330)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ns0ny")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

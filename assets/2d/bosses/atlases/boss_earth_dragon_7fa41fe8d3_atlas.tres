@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bvjv65sgkws1m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_earth_dragon_dc2778608a.png" id="1_112fn"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_112fn")
+region = Rect2(0, 0, 417, 315)

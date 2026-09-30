@@ -1,0 +1,2048 @@
+[
+ {
+  "out": "assets/2d/actors/sheets\\hero_heikki_idle.png",
+  "size": [
+   224,
+   448
+  ],
+  "missing": [],
+  "content_bbox": [
+   1,
+   7,
+   223,
+   446
+  ],
+  "bytes": 81063,
+  "actor": "hero_heikki",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 56,
+  "ground_offset": 10.2483,
+  "row_variation": [
+   0.0,
+   22.77,
+   29.9,
+   24.34,
+   12.46,
+   25.82,
+   32.12,
+   25.45
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_heikki_walk.png",
+  "size": [
+   432,
+   576
+  ],
+  "missing": [],
+  "content_bbox": [
+   9,
+   11,
+   423,
+   568
+  ],
+  "bytes": 140906,
+  "actor": "hero_heikki",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 72,
+  "ground_offset": 10.2483,
+  "row_variation": [
+   0.0,
+   17.36,
+   21.01,
+   16.89,
+   11.93,
+   17.01,
+   21.21,
+   17.9
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_heikki_run.png",
+  "size": [
+   432,
+   576
+  ],
+  "missing": [],
+  "content_bbox": [
+   6,
+   14,
+   425,
+   569
+  ],
+  "bytes": 145018,
+  "actor": "hero_heikki",
+  "clip": "run",
+  "rows": 8,
+  "cols": 6,
+  "cell": 72,
+  "ground_offset": 10.2483,
+  "row_variation": [
+   0.0,
+   20.41,
+   23.56,
+   26.33,
+   22.66,
+   22.83,
+   21.4,
+   19.16
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_heikki_shoot.png",
+  "size": [
+   256,
+   512
+  ],
+  "missing": [],
+  "content_bbox": [
+   7,
+   12,
+   249,
+   500
+  ],
+  "bytes": 90539,
+  "actor": "hero_heikki",
+  "clip": "shoot",
+  "rows": 8,
+  "cols": 4,
+  "cell": 64,
+  "ground_offset": 10.2483,
+  "row_variation": [
+   0.0,
+   23.81,
+   22.76,
+   24.18,
+   23.24,
+   25.67,
+   23.91,
+   23.63
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_heikki_gather.png",
+  "size": [
+   480,
+   640
+  ],
+  "missing": [],
+  "content_bbox": [
+   14,
+   15,
+   466,
+   628
+  ],
+  "bytes": 143648,
+  "actor": "hero_heikki",
+  "clip": "gather",
+  "rows": 8,
+  "cols": 6,
+  "cell": 80,
+  "ground_offset": 10.2483,
+  "row_variation": [
+   0.0,
+   14.19,
+   17.12,
+   17.35,
+   14.57,
+   16.41,
+   16.82,
+   12.39
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_heikki_hit.png",
+  "size": [
+   256,
+   512
+  ],
+  "missing": [],
+  "content_bbox": [
+   3,
+   9,
+   253,
+   506
+  ],
+  "bytes": 73503,
+  "actor": "hero_heikki",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 64,
+  "ground_offset": 10.2483,
+  "row_variation": [
+   0.0,
+   20.76,
+   26.31,
+   21.21,
+   16.31,
+   24.84,
+   27.74,
+   21.83
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_heikki_death.png",
+  "size": [
+   768,
+   1024
+  ],
+  "missing": [],
+  "content_bbox": [
+   35,
+   42,
+   760,
+   986
+  ],
+  "bytes": 152849,
+  "actor": "hero_heikki",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 128,
+  "ground_offset": 10.2483,
+  "row_variation": [
+   0.0,
+   8.61,
+   11.02,
+   11.73,
+   12.14,
+   13.04,
+   12.79,
+   9.62
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_shane_idle.png",
+  "size": [
+   224,
+   448
+  ],
+  "missing": [],
+  "content_bbox": [
+   6,
+   8,
+   218,
+   446
+  ],
+  "bytes": 72343,
+  "actor": "hero_shane",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 56,
+  "ground_offset": 9.9277,
+  "row_variation": [
+   0.0,
+   21.45,
+   26.7,
+   22.3,
+   11.52,
+   25.46,
+   30.66,
+   24.56
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_shane_walk.png",
+  "size": [
+   384,
+   512
+  ],
+  "missing": [],
+  "content_bbox": [
+   5,
+   9,
+   376,
+   507
+  ],
+  "bytes": 125586,
+  "actor": "hero_shane",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 64,
+  "ground_offset": 9.9277,
+  "row_variation": [
+   0.0,
+   21.76,
+   25.05,
+   20.6,
+   14.68,
+   20.87,
+   25.53,
+   22.49
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_shane_run.png",
+  "size": [
+   432,
+   576
+  ],
+  "missing": [],
+  "content_bbox": [
+   4,
+   16,
+   428,
+   569
+  ],
+  "bytes": 130455,
+  "actor": "hero_shane",
+  "clip": "run",
+  "rows": 8,
+  "cols": 6,
+  "cell": 72,
+  "ground_offset": 9.9277,
+  "row_variation": [
+   0.0,
+   18.4,
+   20.49,
+   24.48,
+   24.48,
+   25.34,
+   23.22,
+   21.17
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_shane_shoot.png",
+  "size": [
+   288,
+   576
+  ],
+  "missing": [],
+  "content_bbox": [
+   6,
+   16,
+   281,
+   569
+  ],
+  "bytes": 78939,
+  "actor": "hero_shane",
+  "clip": "shoot",
+  "rows": 8,
+  "cols": 4,
+  "cell": 72,
+  "ground_offset": 9.9277,
+  "row_variation": [
+   0.0,
+   21.11,
+   22.95,
+   21.18,
+   17.61,
+   22.29,
+   22.31,
+   16.22
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_shane_gather.png",
+  "size": [
+   432,
+   576
+  ],
+  "missing": [],
+  "content_bbox": [
+   11,
+   12,
+   421,
+   567
+  ],
+  "bytes": 128341,
+  "actor": "hero_shane",
+  "clip": "gather",
+  "rows": 8,
+  "cols": 6,
+  "cell": 72,
+  "ground_offset": 9.9277,
+  "row_variation": [
+   0.0,
+   16.98,
+   20.14,
+   20.37,
+   17.68,
+   20.2,
+   20.19,
+   15.05
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_shane_hit.png",
+  "size": [
+   224,
+   448
+  ],
+  "missing": [],
+  "content_bbox": [
+   4,
+   7,
+   220,
+   446
+  ],
+  "bytes": 64767,
+  "actor": "hero_shane",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 56,
+  "ground_offset": 9.9277,
+  "row_variation": [
+   0.0,
+   24.99,
+   30.78,
+   26.31,
+   19.31,
+   30.98,
+   34.36,
+   27.48
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\hero_shane_death.png",
+  "size": [
+   720,
+   960
+  ],
+  "missing": [],
+  "content_bbox": [
+   36,
+   39,
+   716,
+   926
+  ],
+  "bytes": 135843,
+  "actor": "hero_shane",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 120,
+  "ground_offset": 9.9277,
+  "row_variation": [
+   0.0,
+   9.4,
+   11.74,
+   12.44,
+   12.94,
+   14.05,
+   13.79,
+   10.61
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_walker_idle.png",
+  "size": [
+   256,
+   512
+  ],
+  "missing": [],
+  "content_bbox": [
+   3,
+   9,
+   253,
+   508
+  ],
+  "bytes": 83261,
+  "actor": "enemy_walker",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 64,
+  "ground_offset": 16.912,
+  "row_variation": [
+   0.0,
+   20.16,
+   26.35,
+   26.17,
+   22.51,
+   27.93,
+   27.11,
+   18.0
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_walker_walk.png",
+  "size": [
+   432,
+   576
+  ],
+  "missing": [],
+  "content_bbox": [
+   3,
+   5,
+   429,
+   568
+  ],
+  "bytes": 152511,
+  "actor": "enemy_walker",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 72,
+  "ground_offset": 16.912,
+  "row_variation": [
+   0.0,
+   18.87,
+   25.56,
+   29.31,
+   28.64,
+   24.37,
+   23.79,
+   15.88
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_walker_attack.png",
+  "size": [
+   352,
+   704
+  ],
+  "missing": [],
+  "content_bbox": [
+   13,
+   21,
+   339,
+   694
+  ],
+  "bytes": 79153,
+  "actor": "enemy_walker",
+  "clip": "attack",
+  "rows": 8,
+  "cols": 4,
+  "cell": 88,
+  "ground_offset": 16.912,
+  "row_variation": [
+   0.0,
+   11.92,
+   16.01,
+   16.55,
+   17.2,
+   15.93,
+   15.56,
+   12.5
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_walker_hit.png",
+  "size": [
+   256,
+   512
+  ],
+  "missing": [],
+  "content_bbox": [
+   5,
+   5,
+   251,
+   505
+  ],
+  "bytes": 74002,
+  "actor": "enemy_walker",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 64,
+  "ground_offset": 16.912,
+  "row_variation": [
+   0.0,
+   18.97,
+   24.16,
+   18.63,
+   13.55,
+   22.48,
+   25.61,
+   19.68
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_walker_death.png",
+  "size": [
+   672,
+   896
+  ],
+  "missing": [],
+  "content_bbox": [
+   29,
+   31,
+   666,
+   887
+  ],
+  "bytes": 160443,
+  "actor": "enemy_walker",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 112,
+  "ground_offset": 16.912,
+  "row_variation": [
+   0.0,
+   10.4,
+   13.45,
+   13.47,
+   12.22,
+   13.02,
+   12.61,
+   9.42
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_walker_spawn.png",
+  "size": [
+   672,
+   896
+  ],
+  "missing": [],
+  "content_bbox": [
+   30,
+   12,
+   657,
+   879
+  ],
+  "bytes": 155516,
+  "actor": "enemy_walker",
+  "clip": "spawn",
+  "rows": 8,
+  "cols": 6,
+  "cell": 112,
+  "ground_offset": 16.912,
+  "row_variation": [
+   0.0,
+   7.87,
+   11.8,
+   12.29,
+   10.87,
+   11.68,
+   10.84,
+   7.63
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_rat_swarm_idle.png",
+  "size": [
+   192,
+   384
+  ],
+  "missing": [],
+  "content_bbox": [
+   10,
+   28,
+   182,
+   379
+  ],
+  "bytes": 16237,
+  "actor": "enemy_rat_swarm",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 48,
+  "ground_offset": 6.788,
+  "row_variation": [
+   0.0,
+   6.39,
+   7.51,
+   8.11,
+   8.59,
+   9.11,
+   8.76,
+   8.14
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_rat_swarm_walk.png",
+  "size": [
+   288,
+   384
+  ],
+  "missing": [],
+  "content_bbox": [
+   12,
+   27,
+   276,
+   380
+  ],
+  "bytes": 29755,
+  "actor": "enemy_rat_swarm",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 48,
+  "ground_offset": 6.788,
+  "row_variation": [
+   0.0,
+   5.87,
+   6.48,
+   6.24,
+   7.17,
+   8.06,
+   8.22,
+   6.87
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_rat_swarm_attack.png",
+  "size": [
+   224,
+   448
+  ],
+  "missing": [],
+  "content_bbox": [
+   18,
+   32,
+   206,
+   442
+  ],
+  "bytes": 17030,
+  "actor": "enemy_rat_swarm",
+  "clip": "attack",
+  "rows": 8,
+  "cols": 4,
+  "cell": 56,
+  "ground_offset": 6.788,
+  "row_variation": [
+   0.0,
+   4.1,
+   4.57,
+   4.56,
+   5.35,
+   5.36,
+   5.37,
+   4.81
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_rat_swarm_hit.png",
+  "size": [
+   192,
+   384
+  ],
+  "missing": [],
+  "content_bbox": [
+   14,
+   28,
+   178,
+   379
+  ],
+  "bytes": 15720,
+  "actor": "enemy_rat_swarm",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 48,
+  "ground_offset": 6.788,
+  "row_variation": [
+   0.0,
+   5.05,
+   5.43,
+   4.75,
+   6.49,
+   6.32,
+   5.77,
+   5.53
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_rat_swarm_death.png",
+  "size": [
+   336,
+   448
+  ],
+  "missing": [],
+  "content_bbox": [
+   18,
+   31,
+   318,
+   443
+  ],
+  "bytes": 27554,
+  "actor": "enemy_rat_swarm",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 56,
+  "ground_offset": 6.788,
+  "row_variation": [
+   0.0,
+   3.56,
+   4.21,
+   4.31,
+   5.05,
+   5.07,
+   4.79,
+   3.88
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_rat_swarm_spawn.png",
+  "size": [
+   336,
+   448
+  ],
+  "missing": [],
+  "content_bbox": [
+   14,
+   25,
+   326,
+   445
+  ],
+  "bytes": 34694,
+  "actor": "enemy_rat_swarm",
+  "clip": "spawn",
+  "rows": 8,
+  "cols": 6,
+  "cell": 56,
+  "ground_offset": 6.788,
+  "row_variation": [
+   0.0,
+   5.3,
+   6.02,
+   6.71,
+   7.24,
+   7.14,
+   6.85,
+   6.07
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_static_walker_idle.png",
+  "size": [
+   288,
+   576
+  ],
+  "missing": [],
+  "content_bbox": [
+   11,
+   12,
+   277,
+   566
+  ],
+  "bytes": 70451,
+  "actor": "enemy_static_walker",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 72,
+  "ground_offset": 15.8571,
+  "row_variation": [
+   0.0,
+   19.7,
+   23.25,
+   21.35,
+   15.97,
+   19.39,
+   21.69,
+   15.38
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_static_walker_walk.png",
+  "size": [
+   480,
+   640
+  ],
+  "missing": [],
+  "content_bbox": [
+   11,
+   14,
+   469,
+   627
+  ],
+  "bytes": 129958,
+  "actor": "enemy_static_walker",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 80,
+  "ground_offset": 15.8571,
+  "row_variation": [
+   0.0,
+   16.72,
+   20.92,
+   21.1,
+   18.66,
+   16.72,
+   17.85,
+   13.27
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_static_walker_attack.png",
+  "size": [
+   352,
+   704
+  ],
+  "missing": [],
+  "content_bbox": [
+   16,
+   18,
+   336,
+   691
+  ],
+  "bytes": 69066,
+  "actor": "enemy_static_walker",
+  "clip": "attack",
+  "rows": 8,
+  "cols": 4,
+  "cell": 88,
+  "ground_offset": 15.8571,
+  "row_variation": [
+   0.0,
+   12.35,
+   16.59,
+   15.9,
+   15.46,
+   14.17,
+   15.43,
+   12.86
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_static_walker_hit.png",
+  "size": [
+   256,
+   512
+  ],
+  "missing": [],
+  "content_bbox": [
+   8,
+   4,
+   248,
+   504
+  ],
+  "bytes": 64632,
+  "actor": "enemy_static_walker",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 64,
+  "ground_offset": 15.8571,
+  "row_variation": [
+   0.0,
+   18.8,
+   22.81,
+   19.22,
+   15.15,
+   22.49,
+   25.39,
+   20.57
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_static_walker_death.png",
+  "size": [
+   768,
+   1024
+  ],
+  "missing": [],
+  "content_bbox": [
+   40,
+   36,
+   760,
+   1003
+  ],
+  "bytes": 142560,
+  "actor": "enemy_static_walker",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 128,
+  "ground_offset": 15.8571,
+  "row_variation": [
+   0.0,
+   8.68,
+   9.96,
+   9.35,
+   8.59,
+   8.94,
+   8.92,
+   7.86
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_static_walker_spawn.png",
+  "size": [
+   672,
+   896
+  ],
+  "missing": [],
+  "content_bbox": [
+   33,
+   17,
+   651,
+   876
+  ],
+  "bytes": 136940,
+  "actor": "enemy_static_walker",
+  "clip": "spawn",
+  "rows": 8,
+  "cols": 6,
+  "cell": 112,
+  "ground_offset": 15.8571,
+  "row_variation": [
+   0.0,
+   9.07,
+   11.16,
+   11.07,
+   9.77,
+   10.01,
+   9.85,
+   7.69
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_scrap_shield_idle.png",
+  "size": [
+   256,
+   512
+  ],
+  "missing": [],
+  "content_bbox": [
+   5,
+   7,
+   251,
+   507
+  ],
+  "bytes": 81399,
+  "actor": "enemy_scrap_shield",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 64,
+  "ground_offset": 18.1605,
+  "row_variation": [
+   0.0,
+   23.39,
+   30.89,
+   29.09,
+   20.92,
+   28.59,
+   29.79,
+   21.38
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_scrap_shield_walk.png",
+  "size": [
+   432,
+   576
+  ],
+  "missing": [],
+  "content_bbox": [
+   4,
+   7,
+   427,
+   567
+  ],
+  "bytes": 157176,
+  "actor": "enemy_scrap_shield",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 72,
+  "ground_offset": 18.1605,
+  "row_variation": [
+   0.0,
+   19.05,
+   23.49,
+   25.2,
+   25.57,
+   23.92,
+   25.31,
+   17.49
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_scrap_shield_attack.png",
+  "size": [
+   320,
+   640
+  ],
+  "missing": [],
+  "content_bbox": [
+   10,
+   8,
+   310,
+   632
+  ],
+  "bytes": 90192,
+  "actor": "enemy_scrap_shield",
+  "clip": "attack",
+  "rows": 8,
+  "cols": 4,
+  "cell": 80,
+  "ground_offset": 18.1605,
+  "row_variation": [
+   0.0,
+   17.97,
+   19.47,
+   21.9,
+   23.19,
+   22.82,
+   23.79,
+   21.35
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_scrap_shield_hit.png",
+  "size": [
+   256,
+   512
+  ],
+  "missing": [],
+  "content_bbox": [
+   6,
+   3,
+   250,
+   505
+  ],
+  "bytes": 73908,
+  "actor": "enemy_scrap_shield",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 64,
+  "ground_offset": 18.1605,
+  "row_variation": [
+   0.0,
+   20.85,
+   27.15,
+   22.57,
+   15.4,
+   24.52,
+   28.46,
+   23.04
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_scrap_shield_death.png",
+  "size": [
+   672,
+   896
+  ],
+  "missing": [],
+  "content_bbox": [
+   30,
+   27,
+   665,
+   885
+  ],
+  "bytes": 163223,
+  "actor": "enemy_scrap_shield",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 112,
+  "ground_offset": 18.1605,
+  "row_variation": [
+   0.0,
+   12.54,
+   15.97,
+   15.55,
+   13.29,
+   13.71,
+   13.46,
+   11.11
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_scrap_shield_spawn.png",
+  "size": [
+   624,
+   832
+  ],
+  "missing": [],
+  "content_bbox": [
+   27,
+   10,
+   609,
+   817
+  ],
+  "bytes": 160467,
+  "actor": "enemy_scrap_shield",
+  "clip": "spawn",
+  "rows": 8,
+  "cols": 6,
+  "cell": 104,
+  "ground_offset": 18.1605,
+  "row_variation": [
+   0.0,
+   10.09,
+   14.85,
+   15.85,
+   13.86,
+   14.63,
+   14.28,
+   10.28
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_goliath_idle.png",
+  "size": [
+   512,
+   1024
+  ],
+  "missing": [],
+  "content_bbox": [
+   17,
+   17,
+   495,
+   1003
+  ],
+  "bytes": 235034,
+  "actor": "enemy_goliath",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 128,
+  "ground_offset": 29.3929,
+  "row_variation": [
+   0.0,
+   19.86,
+   26.06,
+   24.9,
+   20.12,
+   24.21,
+   24.6,
+   17.04
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_goliath_walk.png",
+  "size": [
+   864,
+   1152
+  ],
+  "missing": [],
+  "content_bbox": [
+   16,
+   22,
+   847,
+   1125
+  ],
+  "bytes": 406624,
+  "actor": "enemy_goliath",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 144,
+  "ground_offset": 29.3929,
+  "row_variation": [
+   0.0,
+   17.07,
+   23.62,
+   25.13,
+   24.66,
+   21.85,
+   22.22,
+   14.7
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_goliath_attack.png",
+  "size": [
+   672,
+   1344
+  ],
+  "missing": [],
+  "content_bbox": [
+   29,
+   34,
+   643,
+   1313
+  ],
+  "bytes": 217587,
+  "actor": "enemy_goliath",
+  "clip": "attack",
+  "rows": 8,
+  "cols": 4,
+  "cell": 168,
+  "ground_offset": 29.3929,
+  "row_variation": [
+   0.0,
+   12.73,
+   16.48,
+   17.67,
+   17.91,
+   17.95,
+   16.48,
+   12.91
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_goliath_hit.png",
+  "size": [
+   512,
+   1024
+  ],
+  "missing": [],
+  "content_bbox": [
+   19,
+   10,
+   493,
+   1000
+  ],
+  "bytes": 205003,
+  "actor": "enemy_goliath",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 128,
+  "ground_offset": 29.3929,
+  "row_variation": [
+   0.0,
+   17.95,
+   23.29,
+   17.86,
+   11.57,
+   21.16,
+   25.11,
+   19.43
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_goliath_death.png",
+  "size": [
+   1344,
+   1792
+  ],
+  "missing": [],
+  "content_bbox": [
+   67,
+   58,
+   1333,
+   1758
+  ],
+  "bytes": 454324,
+  "actor": "enemy_goliath",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 224,
+  "ground_offset": 29.3929,
+  "row_variation": [
+   0.0,
+   10.29,
+   13.25,
+   13.23,
+   11.99,
+   12.88,
+   12.22,
+   9.23
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_goliath_spawn.png",
+  "size": [
+   1200,
+   1600
+  ],
+  "missing": [],
+  "content_bbox": [
+   57,
+   26,
+   1163,
+   1560
+  ],
+  "bytes": 424738,
+  "actor": "enemy_goliath",
+  "clip": "spawn",
+  "rows": 8,
+  "cols": 6,
+  "cell": 200,
+  "ground_offset": 29.3929,
+  "row_variation": [
+   0.0,
+   10.38,
+   14.39,
+   15.23,
+   13.57,
+   13.95,
+   13.02,
+   9.12
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_goliath_taunt.png",
+  "size": [
+   1104,
+   1472
+  ],
+  "missing": [],
+  "content_bbox": [
+   47,
+   19,
+   1059,
+   1423
+  ],
+  "bytes": 426629,
+  "actor": "enemy_goliath",
+  "clip": "taunt",
+  "rows": 8,
+  "cols": 6,
+  "cell": 184,
+  "ground_offset": 29.3929,
+  "row_variation": [
+   0.0,
+   10.1,
+   12.61,
+   11.59,
+   9.72,
+   11.5,
+   12.4,
+   9.33
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_carrier_idle.png",
+  "size": [
+   384,
+   768
+  ],
+  "missing": [],
+  "content_bbox": [
+   18,
+   30,
+   366,
+   759
+  ],
+  "bytes": 110438,
+  "actor": "enemy_carrier",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 96,
+  "ground_offset": 18.5634,
+  "row_variation": [
+   0.0,
+   11.04,
+   11.79,
+   12.26,
+   8.71,
+   12.43,
+   12.74,
+   10.26
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_carrier_walk.png",
+  "size": [
+   528,
+   704
+  ],
+  "missing": [],
+  "content_bbox": [
+   9,
+   21,
+   519,
+   700
+  ],
+  "bytes": 196189,
+  "actor": "enemy_carrier",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 88,
+  "ground_offset": 18.5634,
+  "row_variation": [
+   0.0,
+   14.02,
+   17.44,
+   19.82,
+   19.63,
+   17.92,
+   17.76,
+   13.28
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_carrier_attack.png",
+  "size": [
+   416,
+   832
+  ],
+  "missing": [],
+  "content_bbox": [
+   18,
+   36,
+   398,
+   826
+  ],
+  "bytes": 108936,
+  "actor": "enemy_carrier",
+  "clip": "attack",
+  "rows": 8,
+  "cols": 4,
+  "cell": 104,
+  "ground_offset": 18.5634,
+  "row_variation": [
+   0.0,
+   9.82,
+   12.32,
+   13.37,
+   13.54,
+   13.29,
+   13.35,
+   11.14
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_carrier_hit.png",
+  "size": [
+   352,
+   704
+  ],
+  "missing": [],
+  "content_bbox": [
+   15,
+   25,
+   337,
+   697
+  ],
+  "bytes": 100595,
+  "actor": "enemy_carrier",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 88,
+  "ground_offset": 18.5634,
+  "row_variation": [
+   0.0,
+   11.36,
+   14.74,
+   14.53,
+   13.85,
+   15.8,
+   15.7,
+   11.78
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_carrier_death.png",
+  "size": [
+   816,
+   1088
+  ],
+  "missing": [],
+  "content_bbox": [
+   39,
+   49,
+   801,
+   1080
+  ],
+  "bytes": 205599,
+  "actor": "enemy_carrier",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 136,
+  "ground_offset": 18.5634,
+  "row_variation": [
+   0.0,
+   8.0,
+   10.01,
+   10.03,
+   9.35,
+   9.74,
+   9.26,
+   7.16
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_carrier_spawn.png",
+  "size": [
+   672,
+   896
+  ],
+  "missing": [],
+  "content_bbox": [
+   29,
+   19,
+   660,
+   891
+  ],
+  "bytes": 202089,
+  "actor": "enemy_carrier",
+  "clip": "spawn",
+  "rows": 8,
+  "cols": 6,
+  "cell": 112,
+  "ground_offset": 18.5634,
+  "row_variation": [
+   0.0,
+   8.88,
+   12.76,
+   14.1,
+   13.55,
+   14.58,
+   13.52,
+   9.78
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_carrier_taunt.png",
+  "size": [
+   576,
+   768
+  ],
+  "missing": [],
+  "content_bbox": [
+   19,
+   12,
+   558,
+   759
+  ],
+  "bytes": 202392,
+  "actor": "enemy_carrier",
+  "clip": "taunt",
+  "rows": 8,
+  "cols": 6,
+  "cell": 96,
+  "ground_offset": 18.5634,
+  "row_variation": [
+   0.0,
+   10.7,
+   11.87,
+   11.7,
+   9.76,
+   12.27,
+   13.26,
+   10.68
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_splitter_idle.png",
+  "size": [
+   352,
+   704
+  ],
+  "missing": [],
+  "content_bbox": [
+   14,
+   34,
+   338,
+   698
+  ],
+  "bytes": 79211,
+  "actor": "enemy_splitter",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 88,
+  "ground_offset": 17.8348,
+  "row_variation": [
+   0.0,
+   13.78,
+   16.26,
+   15.91,
+   12.0,
+   15.66,
+   16.41,
+   12.85
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_splitter_walk.png",
+  "size": [
+   528,
+   704
+  ],
+  "missing": [],
+  "content_bbox": [
+   8,
+   26,
+   520,
+   699
+  ],
+  "bytes": 142561,
+  "actor": "enemy_splitter",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 88,
+  "ground_offset": 17.8348,
+  "row_variation": [
+   0.0,
+   17.76,
+   21.02,
+   21.63,
+   20.4,
+   17.9,
+   18.66,
+   14.87
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_splitter_attack.png",
+  "size": [
+   384,
+   768
+  ],
+  "missing": [],
+  "content_bbox": [
+   16,
+   38,
+   368,
+   764
+  ],
+  "bytes": 74293,
+  "actor": "enemy_splitter",
+  "clip": "attack",
+  "rows": 8,
+  "cols": 4,
+  "cell": 96,
+  "ground_offset": 17.8348,
+  "row_variation": [
+   0.0,
+   12.41,
+   14.72,
+   15.4,
+   15.62,
+   14.8,
+   14.71,
+   12.85
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_splitter_hit.png",
+  "size": [
+   352,
+   704
+  ],
+  "missing": [],
+  "content_bbox": [
+   18,
+   31,
+   334,
+   696
+  ],
+  "bytes": 71053,
+  "actor": "enemy_splitter",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 88,
+  "ground_offset": 17.8348,
+  "row_variation": [
+   0.0,
+   11.11,
+   13.52,
+   11.73,
+   8.7,
+   13.81,
+   15.96,
+   13.19
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_splitter_death.png",
+  "size": [
+   816,
+   1088
+  ],
+  "missing": [],
+  "content_bbox": [
+   42,
+   57,
+   798,
+   1082
+  ],
+  "bytes": 152420,
+  "actor": "enemy_splitter",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 136,
+  "ground_offset": 17.8348,
+  "row_variation": [
+   0.0,
+   7.71,
+   9.17,
+   8.91,
+   8.08,
+   8.94,
+   8.99,
+   7.49
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_splitter_spawn.png",
+  "size": [
+   672,
+   896
+  ],
+  "missing": [],
+  "content_bbox": [
+   31,
+   26,
+   655,
+   889
+  ],
+  "bytes": 147938,
+  "actor": "enemy_splitter",
+  "clip": "spawn",
+  "rows": 8,
+  "cols": 6,
+  "cell": 112,
+  "ground_offset": 17.8348,
+  "row_variation": [
+   0.0,
+   9.58,
+   11.87,
+   12.17,
+   10.98,
+   11.47,
+   10.82,
+   9.16
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_splitter_taunt.png",
+  "size": [
+   528,
+   704
+  ],
+  "missing": [],
+  "content_bbox": [
+   18,
+   15,
+   514,
+   698
+  ],
+  "bytes": 145137,
+  "actor": "enemy_splitter",
+  "clip": "taunt",
+  "rows": 8,
+  "cols": 6,
+  "cell": 88,
+  "ground_offset": 17.8348,
+  "row_variation": [
+   0.0,
+   13.52,
+   15.9,
+   15.36,
+   12.92,
+   14.99,
+   16.35,
+   13.54
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_overlord_idle.png",
+  "size": [
+   384,
+   768
+  ],
+  "missing": [],
+  "content_bbox": [
+   11,
+   16,
+   373,
+   761
+  ],
+  "bytes": 138684,
+  "actor": "enemy_overlord",
+  "clip": "idle",
+  "rows": 8,
+  "cols": 4,
+  "cell": 96,
+  "ground_offset": 26.704,
+  "row_variation": [
+   0.0,
+   18.0,
+   24.61,
+   23.99,
+   23.09,
+   25.81,
+   24.82,
+   15.93
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_overlord_walk.png",
+  "size": [
+   624,
+   832
+  ],
+  "missing": [],
+  "content_bbox": [
+   9,
+   11,
+   615,
+   820
+  ],
+  "bytes": 261056,
+  "actor": "enemy_overlord",
+  "clip": "walk",
+  "rows": 8,
+  "cols": 6,
+  "cell": 104,
+  "ground_offset": 26.704,
+  "row_variation": [
+   0.0,
+   18.12,
+   25.54,
+   27.83,
+   27.18,
+   25.3,
+   25.04,
+   16.15
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_overlord_attack.png",
+  "size": [
+   512,
+   1024
+  ],
+  "missing": [],
+  "content_bbox": [
+   23,
+   30,
+   489,
+   1007
+  ],
+  "bytes": 135282,
+  "actor": "enemy_overlord",
+  "clip": "attack",
+  "rows": 8,
+  "cols": 4,
+  "cell": 128,
+  "ground_offset": 26.704,
+  "row_variation": [
+   0.0,
+   11.9,
+   17.13,
+   18.52,
+   19.25,
+   18.01,
+   16.58,
+   12.99
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_overlord_hit.png",
+  "size": [
+   384,
+   768
+  ],
+  "missing": [],
+  "content_bbox": [
+   13,
+   11,
+   371,
+   758
+  ],
+  "bytes": 121052,
+  "actor": "enemy_overlord",
+  "clip": "hit",
+  "rows": 8,
+  "cols": 4,
+  "cell": 96,
+  "ground_offset": 26.704,
+  "row_variation": [
+   0.0,
+   15.77,
+   20.96,
+   17.3,
+   13.95,
+   21.05,
+   21.96,
+   15.82
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_overlord_death.png",
+  "size": [
+   960,
+   1280
+  ],
+  "missing": [],
+  "content_bbox": [
+   45,
+   43,
+   951,
+   1262
+  ],
+  "bytes": 263760,
+  "actor": "enemy_overlord",
+  "clip": "death",
+  "rows": 8,
+  "cols": 6,
+  "cell": 160,
+  "ground_offset": 26.704,
+  "row_variation": [
+   0.0,
+   11.69,
+   14.02,
+   13.86,
+   12.47,
+   13.26,
+   12.74,
+   9.62
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_overlord_spawn.png",
+  "size": [
+   912,
+   1216
+  ],
+  "missing": [],
+  "content_bbox": [
+   43,
+   18,
+   888,
+   1199
+  ],
+  "bytes": 273695,
+  "actor": "enemy_overlord",
+  "clip": "spawn",
+  "rows": 8,
+  "cols": 6,
+  "cell": 152,
+  "ground_offset": 26.704,
+  "row_variation": [
+   0.0,
+   10.79,
+   15.78,
+   17.39,
+   16.07,
+   16.69,
+   15.13,
+   9.38
+  ]
+ },
+ {
+  "out": "assets/2d/actors/sheets\\enemy_overlord_taunt.png",
+  "size": [
+   816,
+   1088
+  ],
+  "missing": [],
+  "content_bbox": [
+   33,
+   11,
+   785,
+   1064
+  ],
+  "bytes": 266399,
+  "actor": "enemy_overlord",
+  "clip": "taunt",
+  "rows": 8,
+  "cols": 6,
+  "cell": 136,
+  "ground_offset": 26.704,
+  "row_variation": [
+   0.0,
+   9.27,
+   12.14,
+   11.31,
+   10.46,
+   11.86,
+   12.23,
+   8.23
+  ]
+ }
+]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://2yi0mspkt1v8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_bat_3b29379a91.png" id="1_v1dw7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v3gcr"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_v1dw7")
+region = Rect2(0, 0, 134, 124)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v3gcr")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

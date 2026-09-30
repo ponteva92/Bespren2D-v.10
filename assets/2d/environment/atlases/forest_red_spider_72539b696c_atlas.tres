@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://btwmjkfrvon4j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_red_spider_3ffbdb9cff.png" id="1_4a2pw"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4a2pw")
+region = Rect2(0, 0, 145, 110)

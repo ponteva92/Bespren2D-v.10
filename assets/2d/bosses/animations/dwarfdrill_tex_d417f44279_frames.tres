@@ -1,0 +1,75 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://sjobbjbtfr8d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dwarfdrill_tex_16aae9bb50.png" id="1_55vwk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4wnkb"]
+resource_name = "rifle_back"
+atlas = ExtResource("1_55vwk")
+region = Rect2(1, 284, 73, 75)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n78y2"]
+resource_name = "shadow"
+atlas = ExtResource("1_55vwk")
+region = Rect2(76, 284, 230, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_geb4t"]
+resource_name = "leg"
+atlas = ExtResource("1_55vwk")
+region = Rect2(1, 361, 56, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bbhi5"]
+resource_name = "dwarf_drill_knight_copy"
+atlas = ExtResource("1_55vwk")
+region = Rect2(330, 217, 117, 102)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqtrk"]
+resource_name = "skirt"
+atlas = ExtResource("1_55vwk")
+region = Rect2(330, 108, 121, 107)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cnlu8"]
+resource_name = "chst"
+atlas = ExtResource("1_55vwk")
+region = Rect2(330, 1, 139, 105)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8o3ba"]
+resource_name = "head"
+atlas = ExtResource("1_55vwk")
+region = Rect2(76, 302, 66, 59)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c02xm"]
+resource_name = "left_arm"
+atlas = ExtResource("1_55vwk")
+region = Rect2(1, 1, 327, 281)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4wnkb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n78y2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_geb4t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bbhi5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqtrk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cnlu8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8o3ba")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c02xm")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

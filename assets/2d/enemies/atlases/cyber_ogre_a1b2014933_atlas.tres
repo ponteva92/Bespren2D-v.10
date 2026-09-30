@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cht1cjqqakcwq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cyber_ogre_8ce3d1a1ab.png" id="1_u5fro"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_u5fro")
+region = Rect2(0, 0, 436, 398)

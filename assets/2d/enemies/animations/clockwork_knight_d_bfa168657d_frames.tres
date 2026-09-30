@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://vrm181l8i8ab"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_knight_d_3e92f0284a.png" id="1_rpbh2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rexpy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rpbh2")
+region = Rect2(0, 0, 198, 245)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rexpy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://tyl0p6wj704u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fallen_winged_sword_8e09e8451a.png" id="1_ba8vr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6wyb0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ba8vr")
+region = Rect2(0, 0, 261, 222)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6wyb0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

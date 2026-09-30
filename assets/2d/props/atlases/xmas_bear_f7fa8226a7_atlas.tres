@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dhd0m5n1j8jl1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/xmas_bear_778d3e0dc2.png" id="1_voaec"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_voaec")
+region = Rect2(0, 0, 286, 188)

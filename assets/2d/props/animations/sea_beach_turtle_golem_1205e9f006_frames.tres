@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dsyu18dau8d1l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_turtle_golem_1c53691815.png" id="1_wru7p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6wulb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wru7p")
+region = Rect2(0, 0, 425, 213)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6wulb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://davslggeump1k"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_dragon_huanglong_752a65273d.png" id="1_nx83a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2akkq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nx83a")
+region = Rect2(0, 0, 435, 605)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2akkq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

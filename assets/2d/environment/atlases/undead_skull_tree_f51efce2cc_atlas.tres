@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b4fsu13oxsbav"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_skull_tree_9f4799e717.png" id="1_xfesb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xfesb")
+region = Rect2(0, 0, 337, 291)

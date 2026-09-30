@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d4ipfatwxhips"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_skull_knight_xoer_cec5976f41.png" id="1_71fvf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ivxmo"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_71fvf")
+region = Rect2(0, 0, 627, 551)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ivxmo")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

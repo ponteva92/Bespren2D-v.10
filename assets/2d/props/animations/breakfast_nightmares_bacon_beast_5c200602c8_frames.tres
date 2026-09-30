@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://466vlmnkj32l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/breakfast_nightmares_bacon_beast_13cf5d8a68.png" id="1_uu0dw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ibmbu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_uu0dw")
+region = Rect2(0, 0, 517, 238)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ibmbu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ssl40ygl18yl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_sabretooth_c587779a7e.png" id="1_oy3ej"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_oy3ej")
+region = Rect2(0, 0, 297, 313)

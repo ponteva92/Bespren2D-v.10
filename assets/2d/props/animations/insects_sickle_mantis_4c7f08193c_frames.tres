@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bfgfguyhthg8d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_sickle_mantis_b61a46cd7e.png" id="1_rmkhe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxah0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rmkhe")
+region = Rect2(0, 0, 144, 196)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yxah0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

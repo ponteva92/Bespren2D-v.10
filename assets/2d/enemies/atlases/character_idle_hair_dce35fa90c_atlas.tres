@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ds1s38rex0ubo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_idle_hair_e4ac18be29.png" id="1_bb2ox"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bb2ox")
+region = Rect2(0, 0, 512, 512)

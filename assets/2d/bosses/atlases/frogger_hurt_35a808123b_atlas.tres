@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://t4on8kcsfyid"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/frogger_hurt_dd9ce27095.png" id="1_2r56b"]
+
+[resource]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_2r56b")
+region = Rect2(128, 0, 128, 128)

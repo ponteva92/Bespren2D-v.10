@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://2wvqoluutchg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rogue_dagger_monk_c45d2f5836.png" id="1_o56av"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_o56av")
+region = Rect2(0, 0, 289, 263)

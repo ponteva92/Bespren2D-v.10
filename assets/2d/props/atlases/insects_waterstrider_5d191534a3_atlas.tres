@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://rj63m6kbauum"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_waterstrider_b8e5910496.png" id="1_b1he3"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_b1he3")
+region = Rect2(0, 0, 239, 138)

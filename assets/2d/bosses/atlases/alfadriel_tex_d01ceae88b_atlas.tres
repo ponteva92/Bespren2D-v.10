@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b21448tlex386"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/alfadriel_tex_d33c5896b6.png" id="1_ce6ya"]
+
+[resource]
+resource_name = "layer_55"
+atlas = ExtResource("1_ce6ya")
+region = Rect2(562, 517, 333, 36)

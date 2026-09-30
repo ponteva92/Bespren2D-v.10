@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cy4iq0qxwcvjw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_fish_c_c79b88361f.png" id="1_ls54e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jws8k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ls54e")
+region = Rect2(0, 0, 107, 160)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jws8k")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

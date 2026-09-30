@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dlsjxk0vgy7py"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_jupiter_ab214e74b7.png" id="1_i34jn"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_i34jn")
+region = Rect2(0, 0, 330, 284)

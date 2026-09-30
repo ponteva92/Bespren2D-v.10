@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bfgeefl0x0u4m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_roaming_salamander_33f76f89c0.png" id="1_hiin2"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hiin2")
+region = Rect2(0, 0, 363, 291)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ds2k2ixm72a13"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/aspiring_knight_palazo_d1d3a7a1ae.png" id="1_1m3pi"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1m3pi")
+region = Rect2(0, 0, 237, 301)

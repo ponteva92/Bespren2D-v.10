@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cvar5p82frr0y"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_lickitoad_1edf26db9d.png" id="1_fny25"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fny25")
+region = Rect2(0, 0, 145, 78)

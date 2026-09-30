@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d2lcbyea5uy4w"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gunblin_schecter_0a6b4f8ee1.png" id="1_q3ffn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pymx8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_q3ffn")
+region = Rect2(0, 0, 118, 198)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pymx8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

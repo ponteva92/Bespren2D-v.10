@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bfbowt2m1gf3a"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_lich_king_aa329c6f5f.png" id="1_xb4w3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3d6pb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xb4w3")
+region = Rect2(0, 0, 425, 366)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3d6pb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

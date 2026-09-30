@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhinouebxj6mf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/aekashics_librarium_tiamat_double_release_7de6389ba2/boss_tiamat_4a76a1d7a9.png" id="1_vbgws"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dwb1i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vbgws")
+region = Rect2(0, 0, 436, 263)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dwb1i")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

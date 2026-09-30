@@ -1,0 +1,27 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cgp8peb5h85tu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/crab_run_95e17bfa55.png" id="1_xv0ss"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hta2k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xv0ss")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_upr3y"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_xv0ss")
+region = Rect2(128, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hta2k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_upr3y")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]

@@ -1,0 +1,75 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b0duh1ywyejks"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/iceyeti_tex_924ca3deb8.png" id="1_c6r5c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uoabg"]
+resource_name = "shadow"
+atlas = ExtResource("1_c6r5c")
+region = Rect2(1, 900, 255, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_umxq5"]
+resource_name = "rfight_leg"
+atlas = ExtResource("1_c6r5c")
+region = Rect2(1, 1, 384, 179)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a01xo"]
+resource_name = "left_leg"
+atlas = ExtResource("1_c6r5c")
+region = Rect2(308, 605, 196, 145)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mg463"]
+resource_name = "left_arm"
+atlas = ExtResource("1_c6r5c")
+region = Rect2(1, 605, 305, 156)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bw7i1"]
+resource_name = "yeti_hand"
+atlas = ExtResource("1_c6r5c")
+region = Rect2(1, 182, 419, 156)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_huis1"]
+resource_name = "yeti_bidy"
+atlas = ExtResource("1_c6r5c")
+region = Rect2(1, 340, 396, 131)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xpq4f"]
+resource_name = "yeti_head"
+atlas = ExtResource("1_c6r5c")
+region = Rect2(1, 473, 390, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tgahb"]
+resource_name = "right_arm"
+atlas = ExtResource("1_c6r5c")
+region = Rect2(308, 752, 145, 146)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uoabg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_umxq5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a01xo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mg463")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bw7i1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_huis1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xpq4f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tgahb")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

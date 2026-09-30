@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ba6srlih5bent"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_move_beard_31598a6816.png" id="1_3vbck"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3vbck")
+region = Rect2(0, 0, 768, 512)

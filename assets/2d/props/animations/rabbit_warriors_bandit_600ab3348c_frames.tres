@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bpig11owb0j4l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rabbit_warriors_bandit_a03cd7587a.png" id="1_xo2gi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4bhwk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xo2gi")
+region = Rect2(0, 0, 134, 191)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4bhwk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

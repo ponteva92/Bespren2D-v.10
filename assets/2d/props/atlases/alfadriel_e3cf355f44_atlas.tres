@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b7l1trsr4xftv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/alfadriel_23bc5e57e3.png" id="1_7c4ot"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7c4ot")
+region = Rect2(0, 0, 512, 512)

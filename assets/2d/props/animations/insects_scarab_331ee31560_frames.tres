@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://djej1h6nu757f"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_scarab_a1df83ee2c.png" id="1_lp8uy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y88ue"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lp8uy")
+region = Rect2(0, 0, 134, 90)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y88ue")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

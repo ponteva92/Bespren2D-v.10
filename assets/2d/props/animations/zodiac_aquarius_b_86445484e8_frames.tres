@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bn5nhqc71k0nc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_aquarius_b_4d83048522.png" id="1_tvpng"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3iyba"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tvpng")
+region = Rect2(0, 0, 388, 344)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3iyba")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://0q4kd0oj5k3s"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_dragon_emperor_863338dcc8.png" id="1_qqgeo"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qqgeo")
+region = Rect2(0, 0, 859, 783)

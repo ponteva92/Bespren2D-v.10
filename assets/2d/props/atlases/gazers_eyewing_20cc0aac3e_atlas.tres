@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dj2v7x4k6x6yx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gazers_eyewing_2fa947a644.png" id="1_5wqqm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5wqqm")
+region = Rect2(0, 0, 268, 236)

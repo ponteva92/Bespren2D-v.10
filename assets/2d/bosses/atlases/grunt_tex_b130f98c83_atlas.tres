@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bg35tr1yo17pj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/grunt_tex_ef37fff69f.png" id="1_c3t5q"]
+
+[resource]
+resource_name = "ellipse_5"
+atlas = ExtResource("1_c3t5q")
+region = Rect2(1, 474, 380, 23)

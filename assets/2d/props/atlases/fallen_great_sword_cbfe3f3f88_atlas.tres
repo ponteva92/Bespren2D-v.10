@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://csfnjg6uvjw47"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fallen_great_sword_f9d333b041.png" id="1_ci4bp"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ci4bp")
+region = Rect2(0, 0, 252, 199)

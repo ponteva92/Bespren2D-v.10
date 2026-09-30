@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c7c06yfoc5i1r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/tribal_elves_rapier_d184004881.png" id="1_cvtll"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cvtll")
+region = Rect2(0, 0, 261, 259)

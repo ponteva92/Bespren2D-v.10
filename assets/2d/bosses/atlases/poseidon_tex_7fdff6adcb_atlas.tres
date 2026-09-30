@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://1p7mrj72854k"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/poseidon_tex_75a8df0121.png" id="1_4yjfy"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_4yjfy")
+region = Rect2(1, 426, 248, 12)

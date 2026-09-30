@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://vpv385gd1l5q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/aphrodite_tex_e9dd64c6dc.png" id="1_xwbrp"]
+
+[resource]
+resource_name = "ellipse_5"
+atlas = ExtResource("1_xwbrp")
+region = Rect2(274, 374, 249, 32)

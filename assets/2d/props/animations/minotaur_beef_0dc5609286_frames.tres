@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://beauvjsrhx071"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/minotaur_beef_7471d77c16.png" id="1_83lsq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2l2ie"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_83lsq")
+region = Rect2(0, 0, 607, 319)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2l2ie")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cuwxnm7rbssk0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/jiangshi_fe4d132f37.png" id="1_cc2al"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cc2al")
+region = Rect2(0, 0, 161, 210)

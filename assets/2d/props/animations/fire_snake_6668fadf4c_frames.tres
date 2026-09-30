@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://65w6dad8omxs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_snake_754b2c5e5e.png" id="1_yqjme"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_prex7"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yqjme")
+region = Rect2(0, 0, 212, 159)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_prex7")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

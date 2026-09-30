@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bkwokk77pf3l6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_avian_elephant_747657b45b.png" id="1_mw8t8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mw8t8")
+region = Rect2(0, 0, 394, 350)

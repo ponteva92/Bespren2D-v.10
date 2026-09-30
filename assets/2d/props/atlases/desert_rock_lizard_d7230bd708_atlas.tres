@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://5d56gf356nbo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/desert_rock_lizard_d379348aad.png" id="1_8jr57"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8jr57")
+region = Rect2(0, 0, 192, 87)

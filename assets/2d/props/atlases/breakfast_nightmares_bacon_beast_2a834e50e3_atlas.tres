@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c1lxbppe1cl7r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/breakfast_nightmares_bacon_beast_170a51da97.png" id="1_kfd2f"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kfd2f")
+region = Rect2(0, 0, 517, 238)

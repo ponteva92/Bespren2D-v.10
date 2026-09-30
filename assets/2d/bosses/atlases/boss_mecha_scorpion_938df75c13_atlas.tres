@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dyhtd0g7rpn33"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_mecha_scorpion_0f3fde0ce3.png" id="1_rhpd0"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rhpd0")
+region = Rect2(0, 0, 600, 355)

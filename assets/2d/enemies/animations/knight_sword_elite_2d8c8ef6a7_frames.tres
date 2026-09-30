@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b83aa06o4bv70"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/knight_sword_elite_7cdfe64a85.png" id="1_l7231"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5a3d8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l7231")
+region = Rect2(0, 0, 263, 222)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5a3d8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

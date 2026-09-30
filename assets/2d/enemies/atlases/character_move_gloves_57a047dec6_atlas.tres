@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d3qmh6whc65i6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_move_gloves_bd133d63d9.png" id="1_r5oo4"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r5oo4")
+region = Rect2(0, 0, 768, 512)

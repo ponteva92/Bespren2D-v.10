@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b4bm5xf7661cm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/machines_fantasy_tank_c_21e4c20d19.png" id="1_tpo41"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tpo41")
+region = Rect2(0, 0, 358, 190)

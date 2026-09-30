@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://daa0gdifuja7m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_spider_10f4372049.png" id="1_ig5xf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ig5xf")
+region = Rect2(0, 0, 373, 351)

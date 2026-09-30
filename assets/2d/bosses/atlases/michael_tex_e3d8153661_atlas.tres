@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dfuo62d0sgeyk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/michael_tex_b7b89eaa59.png" id="1_tstox"]
+
+[resource]
+resource_name = "ellipse_4"
+atlas = ExtResource("1_tstox")
+region = Rect2(435, 238, 253, 19)

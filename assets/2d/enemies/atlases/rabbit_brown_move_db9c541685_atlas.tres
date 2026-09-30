@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://clke00ienv5bv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/rabbit_brown_move_b0d02ae71b.png" id="1_t06ot"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t06ot")
+region = Rect2(0, 0, 768, 512)

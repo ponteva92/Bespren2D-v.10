@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://rx57gvyemgly"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pirate_magic_scimitar_976e3b7dc1.png" id="1_5lwx5"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5lwx5")
+region = Rect2(0, 0, 172, 254)

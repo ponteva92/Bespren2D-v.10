@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://dwawpiidbxqv"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_1utd4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_forest_six_wing_fairy_0f8aa52249.png" id="2_vbk7s"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_20k0a"]
+resource_name = "Bespren Wood Spore weathering"
+shader = ExtResource("1_1utd4")
+shader_parameter/treatment = 1
+shader_parameter/weathering = 0.86
+shader_parameter/structural_damage = 0.08
+shader_parameter/rust_streaks = 0.3
+shader_parameter/toxic_intensity = 0.18
+shader_parameter/glow_color = Color(1, 0.84313726, 0, 1)
+shader_parameter/emission_strength = 0.58
+shader_parameter/pattern_scale = 31.0
+shader_parameter/damage_seed = 11.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8wm56"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_vbk7s")
+region = Rect2(0, 0, 162, 174)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kryiu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8wm56")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="MegapackIiForestSix-WingFairy" type="Node2D" unique_id=1128723179 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "megapack_ii_forest_six_wing_fairy_20829900e8"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=696602760]
+texture_filter = 1
+material = SubResource("ShaderMaterial_20k0a")
+sprite_frames = SubResource("SpriteFrames_kryiu")
+offset = Vector2(0, -87)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bb28vw8qrlbwc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_volcanic_golem_14dcbfc6f3.png" id="1_soy6k"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_soy6k")
+region = Rect2(0, 0, 330, 248)

@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dfnmyydj0p1yf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/runicstonegolem_tex_7935aeed17.png" id="1_af6q4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_id2g5"]
+resource_name = "layer_13"
+atlas = ExtResource("1_af6q4")
+region = Rect2(194, 786, 420, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlkq2"]
+resource_name = "layer_12"
+atlas = ExtResource("1_af6q4")
+region = Rect2(588, 368, 218, 416)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qj51e"]
+resource_name = "layer_11"
+atlas = ExtResource("1_af6q4")
+region = Rect2(588, 1, 293, 365)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_goa2y"]
+resource_name = "folder_2_copy_6"
+atlas = ExtResource("1_af6q4")
+region = Rect2(1, 1, 585, 422)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3l0lt"]
+resource_name = "folder_2_copy_3"
+atlas = ExtResource("1_af6q4")
+region = Rect2(616, 786, 75, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sdle5"]
+resource_name = "folder_2_copy_2"
+atlas = ExtResource("1_af6q4")
+region = Rect2(1, 425, 191, 407)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u0ngl"]
+resource_name = "folder_2_copy_5"
+atlas = ExtResource("1_af6q4")
+region = Rect2(808, 368, 197, 448)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_id2g5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlkq2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qj51e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_goa2y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3l0lt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sdle5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u0ngl")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

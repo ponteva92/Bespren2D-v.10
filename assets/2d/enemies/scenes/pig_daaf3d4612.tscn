@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://b0ibnuorwsguo"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_741uj"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f000.png" id="2_vwtcm"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f001.png" id="3_plo2p"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f002.png" id="4_5kh6j"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f003.png" id="5_3msye"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f008.png" id="6_bq3qe"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f009.png" id="7_f0tdi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f010.png" id="8_5ja0o"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f011.png" id="9_1hlso"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f012.png" id="10_ts8dv"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/pig_1dff136464/pig_gif_f013.png" id="11_53bpk"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_741uj")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lwsyi"]
+resource_name = "default_000"
+atlas = ExtResource("2_vwtcm")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ese1n"]
+resource_name = "default_001"
+atlas = ExtResource("3_plo2p")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_515h2"]
+resource_name = "default_002"
+atlas = ExtResource("4_5kh6j")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p3fpw"]
+resource_name = "default_003"
+atlas = ExtResource("5_3msye")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_juw64"]
+resource_name = "default_008"
+atlas = ExtResource("6_bq3qe")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1lsh"]
+resource_name = "default_009"
+atlas = ExtResource("7_f0tdi")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_16qw0"]
+resource_name = "default_010"
+atlas = ExtResource("8_5ja0o")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uvmi7"]
+resource_name = "default_011"
+atlas = ExtResource("9_1hlso")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tqxg2"]
+resource_name = "default_012"
+atlas = ExtResource("10_ts8dv")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6jpix"]
+resource_name = "default_013"
+atlas = ExtResource("11_53bpk")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nctmr"]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_lwsyi")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_ese1n")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_515h2")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_p3fpw")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_juw64")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_h1lsh")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_16qw0")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_uvmi7")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_tqxg2")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_6jpix")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="Pig" type="Node2D" unique_id=1261522833 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "pig_daaf3d4612"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=418579397]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_nctmr")
+autoplay = "default"
+offset = Vector2(0, -240)

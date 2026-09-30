@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cye0qc5w7lb0d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/special_spiders_ghost_spider_2f1b816d87.png" id="1_yq61e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_psx2t"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yq61e")
+region = Rect2(0, 0, 282, 626)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_psx2t")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

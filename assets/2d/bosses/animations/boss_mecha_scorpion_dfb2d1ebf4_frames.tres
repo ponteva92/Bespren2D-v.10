@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://doqqfgoyceods"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_mecha_scorpion_7c7d19132d.png" id="1_j3ja1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3budw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j3ja1")
+region = Rect2(0, 0, 600, 355)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3budw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

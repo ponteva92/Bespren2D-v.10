@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://cymlskh826xw4"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_2xgx7"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/machines_fantasy_tank_d_ee77f2391a.png" id="2_6hdws"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o613s"]
+resource_name = "Bespren Tech Cyan weathering"
+shader = ExtResource("1_2xgx7")
+shader_parameter/treatment = 2
+shader_parameter/weathering = 0.74
+shader_parameter/structural_damage = 0.12
+shader_parameter/rust_streaks = 0.28
+shader_parameter/toxic_intensity = 0.34
+shader_parameter/glow_color = Color(0, 1, 1, 1)
+shader_parameter/emission_strength = 0.92
+shader_parameter/pattern_scale = 35.0
+shader_parameter/damage_seed = 23.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n4h3e"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_6hdws")
+region = Rect2(0, 0, 494, 260)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_68wqg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n4h3e")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="MachinesFantasyTankD" type="Node2D" unique_id=2114292403 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "machines_fantasy_tank_d_b118d7af4a"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=48059641]
+texture_filter = 1
+material = SubResource("ShaderMaterial_o613s")
+sprite_frames = SubResource("SpriteFrames_68wqg")
+offset = Vector2(0, -130)

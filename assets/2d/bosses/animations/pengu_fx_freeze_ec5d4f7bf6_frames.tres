@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bf0p2wfb0r4fp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/pengu_fx_freeze_a2058f03ef.png" id="1_ulk74"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvyx3"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ulk74")
+region = Rect2(0, 0, 240, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvyx3")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

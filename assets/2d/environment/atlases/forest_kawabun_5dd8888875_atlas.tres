@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dkk0f3forxkgt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_kawabun_6770c280f2.png" id="1_u8qlv"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_u8qlv")
+region = Rect2(0, 0, 144, 72)

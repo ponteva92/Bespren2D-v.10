@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dnq4ns0nkvdsy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_sphinx_small_04a7074065.png" id="1_87xir"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78tnj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_87xir")
+region = Rect2(0, 0, 525, 251)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78tnj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

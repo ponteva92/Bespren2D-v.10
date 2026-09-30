@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://jo02vkkwu0kh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pirate_bandit_41bd29de3a.png" id="1_wmrms"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wmrms")
+region = Rect2(0, 0, 294, 191)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c3sld1i4cteoy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/beef_cf25ce5418.png" id="1_7yqf8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7yqf8")
+region = Rect2(0, 0, 512, 512)

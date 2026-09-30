@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cn72y0djo57nt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_archer_e006ba3a7b.png" id="1_carpe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jopq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_carpe")
+region = Rect2(0, 0, 194, 200)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5jopq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

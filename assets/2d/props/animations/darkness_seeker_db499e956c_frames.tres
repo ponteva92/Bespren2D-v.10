@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cq7v5lu0mprey"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_seeker_7bcdcce0c8.png" id="1_4oa3m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ayna8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4oa3m")
+region = Rect2(0, 0, 241, 137)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ayna8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

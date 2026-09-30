@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c1qj43s4rc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_minion_claymore_4082bc1f58.png" id="1_0emfw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xtei1"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0emfw")
+region = Rect2(0, 0, 323, 261)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xtei1")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

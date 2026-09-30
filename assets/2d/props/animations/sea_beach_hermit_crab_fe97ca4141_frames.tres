@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dw8uati1fukia"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_hermit_crab_a30a71be06.png" id="1_5kbwh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j61kc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5kbwh")
+region = Rect2(0, 0, 142, 90)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j61kc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

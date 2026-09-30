@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dnwjuelbttr3b"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/orc_war_drummer_weak_31903cae71.png" id="1_isfxq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_isfxq")
+region = Rect2(0, 0, 611, 649)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://p08b8mltv5yc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_t_rex_orange_5604982f3f.png" id="1_j2wgd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j2wgd")
+region = Rect2(0, 0, 337, 322)

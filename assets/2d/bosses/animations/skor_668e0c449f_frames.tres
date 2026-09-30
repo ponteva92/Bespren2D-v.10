@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://8am81oloevkf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skor_8b06cc56ac.png" id="1_unnlq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7gbpw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_unnlq")
+region = Rect2(0, 0, 48, 168)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ku0t"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_unnlq")
+region = Rect2(48, 0, 48, 168)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tbc41"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_unnlq")
+region = Rect2(96, 0, 48, 168)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7gbpw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ku0t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tbc41")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

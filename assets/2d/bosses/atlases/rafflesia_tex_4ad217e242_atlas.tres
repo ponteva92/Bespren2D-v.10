@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c0gbn8wrhtgpw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rafflesia_tex_5311d31eec.png" id="1_442ma"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_442ma")
+region = Rect2(1, 911, 654, 25)

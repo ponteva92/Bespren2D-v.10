@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cm712qshtl0ic"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_dagger_skeleton_bb006af131.png" id="1_phox2"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_phox2")
+region = Rect2(0, 0, 372, 309)

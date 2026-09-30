@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d0nh0881xd4mx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_dragonslayer_dwarf_54e6fe0141.png" id="1_m3526"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_m3526")
+region = Rect2(0, 0, 198, 184)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dtn2wat8ir8hl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_root_a_c9aee15383.png" id="1_tm5iy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c8aj3"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tm5iy")
+region = Rect2(0, 0, 146, 129)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c8aj3")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

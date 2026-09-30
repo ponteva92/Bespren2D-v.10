@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://taivawn2l5im"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/aekashics_librarium_tiamat_double_release_7de6389ba2/tiamatu_tex_95fdbc400b.png" id="1_7yils"]
+
+[resource]
+resource_name = "ellipse_1"
+atlas = ExtResource("1_7yils")
+region = Rect2(361, 328, 378, 23)

@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://djab42cv2ype8"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_fd8ya"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wall_top_left_cd35a3b97c.png" id="2_kdvtr"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hpba4"]
+resource_name = "Bespren Ruined Structure weathering"
+shader = ExtResource("1_fd8ya")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.91
+shader_parameter/structural_damage = 0.46
+shader_parameter/rust_streaks = 0.88
+shader_parameter/toxic_intensity = 0.12
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.18
+shader_parameter/pattern_scale = 24.0
+shader_parameter/damage_seed = 37.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_217sy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_kdvtr")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_aj1ct"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_217sy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="WallTopLeft" type="Node2D" unique_id=198064269 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "wall_top_left_b5fe97a759"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=589227198]
+texture_filter = 1
+material = SubResource("ShaderMaterial_hpba4")
+sprite_frames = SubResource("SpriteFrames_aj1ct")
+offset = Vector2(0, -8)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ctehfxjp4kcno"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elf_archer_1861148baa.png" id="1_2r2r8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ivm6e"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2r2r8")
+region = Rect2(0, 0, 264, 211)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ivm6e")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

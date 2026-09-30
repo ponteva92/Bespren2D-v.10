@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bxf5jjwyq2v5h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/xmas_tree_61349d3949.png" id="1_futhd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_futhd")
+region = Rect2(0, 0, 220, 232)

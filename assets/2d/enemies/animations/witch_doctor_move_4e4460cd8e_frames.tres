@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://qltx3mirjrpr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/witch_doctor_move_f6354a9b8e.png" id="1_05fw8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kta5i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_05fw8")
+region = Rect2(0, 0, 768, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kta5i")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

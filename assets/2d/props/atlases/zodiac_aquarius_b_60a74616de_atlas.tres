@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dn231uhkaeksw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_aquarius_b_9d72356cdb.png" id="1_6amln"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6amln")
+region = Rect2(0, 0, 388, 344)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cuyarqsoiwims"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/sound_off_regular_841c59b651.png" id="1_veli8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_veli8")
+region = Rect2(0, 0, 64, 64)

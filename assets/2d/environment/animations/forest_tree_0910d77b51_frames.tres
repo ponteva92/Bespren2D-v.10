@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bx06ssngu7cvh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_tree_3d9438e6f8.png" id="1_u4115"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ull5s"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_u4115")
+region = Rect2(0, 0, 465, 382)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ull5s")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

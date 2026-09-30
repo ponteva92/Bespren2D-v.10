@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c16j3rxtrikau"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_dancer_zidh_e1435efa57.png" id="1_r68fd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_amnsq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r68fd")
+region = Rect2(0, 0, 167, 208)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_amnsq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cxj3kldmrr8nh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_tortoad_edd4a5ba0c.png" id="1_iudhi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vfjbt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_iudhi")
+region = Rect2(0, 0, 134, 138)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vfjbt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

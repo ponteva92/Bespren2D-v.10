@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d3xhilpx40xx6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pre_legendary_knights_onna_bugeisha_croix_03ec72c8ae.png" id="1_ggch5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvmxy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ggch5")
+region = Rect2(0, 0, 250, 209)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mvmxy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

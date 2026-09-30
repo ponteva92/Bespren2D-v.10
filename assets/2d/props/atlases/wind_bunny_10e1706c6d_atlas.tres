@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b827wmn33wv2h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/wind_bunny_7e01dfb686.png" id="1_3axog"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3axog")
+region = Rect2(0, 0, 107, 87)

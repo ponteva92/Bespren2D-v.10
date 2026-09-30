@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bqakp617s4w6b"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_blue_dragon_dd422b4333.png" id="1_l8gjf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v1xhb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l8gjf")
+region = Rect2(0, 0, 96, 129)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v1xhb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

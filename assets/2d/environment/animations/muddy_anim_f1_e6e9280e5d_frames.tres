@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dl3hv5vw537aj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/muddy_anim_f1_aa3c23a0ef.png" id="1_ah5yl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12b4e"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ah5yl")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12b4e")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://oa58yosn1wk2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dagon_tex_706474ebb4.png" id="1_oieol"]
+
+[resource]
+resource_name = "layer_81"
+atlas = ExtResource("1_oieol")
+region = Rect2(400, 407, 218, 22)

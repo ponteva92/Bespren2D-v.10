@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://nrjovxl0ij32"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/runicstonegolem_tex_7935aeed17.png" id="1_daiwr"]
+
+[resource]
+resource_name = "layer_13"
+atlas = ExtResource("1_daiwr")
+region = Rect2(194, 786, 420, 23)

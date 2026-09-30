@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://e5xy6kivshiw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_sea_dragon_leviathan_8d6bc4cc3b.png" id="1_tqm6v"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_15kk8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tqm6v")
+region = Rect2(0, 0, 527, 578)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_15kk8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

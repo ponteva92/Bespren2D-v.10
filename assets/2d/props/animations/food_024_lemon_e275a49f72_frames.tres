@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://baauc1hyh835r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_024_lemon_63cdb29db7.png" id="1_r35hk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhvdf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r35hk")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhvdf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

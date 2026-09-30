@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b1fk557mui8hl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_walker_9e5fb1871a.png" id="1_a6qh0"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_a6qh0")
+region = Rect2(0, 0, 167, 199)

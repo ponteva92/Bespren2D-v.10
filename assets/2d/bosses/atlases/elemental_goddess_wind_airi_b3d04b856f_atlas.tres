@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dxqypoqfpgt32"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_goddess_wind_airi_c8e27e2525.png" id="1_81ybl"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_81ybl")
+region = Rect2(0, 0, 282, 198)

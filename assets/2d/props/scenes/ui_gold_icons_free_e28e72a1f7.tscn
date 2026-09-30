@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://cbu3wnwvw6fy3"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_i45nd"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/ui_gold_icons_free_16be08aaa8.png" id="2_krov4"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6nef"]
+resource_name = "Bespren Rusted Prop weathering"
+shader = ExtResource("1_i45nd")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.78
+shader_parameter/structural_damage = 0.1
+shader_parameter/rust_streaks = 0.61
+shader_parameter/toxic_intensity = 0.1
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.2
+shader_parameter/pattern_scale = 27.0
+shader_parameter/damage_seed = 17.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xsloy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_krov4")
+region = Rect2(0, 0, 576, 384)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xvg1f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xsloy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="UiGoldIconsFree" type="Node2D" unique_id=756047608 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "ui_gold_icons_free_e28e72a1f7"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1070127994]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6nef")
+sprite_frames = SubResource("SpriteFrames_xvg1f")
+offset = Vector2(0, -192)

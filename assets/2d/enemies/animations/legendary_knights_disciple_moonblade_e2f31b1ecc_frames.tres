@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://evgml025wgf6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_disciple_moonblade_0eb1ba812c.png" id="1_yefkf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qfucw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yefkf")
+region = Rect2(0, 0, 420, 319)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qfucw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

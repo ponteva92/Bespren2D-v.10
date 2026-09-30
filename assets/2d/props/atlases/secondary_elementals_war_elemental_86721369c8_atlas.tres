@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dvnaw061o86wo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/secondary_elementals_war_elemental_07b0670ce9.png" id="1_bra1f"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bra1f")
+region = Rect2(0, 0, 684, 384)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d18vo4jmf8onh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockworkskull_tex_c7aec4288a.png" id="1_q7o3t"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_q7o3t")
+region = Rect2(130, 528, 379, 21)

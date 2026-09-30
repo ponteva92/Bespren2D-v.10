@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bc76r75iw3mvb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/vampiric_creatures_flying_leech_839cf7ad91.png" id="1_lalon"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lalon")
+region = Rect2(0, 0, 92, 97)

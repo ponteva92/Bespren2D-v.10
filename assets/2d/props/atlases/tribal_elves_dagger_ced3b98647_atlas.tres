@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cl8lvgna0vj2l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/tribal_elves_dagger_2c69840c33.png" id="1_ama02"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ama02")
+region = Rect2(0, 0, 246, 228)

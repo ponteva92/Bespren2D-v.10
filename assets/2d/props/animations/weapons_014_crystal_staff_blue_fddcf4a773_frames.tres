@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://n47ooticqj84"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/weapons_014_crystal_staff_blue_aeb4ef5db9.png" id="1_f3k4f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yhpt5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_f3k4f")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yhpt5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

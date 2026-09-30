@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://wwskj0dt0c3u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/64x64_atlas_horse_stop_26592c008d.png" id="1_18gdv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_df858"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_18gdv")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l6hst"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_18gdv")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhgn5"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_18gdv")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6w30q"]
+resource_name = "frame_001_000"
+atlas = ExtResource("1_18gdv")
+region = Rect2(0, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b7p7y"]
+resource_name = "frame_001_001"
+atlas = ExtResource("1_18gdv")
+region = Rect2(64, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_240ou"]
+resource_name = "frame_001_002"
+atlas = ExtResource("1_18gdv")
+region = Rect2(128, 64, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_df858")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l6hst")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bhgn5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6w30q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b7p7y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_240ou")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

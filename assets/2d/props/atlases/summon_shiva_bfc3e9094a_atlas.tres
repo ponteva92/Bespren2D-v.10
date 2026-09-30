@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://df8hcs1tiajc1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/summon_shiva_0162afa286.png" id="1_wy6ex"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wy6ex")
+region = Rect2(0, 0, 325, 301)

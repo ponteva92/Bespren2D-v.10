@@ -1,0 +1,11 @@
+{
+  "args": [
+    "check",
+    "ui-plan-gate",
+    "1",
+    "--raw"
+  ],
+  "status": 0,
+  "stdout": "{\n  \"frontend\": true,\n  \"hasUiSpec\": false,\n  \"block\": true,\n  \"uiSpecPath\": null\n}",
+  "stderr": ""
+}

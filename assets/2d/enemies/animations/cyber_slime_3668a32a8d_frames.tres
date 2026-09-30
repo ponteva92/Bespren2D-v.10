@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b0x4cufbdo1mu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cyber_slime_a0c3ca4286.png" id="1_c8rqb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v6wt7"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c8rqb")
+region = Rect2(0, 0, 104, 70)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v6wt7")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

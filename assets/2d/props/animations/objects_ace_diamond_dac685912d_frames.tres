@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bipx11s4ncgpi"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_ace_diamond_3687deaf09.png" id="1_qqxt0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tmxud"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qqxt0")
+region = Rect2(0, 0, 220, 160)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tmxud")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

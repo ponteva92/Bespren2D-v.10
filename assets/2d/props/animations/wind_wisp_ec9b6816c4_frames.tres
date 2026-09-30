@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://s58qyskk6twp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/wind_wisp_e58ee12060.png" id="1_fe8d0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhfd2"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fe8d0")
+region = Rect2(0, 0, 166, 148)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhfd2")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://u1mv4pf5hdcb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_wisp_3d8cbed653.png" id="1_nucdb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nucdb")
+region = Rect2(0, 0, 133, 161)

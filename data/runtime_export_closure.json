@@ -1,0 +1,861 @@
+{
+  "schema_version": 1,
+  "resources": [
+    {
+      "path": "res://src/ai/enemy_agent_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ai/enemy_aggro_matrix.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ai/enemy_presentation_catalog.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ai/enemy_presentation_definition.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ai/flow_field_navigation_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ai/horde_director.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/audio/audio_manager.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/audio/game_audio_controller.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/combat/player_projectile.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/combat/projectile_pool_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/combat/auto_aim_controller_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/coop/coop_session.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/coop/local_coop_roster.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/coop/player_slot_definition.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/core/bespren_bootstrap.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/economy/loot_box_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/economy/loot_box_manager_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/feedback/camera_shake_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/feedback/juice_rig.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/feedback/vfx_director.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/game/combat_state_coordinator.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/game/day_night_cycle.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/game/game_world.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/game/player_avatar.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/input/mobile_controls.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/tactical/grid_placement_controller_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/tactical/placed_structure_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/tactical/structure_catalog.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/tactical/structure_definition.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/tactical/tactical_build_system.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/tactical/tower_combat_profile.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/tactical/tower_targeting_controller_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ui/game_hud.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ui/start_menu.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ui/tactical_build_deck.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/ui/tactical_minimap.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/actor_ground_shadow_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/ground_shadow.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/blood_canvas.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/character_presentation.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/core_pulse_driver.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/enemy_death_presentation_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/enemy_presentation_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/health_bar_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/night_atmosphere_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/resource_node_view.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/visual/weather_overlay.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/resource_scatter_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/world_background_decor_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/world_background_decor_chunk_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/world_map_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/world_obstacle_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/world_road_network_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/world_road_segment_chunk_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/world_wilderness_accent_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://src/world/world_wilderness_accent_chunk_2d.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://scenes/characters/heikki.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/characters/network_player.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/characters/shane.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/combat/player_projectile.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/game/game_world.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/resources/resource_node_metal.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/resources/resource_node_tech.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/resources/resource_node_wood.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/ui/game_hud.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/ui/MobileControls.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/ui/StartMenu.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/ui/tactical_build_deck.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/world/base_core.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/world/resource_scatter_2d.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://scenes/world/world_map_2d.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/characters/heikki_topdown.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/characters/shane_topdown.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/effects/base_core.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/effects/radial_light.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/environment/polyhaven/polyhaven_environment_atlas.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/environment/polyhaven_district/polyhaven_district_atlas.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/environment/local_baked/local_environment_atlas.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/environment/terrain/polyhaven_terrain_atlas.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/environment/terrain/bespren_biome_blend_mask.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/environment/tiles/bespren_ground_atlas.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/tiles/claw_forest_ground.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/environment/polyhaven_wild/polyhaven_wild_atlas.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/base_camp_topdown.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_kinetic.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_chemical.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_electric.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_support.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_barricade.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_landmine.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_slowing_pit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_razor_snare.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/resources/resource_wood.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/resources/resource_metal.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/resources/resource_tech.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/ui/icon_wood_hud.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/ui/icon_metal_hud.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/ui/icon_tech_hud.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/effects/radial_light_neutral.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/sprites/projectile_tracer.svg",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/sprites/projectile_bullet_strip.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/audio/shoot_laser.wav",
+      "type": "AudioStream"
+    },
+    {
+      "path": "res://assets/audio/build_placement.ogg",
+      "type": "AudioStream"
+    },
+    {
+      "path": "res://assets/audio/harvest_collect.wav",
+      "type": "AudioStream"
+    },
+    {
+      "path": "res://assets/audio/ui_click.ogg",
+      "type": "AudioStream"
+    },
+    {
+      "path": "res://shaders/surface_weathering.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/sleek_sprite_finish.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/sleek_canvas_grade.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/solid_white_flash.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/projectile_glow.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/toon_emissive_outline.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/volumetric_aura.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/base_scale_glow.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/terrain_material_blend.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/weather_overlay.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://shaders/road_surface_detail.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://assets/2d/materials/post_apocalyptic_weathering.gdshader",
+      "type": "Shader"
+    },
+    {
+      "path": "res://src/visual/actor_facing.gd",
+      "type": "Script"
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/hero_heikki.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/hero_shane.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/frames/hero_heikki_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/frames/hero_shane_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_heikki_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_heikki_gather.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_heikki_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_heikki_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_heikki_run.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_heikki_shoot.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_heikki_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_shane_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_shane_gather.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_shane_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_shane_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_shane_run.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_shane_shoot.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/hero_shane_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/enemy_walker.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/enemy_rat_swarm.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/enemy_static_walker.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/enemy_scrap_shield.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/enemy_goliath.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/enemy_carrier.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/enemy_splitter.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/scenes/enemy_overlord.tscn",
+      "type": "PackedScene",
+      "instantiate": true
+    },
+    {
+      "path": "res://assets/2d/actors/frames/enemy_walker_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/frames/enemy_rat_swarm_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/frames/enemy_static_walker_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/frames/enemy_scrap_shield_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/frames/enemy_goliath_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/frames/enemy_carrier_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/frames/enemy_splitter_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/frames/enemy_overlord_frames.tres",
+      "type": "SpriteFrames"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_walker_attack.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_walker_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_walker_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_walker_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_walker_spawn.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_walker_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_rat_swarm_attack.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_rat_swarm_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_rat_swarm_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_rat_swarm_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_rat_swarm_spawn.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_rat_swarm_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_static_walker_attack.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_static_walker_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_static_walker_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_static_walker_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_static_walker_spawn.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_static_walker_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_scrap_shield_attack.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_scrap_shield_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_scrap_shield_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_scrap_shield_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_scrap_shield_spawn.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_scrap_shield_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_goliath_attack.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_goliath_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_goliath_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_goliath_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_goliath_spawn.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_goliath_taunt.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_goliath_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_carrier_attack.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_carrier_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_carrier_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_carrier_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_carrier_spawn.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_carrier_taunt.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_carrier_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_splitter_attack.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_splitter_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_splitter_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_splitter_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_splitter_spawn.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_splitter_taunt.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_splitter_walk.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_overlord_attack.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_overlord_death.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_overlord_hit.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_overlord_idle.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_overlord_spawn.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_overlord_taunt.png",
+      "type": "Texture2D"
+    },
+    {
+      "path": "res://assets/2d/actors/sheets/enemy_overlord_walk.png",
+      "type": "Texture2D"
+    }
+  ],
+  "forbidden_apk_prefixes": [
+    "assets/Addons/",
+    "assets/artifacts/",
+    "assets/build/",
+    "assets/docs/",
+    "assets/tests/",
+    "assets/tools/"
+  ],
+  "forbidden_apk_suffixes": [
+    ".blend",
+    ".blend1",
+    ".zip",
+    ".7z",
+    ".rar"
+  ]
+}

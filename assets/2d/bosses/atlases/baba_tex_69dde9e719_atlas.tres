@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c1472ifdaydpj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/baba_tex_10641b1d70.png" id="1_nn3al"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_nn3al")
+region = Rect2(1, 413, 246, 19)

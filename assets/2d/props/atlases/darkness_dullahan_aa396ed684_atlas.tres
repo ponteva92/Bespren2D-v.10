@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://g0bltaatgy2b"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_dullahan_d0130b4450.png" id="1_0b6mb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0b6mb")
+region = Rect2(0, 0, 264, 188)

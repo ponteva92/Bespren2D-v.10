@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dmopwhrh6cdfr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_armor_run_dd86b17905.png" id="1_d5nq3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_np2j6"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_d5nq3")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ro7he"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_d5nq3")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t2ffy"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_d5nq3")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hrawp"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_d5nq3")
+region = Rect2(192, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_np2j6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ro7he")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t2ffy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hrawp")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]

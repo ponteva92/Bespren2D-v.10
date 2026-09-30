@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://djv44m3x8f5jy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dwarf_axe_warrior_d8f7c587a5.png" id="1_imr8y"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_imr8y")
+region = Rect2(0, 0, 278, 310)

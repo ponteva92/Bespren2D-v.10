@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dovmjgi7lsdia"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_runic_stone_golem_goliath_f8315c5bce.png" id="1_1uwdm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1uwdm")
+region = Rect2(0, 0, 470, 614)

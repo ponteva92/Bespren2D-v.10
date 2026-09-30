@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dad0v2a1kgm8d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/medieval_bandit_child_1dfafcd692.png" id="1_lqowi"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lqowi")
+region = Rect2(0, 0, 110, 162)

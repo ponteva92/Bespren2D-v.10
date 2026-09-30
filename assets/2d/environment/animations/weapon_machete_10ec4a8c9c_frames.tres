@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ch13imdsmasj2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_machete_d48746bd21.png" id="1_t886o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6cu0h"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t886o")
+region = Rect2(0, 0, 5, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6cu0h")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b4tktoaxll674"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ancient_priestess_41742305ca.png" id="1_oi766"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1k856"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_oi766")
+region = Rect2(0, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qduag"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_oi766")
+region = Rect2(48, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qexfw"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_oi766")
+region = Rect2(96, 0, 48, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1k856")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qduag")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qexfw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

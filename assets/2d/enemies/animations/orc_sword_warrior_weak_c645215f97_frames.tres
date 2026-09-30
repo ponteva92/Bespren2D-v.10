@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cleg6sp3wptns"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/orc_sword_warrior_weak_341b90a994.png" id="1_jv6pg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mdofg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jv6pg")
+region = Rect2(0, 0, 517, 368)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mdofg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

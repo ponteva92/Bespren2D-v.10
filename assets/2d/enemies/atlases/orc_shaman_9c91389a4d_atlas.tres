@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b7f35e4j6y3mr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_idle_anim_f0_5a88c4a10d.png" id="1_3d6lc"]
+
+[resource]
+resource_name = "idle_000"
+atlas = ExtResource("1_3d6lc")
+region = Rect2(0, 0, 16, 23)

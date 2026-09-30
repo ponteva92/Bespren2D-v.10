@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cqyn1u5i2m803"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_warthog_6b90a93c1b.png" id="1_le1lv"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_le1lv")
+region = Rect2(0, 0, 126, 111)

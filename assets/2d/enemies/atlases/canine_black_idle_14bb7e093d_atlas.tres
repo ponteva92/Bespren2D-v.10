@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dckbs4n8jpnnl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/canine_black_idle_6cc9d24147.png" id="1_ikfhd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ikfhd")
+region = Rect2(0, 0, 32, 32)

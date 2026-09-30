@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cjtl8wx6gxy5v"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_abomination_tyrant_e8ac8b9c08.png" id="1_htoti"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y26gj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_htoti")
+region = Rect2(0, 0, 523, 405)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y26gj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

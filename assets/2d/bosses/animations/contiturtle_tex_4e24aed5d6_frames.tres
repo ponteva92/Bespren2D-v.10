@@ -1,0 +1,75 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cuea16tficsj5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/contiturtle_tex_19839160f1.png" id="1_7gmjn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6isae"]
+resource_name = "layer_37"
+atlas = ExtResource("1_7gmjn")
+region = Rect2(1, 306, 787, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qxvkv"]
+resource_name = "folder_13_copy_4"
+atlas = ExtResource("1_7gmjn")
+region = Rect2(606, 1, 230, 161)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_amoan"]
+resource_name = "folder_13_copy_3"
+atlas = ExtResource("1_7gmjn")
+region = Rect2(1, 516, 183, 104)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtdfg"]
+resource_name = "folder_13_copy_9"
+atlas = ExtResource("1_7gmjn")
+region = Rect2(380, 1, 224, 244)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hinuj"]
+resource_name = "folder_13_copy_8"
+atlas = ExtResource("1_7gmjn")
+region = Rect2(1, 1, 377, 303)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_633or"]
+resource_name = "folder_13_copy_6"
+atlas = ExtResource("1_7gmjn")
+region = Rect2(838, 1, 120, 159)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rsfwp"]
+resource_name = "folder_13_copy_7"
+atlas = ExtResource("1_7gmjn")
+region = Rect2(790, 331, 191, 183)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7fjx0"]
+resource_name = "folder_13_copy_2"
+atlas = ExtResource("1_7gmjn")
+region = Rect2(790, 164, 213, 165)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6isae")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qxvkv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_amoan")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtdfg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hinuj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_633or")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rsfwp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7fjx0")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

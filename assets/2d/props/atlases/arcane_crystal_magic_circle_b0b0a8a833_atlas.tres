@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://btochwo6c6mrf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/arcane_crystal_magic_circle_2de0fc23a5.png" id="1_c1xji"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c1xji")
+region = Rect2(0, 0, 371, 330)

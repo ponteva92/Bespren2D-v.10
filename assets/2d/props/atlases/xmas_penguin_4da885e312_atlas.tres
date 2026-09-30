@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://chwrapsg5mtt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/xmas_penguin_f02d745167.png" id="1_w1j4r"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w1j4r")
+region = Rect2(0, 0, 139, 85)

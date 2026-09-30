@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cgi0ad6yutilr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_greathorn_goat_7f3acf78e2.png" id="1_qkrty"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrm4g"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qkrty")
+region = Rect2(0, 0, 139, 169)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrm4g")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

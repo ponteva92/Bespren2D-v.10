@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://blw388cj02jx5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_carnivorous_plant_c_9ee5ad34ff.png" id="1_y6ojo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ejxs"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_y6ojo")
+region = Rect2(0, 0, 265, 269)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ejxs")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

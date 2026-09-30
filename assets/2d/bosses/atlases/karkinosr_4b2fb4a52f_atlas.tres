@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c24mk54kgryfc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/karkinosr_cc373579fe.png" id="1_l620s"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l620s")
+region = Rect2(0, 0, 459, 460)

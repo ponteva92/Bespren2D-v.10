@@ -1,0 +1,208 @@
+[gd_scene format=3 uid="uid://c7gbnw6o1tiwp"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_rvctc"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/pengu_attack_ray_26c40acb07.png" id="2_l3sa2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_rvctc")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwmeg"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4lvht"]
+resource_name = "frame_000_004"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3037"]
+resource_name = "frame_000_007"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kdde0"]
+resource_name = "frame_000_010"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fx84x"]
+resource_name = "frame_000_013"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(1664, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hg616"]
+resource_name = "frame_000_016"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(2048, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4h14b"]
+resource_name = "frame_000_019"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(2432, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v6r4r"]
+resource_name = "frame_000_022"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(2816, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hikxc"]
+resource_name = "frame_000_023"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(2944, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0ult"]
+resource_name = "frame_000_025"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(3200, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_we266"]
+resource_name = "frame_000_026"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(3328, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4mj5"]
+resource_name = "frame_000_028"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(3584, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4sv5g"]
+resource_name = "frame_000_029"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(3712, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ishc0"]
+resource_name = "frame_000_031"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(3968, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0eqyn"]
+resource_name = "frame_000_032"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(4096, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5dvmf"]
+resource_name = "frame_000_034"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(4352, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m04gm"]
+resource_name = "frame_000_035"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(4480, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_powuk"]
+resource_name = "frame_000_037"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(4736, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v1r1d"]
+resource_name = "frame_000_038"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(4864, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nerao"]
+resource_name = "frame_000_040"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(5120, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xtji"]
+resource_name = "frame_000_041"
+atlas = ExtResource("2_l3sa2")
+region = Rect2(5248, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jx4y6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwmeg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4lvht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3037")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kdde0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fx84x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hg616")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4h14b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v6r4r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hikxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0ult")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_we266")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l4mj5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4sv5g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ishc0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0eqyn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5dvmf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m04gm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_powuk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v1r1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nerao")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xtji")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]
+
+[node name="PenguAttackRay" type="Node2D" unique_id=1330726060 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "pengu_attack_ray_be30841d4b"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1776532480]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_jx4y6")
+animation = &"attack"
+autoplay = "attack"
+offset = Vector2(0, -64)

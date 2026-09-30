@@ -1,0 +1,116 @@
+[gd_scene format=3 uid="uid://y8hpsldltf5g"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_vttvt"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_idle_anim_f0_acaf7411f0.png" id="2_h2c8h"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_idle_anim_f1_1194ac884b.png" id="3_ghfoi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_idle_anim_f2_8d98b11a84.png" id="4_qspiu"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_idle_anim_f3_7dfdeb42bc.png" id="5_d8oc1"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_run_anim_f0_c3134e15c9.png" id="6_h4ah8"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_run_anim_f1_c06e143b2b.png" id="7_226tu"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_run_anim_f2_ef74c4bc23.png" id="8_e1hun"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_run_anim_f3_27bf90e9ae.png" id="9_rxt68"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6nef"]
+resource_name = "Bespren Rusted Prop weathering"
+shader = ExtResource("1_vttvt")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.78
+shader_parameter/structural_damage = 0.1
+shader_parameter/rust_streaks = 0.61
+shader_parameter/toxic_intensity = 0.1
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.2
+shader_parameter/pattern_scale = 27.0
+shader_parameter/damage_seed = 17.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mh573"]
+resource_name = "idle_000"
+atlas = ExtResource("2_h2c8h")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxrqk"]
+resource_name = "idle_001"
+atlas = ExtResource("3_ghfoi")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_umyj1"]
+resource_name = "idle_002"
+atlas = ExtResource("4_qspiu")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bqoct"]
+resource_name = "idle_003"
+atlas = ExtResource("5_d8oc1")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rsi4"]
+resource_name = "run_000"
+atlas = ExtResource("6_h4ah8")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxbkr"]
+resource_name = "run_001"
+atlas = ExtResource("7_226tu")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mm7n1"]
+resource_name = "run_002"
+atlas = ExtResource("8_e1hun")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3o8n3"]
+resource_name = "run_003"
+atlas = ExtResource("9_rxt68")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v1mat"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mh573")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kxrqk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_umyj1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bqoct")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2rsi4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxbkr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mm7n1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3o8n3")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 8.0
+}]
+
+[node name="PumpkinDude" type="Node2D" unique_id=1457873866 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "pumpkin_dude_93efadd2da"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1503809622]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6nef")
+sprite_frames = SubResource("SpriteFrames_v1mat")
+animation = &"idle"
+autoplay = "idle"
+offset = Vector2(0, -11.5)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dgtn0ti36nfk8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/minotaur_beef_ff1b02cc1a.png" id="1_7iinw"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7iinw")
+region = Rect2(0, 0, 607, 319)

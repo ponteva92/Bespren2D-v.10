@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dl3hu5pxuoynp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_virgo_b_b94c79c11d.png" id="1_vteof"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vteof")
+region = Rect2(0, 0, 1267, 592)

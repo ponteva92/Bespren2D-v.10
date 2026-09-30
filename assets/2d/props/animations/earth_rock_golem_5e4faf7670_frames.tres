@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cpharfw4qfijs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/earth_rock_golem_292d69da22.png" id="1_qnvl5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oaayu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qnvl5")
+region = Rect2(0, 0, 364, 216)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oaayu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cbqjarb471ex8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_hydra_1_4c77581c92.png" id="1_phrlf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_phrlf")
+region = Rect2(0, 0, 453, 436)

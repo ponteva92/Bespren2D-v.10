@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://mjd30n8thgoi"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_wyvern_brown_f3929b59ec.png" id="1_3seke"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3seke")
+region = Rect2(0, 0, 435, 327)

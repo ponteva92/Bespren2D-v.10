@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://oib8u1w6lmb4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_walker_98090b3d1f.png" id="1_uq2ps"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_grypo"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_uq2ps")
+region = Rect2(0, 0, 167, 199)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_grypo")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

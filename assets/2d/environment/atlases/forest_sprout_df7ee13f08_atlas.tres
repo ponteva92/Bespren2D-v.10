@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://r7x3fks6w2ot"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_sprout_64b85f7804.png" id="1_mrmjm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mrmjm")
+region = Rect2(0, 0, 154, 149)

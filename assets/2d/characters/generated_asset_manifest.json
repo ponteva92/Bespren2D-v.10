@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generator": "res://tools/art/generate_character_sprites.py",
+  "generator_sha256": "f9836fece2c863150c1cdcfb488fffe129e259d1488b272eeb2bc2342faad2cd",
+  "blender_version": "5.0.0",
+  "render_policy": "isolated_scene_orthographic_transparent_freestyle",
+  "reproducibility": "EEVEE renders these bit deterministically - verified byte-identical IDAT and zero max per-channel delta across three consecutive bakes. File digests still differ because Blender stamps wall-clock Date and RenderTime into PNG tEXt chunks, so generator_sha256 pins the source and asset hashes identify the shipped files; a rebake that changes pixels is a regression, not noise",
+  "assets": [
+    {
+      "path": "res://assets/2d/characters/heikki_topdown.png",
+      "bytes": 77365,
+      "sha256": "9183a393bfb619a22cff489077b02bc02da33cbd3ca4176b8f066777abb89f12"
+    },
+    {
+      "path": "res://assets/2d/characters/shane_topdown.png",
+      "bytes": 69003,
+      "sha256": "64ab7b2e19e2d27b90f9c5225b6d0ccc8a2f1e2cc24965b64785856482488c16"
+    }
+  ]
+}

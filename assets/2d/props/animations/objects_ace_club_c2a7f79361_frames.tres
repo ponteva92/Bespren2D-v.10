@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmk1rx1mftwim"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_ace_club_8b8e8d7ed8.png" id="1_036ch"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wdfan"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_036ch")
+region = Rect2(0, 0, 140, 124)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wdfan")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

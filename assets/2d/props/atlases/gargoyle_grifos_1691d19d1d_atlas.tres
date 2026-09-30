@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://vea7ifm6dl3j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gargoyle_grifos_8b9efb4c03.png" id="1_66d6v"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_66d6v")
+region = Rect2(0, 0, 322, 220)

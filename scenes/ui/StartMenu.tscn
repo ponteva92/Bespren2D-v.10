@@ -1,0 +1,588 @@
+[gd_scene load_steps=17 format=3]
+
+[ext_resource type="Script" path="res://src/ui/start_menu.gd" id="1_menu"]
+[ext_resource type="Texture2D" path="res://assets/2d/characters/heikki_topdown.png" id="2_heikki"]
+[ext_resource type="Texture2D" path="res://assets/2d/characters/shane_topdown.png" id="3_shane"]
+[ext_resource type="Script" path="res://src/ui/start_menu_card_signal.gd" id="4_signal"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_header"]
+bg_color = Color(0.018, 0.043, 0.042, 0.94)
+border_width_bottom = 1
+border_color = Color(0.78, 0.48, 0.19, 0.82)
+shadow_color = Color(0, 0, 0, 0.48)
+shadow_size = 4
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_session"]
+bg_color = Color(0.022, 0.06, 0.055, 0.94)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.48, 0.42, 0.62)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+shadow_color = Color(0, 0, 0, 0.42)
+shadow_size = 3
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_card"]
+bg_color = Color(0.028, 0.071, 0.064, 0.97)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.3, 0.5, 0.45, 0.66)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+shadow_color = Color(0, 0, 0, 0.5)
+shadow_size = 4
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_card_hover"]
+bg_color = Color(0.06, 0.13, 0.112, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.42, 0.92, 0.73, 0.96)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+shadow_color = Color(0.02, 0.18, 0.13, 0.44)
+shadow_size = 5
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_card_selected"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 0.7, 0.27, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+shadow_color = Color(0.85, 0.37, 0.08, 0.26)
+shadow_size = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_portrait"]
+bg_color = Color(0.008, 0.022, 0.02, 0.92)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.71, 0.48, 0.22, 0.72)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_chip"]
+bg_color = Color(0.47, 0.21, 0.055, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 0.76, 0.31, 0.96)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_action"]
+bg_color = Color(0.045, 0.13, 0.112, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.23, 0.72, 0.58, 0.82)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_action_hover"]
+bg_color = Color(0.1, 0.25, 0.2, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5, 1, 0.8, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color(0.03, 0.36, 0.23, 0.42)
+shadow_size = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_action_focus"]
+bg_color = Color(0.08, 0.2, 0.17, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 0.75, 0.3, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_address"]
+bg_color = Color(0.008, 0.027, 0.025, 0.98)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.66, 0.42, 0.19, 0.82)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_address_focus"]
+bg_color = Color(0.025, 0.075, 0.065, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 0.72, 0.29, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="StartMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_menu")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[node name="RefugeBeamLeft" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 49, 202, 45, 82, 270, 0, 270)
+color = Color(0.035, 0.16, 0.13, 0.34)
+
+[node name="RefugeBeamRight" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(480, 47, 282, 48, 399, 270, 480, 270)
+color = Color(0.19, 0.07, 0.025, 0.32)
+
+[node name="Header" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 480.0
+offset_bottom = 43.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_header")
+
+[node name="Kicker" type="Label" parent="Header"]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 5.0
+offset_right = 230.0
+offset_bottom = 15.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.48, 0.9, 0.76, 1)
+theme_override_font_sizes/font_size = 8
+text = "REFUGE NETWORK // NODE 01"
+
+[node name="SignalState" type="Label" parent="Header"]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 6.0
+offset_right = 466.0
+offset_bottom = 16.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.72, 0.29, 1)
+theme_override_font_sizes/font_size = 8
+text = "● SIGNAL LOCKED"
+horizontal_alignment = 2
+
+[node name="Title" type="Label" parent="Header"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 15.0
+offset_right = 332.0
+offset_bottom = 38.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.78, 0.35, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.92)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 18
+text = "BESPREN"
+
+[node name="Subtitle" type="Label" parent="Header"]
+layout_mode = 0
+offset_left = 286.0
+offset_top = 22.0
+offset_right = 466.0
+offset_bottom = 35.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.69, 0.84, 0.78, 1)
+theme_override_font_sizes/font_size = 9
+text = "CHOOSE YOUR SURVIVOR"
+horizontal_alignment = 2
+
+[node name="HeikkiCard" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 8.0
+offset_top = 52.0
+offset_right = 233.0
+offset_bottom = 162.0
+focus_mode = 2
+tooltip_text = "Heikki — scout and route lead"
+theme_override_styles/normal = SubResource("StyleBoxFlat_card")
+theme_override_styles/hover = SubResource("StyleBoxFlat_card_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_card_hover")
+theme_override_styles/focus = SubResource("StyleBoxFlat_action_focus")
+
+[node name="PortraitPlate" type="Panel" parent="HeikkiCard"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 24.0
+offset_right = 84.0
+offset_bottom = 101.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_portrait")
+
+[node name="SignalField" type="Control" parent="HeikkiCard"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("4_signal")
+accent_color = Color(1, 0.69, 0.28, 1)
+phase_offset = 0.0
+
+[node name="Portrait" type="TextureRect" parent="HeikkiCard"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 27.0
+offset_right = 81.0
+offset_bottom = 98.0
+mouse_filter = 2
+texture = ExtResource("2_heikki")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Kicker" type="Label" parent="HeikkiCard"]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 16.0
+offset_right = 212.0
+offset_bottom = 27.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.52, 0.92, 0.78, 1)
+theme_override_font_sizes/font_size = 8
+text = "UNIT H-01 // READY"
+
+[node name="Name" type="Label" parent="HeikkiCard"]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 31.0
+offset_right = 212.0
+offset_bottom = 51.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.8, 0.36, 1)
+theme_override_font_sizes/font_size = 15
+text = "HEIKKI"
+
+[node name="Role" type="Label" parent="HeikkiCard"]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 53.0
+offset_right = 215.0
+offset_bottom = 76.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.75, 0.86, 0.8, 1)
+theme_override_font_sizes/font_size = 9
+text = "SCOUT / ROUTE LEAD"
+
+[node name="Trait" type="Label" parent="HeikkiCard"]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 80.0
+offset_right = 213.0
+offset_bottom = 94.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.56, 0.71, 0.65, 1)
+theme_override_font_sizes/font_size = 8
+text = "MOBILITY • RECOVERY"
+
+[node name="SelectionFrame" type="Panel" parent="HeikkiCard"]
+layout_mode = 0
+offset_right = 225.0
+offset_bottom = 110.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_card_selected")
+
+[node name="ActiveChip" type="Panel" parent="HeikkiCard"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 7.0
+offset_right = 63.0
+offset_bottom = 21.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_chip")
+
+[node name="Text" type="Label" parent="HeikkiCard/ActiveChip"]
+layout_mode = 0
+offset_right = 55.0
+offset_bottom = 14.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.6, 1)
+theme_override_font_sizes/font_size = 8
+text = "ACTIVE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ShaneCard" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 247.0
+offset_top = 52.0
+offset_right = 472.0
+offset_bottom = 162.0
+focus_mode = 2
+tooltip_text = "Shane — engineer and systems specialist"
+theme_override_styles/normal = SubResource("StyleBoxFlat_card")
+theme_override_styles/hover = SubResource("StyleBoxFlat_card_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_card_hover")
+theme_override_styles/focus = SubResource("StyleBoxFlat_action_focus")
+
+[node name="PortraitPlate" type="Panel" parent="ShaneCard"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 24.0
+offset_right = 84.0
+offset_bottom = 101.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_portrait")
+
+[node name="SignalField" type="Control" parent="ShaneCard"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("4_signal")
+accent_color = Color(0.3, 0.94, 0.88, 1)
+phase_offset = 1.37
+
+[node name="Portrait" type="TextureRect" parent="ShaneCard"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 27.0
+offset_right = 81.0
+offset_bottom = 98.0
+mouse_filter = 2
+texture = ExtResource("3_shane")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Kicker" type="Label" parent="ShaneCard"]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 16.0
+offset_right = 212.0
+offset_bottom = 27.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.52, 0.92, 0.78, 1)
+theme_override_font_sizes/font_size = 8
+text = "UNIT S-02 // READY"
+
+[node name="Name" type="Label" parent="ShaneCard"]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 31.0
+offset_right = 212.0
+offset_bottom = 51.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.43, 0.96, 0.91, 1)
+theme_override_font_sizes/font_size = 15
+text = "SHANE"
+
+[node name="Role" type="Label" parent="ShaneCard"]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 53.0
+offset_right = 215.0
+offset_bottom = 76.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.75, 0.86, 0.8, 1)
+theme_override_font_sizes/font_size = 9
+text = "ENGINEER / SYSTEMS"
+
+[node name="Trait" type="Label" parent="ShaneCard"]
+layout_mode = 0
+offset_left = 94.0
+offset_top = 80.0
+offset_right = 213.0
+offset_bottom = 94.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.56, 0.71, 0.65, 1)
+theme_override_font_sizes/font_size = 8
+text = "TURRETS • FIELD TECH"
+
+[node name="SelectionFrame" type="Panel" parent="ShaneCard"]
+layout_mode = 0
+offset_right = 225.0
+offset_bottom = 110.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_card_selected")
+
+[node name="ActiveChip" type="Panel" parent="ShaneCard"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 7.0
+offset_right = 63.0
+offset_bottom = 21.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_chip")
+
+[node name="Text" type="Label" parent="ShaneCard/ActiveChip"]
+layout_mode = 0
+offset_right = 55.0
+offset_bottom = 14.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.6, 1)
+theme_override_font_sizes/font_size = 8
+text = "ACTIVE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SelectionLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 8.0
+offset_top = 166.0
+offset_right = 472.0
+offset_bottom = 184.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.9, 0.94, 0.84, 1)
+theme_override_font_sizes/font_size = 10
+text = "HEIKKI ACTIVE — SELECT A DEPLOYMENT CHANNEL"
+horizontal_alignment = 1
+
+[node name="SessionPanel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 188.0
+offset_right = 473.0
+offset_bottom = 244.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_session")
+
+[node name="Label" type="Label" parent="SessionPanel"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 1.0
+offset_right = 152.0
+offset_bottom = 10.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.69, 0.84, 0.78, 1)
+theme_override_font_sizes/font_size = 8
+text = "LAN ADDRESS / SESSION"
+
+[node name="AddressEdit" type="LineEdit" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 13.0
+offset_top = 199.0
+offset_right = 166.0
+offset_bottom = 243.0
+focus_mode = 2
+tooltip_text = "Host address used by Join LAN"
+theme_override_colors/font_color = Color(0.88, 0.96, 0.9, 1)
+theme_override_colors/font_placeholder_color = Color(0.44, 0.6, 0.55, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_address")
+theme_override_styles/focus = SubResource("StyleBoxFlat_address_focus")
+theme_override_font_sizes/font_size = 11
+text = "127.0.0.1"
+placeholder_text = "HOST IP"
+alignment = 1
+
+[node name="SoloButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 174.0
+offset_top = 199.0
+offset_right = 266.0
+offset_bottom = 243.0
+focus_mode = 2
+tooltip_text = "Start an offline host-authoritative session"
+theme_override_styles/normal = SubResource("StyleBoxFlat_action")
+theme_override_styles/hover = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/focus = SubResource("StyleBoxFlat_action_focus")
+theme_override_font_sizes/font_size = 10
+text = "DEPLOY\nSOLO"
+
+[node name="HostButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 274.0
+offset_top = 199.0
+offset_right = 370.0
+offset_bottom = 243.0
+focus_mode = 2
+tooltip_text = "Host a local-network session on UDP 8791"
+theme_override_styles/normal = SubResource("StyleBoxFlat_action")
+theme_override_styles/hover = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/focus = SubResource("StyleBoxFlat_action_focus")
+theme_override_font_sizes/font_size = 10
+text = "HOST\nLOCAL LAN"
+
+[node name="JoinButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 378.0
+offset_top = 199.0
+offset_right = 467.0
+offset_bottom = 243.0
+focus_mode = 2
+tooltip_text = "Join the local-network host at this address"
+theme_override_styles/normal = SubResource("StyleBoxFlat_action")
+theme_override_styles/hover = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/focus = SubResource("StyleBoxFlat_action_focus")
+theme_override_font_sizes/font_size = 10
+text = "JOIN\nLOCAL LAN"
+
+[node name="Footer" type="Label" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 249.0
+offset_right = 472.0
+offset_bottom = 266.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.58, 0.73, 0.67, 1)
+theme_override_font_sizes/font_size = 8
+text = "LOCAL CO-OP • UDP 8791 • LAN FAILURE FALLS BACK TO SOLO"
+horizontal_alignment = 1
+vertical_alignment = 1

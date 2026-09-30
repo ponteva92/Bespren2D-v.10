@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dnb27bkyhdhxl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_volcanic_maiden_ac8bd84e5f.png" id="1_n8p0e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wu1pl"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_n8p0e")
+region = Rect2(0, 0, 157, 211)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wu1pl")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

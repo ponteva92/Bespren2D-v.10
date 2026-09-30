@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b56n780ctt3ui"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pre_legendary_knights_onna_bugeisha_croix_03ec72c8ae.png" id="1_gqgyp"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gqgyp")
+region = Rect2(0, 0, 250, 209)

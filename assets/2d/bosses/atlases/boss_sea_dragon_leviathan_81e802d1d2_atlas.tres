@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b4ng7t1d0ulwr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_sea_dragon_leviathan_69dd523342.png" id="1_chjij"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_chjij")
+region = Rect2(0, 0, 527, 578)

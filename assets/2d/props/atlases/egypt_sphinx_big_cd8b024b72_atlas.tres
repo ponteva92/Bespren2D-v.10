@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://du73i7vbji2gg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_sphinx_big_30068bae21.png" id="1_da5s1"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_da5s1")
+region = Rect2(0, 0, 788, 377)

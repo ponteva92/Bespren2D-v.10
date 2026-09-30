@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ycpfcpe0er6p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zeograth_a0341cc287.png" id="1_a0cij"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x7c2g"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_a0cij")
+region = Rect2(0, 0, 327, 444)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x7c2g")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b7u6dgsw4btxu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_flame_monkey_c665ec3aaa.png" id="1_yi12v"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yi12v")
+region = Rect2(0, 0, 191, 192)

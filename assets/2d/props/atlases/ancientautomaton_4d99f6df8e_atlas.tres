@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://h5h3ft2m6r8l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ancientautomaton_5cce6d1488.png" id="1_n787o"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_n787o")
+region = Rect2(0, 0, 533, 318)

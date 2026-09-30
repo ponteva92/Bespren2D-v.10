@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://crxkild0swlds"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_cultist_mage_77bffb5837.png" id="1_lx1u5"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lx1u5")
+region = Rect2(0, 0, 444, 367)

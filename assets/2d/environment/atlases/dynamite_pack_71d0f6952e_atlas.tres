@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cmxuh0f1ytqh1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/godot_4_tower_defense_template_master_f723e8af01/dynamite_pack_915d7a87b2.png" id="1_mn1xh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mn1xh")
+region = Rect2(0, 0, 96, 96)

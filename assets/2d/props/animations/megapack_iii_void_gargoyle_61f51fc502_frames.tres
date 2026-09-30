@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://oqnw0n220lay"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_void_gargoyle_01c991899b.png" id="1_dn16e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uonlf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dn16e")
+region = Rect2(0, 0, 581, 473)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uonlf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

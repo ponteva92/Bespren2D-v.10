@@ -1,0 +1,91 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dtdor5dom83n6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/thefallen_tex_d6f442ed31.png" id="1_nefao"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sxrvu"]
+resource_name = "shadow"
+atlas = ExtResource("1_nefao")
+region = Rect2(1, 483, 208, 7)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qby1c"]
+resource_name = "cape"
+atlas = ExtResource("1_nefao")
+region = Rect2(1, 1, 253, 178)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dnp12"]
+resource_name = "left_leg"
+atlas = ExtResource("1_nefao")
+region = Rect2(142, 321, 50, 121)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kj5sm"]
+resource_name = "sword"
+atlas = ExtResource("1_nefao")
+region = Rect2(1, 181, 159, 85)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_odie5"]
+resource_name = "right_leg"
+atlas = ExtResource("1_nefao")
+region = Rect2(1, 268, 68, 134)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrp2q"]
+resource_name = "left_arm"
+atlas = ExtResource("1_nefao")
+region = Rect2(71, 373, 51, 97)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tme8j"]
+resource_name = "chest"
+atlas = ExtResource("1_nefao")
+region = Rect2(162, 181, 75, 138)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fq1tq"]
+resource_name = "head"
+atlas = ExtResource("1_nefao")
+region = Rect2(1, 404, 53, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vjk4k"]
+resource_name = "right_arm"
+atlas = ExtResource("1_nefao")
+region = Rect2(71, 268, 69, 103)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2pgsx"]
+resource_name = "eye"
+atlas = ExtResource("1_nefao")
+region = Rect2(211, 472, 25, 22)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sxrvu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qby1c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dnp12")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kj5sm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_odie5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrp2q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tme8j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fq1tq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vjk4k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2pgsx")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://m4se85i3dqow"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/starter_kit_city_builder_main_5af127d96d/splash_screen_1d2ac9f341.png" id="1_7xkxa"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7xkxa")
+region = Rect2(0, 0, 2560, 1440)

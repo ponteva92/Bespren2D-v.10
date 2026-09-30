@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://chwgk5nx8gaan"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_eldritch_overmind_aa39b1a792.png" id="1_fkbls"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_omyhg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fkbls")
+region = Rect2(0, 0, 530, 515)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_omyhg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

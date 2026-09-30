@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://vn1rprax74su"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/antqueen_tex_ba2b5a6afa.png" id="1_61kfd"]
+
+[resource]
+resource_name = "layer_189"
+atlas = ExtResource("1_61kfd")
+region = Rect2(1, 195, 467, 57)

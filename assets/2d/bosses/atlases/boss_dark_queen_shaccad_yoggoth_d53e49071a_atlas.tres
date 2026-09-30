@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dnsu20k582exe"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_dark_queen_shaccad_yoggoth_c4dda32c9f.png" id="1_omjou"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_omjou")
+region = Rect2(0, 0, 494, 349)

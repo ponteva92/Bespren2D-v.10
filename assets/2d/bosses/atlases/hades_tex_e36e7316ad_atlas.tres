@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dfbeoiahx4cj3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/hades_tex_eef0fcceec.png" id="1_eaoky"]
+
+[resource]
+resource_name = "layer_1"
+atlas = ExtResource("1_eaoky")
+region = Rect2(1, 846, 449, 16)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://chrritaoikek3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_minion_claymore_a5403e4987.png" id="1_5ka06"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5ka06")
+region = Rect2(0, 0, 323, 261)

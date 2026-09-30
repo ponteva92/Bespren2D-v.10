@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dustbpmrnjy1h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_dark_star_cd07c3a098.png" id="1_tdgse"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tdgse")
+region = Rect2(0, 0, 104, 136)

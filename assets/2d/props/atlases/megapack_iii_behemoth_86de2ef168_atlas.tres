@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://db6qcq0teg8xo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_behemoth_24daa17280.png" id="1_tm0ej"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tm0ej")
+region = Rect2(0, 0, 675, 532)

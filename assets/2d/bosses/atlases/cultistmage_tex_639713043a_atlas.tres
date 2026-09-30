@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://84s64ytr5r64"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cultistmage_tex_021bcadb4f.png" id="1_ku0mt"]
+
+[resource]
+resource_name = "top_summon"
+atlas = ExtResource("1_ku0mt")
+region = Rect2(198, 408, 126, 54)

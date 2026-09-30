@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c331bxhdmujhe"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elves_spellcaster_e9dccb31e3.png" id="1_o66dn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qxahs"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_o66dn")
+region = Rect2(0, 0, 223, 257)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qxahs")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

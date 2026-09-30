@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dc70mxudsiam7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/potion_001_small_green_d3db4b40dc.png" id="1_6k02e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k6i0d"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6k02e")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k6i0d")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

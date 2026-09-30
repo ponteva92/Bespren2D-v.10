@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://8jthpqn6b8ye"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/swampy_anim_f0_239a57c706.png" id="1_gyokq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gyokq")
+region = Rect2(0, 0, 16, 16)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c7b7d3nwmelgq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megpack_iii_fallen_kings_undead_king_berthelot_518b823fd8.png" id="1_px3x3"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_px3x3")
+region = Rect2(0, 0, 375, 251)

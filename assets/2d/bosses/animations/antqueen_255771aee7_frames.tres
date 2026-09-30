@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dqowrsc55qjk1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/antqueen_539b69a3f8.png" id="1_y56ci"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oq4f6"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_y56ci")
+region = Rect2(0, 0, 110, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cwx6l"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_y56ci")
+region = Rect2(110, 0, 110, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_medmc"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_y56ci")
+region = Rect2(220, 0, 110, 320)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oq4f6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cwx6l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_medmc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

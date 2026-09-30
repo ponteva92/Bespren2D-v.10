@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://kkm4ey4j8aby"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_lich_king_6f6f088d16.png" id="1_ip5lh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ip5lh")
+region = Rect2(0, 0, 425, 366)

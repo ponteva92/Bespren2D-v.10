@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bxsyfk30861jk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_gemstone_b_cfe86e66c3.png" id="1_h0ivm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_h0ivm")
+region = Rect2(0, 0, 171, 180)

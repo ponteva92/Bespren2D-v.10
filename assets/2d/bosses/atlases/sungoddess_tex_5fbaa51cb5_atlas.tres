@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://df6013x255x3a"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sungoddess_tex_071f9fdb6b.png" id="1_8452n"]
+
+[resource]
+resource_name = "right_hanger_copy"
+atlas = ExtResource("1_8452n")
+region = Rect2(208, 112, 172, 136)

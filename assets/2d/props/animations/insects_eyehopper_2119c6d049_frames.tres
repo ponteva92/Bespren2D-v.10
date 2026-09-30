@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bg78xyeh5w1we"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_eyehopper_2aeb8420ce.png" id="1_yjxh0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n23m8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yjxh0")
+region = Rect2(0, 0, 103, 95)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n23m8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

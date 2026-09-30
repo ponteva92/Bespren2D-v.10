@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dvhlsnntxrr1u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cave_dweller_worm_0bc5f1149a.png" id="1_o8gcg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3vc1q"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_o8gcg")
+region = Rect2(0, 0, 422, 322)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3vc1q")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

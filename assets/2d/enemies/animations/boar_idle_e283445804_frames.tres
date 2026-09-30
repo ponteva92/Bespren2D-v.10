@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ctlrxkarx8di0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/boar_idle_7e0cf608ae.png" id="1_7abns"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fnsr0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7abns")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m14oc"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_7abns")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rplhq"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_7abns")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qp5wl"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_7abns")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50w18"]
+resource_name = "frame_000_004"
+atlas = ExtResource("1_7abns")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vv28"]
+resource_name = "frame_000_005"
+atlas = ExtResource("1_7abns")
+region = Rect2(320, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fnsr0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m14oc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rplhq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qp5wl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_50w18")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vv28")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]

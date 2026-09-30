@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bc8yoe4aynba3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_holy_orb_81717e9ed3.png" id="1_iyjdj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cayrl"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_iyjdj")
+region = Rect2(0, 0, 259, 279)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cayrl")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

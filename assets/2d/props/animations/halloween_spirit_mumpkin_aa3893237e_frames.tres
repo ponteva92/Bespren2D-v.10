@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://tc1uqxju47ud"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_spirit_mumpkin_d5206cd9a4.png" id="1_ijvoe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bmx67"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ijvoe")
+region = Rect2(0, 0, 197, 124)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bmx67")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

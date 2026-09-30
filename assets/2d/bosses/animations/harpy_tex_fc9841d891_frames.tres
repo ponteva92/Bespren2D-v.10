@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://pfwdxh7r0kld"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/harpy_tex_adcfc87d4b.png" id="1_ar8lc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gymub"]
+resource_name = "shadow"
+atlas = ExtResource("1_ar8lc")
+region = Rect2(229, 330, 175, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtcmg"]
+resource_name = "left_wing"
+atlas = ExtResource("1_ar8lc")
+region = Rect2(1, 1, 314, 274)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5kwm"]
+resource_name = "back_hair"
+atlas = ExtResource("1_ar8lc")
+region = Rect2(163, 277, 64, 65)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4knl2"]
+resource_name = "tail"
+atlas = ExtResource("1_ar8lc")
+region = Rect2(1, 277, 160, 106)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_afpvh"]
+resource_name = "chest"
+atlas = ExtResource("1_ar8lc")
+region = Rect2(317, 1, 155, 197)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lmw0p"]
+resource_name = "right_wing"
+atlas = ExtResource("1_ar8lc")
+region = Rect2(317, 200, 171, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lnumr"]
+resource_name = "head"
+atlas = ExtResource("1_ar8lc")
+region = Rect2(229, 277, 60, 46)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gymub")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtcmg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5kwm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4knl2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_afpvh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lmw0p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lnumr")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

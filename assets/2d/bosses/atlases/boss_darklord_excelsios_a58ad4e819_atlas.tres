@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://68jat74uajxp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_darklord_excelsios_3d7e9d4d4c.png" id="1_rpa11"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rpa11")
+region = Rect2(0, 0, 386, 264)

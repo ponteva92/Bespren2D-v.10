@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "generator": "res://tools/art/generate_camp_and_structure_sprites.py",
+  "generator_sha256": "916add333ce2a32112ec8fd7cb85f566b991e690a34d43c3cd0ec7151f13c67a",
+  "blender_version": "5.0.0",
+  "render_policy": "isolated_scene_orthographic_transparent_freestyle",
+  "reproducibility": "EEVEE renders these bit deterministically - verified byte-identical IDAT and zero max per-channel delta across three consecutive bakes. File digests still differ because Blender stamps wall-clock Date and RenderTime into PNG tEXt chunks, so generator_sha256 pins the source and asset hashes identify the shipped files; a rebake that changes pixels is a regression, not noise",
+  "assets": [
+    {
+      "path": "res://assets/2d/structures/base_camp_topdown.png",
+      "bytes": 79214,
+      "sha256": "ab426025cfcbed5e809af2239eb5f619788716f610e16975f8d5858561684297"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_barricade.png",
+      "bytes": 61158,
+      "sha256": "9baf0c38efce8a24d44f723503aafd521d457a6dfb6ca8c6a9dd54cbb58b6daa"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_chemical.png",
+      "bytes": 67258,
+      "sha256": "7b7059f2ca96dde4f7a0f8fbf18a49616ad9d11b1850992c584243e14d98c63f"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_electric.png",
+      "bytes": 70385,
+      "sha256": "e087a72504a70b1a49f60bfa5aa5aac64d4473500a5d85aa4231d7847fa9d5f9"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_kinetic.png",
+      "bytes": 61043,
+      "sha256": "49e1ca2c06f8b93edc1170d8efb074ed0ef40c690dd273db3ef1cb6f9dae2479"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_landmine.png",
+      "bytes": 58991,
+      "sha256": "f9ff542da02fd70f2eb0e3f136ca923b61e0fa771384f77fb4f5b9373b58dac4"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_razor_snare.png",
+      "bytes": 67066,
+      "sha256": "2a23234f09d10bed6e8978112f5890cc47481116e852dbcf09e8f5bce385c4e6"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_slowing_pit.png",
+      "bytes": 65675,
+      "sha256": "3014c74984cee39ab47855dd000cd99fab08b3205e887333d5d81344cb386e63"
+    },
+    {
+      "path": "res://assets/2d/structures/structure_t1_support.png",
+      "bytes": 68542,
+      "sha256": "04a04e78f3f5e35309ae2dbb1dd1e7746c3790c9fea66321d4ae2c63123a80f4"
+    }
+  ]
+}

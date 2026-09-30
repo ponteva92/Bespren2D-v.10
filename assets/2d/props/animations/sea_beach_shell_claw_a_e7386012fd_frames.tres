@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://calywr0nw3c7b"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_shell_claw_a_d00dc01dc4.png" id="1_gicvx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1btcq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gicvx")
+region = Rect2(0, 0, 502, 274)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1btcq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

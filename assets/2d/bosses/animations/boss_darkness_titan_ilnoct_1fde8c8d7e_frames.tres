@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cu7upyeyyylpl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_darkness_titan_ilnoct_02b50b7150.png" id="1_0fgwb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s2eum"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0fgwb")
+region = Rect2(0, 0, 763, 800)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s2eum")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

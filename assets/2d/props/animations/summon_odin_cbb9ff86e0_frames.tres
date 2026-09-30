@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://hshohjoog2i2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/summon_odin_03449eead0.png" id="1_3py3l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sqogq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3py3l")
+region = Rect2(0, 0, 538, 355)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sqogq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

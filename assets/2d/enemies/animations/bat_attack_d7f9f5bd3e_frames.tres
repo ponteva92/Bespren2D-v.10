@@ -1,0 +1,27 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhnpmwwm5agk8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/bat_attack_129bbdbd60.png" id="1_i2nnk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iftmi"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_i2nnk")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_irn1u"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_i2nnk")
+region = Rect2(128, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iftmi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_irn1u")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]

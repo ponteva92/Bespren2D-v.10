@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://xyhdoykdu5th"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/demios_71b8627f32.png" id="1_l6tk3"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l6tk3")
+region = Rect2(0, 0, 512, 512)

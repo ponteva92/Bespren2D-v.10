@@ -1,0 +1,75 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dqgehw0p37d5p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/poseidon_tex_75a8df0121.png" id="1_kgpg3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_holi4"]
+resource_name = "shadow"
+atlas = ExtResource("1_kgpg3")
+region = Rect2(1, 426, 248, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pipfh"]
+resource_name = "shellback"
+atlas = ExtResource("1_kgpg3")
+region = Rect2(477, 1, 30, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eoeci"]
+resource_name = "left_arm"
+atlas = ExtResource("1_kgpg3")
+region = Rect2(416, 124, 92, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_obn8p"]
+resource_name = "chest"
+atlas = ExtResource("1_kgpg3")
+region = Rect2(343, 124, 71, 103)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ualx2"]
+resource_name = "skirt"
+atlas = ExtResource("1_kgpg3")
+region = Rect2(189, 1, 152, 201)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bjpxo"]
+resource_name = "head"
+atlas = ExtResource("1_kgpg3")
+region = Rect2(251, 204, 47, 51)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ryd3m"]
+resource_name = "right_arm"
+atlas = ExtResource("1_kgpg3")
+region = Rect2(343, 1, 132, 121)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0txb0"]
+resource_name = "trident"
+atlas = ExtResource("1_kgpg3")
+region = Rect2(1, 1, 186, 423)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_holi4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pipfh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eoeci")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_obn8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ualx2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bjpxo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ryd3m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0txb0")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

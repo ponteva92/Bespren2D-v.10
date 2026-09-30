@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://cd4q5sshj4o3x"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_t1s11"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/godot_4_tower_defense_template_master_f723e8af01/explosion_4_991ae27393.png" id="2_jo5je"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hpba4"]
+resource_name = "Bespren Ruined Structure weathering"
+shader = ExtResource("1_t1s11")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.91
+shader_parameter/structural_damage = 0.46
+shader_parameter/rust_streaks = 0.88
+shader_parameter/toxic_intensity = 0.12
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.18
+shader_parameter/pattern_scale = 24.0
+shader_parameter/damage_seed = 37.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sji5u"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_jo5je")
+region = Rect2(0, 0, 4096, 4096)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qppb0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sji5u")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="Explosion4" type="Node2D" unique_id=2044692548 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "explosion_4_4a04e8065f"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1387500840]
+texture_filter = 1
+material = SubResource("ShaderMaterial_hpba4")
+sprite_frames = SubResource("SpriteFrames_qppb0")
+offset = Vector2(0, -2048)

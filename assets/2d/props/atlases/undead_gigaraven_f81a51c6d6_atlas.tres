@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://btomrs0hkr8sv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_gigaraven_0080beed1f.png" id="1_85k70"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_85k70")
+region = Rect2(0, 0, 474, 305)

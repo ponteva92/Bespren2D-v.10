@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ca8p4tn6y057s"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_triple_head_venom_e95ee8f444.png" id="1_h1ve5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlrbt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_h1ve5")
+region = Rect2(0, 0, 561, 383)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlrbt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

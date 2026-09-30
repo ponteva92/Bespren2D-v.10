@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://u0e3lrk56uo0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/floor_3_2722a440e4.png" id="1_nwhq1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7em2s"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nwhq1")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7em2s")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

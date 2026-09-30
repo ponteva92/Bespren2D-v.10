@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b5x0j6mtgb3um"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_hita_a195ca9467.png" id="1_dolop"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dolop")
+region = Rect2(0, 0, 256, 128)

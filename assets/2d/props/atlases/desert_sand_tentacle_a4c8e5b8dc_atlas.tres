@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://doxogsfx7vwvt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/desert_sand_tentacle_844c9fa8da.png" id="1_lrway"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lrway")
+region = Rect2(0, 0, 356, 188)

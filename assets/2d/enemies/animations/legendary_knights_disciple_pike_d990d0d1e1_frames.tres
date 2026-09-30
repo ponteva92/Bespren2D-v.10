@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://y0lnbf0mepqv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_disciple_pike_0c3d8a70e6.png" id="1_sgk84"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eviyy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sgk84")
+region = Rect2(0, 0, 383, 223)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eviyy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

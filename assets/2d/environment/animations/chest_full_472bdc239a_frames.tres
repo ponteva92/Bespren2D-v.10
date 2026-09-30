@@ -1,0 +1,37 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c87uw68u6w1la"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/chest_full_open_anim_f0_5b79317a3c.png" id="1_1g1ik"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/chest_full_open_anim_f1_4d27214a69.png" id="2_4d06l"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/chest_full_open_anim_f2_51ad0e4442.png" id="3_tpu84"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_klh8n"]
+resource_name = "open_000"
+atlas = ExtResource("1_1g1ik")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_26gym"]
+resource_name = "open_001"
+atlas = ExtResource("2_4d06l")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dcm2x"]
+resource_name = "open_002"
+atlas = ExtResource("3_tpu84")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_klh8n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_26gym")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dcm2x")
+}],
+"loop": 1,
+"name": &"open",
+"speed": 8.0
+}]

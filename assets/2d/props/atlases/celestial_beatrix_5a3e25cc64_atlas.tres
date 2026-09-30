@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c05a2lb8wcnyp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/celestial_beatrix_a495bd9996.png" id="1_f3rwe"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_f3rwe")
+region = Rect2(0, 0, 228, 222)

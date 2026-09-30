@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dax0tpccrocn8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_shroomy_a9516484b1.png" id="1_yl5bf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wp6sk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yl5bf")
+region = Rect2(0, 0, 100, 85)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wp6sk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

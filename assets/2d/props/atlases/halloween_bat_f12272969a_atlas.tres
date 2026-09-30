@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bv7vsyxbg4sfo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_bat_c494fb0fff.png" id="1_ersxf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ersxf")
+region = Rect2(0, 0, 134, 124)

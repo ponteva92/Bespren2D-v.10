@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bhlrxwp01kqx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/orc_warlock_3014a9157b.png" id="1_pvqa8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_pvqa8")
+region = Rect2(0, 0, 569, 386)

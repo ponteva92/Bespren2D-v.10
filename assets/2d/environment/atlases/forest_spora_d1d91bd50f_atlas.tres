@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cvkqje7qrrsio"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_spora_863100502a.png" id="1_m2a47"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_m2a47")
+region = Rect2(0, 0, 131, 101)

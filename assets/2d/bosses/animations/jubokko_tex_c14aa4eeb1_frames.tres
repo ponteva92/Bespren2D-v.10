@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cdhx4ih2etht1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/jubokko_tex_b9bae847f8.png" id="1_b32mr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kyj3u"]
+resource_name = "shadow"
+atlas = ExtResource("1_b32mr")
+region = Rect2(1, 2291, 1425, 91)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8wweb"]
+resource_name = "tree"
+atlas = ExtResource("1_b32mr")
+region = Rect2(1, 1, 1342, 1191)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_botya"]
+resource_name = "arm_left"
+atlas = ExtResource("1_b32mr")
+region = Rect2(1441, 1194, 169, 261)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_206ik"]
+resource_name = "body"
+atlas = ExtResource("1_b32mr")
+region = Rect2(1, 1194, 1267, 1095)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x8vjo"]
+resource_name = "head"
+atlas = ExtResource("1_b32mr")
+region = Rect2(1270, 1194, 169, 366)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1yha"]
+resource_name = "arm_right"
+atlas = ExtResource("1_b32mr")
+region = Rect2(1270, 1562, 211, 236)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kyj3u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8wweb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_botya")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_206ik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x8vjo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1yha")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

@@ -1,0 +1,116 @@
+[gd_scene format=3 uid="uid://c2xvcfw3cdmdi"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_vy63n"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/tiny_zombie_idle_anim_f0_059be13f19.png" id="2_viuji"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/tiny_zombie_idle_anim_f1_b41a48fda5.png" id="3_sctl2"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/tiny_zombie_idle_anim_f2_1639b56a1f.png" id="4_oyjmb"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/tiny_zombie_idle_anim_f3_b41a48fda5.png" id="5_rgh2w"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/tiny_zombie_run_anim_f0_4f9ed8ce93.png" id="6_gbso4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/tiny_zombie_run_anim_f1_449b2aa907.png" id="7_r678r"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/tiny_zombie_run_anim_f2_ec315908bf.png" id="8_x7qsg"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/tiny_zombie_run_anim_f3_376d0fec39.png" id="9_n6f14"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_vy63n")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0twbj"]
+resource_name = "idle_000"
+atlas = ExtResource("2_viuji")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ud40a"]
+resource_name = "idle_001"
+atlas = ExtResource("3_sctl2")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jn6y3"]
+resource_name = "idle_002"
+atlas = ExtResource("4_oyjmb")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w7120"]
+resource_name = "idle_003"
+atlas = ExtResource("5_rgh2w")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qvwmh"]
+resource_name = "run_000"
+atlas = ExtResource("6_gbso4")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vnrs1"]
+resource_name = "run_001"
+atlas = ExtResource("7_r678r")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_banbv"]
+resource_name = "run_002"
+atlas = ExtResource("8_x7qsg")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3fqj2"]
+resource_name = "run_003"
+atlas = ExtResource("9_n6f14")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_e7kbe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0twbj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ud40a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jn6y3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7120")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qvwmh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vnrs1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_banbv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3fqj2")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 8.0
+}]
+
+[node name="TinyZombie" type="Node2D" unique_id=614336522 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "tiny_zombie_1940012f50"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1776670496]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_e7kbe")
+animation = &"idle"
+autoplay = "idle"
+offset = Vector2(0, -8)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bc7v0mge024rd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_gazer_merem_81cefea4a4.png" id="1_aaodd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cefyn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_aaodd")
+region = Rect2(0, 0, 184, 198)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cefyn")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

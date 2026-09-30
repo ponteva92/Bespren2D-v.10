@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ixer4spudxnr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_pumpkin_chariot_minion_b_7a6ed40b01.png" id="1_e4mpp"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_e4mpp")
+region = Rect2(0, 0, 114, 76)

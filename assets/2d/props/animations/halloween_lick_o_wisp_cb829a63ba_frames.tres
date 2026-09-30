@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dldy8uyww17kv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_lick_o_wisp_6b52f787ba.png" id="1_8tnrq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lf210"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8tnrq")
+region = Rect2(0, 0, 92, 86)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lf210")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

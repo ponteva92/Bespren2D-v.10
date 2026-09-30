@@ -1,0 +1,51 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://byk4e6dgqgwxq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/gollux_idle_ec9d5f3eee.png" id="1_sarsp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8lgr"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sarsp")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adjv1"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_sarsp")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3x61a"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_sarsp")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qmqvn"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_sarsp")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygkvw"]
+resource_name = "frame_000_004"
+atlas = ExtResource("1_sarsp")
+region = Rect2(512, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u8lgr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_adjv1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3x61a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qmqvn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygkvw")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bsqi8lauvhxcg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/assembling_automatons_automaton_a_f92dc22148.png" id="1_4wpce"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4wpce")
+region = Rect2(0, 0, 373, 403)

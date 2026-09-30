@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dgn1b7fqy5n3m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/coin_anim_f3_6210bbb946.png" id="1_sxhnr"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sxhnr")
+region = Rect2(0, 0, 6, 7)

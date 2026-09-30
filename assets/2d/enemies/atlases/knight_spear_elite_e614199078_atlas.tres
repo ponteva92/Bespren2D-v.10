@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cagumclaxd55n"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/knight_spear_elite_3396be2c6d.png" id="1_aybp7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_aybp7")
+region = Rect2(0, 0, 425, 281)

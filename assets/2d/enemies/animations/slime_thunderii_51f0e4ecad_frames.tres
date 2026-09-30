@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bih84ae2utp1p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_thunderii_6b872734ff.png" id="1_efipv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lcmtf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_efipv")
+region = Rect2(0, 0, 164, 103)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lcmtf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

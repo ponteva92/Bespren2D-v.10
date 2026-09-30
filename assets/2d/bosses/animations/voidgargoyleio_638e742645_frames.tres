@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://djdgfq5flaucn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/voidgargoyleio_1509d12919.png" id="1_g2f0k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m8rpi"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_g2f0k")
+region = Rect2(0, 0, 96, 384)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0fdjt"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_g2f0k")
+region = Rect2(96, 0, 96, 384)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlcf5"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_g2f0k")
+region = Rect2(192, 0, 96, 384)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m8rpi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0fdjt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlcf5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

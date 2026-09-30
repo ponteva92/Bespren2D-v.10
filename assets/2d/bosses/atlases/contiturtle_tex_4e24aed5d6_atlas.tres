@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cpugmaay8rip"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/contiturtle_tex_19839160f1.png" id="1_qw5ug"]
+
+[resource]
+resource_name = "layer_37"
+atlas = ExtResource("1_qw5ug")
+region = Rect2(1, 306, 787, 54)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c4mc5fyacbhtx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/rabbit_brown_move_b0d02ae71b.png" id="1_kd2y0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ta3ve"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kd2y0")
+region = Rect2(0, 0, 768, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ta3ve")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

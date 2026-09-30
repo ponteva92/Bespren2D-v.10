@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://trgpun6hcfkm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rogue_dagger_monk_c45d2f5836.png" id="1_rkm5d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwuci"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rkm5d")
+region = Rect2(0, 0, 289, 263)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qwuci")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

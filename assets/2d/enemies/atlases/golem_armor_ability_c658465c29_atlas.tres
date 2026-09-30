@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bkh3q55aq1hwk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_armor_ability_2b2085640f.png" id="1_mragc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mragc")
+region = Rect2(0, 0, 256, 192)

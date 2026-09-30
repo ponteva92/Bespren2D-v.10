@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://5ibvih1k66k2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/vampiric_creature_dragon_lamprey_54d363ce59.png" id="1_gw274"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2tprs"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gw274")
+region = Rect2(0, 0, 376, 418)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2tprs")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

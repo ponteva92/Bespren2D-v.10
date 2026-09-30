@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b3xs7htspeytk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/seven_sins_pride_c594c42b33.png" id="1_apliw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m0rll"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_apliw")
+region = Rect2(0, 0, 389, 441)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m0rll")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://e8kaytjqr4bx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_mummy_b_4ed6eb68dd.png" id="1_jxkg1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_88et1"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jxkg1")
+region = Rect2(0, 0, 121, 219)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_88et1")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

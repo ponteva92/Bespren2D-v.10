@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b0ve63kw4edgh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/xmas_snowman_0267f4deaa.png" id="1_toncs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jn8j3"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_toncs")
+region = Rect2(0, 0, 386, 271)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jn8j3")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

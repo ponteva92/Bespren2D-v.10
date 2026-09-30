@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://dj11amo62esqs"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_vtkp2"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_green_spider_8afd9c9a73.png" id="2_f0vfi"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_20k0a"]
+resource_name = "Bespren Wood Spore weathering"
+shader = ExtResource("1_vtkp2")
+shader_parameter/treatment = 1
+shader_parameter/weathering = 0.86
+shader_parameter/structural_damage = 0.08
+shader_parameter/rust_streaks = 0.3
+shader_parameter/toxic_intensity = 0.18
+shader_parameter/glow_color = Color(1, 0.84313726, 0, 1)
+shader_parameter/emission_strength = 0.58
+shader_parameter/pattern_scale = 31.0
+shader_parameter/damage_seed = 11.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_312pf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_f0vfi")
+region = Rect2(0, 0, 140, 107)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ygkhe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_312pf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="ForestGreenSpider" type="Node2D" unique_id=1419970880 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "forest_green_spider_4744bcc3e1"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1500863537]
+texture_filter = 1
+material = SubResource("ShaderMaterial_20k0a")
+sprite_frames = SubResource("SpriteFrames_ygkhe")
+offset = Vector2(0, -53.5)

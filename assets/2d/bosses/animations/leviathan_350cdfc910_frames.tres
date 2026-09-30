@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://df6bt7fp4a3gv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/leviathan_3fa94c93ba.png" id="1_abfxw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygx6w"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_abfxw")
+region = Rect2(0, 0, 99, 444)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nntyx"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_abfxw")
+region = Rect2(99, 0, 99, 444)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xj7mi"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_abfxw")
+region = Rect2(198, 0, 99, 444)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygx6w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nntyx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xj7mi")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

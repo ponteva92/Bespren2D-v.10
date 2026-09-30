@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dl8i7kew8qvcr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_witch_baba_30465cf7a5.png" id="1_cktar"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cktar")
+region = Rect2(0, 0, 363, 361)

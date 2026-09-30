@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dxjfssnxq13ob"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_attack_boots_b440f67784.png" id="1_tanc2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ompjb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tanc2")
+region = Rect2(0, 0, 768, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ompjb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

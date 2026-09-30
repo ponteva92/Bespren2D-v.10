@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c07ntoth0aacn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gunblin_jackson_4717b3801d.png" id="1_rt8ep"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bnqmq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rt8ep")
+region = Rect2(0, 0, 196, 163)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bnqmq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

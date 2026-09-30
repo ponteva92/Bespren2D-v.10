@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cvhoxe5ta53x7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/wind_feathered_golem_04b7e66a1a.png" id="1_3ceus"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3ceus")
+region = Rect2(0, 0, 452, 342)

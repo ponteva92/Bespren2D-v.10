@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://mtp77t7lyydw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_deer_b07028eea3.png" id="1_d3tqa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_isit6"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_d3tqa")
+region = Rect2(0, 0, 219, 306)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_isit6")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dcsk8uumlfnq5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_sea_calamity_urmica_b7f101fee5.png" id="1_wbv53"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wbv53")
+region = Rect2(0, 0, 754, 672)

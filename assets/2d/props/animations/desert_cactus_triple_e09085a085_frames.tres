@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dqatrf3epw2lk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/desert_cactus_triple_2a1a63579c.png" id="1_fpkrv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_80hdj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fpkrv")
+region = Rect2(0, 0, 362, 209)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_80hdj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

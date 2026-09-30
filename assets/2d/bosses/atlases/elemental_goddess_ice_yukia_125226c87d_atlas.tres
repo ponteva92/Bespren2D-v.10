@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://xiv8ll55g1hv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_goddess_ice_yukia_5416d20f20.png" id="1_qe7ul"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qe7ul")
+region = Rect2(0, 0, 240, 242)

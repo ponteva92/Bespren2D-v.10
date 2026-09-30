@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cehhsyxmhnag"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gunblin_schecter_0a6b4f8ee1.png" id="1_83bci"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_83bci")
+region = Rect2(0, 0, 118, 198)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://n8e3u530q4ma"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/kitsune_tex_eceab2d9ed.png" id="1_qbrh0"]
+
+[resource]
+resource_name = "layer_20"
+atlas = ExtResource("1_qbrh0")
+region = Rect2(288, 980, 423, 30)

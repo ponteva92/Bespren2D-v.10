@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://1kvlxi4ldgpw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_cobra_13db9c53e5.png" id="1_wxaxe"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wxaxe")
+region = Rect2(0, 0, 185, 157)

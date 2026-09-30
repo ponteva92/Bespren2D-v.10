@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cyvmlxhwurabj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_snake_black_8bf4523d26.png" id="1_juseg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_juseg")
+region = Rect2(0, 0, 405, 316)

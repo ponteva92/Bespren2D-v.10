@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://dwekfvobac5m2"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_sa55l"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f000.png" id="2_aasft"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f001.png" id="3_8usve"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f002.png" id="4_rx0ci"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f003.png" id="5_7bqo8"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f008.png" id="6_b6mh6"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f009.png" id="7_1mcbc"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f010.png" id="8_qqsbj"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f011.png" id="9_wxhh7"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f012.png" id="10_0ornb"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_b_1462f2f977/event_christmas_snowman_b_gif_f013.png" id="11_asxy6"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_sa55l")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yrltv"]
+resource_name = "default_000"
+atlas = ExtResource("2_aasft")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t7lbo"]
+resource_name = "default_001"
+atlas = ExtResource("3_8usve")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmfwp"]
+resource_name = "default_002"
+atlas = ExtResource("4_rx0ci")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lmk7q"]
+resource_name = "default_003"
+atlas = ExtResource("5_7bqo8")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qo2ar"]
+resource_name = "default_008"
+atlas = ExtResource("6_b6mh6")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3knhu"]
+resource_name = "default_009"
+atlas = ExtResource("7_1mcbc")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d66uw"]
+resource_name = "default_010"
+atlas = ExtResource("8_qqsbj")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bjtaw"]
+resource_name = "default_011"
+atlas = ExtResource("9_wxhh7")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hnmux"]
+resource_name = "default_012"
+atlas = ExtResource("10_0ornb")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ewcgh"]
+resource_name = "default_013"
+atlas = ExtResource("11_asxy6")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m2nkl"]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_yrltv")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_t7lbo")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_rmfwp")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_lmk7q")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_qo2ar")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_3knhu")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_d66uw")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_bjtaw")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_hnmux")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_ewcgh")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="EventChristmasSnowmanB" type="Node2D" unique_id=765724717 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "event_christmas_snowman_b_96894c3372"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=111288475]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_m2nkl")
+autoplay = "default"
+offset = Vector2(0, -384)

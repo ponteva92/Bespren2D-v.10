@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://br6qadk5b64jt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_dancer_zidh_e1435efa57.png" id="1_5qvlu"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5qvlu")
+region = Rect2(0, 0, 167, 208)

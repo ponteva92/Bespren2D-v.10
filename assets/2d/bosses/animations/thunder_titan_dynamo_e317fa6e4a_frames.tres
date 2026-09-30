@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b26r3dx6k1psr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/thunder_titan_dynamo_69ff2eb89f.png" id="1_j164s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0u5of"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j164s")
+region = Rect2(0, 0, 474, 534)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0u5of")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

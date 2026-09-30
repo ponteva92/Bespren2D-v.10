@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://srfdr7bww02"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_bqcgh"]
+
+[resource]
+resource_name = "Bespren Oxidized Copper weathering"
+shader = ExtResource("1_bqcgh")
+shader_parameter/treatment = 2
+shader_parameter/weathering = 0.84
+shader_parameter/structural_damage = 0.12
+shader_parameter/rust_streaks = 0.48
+shader_parameter/toxic_intensity = 0.08
+shader_parameter/glow_color = Color(0, 1, 1, 1)
+shader_parameter/emission_strength = 0.28
+shader_parameter/pattern_scale = 29.0
+shader_parameter/damage_seed = 43.0

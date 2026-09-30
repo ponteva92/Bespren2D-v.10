@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c52ma7n6gdcxg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mimic_jar_7a059b511a.png" id="1_gv62u"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gv62u")
+region = Rect2(0, 0, 302, 204)

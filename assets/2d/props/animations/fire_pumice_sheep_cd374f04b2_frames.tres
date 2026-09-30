@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://kolb1u6sn0fr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_pumice_sheep_a99305d77e.png" id="1_ox5qf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_thp6a"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ox5qf")
+region = Rect2(0, 0, 164, 176)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_thp6a")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

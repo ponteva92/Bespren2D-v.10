@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://kek03ygwkrsu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/zombie_anim_f1_d18990f9ad.png" id="1_qtu3o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lltjf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qtu3o")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lltjf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://52disfyscibg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_ogre_orkgre_c171799304.png" id="1_bnw8q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqqqg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bnw8q")
+region = Rect2(0, 0, 187, 228)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fqqqg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

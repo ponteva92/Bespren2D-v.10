@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cirqy514t2mrt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_avian_de71dfa3f7.png" id="1_oyuml"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_oyuml")
+region = Rect2(0, 0, 445, 262)

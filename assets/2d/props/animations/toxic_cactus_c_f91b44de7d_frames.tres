@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://4dxhdp5cqfof"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_cactus_c_90613f1eb7.png" id="1_uwbul"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fl5wp"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_uwbul")
+region = Rect2(0, 0, 422, 268)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fl5wp")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

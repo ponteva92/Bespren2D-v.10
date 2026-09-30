@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d07wfdixhlpjc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titan_alfadriel_f136bad334.png" id="1_nuvmq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nuvmq")
+region = Rect2(0, 0, 424, 234)

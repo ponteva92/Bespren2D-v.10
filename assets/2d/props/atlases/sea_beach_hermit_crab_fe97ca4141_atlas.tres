@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cut7ugy4f3gtn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_hermit_crab_a30a71be06.png" id="1_hfuxc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hfuxc")
+region = Rect2(0, 0, 142, 90)

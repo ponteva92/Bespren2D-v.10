@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dlr4sl62t2beh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/sound_on_pressed_8e3cbf3b67.png" id="1_kwnyg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kwnyg")
+region = Rect2(0, 0, 64, 64)

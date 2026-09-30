@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d0j6njv6bwcmk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_snowman_e_bb0481506e/event_christmas_snowman_e_gif_f000.png" id="1_xdb80"]
+
+[resource]
+resource_name = "default_000"
+atlas = ExtResource("1_xdb80")
+region = Rect2(0, 0, 768, 768)

@@ -1,0 +1,377 @@
+{
+	"atlas": {
+		"bytes": 1061057,
+		"layout": "4x3 deterministic frame order",
+		"path": "res://assets/2d/environment/polyhaven/polyhaven_environment_atlas.png",
+		"sha256": "5827ea9de0b66266710c943bb4ab4352087340b764666932dfc750ccc4afd66a",
+		"size": [
+			1536,
+			1152
+		]
+	},
+	"atlas_generator": "res://tools/asset_pipeline/build_polyhaven_environment_atlas.gd",
+	"atlas_generator_sha256": "1509370ae94f2e20b15209d2687709a7915a6f52ac775624e56ac38f83f9cddf",
+	"blender_renderer": "res://tools/art/render_polyhaven_environment_sprites.py",
+	"blender_renderer_sha256": "1e192eecd2f1a29119212de72d5aa5e05bfdcbd75bd07fa475c95a288973b4b1",
+	"blender_version": "5.0.0",
+	"derived_assets": [
+		{
+			"bytes": 153286,
+			"cell_region": [
+				0,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				42,
+				110,
+				297,
+				218
+			],
+			"key": "forest_stump",
+			"padded_atlas_region": [
+				36,
+				104,
+				309,
+				230
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_forest_stump_01.png",
+			"sha256": "6eb8020bb6033687703ce3686f30ce8f35bc87bbae216a9f61eca42f16552552",
+			"source_id": "tree_stump_01"
+		},
+		{
+			"bytes": 57433,
+			"cell_region": [
+				384,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				57,
+				121,
+				272,
+				138
+			],
+			"key": "forest_dead_trunk",
+			"padded_atlas_region": [
+				435,
+				115,
+				284,
+				150
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_forest_dead_trunk_01.png",
+			"sha256": "d3a7b494d7a44070b98d5a7e279a03eeada84b9a7f63baa1035a3bb92f25bd7d",
+			"source_id": "dead_tree_trunk"
+		},
+		{
+			"bytes": 99994,
+			"cell_region": [
+				768,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				94,
+				78,
+				195,
+				239
+			],
+			"key": "moss_rock_01",
+			"padded_atlas_region": [
+				856,
+				72,
+				207,
+				251
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_moss_rock_01.png",
+			"sha256": "6487fd31467289878bcbb9a5d1edefc5f3474b5849499459584a78e7b1dce74b",
+			"source_id": "rock_moss_set_01"
+		},
+		{
+			"bytes": 90626,
+			"cell_region": [
+				1152,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				111,
+				95,
+				132,
+				237
+			],
+			"key": "moss_rock_02",
+			"padded_atlas_region": [
+				1257,
+				89,
+				144,
+				249
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_moss_rock_02.png",
+			"sha256": "256a80211cc578d1fbf40e05e2114456e1964ce6460bfefc0521d5faf72b3a11",
+			"source_id": "rock_moss_set_01"
+		},
+		{
+			"bytes": 133940,
+			"cell_region": [
+				0,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				15,
+				91,
+				306,
+				231
+			],
+			"key": "moss_rock_03",
+			"padded_atlas_region": [
+				9,
+				469,
+				318,
+				243
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_moss_rock_03.png",
+			"sha256": "0df0da10f311f392947a0644f898e16abd275adc6456bd34eaef28968ecae002",
+			"source_id": "rock_moss_set_01"
+		},
+		{
+			"bytes": 119544,
+			"cell_region": [
+				384,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				71,
+				61,
+				257,
+				232
+			],
+			"key": "moss_rock_04",
+			"padded_atlas_region": [
+				449,
+				439,
+				269,
+				244
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_moss_rock_04.png",
+			"sha256": "3a062ba08463cc3095e73a0b60af153b1d3c5741249bf9f000525a991627e960",
+			"source_id": "rock_moss_set_01"
+		},
+		{
+			"bytes": 107665,
+			"cell_region": [
+				768,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				82,
+				81,
+				244,
+				195
+			],
+			"key": "moss_rock_05",
+			"padded_atlas_region": [
+				844,
+				459,
+				256,
+				207
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_moss_rock_05.png",
+			"sha256": "e20dd2224a978326fd6a04583970cc77f188a0f478c719b4b26d7f8f271053f3",
+			"source_id": "rock_moss_set_01"
+		},
+		{
+			"bytes": 109946,
+			"cell_region": [
+				1152,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				94,
+				83,
+				222,
+				225
+			],
+			"key": "moss_rock_06",
+			"padded_atlas_region": [
+				1240,
+				461,
+				234,
+				237
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_moss_rock_06.png",
+			"sha256": "421248d852e679300e115f9cea96cda78e9637cfbb83bbb22fd5f88c9eb2a30f",
+			"source_id": "rock_moss_set_01"
+		},
+		{
+			"bytes": 134979,
+			"cell_region": [
+				0,
+				768,
+				384,
+				384
+			],
+			"content_bounds": [
+				86,
+				49,
+				213,
+				278
+			],
+			"key": "city_trash_clean",
+			"padded_atlas_region": [
+				80,
+				811,
+				225,
+				290
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_city_trash_can_clean_01.png",
+			"sha256": "ec22c023cd57882aa509eb98ec61d67395e9c7aa6ffe5ff946b584f5b284f539",
+			"source_id": "metal_trash_can"
+		},
+		{
+			"bytes": 146223,
+			"cell_region": [
+				384,
+				768,
+				384,
+				384
+			],
+			"content_bounds": [
+				86,
+				48,
+				214,
+				280
+			],
+			"key": "city_trash_rust",
+			"padded_atlas_region": [
+				464,
+				810,
+				226,
+				292
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_city_trash_can_rust_01.png",
+			"sha256": "28cf19ff4d081fe36d275515738fe2c57a36e308724eac8caf9aed748f8e934d",
+			"source_id": "metal_trash_can"
+		},
+		{
+			"bytes": 151608,
+			"cell_region": [
+				768,
+				768,
+				384,
+				384
+			],
+			"content_bounds": [
+				28,
+				57,
+				332,
+				277
+			],
+			"key": "city_barrier",
+			"padded_atlas_region": [
+				790,
+				819,
+				344,
+				289
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_city_concrete_barrier_01.png",
+			"sha256": "6e09a2ad54b440cdf1c6b10c9600a6cd56a1211fdefea914d62cb885686f3e34",
+			"source_id": "concrete_road_barrier"
+		},
+		{
+			"bytes": 95419,
+			"cell_region": [
+				1152,
+				768,
+				384,
+				384
+			],
+			"content_bounds": [
+				86,
+				75,
+				211,
+				208
+			],
+			"key": "city_tyre",
+			"padded_atlas_region": [
+				1232,
+				837,
+				223,
+				220
+			],
+			"path": "res://assets/2d/environment/polyhaven/polyhaven_city_old_tyre_01.png",
+			"sha256": "a5bfe019f39d9be93a58e57fcd9590dac4fd4cbb89c2b615f49e2c44f9c16e57",
+			"source_id": "old_tyre"
+		}
+	],
+	"license": "CC0-1.0",
+	"license_evidence": "res://assets/licenses/polyhaven_cc0.md",
+	"license_url": "https://polyhaven.com/license",
+	"render_policy": "orthographic_transparent_freestyle_agx_mobile_midtones",
+	"schema_version": 1,
+	"source_assets": [
+		{
+			"format": "gltf",
+			"id": "tree_stump_01",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/tree_stump_01"
+		},
+		{
+			"format": "gltf",
+			"id": "dead_tree_trunk",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/dead_tree_trunk"
+		},
+		{
+			"format": "gltf",
+			"id": "rock_moss_set_01",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/rock_moss_set_01"
+		},
+		{
+			"format": "gltf",
+			"id": "metal_trash_can",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/metal_trash_can"
+		},
+		{
+			"format": "gltf",
+			"id": "concrete_road_barrier",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/concrete_road_barrier"
+		},
+		{
+			"format": "gltf",
+			"id": "old_tyre",
+			"license": "CC0-1.0",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/old_tyre"
+		}
+	],
+	"workshop": "res://tools/art/blender/bespren_map_asset_workshop.blend",
+	"workshop_bytes": 26943897,
+	"workshop_sha256": "8a0bfd785b8f1896f4d134c8dd3386d929c01732481b8a744718bb9f9279144c"
+}

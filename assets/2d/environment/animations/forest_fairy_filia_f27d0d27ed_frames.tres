@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dam005sc6i6ye"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_fairy_filia_4013b0444a.png" id="1_wcs31"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k5ilp"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wcs31")
+region = Rect2(0, 0, 149, 180)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k5ilp")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

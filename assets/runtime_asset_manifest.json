@@ -1,0 +1,5163 @@
+{
+  "schema_version": 1,
+  "generator": "tools/asset_pipeline/audit_and_extract_runtime_assets.py",
+  "source_root": "C:\\Users\\heikk\\Desktop\\Claude\\gpt_peli\\Addons",
+  "summary": {
+    "files_audited": 31404,
+    "source_bytes": 2355834247,
+    "archives_audited": 145,
+    "archive_containers_audited": 159,
+    "physical_archive_format_counts": {
+      "gzip_tar": 1,
+      "zip": 144
+    },
+    "recursive_archive_format_counts": {
+      "gzip_tar": 4,
+      "zip": 155
+    },
+    "archive_members_audited": 4684,
+    "archive_bytes_unpacked_for_crc_validation": 892666069,
+    "archive_bytes_unpacked_for_integrity_validation": 892666069,
+    "duplicate_archives": 26,
+    "runtime_assets_selected": 12,
+    "extension_counts": {
+      ".7": 3,
+      ".aseprite": 204,
+      ".bin": 211,
+      ".build": 1,
+      ".cache": 9,
+      ".cfg": 12,
+      ".cs": 3,
+      ".csv": 1,
+      ".dae": 46,
+      ".depren": 1,
+      ".dialogue": 4,
+      ".dll": 2,
+      ".ds_store": 1,
+      ".dylib": 1,
+      ".example": 1,
+      ".fbx": 531,
+      ".fla": 1,
+      ".gd": 692,
+      ".gdextension": 1,
+      ".gdshader": 21,
+      ".gif": 514,
+      ".glb": 101,
+      ".gltf": 211,
+      ".godot": 7,
+      ".import": 11836,
+      ".jpeg": 3,
+      ".jpg": 19,
+      ".js": 2,
+      ".json": 142,
+      ".kra": 1,
+      ".log": 1,
+      ".md": 28,
+      ".mp3": 36,
+      ".mtl": 283,
+      ".obj": 283,
+      ".ogg": 21,
+      ".ogv": 28,
+      ".pdf": 23,
+      ".png": 10308,
+      ".png~": 13,
+      ".po": 15,
+      ".pot": 2,
+      ".psd": 114,
+      ".res": 10,
+      ".so": 2,
+      ".svg": 2079,
+      ".tmp": 52,
+      ".tmx": 9,
+      ".translation": 2,
+      ".tres": 1551,
+      ".tscn": 535,
+      ".tset": 1,
+      ".tsx": 5,
+      ".ttf": 11,
+      ".txt": 294,
+      ".uid": 733,
+      ".unitypackage": 1,
+      ".url": 27,
+      ".wasm": 1,
+      ".wav": 104,
+      ".webp": 46,
+      ".xcf": 7,
+      ".yml": 1,
+      ".zip": 142,
+      "<none>": 54
+    },
+    "keyword_counts": {
+      "build": 432,
+      "click": 8,
+      "collect": 686,
+      "forest": 336,
+      "grass": 446,
+      "harvest": 3,
+      "nature": 579,
+      "projectile": 115,
+      "shoot": 325,
+      "tile": 3933,
+      "tree": 796
+    }
+  },
+  "top_level_packages": {
+    ".gdignore": {
+      "files": 1,
+      "bytes": 130,
+      "extension_counts": {
+        "<none>": 1
+      }
+    },
+    "0x72_DungeonTilesetII_v1.7": {
+      "files": 1497,
+      "bytes": 941444,
+      "extension_counts": {
+        ".7": 3,
+        ".ds_store": 1,
+        ".import": 745,
+        ".png": 745,
+        "<none>": 3
+      }
+    },
+    "25.07 - Free Mana Seed RPG Starter Pack": {
+      "files": 800,
+      "bytes": 5797301,
+      "extension_counts": {
+        ".gif": 4,
+        ".import": 394,
+        ".png": 392,
+        ".ttf": 2,
+        ".txt": 8
+      }
+    },
+    "2D Pixel Dungeon Asset Pack v2.0": {
+      "files": 367,
+      "bytes": 412345,
+      "extension_counts": {
+        ".gif": 1,
+        ".import": 183,
+        ".png": 183
+      }
+    },
+    "2dcitywithoutline": {
+      "files": 145,
+      "bytes": 258715386,
+      "extension_counts": {
+        ".import": 72,
+        ".png": 72,
+        ".txt": 1
+      }
+    },
+    "2dcitywithoutoutline": {
+      "files": 145,
+      "bytes": 248448380,
+      "extension_counts": {
+        ".import": 72,
+        ".png": 72,
+        ".txt": 1
+      }
+    },
+    "Admurin's Freebies": {
+      "files": 451,
+      "bytes": 26390110,
+      "extension_counts": {
+        ".aseprite": 4,
+        ".gif": 45,
+        ".png": 374,
+        ".txt": 2,
+        ".zip": 26
+      }
+    },
+    "Admurins_Freebies-2": {
+      "files": 452,
+      "bytes": 26391150,
+      "extension_counts": {
+        ".aseprite": 4,
+        ".gif": 45,
+        ".png": 374,
+        ".txt": 3,
+        ".zip": 26
+      }
+    },
+    "Aekashics Librarium - 3 Frame Frontview $Big_Monster Sprites": {
+      "files": 85,
+      "bytes": 527585,
+      "extension_counts": {
+        ".import": 42,
+        ".png": 42,
+        ".txt": 1
+      }
+    },
+    "Aekashics Librarium - Dragonbones Animated Battlers": {
+      "files": 696,
+      "bytes": 164865335,
+      "extension_counts": {
+        ".js": 2,
+        ".json": 142,
+        ".png": 274,
+        ".txt": 206,
+        ".zip": 72
+      }
+    },
+    "Aekashics Librarium MV Format Animated Battlers": {
+      "files": 134,
+      "bytes": 779342239,
+      "extension_counts": {
+        ".import": 47,
+        ".png": 66,
+        ".txt": 8,
+        ".zip": 13
+      }
+    },
+    "Aekashics Librarium Static Battlers": {
+      "files": 3497,
+      "bytes": 147513403,
+      "extension_counts": {
+        ".import": 1748,
+        ".png": 1748,
+        ".txt": 1
+      }
+    },
+    "Aquanoctis_IsoSliceBasicDungeonAssets": {
+      "files": 151,
+      "bytes": 234039,
+      "extension_counts": {
+        ".import": 75,
+        ".png": 75,
+        ".txt": 1
+      }
+    },
+    "ClawAndBlade_v1.5.0": {
+      "files": 549,
+      "bytes": 11062361,
+      "extension_counts": {
+        ".png": 547,
+        ".txt": 2
+      }
+    },
+    "DampDungeons": {
+      "files": 32,
+      "bytes": 106350,
+      "extension_counts": {
+        ".import": 15,
+        ".png": 15,
+        ".txt": 1,
+        ".url": 1
+      }
+    },
+    "DampDungeonsRPGMakerMZ": {
+      "files": 74,
+      "bytes": 447823,
+      "extension_counts": {
+        ".import": 36,
+        ".png": 36,
+        ".txt": 1,
+        ".url": 1
+      }
+    },
+    "Enemy_Animations_Set": {
+      "files": 33,
+      "bytes": 81116,
+      "extension_counts": {
+        ".aseprite": 1,
+        ".import": 16,
+        ".png": 16
+      }
+    },
+    "FREE Character HD Survivor W Bike": {
+      "files": 23,
+      "bytes": 16203534,
+      "extension_counts": {
+        ".png": 23
+      }
+    },
+    "Free Sample": {
+      "files": 30,
+      "bytes": 2793055,
+      "extension_counts": {
+        ".mtl": 10,
+        ".obj": 10,
+        ".png": 10
+      }
+    },
+    "FreeSample": {
+      "files": 27,
+      "bytes": 10567060,
+      "extension_counts": {
+        ".mtl": 9,
+        ".obj": 9,
+        ".png": 9
+      }
+    },
+    "Game-Component-Bundle-d8ee7d645a4f6216016316ac6f822ebcfbc2c4c9": {
+      "files": 1648,
+      "bytes": 76478260,
+      "extension_counts": {
+        ".cfg": 1,
+        ".gd": 146,
+        ".gdshader": 13,
+        ".godot": 1,
+        ".import": 391,
+        ".jpeg": 3,
+        ".jpg": 16,
+        ".md": 1,
+        ".mp3": 34,
+        ".ogv": 28,
+        ".png": 153,
+        ".svg": 2,
+        ".tmp": 33,
+        ".tres": 130,
+        ".tscn": 377,
+        ".ttf": 1,
+        ".txt": 2,
+        ".uid": 214,
+        ".wav": 99,
+        "<none>": 3
+      }
+    },
+    "Godot-4-Tower-Defense-Template-master": {
+      "files": 89,
+      "bytes": 6578188,
+      "extension_counts": {
+        ".build": 1,
+        ".cfg": 1,
+        ".gd": 21,
+        ".gdshader": 1,
+        ".godot": 1,
+        ".import": 18,
+        ".md": 1,
+        ".png": 18,
+        ".svg": 1,
+        ".tmp": 3,
+        ".tres": 2,
+        ".tscn": 17,
+        ".webp": 1,
+        "<none>": 3
+      }
+    },
+    "Godot-4-Tower-Defense-Template-master.zip": {
+      "files": 1,
+      "bytes": 6332723,
+      "extension_counts": {
+        ".zip": 1
+      }
+    },
+    "Godot-Asset-library-Addon-18e98149b2a6709d4005ca00f74b4284615bee12": {
+      "files": 54,
+      "bytes": 209783,
+      "extension_counts": {
+        ".cfg": 1,
+        ".gd": 21,
+        ".import": 2,
+        ".md": 2,
+        ".png": 2,
+        ".uid": 21,
+        "<none>": 5
+      }
+    },
+    "IsometricTRPGAssetPack": {
+      "files": 10,
+      "bytes": 41738,
+      "extension_counts": {
+        ".import": 5,
+        ".png": 5
+      }
+    },
+    "KayKit_Character_Animations_1.1": {
+      "files": 74,
+      "bytes": 43023523,
+      "extension_counts": {
+        ".fbx": 16,
+        ".glb": 16,
+        ".import": 35,
+        ".png": 3,
+        ".txt": 1,
+        ".url": 3
+      }
+    },
+    "KayKit_Character_Animations_1.1.zip": {
+      "files": 1,
+      "bytes": 14858957,
+      "extension_counts": {
+        ".zip": 1
+      }
+    },
+    "KayKit_DungeonRemastered_1.1_FREE": {
+      "files": 2171,
+      "bytes": 48898900,
+      "extension_counts": {
+        ".bin": 211,
+        ".fbx": 422,
+        ".gltf": 211,
+        ".import": 870,
+        ".mtl": 216,
+        ".obj": 216,
+        ".png": 21,
+        ".txt": 1,
+        ".url": 3
+      }
+    },
+    "KayKit_DungeonRemastered_1.1_FREE.zip": {
+      "files": 1,
+      "bytes": 30686585,
+      "extension_counts": {
+        ".zip": 1
+      }
+    },
+    "Minimal Dungeon - Asset Pack DEMO": {
+      "files": 21,
+      "bytes": 42822,
+      "extension_counts": {
+        ".import": 9,
+        ".png": 9,
+        ".txt": 3
+      }
+    },
+    "P_P_FREE_RPG_TILESET": {
+      "files": 8,
+      "bytes": 59797,
+      "extension_counts": {
+        ".import": 4,
+        ".png": 4
+      }
+    },
+    "Pixel Art Top Down - Basic v1.2.3": {
+      "files": 27,
+      "bytes": 2645257,
+      "extension_counts": {
+        ".import": 12,
+        ".png": 12,
+        ".txt": 1,
+        ".unitypackage": 1,
+        ".url": 1
+      }
+    },
+    "Pixel Crawler - Free Pack 2.11": {
+      "files": 553,
+      "bytes": 3289761,
+      "extension_counts": {
+        ".aseprite": 190,
+        ".import": 181,
+        ".png": 181,
+        ".txt": 1
+      }
+    },
+    "Pixel_16_interiors_v2_free": {
+      "files": 2,
+      "bytes": 6091,
+      "extension_counts": {
+        ".import": 1,
+        ".png": 1
+      }
+    },
+    "Pixelole's overword Tileset1.0 free": {
+      "files": 2,
+      "bytes": 15942,
+      "extension_counts": {
+        ".import": 1,
+        ".png": 1
+      }
+    },
+    "PostApocalypse_AssetPack_v1.1.2": {
+      "files": 2500,
+      "bytes": 3517768,
+      "extension_counts": {
+        ".gif": 273,
+        ".import": 1113,
+        ".png": 1113,
+        ".txt": 1
+      }
+    },
+    "Random asset": {
+      "files": 15,
+      "bytes": 133921,
+      "extension_counts": {
+        ".import": 7,
+        ".pdf": 1,
+        ".png": 7
+      }
+    },
+    "SBS - Isometric Town Examples": {
+      "files": 5,
+      "bytes": 22991,
+      "extension_counts": {
+        ".tmx": 1,
+        ".tsx": 3,
+        ".txt": 1
+      }
+    },
+    "SBS - Isometric Town Pack": {
+      "files": 9,
+      "bytes": 4175054,
+      "extension_counts": {
+        ".import": 4,
+        ".png": 4,
+        ".txt": 1
+      }
+    },
+    "ShardShatter": {
+      "files": 7,
+      "bytes": 9959,
+      "extension_counts": {
+        ".gd": 1,
+        ".gdshader": 1,
+        ".md": 1,
+        ".tres": 1,
+        ".tscn": 1,
+        ".uid": 2
+      }
+    },
+    "Starter-Kit-Basic-Scene-main": {
+      "files": 64,
+      "bytes": 991148,
+      "extension_counts": {
+        ".glb": 22,
+        ".godot": 1,
+        ".import": 25,
+        ".md": 2,
+        ".png": 4,
+        ".tmp": 1,
+        ".tres": 2,
+        ".tscn": 1,
+        ".txt": 1,
+        ".url": 2,
+        "<none>": 3
+      }
+    },
+    "Starter-Kit-Basic-Scene-main.zip": {
+      "files": 1,
+      "bytes": 526851,
+      "extension_counts": {
+        ".zip": 1
+      }
+    },
+    "Starter-Kit-City-Builder-main": {
+      "files": 110,
+      "bytes": 2069806,
+      "extension_counts": {
+        ".fla": 1,
+        ".gd": 6,
+        ".glb": 15,
+        ".godot": 1,
+        ".import": 33,
+        ".md": 2,
+        ".ogg": 11,
+        ".png": 7,
+        ".res": 1,
+        ".tmp": 4,
+        ".tres": 16,
+        ".tscn": 1,
+        ".ttf": 1,
+        ".txt": 1,
+        ".uid": 6,
+        "<none>": 4
+      }
+    },
+    "Starter-Kit-City-Builder-main.zip": {
+      "files": 1,
+      "bytes": 1676360,
+      "extension_counts": {
+        ".zip": 1
+      }
+    },
+    "TileSet": {
+      "files": 202,
+      "bytes": 158256,
+      "extension_counts": {
+        ".import": 101,
+        ".png": 101
+      }
+    },
+    "Tilemaps": {
+      "files": 16,
+      "bytes": 323449,
+      "extension_counts": {
+        ".import": 8,
+        ".png": 8
+      }
+    },
+    "Tiny Adventure Pack Plus": {
+      "files": 230,
+      "bytes": 185265,
+      "extension_counts": {
+        ".import": 115,
+        ".png": 115
+      }
+    },
+    "Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A": {
+      "files": 42,
+      "bytes": 132590,
+      "extension_counts": {
+        ".aseprite": 4,
+        ".import": 19,
+        ".png": 19
+      }
+    },
+    "Top-Down_Retro_Interior": {
+      "files": 12,
+      "bytes": 65579,
+      "extension_counts": {
+        ".import": 6,
+        ".png": 6
+      }
+    },
+    "TopDownFantasy_Forest_v1": {
+      "files": 12,
+      "bytes": 84200,
+      "extension_counts": {
+        ".import": 6,
+        ".png": 6
+      }
+    },
+    "Top_Down_Adventure_Pack_v.1.0": {
+      "files": 305,
+      "bytes": 300103,
+      "extension_counts": {
+        ".gif": 88,
+        ".import": 108,
+        ".png": 108,
+        ".txt": 1
+      }
+    },
+    "TopdownStarter-6075a3e651639a7181333f9873e91d9b4333a667": {
+      "files": 183,
+      "bytes": 4676209,
+      "extension_counts": {
+        ".aseprite": 1,
+        ".gd": 25,
+        ".godot": 1,
+        ".import": 63,
+        ".md": 1,
+        ".ogg": 8,
+        ".png": 53,
+        ".svg": 1,
+        ".tmp": 7,
+        ".tres": 3,
+        ".tscn": 15,
+        ".ttf": 1,
+        "<none>": 4
+      }
+    },
+    "Weiholmir Standard": {
+      "files": 12,
+      "bytes": 10471,
+      "extension_counts": {
+        ".import": 6,
+        ".png": 6
+      }
+    },
+    "[AR] Post-Apocalyptic - Starter Pack": {
+      "files": 184,
+      "bytes": 47289385,
+      "extension_counts": {
+        ".dae": 29,
+        ".fbx": 55,
+        ".glb": 29,
+        ".mtl": 29,
+        ".obj": 29,
+        ".png": 12,
+        ".txt": 1
+      }
+    },
+    "[FREE] Gas Station": {
+      "files": 32,
+      "bytes": 19796938,
+      "extension_counts": {
+        ".dae": 3,
+        ".fbx": 6,
+        ".glb": 3,
+        ".mtl": 3,
+        ".obj": 3,
+        ".png": 13,
+        ".txt": 1
+      }
+    },
+    "[FREE] Interiors": {
+      "files": 17,
+      "bytes": 2568036,
+      "extension_counts": {
+        ".fbx": 4,
+        ".glb": 2,
+        ".mtl": 2,
+        ".obj": 2,
+        ".png": 6,
+        ".txt": 1
+      }
+    },
+    "[FREE] Into The Wild": {
+      "files": 31,
+      "bytes": 20235022,
+      "extension_counts": {
+        ".dae": 3,
+        ".fbx": 6,
+        ".glb": 3,
+        ".mtl": 3,
+        ".obj": 3,
+        ".png": 12,
+        ".txt": 1
+      }
+    },
+    "[FREE] Pharmacy": {
+      "files": 79,
+      "bytes": 24521144,
+      "extension_counts": {
+        ".dae": 11,
+        ".fbx": 22,
+        ".glb": 11,
+        ".mtl": 11,
+        ".obj": 11,
+        ".png": 12,
+        ".txt": 1
+      }
+    },
+    "ambientcg": {
+      "files": 28,
+      "bytes": 43751,
+      "extension_counts": {
+        ".cfg": 1,
+        ".gd": 9,
+        ".import": 3,
+        ".png": 1,
+        ".svg": 2,
+        ".tscn": 3,
+        ".uid": 9
+      }
+    },
+    "at-icons": {
+      "files": 4100,
+      "bytes": 3028953,
+      "extension_counts": {
+        ".cfg": 1,
+        ".gd": 1,
+        ".import": 2048,
+        ".svg": 2048,
+        ".txt": 1,
+        ".uid": 1
+      }
+    },
+    "cgheven": {
+      "files": 49,
+      "bytes": 192975,
+      "extension_counts": {
+        ".cfg": 1,
+        ".gd": 21,
+        ".import": 1,
+        ".md": 1,
+        ".png": 1,
+        ".uid": 21,
+        "<none>": 3
+      }
+    },
+    "craftpix-net-169442-free-2d-top-down-pixel-dungeon-asset-pack": {
+      "files": 130,
+      "bytes": 5076159,
+      "extension_counts": {
+        ".import": 46,
+        ".pdf": 6,
+        ".png": 46,
+        ".psd": 22,
+        ".tmx": 2,
+        ".txt": 3,
+        ".url": 2,
+        "<none>": 3
+      }
+    },
+    "craftpix-net-385863-free-top-down-trees-pixel-art": {
+      "files": 465,
+      "bytes": 60852922,
+      "extension_counts": {
+        ".import": 211,
+        ".pdf": 7,
+        ".png": 211,
+        ".psd": 23,
+        ".tmx": 2,
+        ".txt": 5,
+        ".url": 3,
+        "<none>": 3
+      }
+    },
+    "craftpix-net-505052-free-forest-objects-top-down-pixel-art": {
+      "files": 168,
+      "bytes": 7241897,
+      "extension_counts": {
+        ".import": 82,
+        ".pdf": 1,
+        ".png": 82,
+        ".psd": 1,
+        ".txt": 2
+      }
+    },
+    "craftpix-net-934618-free-top-down-ruins-pixel-art": {
+      "files": 334,
+      "bytes": 23340309,
+      "extension_counts": {
+        ".import": 165,
+        ".pdf": 1,
+        ".png": 165,
+        ".psd": 1,
+        ".txt": 2
+      }
+    },
+    "craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art": {
+      "files": 334,
+      "bytes": 5173923,
+      "extension_counts": {
+        ".import": 165,
+        ".pdf": 1,
+        ".png": 165,
+        ".psd": 1,
+        ".txt": 2
+      }
+    },
+    "cuberact-library": {
+      "files": 13,
+      "bytes": 16386998,
+      "extension_counts": {
+        ".dll": 2,
+        ".dylib": 1,
+        ".gdextension": 1,
+        ".md": 2,
+        ".so": 2,
+        ".tmp": 3,
+        ".uid": 1,
+        ".wasm": 1
+      }
+    },
+    "free-2d-top-down-pixel-dungeon-asset-pack": {
+      "files": 130,
+      "bytes": 5075241,
+      "extension_counts": {
+        ".import": 46,
+        ".pdf": 6,
+        ".png": 46,
+        ".psd": 22,
+        ".tmx": 2,
+        ".txt": 3,
+        ".url": 2,
+        "<none>": 3
+      }
+    },
+    "godot-2d-topdown-template-main": {
+      "files": 491,
+      "bytes": 8437609,
+      "extension_counts": {
+        ".cache": 9,
+        ".cfg": 3,
+        ".cs": 2,
+        ".csv": 1,
+        ".depren": 1,
+        ".dialogue": 2,
+        ".gd": 140,
+        ".gdshader": 3,
+        ".godot": 1,
+        ".kra": 1,
+        ".md": 2,
+        ".png": 29,
+        ".png~": 13,
+        ".po": 5,
+        ".pot": 1,
+        ".res": 8,
+        ".svg": 20,
+        ".tmp": 1,
+        ".translation": 2,
+        ".tres": 19,
+        ".tscn": 60,
+        ".tset": 1,
+        ".txt": 7,
+        ".uid": 153,
+        "<none>": 7
+      }
+    },
+    "godot-jrpg-53f3cb1df4efc647018cb6ba16cc8a7fec6b42d0": {
+      "files": 1101,
+      "bytes": 43133953,
+      "extension_counts": {
+        ".cfg": 1,
+        ".dialogue": 2,
+        ".example": 1,
+        ".gd": 261,
+        ".gdshader": 3,
+        ".gif": 22,
+        ".godot": 1,
+        ".import": 155,
+        ".jpg": 3,
+        ".log": 1,
+        ".md": 11,
+        ".png": 196,
+        ".res": 1,
+        ".svg": 1,
+        ".tres": 103,
+        ".tscn": 50,
+        ".ttf": 6,
+        ".uid": 264,
+        ".wav": 3,
+        ".xcf": 7,
+        ".yml": 1,
+        "<none>": 8
+      }
+    },
+    "kenney_pico-8-city": {
+      "files": 734,
+      "bytes": 520587,
+      "extension_counts": {
+        ".import": 364,
+        ".png": 364,
+        ".tmx": 1,
+        ".tsx": 1,
+        ".txt": 2,
+        ".url": 2
+      }
+    },
+    "kenney_tiny-dungeon": {
+      "files": 278,
+      "bytes": 215799,
+      "extension_counts": {
+        ".import": 136,
+        ".png": 136,
+        ".tmx": 1,
+        ".tsx": 1,
+        ".txt": 2,
+        ".url": 2
+      }
+    },
+    "kenney_tiny-town": {
+      "files": 277,
+      "bytes": 294026,
+      "extension_counts": {
+        ".import": 136,
+        ".png": 136,
+        ".txt": 2,
+        ".url": 3
+      }
+    },
+    "material_generator": {
+      "files": 10,
+      "bytes": 27341,
+      "extension_counts": {
+        ".cfg": 1,
+        ".gd": 3,
+        ".md": 2,
+        ".tscn": 1,
+        ".uid": 3
+      }
+    },
+    "mystic_woods_free_2.2": {
+      "files": 76,
+      "bytes": 844118,
+      "extension_counts": {
+        ".import": 36,
+        ".png": 36,
+        ".txt": 2,
+        ".url": 2
+      }
+    },
+    "spritecook-isometric-buildings": {
+      "files": 45,
+      "bytes": 7785235,
+      "extension_counts": {
+        ".import": 22,
+        ".png": 18,
+        ".txt": 1,
+        ".webp": 4
+      }
+    },
+    "spritecook-pixel-art-characters": {
+      "files": 166,
+      "bytes": 2428791,
+      "extension_counts": {
+        ".import": 82,
+        ".png": 41,
+        ".txt": 2,
+        ".webp": 41
+      }
+    },
+    "spriteframes": {
+      "files": 1275,
+      "bytes": 13853875,
+      "extension_counts": {
+        ".tres": 1275
+      }
+    },
+    "spritesheets": {
+      "files": 2590,
+      "bytes": 52123814,
+      "extension_counts": {
+        ".import": 1295,
+        ".png": 1295
+      }
+    },
+    "top-down-collection-pack": {
+      "files": 582,
+      "bytes": 31502333,
+      "extension_counts": {
+        ".gif": 36,
+        ".import": 250,
+        ".mp3": 2,
+        ".ogg": 2,
+        ".png": 244,
+        ".psd": 44,
+        ".txt": 2,
+        ".wav": 2
+      }
+    },
+    "yard": {
+      "files": 108,
+      "bytes": 774660,
+      "extension_counts": {
+        ".cfg": 1,
+        ".cs": 1,
+        ".gd": 37,
+        ".import": 5,
+        ".png": 1,
+        ".po": 10,
+        ".pot": 1,
+        ".svg": 4,
+        ".tscn": 9,
+        ".uid": 38,
+        "<none>": 1
+      }
+    }
+  },
+  "archives": [
+    {
+      "path": "Addons/Admurin's Freebies/Animated Chests.zip",
+      "format": "zip",
+      "sha256": "bb5fef97a25f622c749d4ee881f3d501304b66fe37845c9e6734feecac151587",
+      "containers_recursive": 1,
+      "members_recursive": 4,
+      "unpacked_bytes_crc_validated": 119147,
+      "unpacked_bytes_integrity_validated": 119147,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Animated Chests.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 4,
+          "unpacked_bytes_crc_validated": 119147,
+          "unpacked_bytes_integrity_validated": 119147,
+          "extension_counts": {
+            ".aseprite": 1,
+            ".gif": 1,
+            ".png": 2
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/BlockyLife.zip",
+      "format": "zip",
+      "sha256": "3860e57a4205960eff28360a8a9774d4412c0b248232cb1fc190a5cf14149948",
+      "containers_recursive": 1,
+      "members_recursive": 2,
+      "unpacked_bytes_crc_validated": 1046240,
+      "unpacked_bytes_integrity_validated": 1046240,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/BlockyLife.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 2,
+          "unpacked_bytes_crc_validated": 1046240,
+          "unpacked_bytes_integrity_validated": 1046240,
+          "extension_counts": {
+            ".png": 2
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Bosses_Badger.zip",
+      "format": "zip",
+      "sha256": "64ffbab887980a7b24e2a53b6d81c7e2da1eaf6d7a7a0507f91f0167268c457f",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 1696666,
+      "unpacked_bytes_integrity_validated": 1696666,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Bosses_Badger.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 1696666,
+          "unpacked_bytes_integrity_validated": 1696666,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Bosses_Dino_Rex.zip",
+      "format": "zip",
+      "sha256": "47bb77a41efad769ef1d3d82fc734849222b62803489c08686f63d4e14faf1ca",
+      "containers_recursive": 1,
+      "members_recursive": 13,
+      "unpacked_bytes_crc_validated": 760950,
+      "unpacked_bytes_integrity_validated": 760950,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Bosses_Dino_Rex.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 13,
+          "unpacked_bytes_crc_validated": 760950,
+          "unpacked_bytes_integrity_validated": 760950,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 11
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Bosses_Dino_Tri.zip",
+      "format": "zip",
+      "sha256": "c8ccb78d6e0ca177130c03ffb9789805d675159a49335401beca8ba4df76047c",
+      "containers_recursive": 1,
+      "members_recursive": 10,
+      "unpacked_bytes_crc_validated": 592352,
+      "unpacked_bytes_integrity_validated": 592352,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Bosses_Dino_Tri.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 10,
+          "unpacked_bytes_crc_validated": 592352,
+          "unpacked_bytes_integrity_validated": 592352,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 8
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Bosses_Frogger.zip",
+      "format": "zip",
+      "sha256": "774d63c9585d001615177620628645930a5dff83ca9fe75957433e31257452ba",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 1517590,
+      "unpacked_bytes_integrity_validated": 1517590,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Bosses_Frogger.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 1517590,
+          "unpacked_bytes_integrity_validated": 1517590,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Bosses_Gollux.zip",
+      "format": "zip",
+      "sha256": "5c5d9ae9afc68ac7d31435485373d3142b14131e00bd0c0be96c1fa31b98d46a",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 418689,
+      "unpacked_bytes_integrity_validated": 418689,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Bosses_Gollux.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 418689,
+          "unpacked_bytes_integrity_validated": 418689,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Bosses_Pengu.zip",
+      "format": "zip",
+      "sha256": "72f568a397df18de172d1162917cd84cc7c96cd41e67b2d11d869a611fffd4ce",
+      "containers_recursive": 1,
+      "members_recursive": 10,
+      "unpacked_bytes_crc_validated": 1781512,
+      "unpacked_bytes_integrity_validated": 1781512,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Bosses_Pengu.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 10,
+          "unpacked_bytes_crc_validated": 1781512,
+          "unpacked_bytes_integrity_validated": 1781512,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 8
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Enemy_Galore_I.zip",
+      "format": "zip",
+      "sha256": "9b46f78484b40d7064b5ed6a8364311ffe7d8b5a3ee656a5b66d7d019787d7ae",
+      "containers_recursive": 1,
+      "members_recursive": 113,
+      "unpacked_bytes_crc_validated": 2152938,
+      "unpacked_bytes_integrity_validated": 2152938,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Enemy_Galore_I.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 113,
+          "unpacked_bytes_crc_validated": 2152938,
+          "unpacked_bytes_integrity_validated": 2152938,
+          "extension_counts": {
+            ".aseprite": 1,
+            ".gif": 5,
+            ".png": 107
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Enemy_Single_Winter_Canines.zip",
+      "format": "zip",
+      "sha256": "641ad2181ae8397263ee1a2b32da082d495cfb36ebcbc28317aa585bd39d8200",
+      "containers_recursive": 1,
+      "members_recursive": 30,
+      "unpacked_bytes_crc_validated": 265465,
+      "unpacked_bytes_integrity_validated": 265465,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Enemy_Single_Winter_Canines.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 30,
+          "unpacked_bytes_crc_validated": 265465,
+          "unpacked_bytes_integrity_validated": 265465,
+          "extension_counts": {
+            ".aseprite": 1,
+            ".png": 29
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Icons.zip",
+      "format": "zip",
+      "sha256": "d5b02f97aa9aa9baeba24e006c2519afbbaadc20cfd79c8db4d68e8b316c0d87",
+      "containers_recursive": 1,
+      "members_recursive": 13,
+      "unpacked_bytes_crc_validated": 475533,
+      "unpacked_bytes_integrity_validated": 475533,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Icons.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 13,
+          "unpacked_bytes_crc_validated": 475533,
+          "unpacked_bytes_integrity_validated": 475533,
+          "extension_counts": {
+            ".aseprite": 1,
+            ".png": 12
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Monster_Pack_21.zip",
+      "format": "zip",
+      "sha256": "34c05777f41cd4c8255f90475760389ca8e44d37d3442165c3c799469f93975f",
+      "containers_recursive": 1,
+      "members_recursive": 20,
+      "unpacked_bytes_crc_validated": 413378,
+      "unpacked_bytes_integrity_validated": 413378,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Monster_Pack_21.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 20,
+          "unpacked_bytes_crc_validated": 413378,
+          "unpacked_bytes_integrity_validated": 413378,
+          "extension_counts": {
+            ".gif": 4,
+            ".png": 16
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Monster_Pack_40.zip",
+      "format": "zip",
+      "sha256": "1beffd492664f2d132bb3f5011a236855a3918cffb524312bf533e055ad14241",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 358184,
+      "unpacked_bytes_integrity_validated": 358184,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Monster_Pack_40.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 358184,
+          "unpacked_bytes_integrity_validated": 358184,
+          "extension_counts": {
+            ".gif": 3,
+            ".png": 5
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Monster_Pack_82.zip",
+      "format": "zip",
+      "sha256": "9fb7eafddd19fd6aa1147ee5c22518da3a106a1333ad8c6cd7fcb6b88030cc20",
+      "containers_recursive": 1,
+      "members_recursive": 22,
+      "unpacked_bytes_crc_validated": 755914,
+      "unpacked_bytes_integrity_validated": 755914,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Monster_Pack_82.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 22,
+          "unpacked_bytes_crc_validated": 755914,
+          "unpacked_bytes_integrity_validated": 755914,
+          "extension_counts": {
+            ".gif": 8,
+            ".png": 14
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Monster_Pack_83.zip",
+      "format": "zip",
+      "sha256": "f0b26b3ad9a09d9ed76cdee315187f9c20eaf01c7c39de2416c031e5da5b46d0",
+      "containers_recursive": 1,
+      "members_recursive": 16,
+      "unpacked_bytes_crc_validated": 516092,
+      "unpacked_bytes_integrity_validated": 516092,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Monster_Pack_83.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 16,
+          "unpacked_bytes_crc_validated": 516092,
+          "unpacked_bytes_integrity_validated": 516092,
+          "extension_counts": {
+            ".gif": 6,
+            ".png": 10
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Monster_Pack_Free.zip",
+      "format": "zip",
+      "sha256": "e27e279946a5f03290f686d38b8c0abc1b97a8fbcc59ea2dfaffdbdb463ab44e",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 289950,
+      "unpacked_bytes_integrity_validated": 289950,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Monster_Pack_Free.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 289950,
+          "unpacked_bytes_integrity_validated": 289950,
+          "extension_counts": {
+            ".gif": 3,
+            ".png": 5
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Monster_Pack_Free_Character.zip",
+      "format": "zip",
+      "sha256": "d1a5c6c85769a0e28599a37a870f2737acc4f602942e590ce0cb997c5508d771",
+      "containers_recursive": 1,
+      "members_recursive": 36,
+      "unpacked_bytes_crc_validated": 520858,
+      "unpacked_bytes_integrity_validated": 520858,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Monster_Pack_Free_Character.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 36,
+          "unpacked_bytes_crc_validated": 520858,
+          "unpacked_bytes_integrity_validated": 520858,
+          "extension_counts": {
+            ".gif": 3,
+            ".png": 32,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Cave.zip",
+      "format": "zip",
+      "sha256": "571ebbdc7b683cf2e49ddc2e901994c6fb38c374d1b02418154a87c22cb1b7d6",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 40646,
+      "unpacked_bytes_integrity_validated": 40646,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Cave.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 40646,
+          "unpacked_bytes_integrity_validated": 40646,
+          "extension_counts": {
+            ".png": 8
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_DeadForest.zip",
+      "format": "zip",
+      "sha256": "c2bbdb156319f5cee6ad416a88102cc3b8d52955a00e6a8fcf6286f671bd561a",
+      "containers_recursive": 1,
+      "members_recursive": 7,
+      "unpacked_bytes_crc_validated": 56032,
+      "unpacked_bytes_integrity_validated": 56032,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_DeadForest.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 56032,
+          "unpacked_bytes_integrity_validated": 56032,
+          "extension_counts": {
+            ".png": 7
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Dock.zip",
+      "format": "zip",
+      "sha256": "6970199978a090544001dca373b03671b9122d5b616a275bdf20d9f1f48948b8",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 18534,
+      "unpacked_bytes_integrity_validated": 18534,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Dock.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 18534,
+          "unpacked_bytes_integrity_validated": 18534,
+          "extension_counts": {
+            ".png": 9
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Plains.zip",
+      "format": "zip",
+      "sha256": "7c4e629c651a913081f5ee65bc65efe79e7600e9469c357854c427c9129f1e41",
+      "containers_recursive": 1,
+      "members_recursive": 10,
+      "unpacked_bytes_crc_validated": 81049,
+      "unpacked_bytes_integrity_validated": 81049,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Plains.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 10,
+          "unpacked_bytes_crc_validated": 81049,
+          "unpacked_bytes_integrity_validated": 81049,
+          "extension_counts": {
+            ".png": 10
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_SnowyMountains.zip",
+      "format": "zip",
+      "sha256": "826df918852f3bc75abce124ac48a17b50eea086834c77a23135ab78f089f5ba",
+      "containers_recursive": 1,
+      "members_recursive": 6,
+      "unpacked_bytes_crc_validated": 54787,
+      "unpacked_bytes_integrity_validated": 54787,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_SnowyMountains.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 6,
+          "unpacked_bytes_crc_validated": 54787,
+          "unpacked_bytes_integrity_validated": 54787,
+          "extension_counts": {
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Parallax_Backgrounds.zip",
+      "format": "zip",
+      "sha256": "c1394afa7a561c68b98643516ffd10906b88a73286a6e9ac1406fadbe1d169f4",
+      "containers_recursive": 6,
+      "members_recursive": 45,
+      "unpacked_bytes_crc_validated": 493344,
+      "unpacked_bytes_integrity_validated": 493344,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 5,
+          "unpacked_bytes_crc_validated": 242296,
+          "unpacked_bytes_integrity_validated": 242296,
+          "extension_counts": {
+            ".zip": 5
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_Cave.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 40646,
+          "unpacked_bytes_integrity_validated": 40646,
+          "extension_counts": {
+            ".png": 8
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_DeadForest.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 56032,
+          "unpacked_bytes_integrity_validated": 56032,
+          "extension_counts": {
+            ".png": 7
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_Dock.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 18534,
+          "unpacked_bytes_integrity_validated": 18534,
+          "extension_counts": {
+            ".png": 9
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_Plains.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 10,
+          "unpacked_bytes_crc_validated": 81049,
+          "unpacked_bytes_integrity_validated": 81049,
+          "extension_counts": {
+            ".png": 10
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_SnowyMountains.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 6,
+          "unpacked_bytes_crc_validated": 54787,
+          "unpacked_bytes_integrity_validated": 54787,
+          "extension_counts": {
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/PixelHorse_V1.0.zip",
+      "format": "zip",
+      "sha256": "95696f28ea96ff21259b1925edc2a4a1160601ec1b1ab6291f6dc59f24612d21",
+      "containers_recursive": 1,
+      "members_recursive": 31,
+      "unpacked_bytes_crc_validated": 303445,
+      "unpacked_bytes_integrity_validated": 303445,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/PixelHorse_V1.0.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 31,
+          "unpacked_bytes_crc_validated": 303445,
+          "unpacked_bytes_integrity_validated": 303445,
+          "extension_counts": {
+            ".png": 30,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/Tileset Scroller - Summer.zip",
+      "format": "zip",
+      "sha256": "cc82f47bb34e603e23a5d2f271d5068ffc9508e3fa1bb53b1e69d236bc6f21a3",
+      "containers_recursive": 1,
+      "members_recursive": 5,
+      "unpacked_bytes_crc_validated": 460350,
+      "unpacked_bytes_integrity_validated": 460350,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/Tileset Scroller - Summer.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 5,
+          "unpacked_bytes_crc_validated": 460350,
+          "unpacked_bytes_integrity_validated": 460350,
+          "extension_counts": {
+            ".png": 5
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurin's Freebies/UI Packs.zip",
+      "format": "zip",
+      "sha256": "62d16db1ff20ee9ea338c2e2407fa552045f4a225204d9d6d7ea4d2d24dd880a",
+      "containers_recursive": 1,
+      "members_recursive": 20,
+      "unpacked_bytes_crc_validated": 333578,
+      "unpacked_bytes_integrity_validated": 333578,
+      "containers": [
+        {
+          "path": "Addons/Admurin's Freebies/UI Packs.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 20,
+          "unpacked_bytes_crc_validated": 333578,
+          "unpacked_bytes_integrity_validated": 333578,
+          "extension_counts": {
+            ".png": 20
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Animated Chests.zip",
+      "format": "zip",
+      "sha256": "bb5fef97a25f622c749d4ee881f3d501304b66fe37845c9e6734feecac151587",
+      "containers_recursive": 1,
+      "members_recursive": 4,
+      "unpacked_bytes_crc_validated": 119147,
+      "unpacked_bytes_integrity_validated": 119147,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Animated Chests.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 4,
+          "unpacked_bytes_crc_validated": 119147,
+          "unpacked_bytes_integrity_validated": 119147,
+          "extension_counts": {
+            ".aseprite": 1,
+            ".gif": 1,
+            ".png": 2
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Animated Chests.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/BlockyLife.zip",
+      "format": "zip",
+      "sha256": "3860e57a4205960eff28360a8a9774d4412c0b248232cb1fc190a5cf14149948",
+      "containers_recursive": 1,
+      "members_recursive": 2,
+      "unpacked_bytes_crc_validated": 1046240,
+      "unpacked_bytes_integrity_validated": 1046240,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/BlockyLife.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 2,
+          "unpacked_bytes_crc_validated": 1046240,
+          "unpacked_bytes_integrity_validated": 1046240,
+          "extension_counts": {
+            ".png": 2
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/BlockyLife.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Badger.zip",
+      "format": "zip",
+      "sha256": "64ffbab887980a7b24e2a53b6d81c7e2da1eaf6d7a7a0507f91f0167268c457f",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 1696666,
+      "unpacked_bytes_integrity_validated": 1696666,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Badger.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 1696666,
+          "unpacked_bytes_integrity_validated": 1696666,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Bosses_Badger.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Dino_Rex.zip",
+      "format": "zip",
+      "sha256": "47bb77a41efad769ef1d3d82fc734849222b62803489c08686f63d4e14faf1ca",
+      "containers_recursive": 1,
+      "members_recursive": 13,
+      "unpacked_bytes_crc_validated": 760950,
+      "unpacked_bytes_integrity_validated": 760950,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Dino_Rex.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 13,
+          "unpacked_bytes_crc_validated": 760950,
+          "unpacked_bytes_integrity_validated": 760950,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 11
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Bosses_Dino_Rex.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Dino_Tri.zip",
+      "format": "zip",
+      "sha256": "c8ccb78d6e0ca177130c03ffb9789805d675159a49335401beca8ba4df76047c",
+      "containers_recursive": 1,
+      "members_recursive": 10,
+      "unpacked_bytes_crc_validated": 592352,
+      "unpacked_bytes_integrity_validated": 592352,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Dino_Tri.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 10,
+          "unpacked_bytes_crc_validated": 592352,
+          "unpacked_bytes_integrity_validated": 592352,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 8
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Bosses_Dino_Tri.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Frogger.zip",
+      "format": "zip",
+      "sha256": "774d63c9585d001615177620628645930a5dff83ca9fe75957433e31257452ba",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 1517590,
+      "unpacked_bytes_integrity_validated": 1517590,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Frogger.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 1517590,
+          "unpacked_bytes_integrity_validated": 1517590,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Bosses_Frogger.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Gollux.zip",
+      "format": "zip",
+      "sha256": "5c5d9ae9afc68ac7d31435485373d3142b14131e00bd0c0be96c1fa31b98d46a",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 418689,
+      "unpacked_bytes_integrity_validated": 418689,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Gollux.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 418689,
+          "unpacked_bytes_integrity_validated": 418689,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Bosses_Gollux.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Pengu.zip",
+      "format": "zip",
+      "sha256": "72f568a397df18de172d1162917cd84cc7c96cd41e67b2d11d869a611fffd4ce",
+      "containers_recursive": 1,
+      "members_recursive": 10,
+      "unpacked_bytes_crc_validated": 1781512,
+      "unpacked_bytes_integrity_validated": 1781512,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Bosses_Pengu.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 10,
+          "unpacked_bytes_crc_validated": 1781512,
+          "unpacked_bytes_integrity_validated": 1781512,
+          "extension_counts": {
+            ".gif": 2,
+            ".png": 8
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Bosses_Pengu.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Enemy_Galore_I.zip",
+      "format": "zip",
+      "sha256": "9b46f78484b40d7064b5ed6a8364311ffe7d8b5a3ee656a5b66d7d019787d7ae",
+      "containers_recursive": 1,
+      "members_recursive": 113,
+      "unpacked_bytes_crc_validated": 2152938,
+      "unpacked_bytes_integrity_validated": 2152938,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Enemy_Galore_I.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 113,
+          "unpacked_bytes_crc_validated": 2152938,
+          "unpacked_bytes_integrity_validated": 2152938,
+          "extension_counts": {
+            ".aseprite": 1,
+            ".gif": 5,
+            ".png": 107
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Enemy_Galore_I.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Enemy_Single_Winter_Canines.zip",
+      "format": "zip",
+      "sha256": "641ad2181ae8397263ee1a2b32da082d495cfb36ebcbc28317aa585bd39d8200",
+      "containers_recursive": 1,
+      "members_recursive": 30,
+      "unpacked_bytes_crc_validated": 265465,
+      "unpacked_bytes_integrity_validated": 265465,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Enemy_Single_Winter_Canines.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 30,
+          "unpacked_bytes_crc_validated": 265465,
+          "unpacked_bytes_integrity_validated": 265465,
+          "extension_counts": {
+            ".aseprite": 1,
+            ".png": 29
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Enemy_Single_Winter_Canines.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Icons.zip",
+      "format": "zip",
+      "sha256": "d5b02f97aa9aa9baeba24e006c2519afbbaadc20cfd79c8db4d68e8b316c0d87",
+      "containers_recursive": 1,
+      "members_recursive": 13,
+      "unpacked_bytes_crc_validated": 475533,
+      "unpacked_bytes_integrity_validated": 475533,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Icons.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 13,
+          "unpacked_bytes_crc_validated": 475533,
+          "unpacked_bytes_integrity_validated": 475533,
+          "extension_counts": {
+            ".aseprite": 1,
+            ".png": 12
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Icons.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_21.zip",
+      "format": "zip",
+      "sha256": "34c05777f41cd4c8255f90475760389ca8e44d37d3442165c3c799469f93975f",
+      "containers_recursive": 1,
+      "members_recursive": 20,
+      "unpacked_bytes_crc_validated": 413378,
+      "unpacked_bytes_integrity_validated": 413378,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_21.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 20,
+          "unpacked_bytes_crc_validated": 413378,
+          "unpacked_bytes_integrity_validated": 413378,
+          "extension_counts": {
+            ".gif": 4,
+            ".png": 16
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Monster_Pack_21.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_40.zip",
+      "format": "zip",
+      "sha256": "1beffd492664f2d132bb3f5011a236855a3918cffb524312bf533e055ad14241",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 358184,
+      "unpacked_bytes_integrity_validated": 358184,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_40.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 358184,
+          "unpacked_bytes_integrity_validated": 358184,
+          "extension_counts": {
+            ".gif": 3,
+            ".png": 5
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Monster_Pack_40.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_82.zip",
+      "format": "zip",
+      "sha256": "9fb7eafddd19fd6aa1147ee5c22518da3a106a1333ad8c6cd7fcb6b88030cc20",
+      "containers_recursive": 1,
+      "members_recursive": 22,
+      "unpacked_bytes_crc_validated": 755914,
+      "unpacked_bytes_integrity_validated": 755914,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_82.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 22,
+          "unpacked_bytes_crc_validated": 755914,
+          "unpacked_bytes_integrity_validated": 755914,
+          "extension_counts": {
+            ".gif": 8,
+            ".png": 14
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Monster_Pack_82.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_83.zip",
+      "format": "zip",
+      "sha256": "f0b26b3ad9a09d9ed76cdee315187f9c20eaf01c7c39de2416c031e5da5b46d0",
+      "containers_recursive": 1,
+      "members_recursive": 16,
+      "unpacked_bytes_crc_validated": 516092,
+      "unpacked_bytes_integrity_validated": 516092,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_83.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 16,
+          "unpacked_bytes_crc_validated": 516092,
+          "unpacked_bytes_integrity_validated": 516092,
+          "extension_counts": {
+            ".gif": 6,
+            ".png": 10
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Monster_Pack_83.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_Free.zip",
+      "format": "zip",
+      "sha256": "e27e279946a5f03290f686d38b8c0abc1b97a8fbcc59ea2dfaffdbdb463ab44e",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 289950,
+      "unpacked_bytes_integrity_validated": 289950,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_Free.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 289950,
+          "unpacked_bytes_integrity_validated": 289950,
+          "extension_counts": {
+            ".gif": 3,
+            ".png": 5
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Monster_Pack_Free.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_Free_Character.zip",
+      "format": "zip",
+      "sha256": "d1a5c6c85769a0e28599a37a870f2737acc4f602942e590ce0cb997c5508d771",
+      "containers_recursive": 1,
+      "members_recursive": 36,
+      "unpacked_bytes_crc_validated": 520858,
+      "unpacked_bytes_integrity_validated": 520858,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Monster_Pack_Free_Character.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 36,
+          "unpacked_bytes_crc_validated": 520858,
+          "unpacked_bytes_integrity_validated": 520858,
+          "extension_counts": {
+            ".gif": 3,
+            ".png": 32,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Monster_Pack_Free_Character.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Cave.zip",
+      "format": "zip",
+      "sha256": "571ebbdc7b683cf2e49ddc2e901994c6fb38c374d1b02418154a87c22cb1b7d6",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 40646,
+      "unpacked_bytes_integrity_validated": 40646,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Cave.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 40646,
+          "unpacked_bytes_integrity_validated": 40646,
+          "extension_counts": {
+            ".png": 8
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Cave.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_DeadForest.zip",
+      "format": "zip",
+      "sha256": "c2bbdb156319f5cee6ad416a88102cc3b8d52955a00e6a8fcf6286f671bd561a",
+      "containers_recursive": 1,
+      "members_recursive": 7,
+      "unpacked_bytes_crc_validated": 56032,
+      "unpacked_bytes_integrity_validated": 56032,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_DeadForest.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 56032,
+          "unpacked_bytes_integrity_validated": 56032,
+          "extension_counts": {
+            ".png": 7
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_DeadForest.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Dock.zip",
+      "format": "zip",
+      "sha256": "6970199978a090544001dca373b03671b9122d5b616a275bdf20d9f1f48948b8",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 18534,
+      "unpacked_bytes_integrity_validated": 18534,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Dock.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 18534,
+          "unpacked_bytes_integrity_validated": 18534,
+          "extension_counts": {
+            ".png": 9
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Dock.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Plains.zip",
+      "format": "zip",
+      "sha256": "7c4e629c651a913081f5ee65bc65efe79e7600e9469c357854c427c9129f1e41",
+      "containers_recursive": 1,
+      "members_recursive": 10,
+      "unpacked_bytes_crc_validated": 81049,
+      "unpacked_bytes_integrity_validated": 81049,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Plains.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 10,
+          "unpacked_bytes_crc_validated": 81049,
+          "unpacked_bytes_integrity_validated": 81049,
+          "extension_counts": {
+            ".png": 10
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_Plains.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_SnowyMountains.zip",
+      "format": "zip",
+      "sha256": "826df918852f3bc75abce124ac48a17b50eea086834c77a23135ab78f089f5ba",
+      "containers_recursive": 1,
+      "members_recursive": 6,
+      "unpacked_bytes_crc_validated": 54787,
+      "unpacked_bytes_integrity_validated": 54787,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_SnowyMountains.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 6,
+          "unpacked_bytes_crc_validated": 54787,
+          "unpacked_bytes_integrity_validated": 54787,
+          "extension_counts": {
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Parallax_Backgrounds/Parallax_Backgrounds_SnowyMountains.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds.zip",
+      "format": "zip",
+      "sha256": "c1394afa7a561c68b98643516ffd10906b88a73286a6e9ac1406fadbe1d169f4",
+      "containers_recursive": 6,
+      "members_recursive": 45,
+      "unpacked_bytes_crc_validated": 493344,
+      "unpacked_bytes_integrity_validated": 493344,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 5,
+          "unpacked_bytes_crc_validated": 242296,
+          "unpacked_bytes_integrity_validated": 242296,
+          "extension_counts": {
+            ".zip": 5
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_Cave.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 40646,
+          "unpacked_bytes_integrity_validated": 40646,
+          "extension_counts": {
+            ".png": 8
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_DeadForest.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 56032,
+          "unpacked_bytes_integrity_validated": 56032,
+          "extension_counts": {
+            ".png": 7
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_Dock.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 18534,
+          "unpacked_bytes_integrity_validated": 18534,
+          "extension_counts": {
+            ".png": 9
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_Plains.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 10,
+          "unpacked_bytes_crc_validated": 81049,
+          "unpacked_bytes_integrity_validated": 81049,
+          "extension_counts": {
+            ".png": 10
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Parallax_Backgrounds.zip!Parallax_Backgrounds_SnowyMountains.zip",
+          "format": "zip",
+          "depth": 1,
+          "members": 6,
+          "unpacked_bytes_crc_validated": 54787,
+          "unpacked_bytes_integrity_validated": 54787,
+          "extension_counts": {
+            ".png": 6
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Parallax_Backgrounds.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/PixelHorse_V1.0.zip",
+      "format": "zip",
+      "sha256": "95696f28ea96ff21259b1925edc2a4a1160601ec1b1ab6291f6dc59f24612d21",
+      "containers_recursive": 1,
+      "members_recursive": 31,
+      "unpacked_bytes_crc_validated": 303445,
+      "unpacked_bytes_integrity_validated": 303445,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/PixelHorse_V1.0.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 31,
+          "unpacked_bytes_crc_validated": 303445,
+          "unpacked_bytes_integrity_validated": 303445,
+          "extension_counts": {
+            ".png": 30,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/PixelHorse_V1.0.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Tileset Scroller - Summer.zip",
+      "format": "zip",
+      "sha256": "cc82f47bb34e603e23a5d2f271d5068ffc9508e3fa1bb53b1e69d236bc6f21a3",
+      "containers_recursive": 1,
+      "members_recursive": 5,
+      "unpacked_bytes_crc_validated": 460350,
+      "unpacked_bytes_integrity_validated": 460350,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/Tileset Scroller - Summer.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 5,
+          "unpacked_bytes_crc_validated": 460350,
+          "unpacked_bytes_integrity_validated": 460350,
+          "extension_counts": {
+            ".png": 5
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/Tileset Scroller - Summer.zip"
+    },
+    {
+      "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/UI Packs.zip",
+      "format": "zip",
+      "sha256": "62d16db1ff20ee9ea338c2e2407fa552045f4a225204d9d6d7ea4d2d24dd880a",
+      "containers_recursive": 1,
+      "members_recursive": 20,
+      "unpacked_bytes_crc_validated": 333578,
+      "unpacked_bytes_integrity_validated": 333578,
+      "containers": [
+        {
+          "path": "Addons/Admurins_Freebies-2/Admurin's Freebies/UI Packs.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 20,
+          "unpacked_bytes_crc_validated": 333578,
+          "unpacked_bytes_integrity_validated": 333578,
+          "extension_counts": {
+            ".png": 20
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid_duplicate",
+      "duplicate_of": "Addons/Admurin's Freebies/UI Packs.zip"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Ancient-Automaton.zip",
+      "format": "zip",
+      "sha256": "b55c60b9072d924f6bd1a6a5ddfd23178a2ace015a378e4dc14a99d11c5fd3b7",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 679438,
+      "unpacked_bytes_integrity_validated": 679438,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Ancient-Automaton.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 679438,
+          "unpacked_bytes_integrity_validated": 679438,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Animated-Drill-Dwarf.zip",
+      "format": "zip",
+      "sha256": "e70a51b19d090aeb5fe9625efe02a0a4e01d27ed33c41302586aa1718c544dce",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 329262,
+      "unpacked_bytes_integrity_validated": 329262,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Animated-Drill-Dwarf.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 329262,
+          "unpacked_bytes_integrity_validated": 329262,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Arcane-Golem.zip",
+      "format": "zip",
+      "sha256": "4223f4ede5b9d9491dd1a4f185a614c5eb2947367a6d89d4161fe0bb883a7195",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 1237724,
+      "unpacked_bytes_integrity_validated": 1237724,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Arcane-Golem.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 1237724,
+          "unpacked_bytes_integrity_validated": 1237724,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Black-Ant-Queen.zip",
+      "format": "zip",
+      "sha256": "2b3de25166d5dc11ac7a03e66b4a0307d0aa9c15c298f43d2329a04f96630c52",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 664735,
+      "unpacked_bytes_integrity_validated": 664735,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Black-Ant-Queen.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 664735,
+          "unpacked_bytes_integrity_validated": 664735,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Bonemask-Shadow-Creature.zip",
+      "format": "zip",
+      "sha256": "2273a54f95b6fc6f354ee77f3df83c97cf3f33cf83013dada0d8bb1e2a96731a",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 369121,
+      "unpacked_bytes_integrity_validated": 369121,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Bonemask-Shadow-Creature.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 369121,
+          "unpacked_bytes_integrity_validated": 369121,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Clockwork-King.zip",
+      "format": "zip",
+      "sha256": "d5e92ab6ee6d43dd7638bfc1a3d90740b965a13512b50d4bfe29e28b8fbff3e2",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 721673,
+      "unpacked_bytes_integrity_validated": 721673,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Clockwork-King.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 721673,
+          "unpacked_bytes_integrity_validated": 721673,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Clockwork-Mage.zip",
+      "format": "zip",
+      "sha256": "1ef8d09b36d779070b62bccc76af6bd5606acd21a5f88f35a6f5b0f205f00335",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 278094,
+      "unpacked_bytes_integrity_validated": 278094,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Clockwork-Mage.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 278094,
+          "unpacked_bytes_integrity_validated": 278094,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 3,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Clockwork-prototype.zip",
+      "format": "zip",
+      "sha256": "57bf40fcc06b1f067c3298590a12fbd54ca0357c8e391164616430d4eb9a30df",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 255385,
+      "unpacked_bytes_integrity_validated": 255385,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Clockwork-prototype.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 255385,
+          "unpacked_bytes_integrity_validated": 255385,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Clockwork-Skull.zip",
+      "format": "zip",
+      "sha256": "4bc9f35f385b58c3a29707fa0dbc8c7bac4fe04016cc1a77b2b68d4ca222c4fe",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 661400,
+      "unpacked_bytes_integrity_validated": 661400,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Clockwork-Skull.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 661400,
+          "unpacked_bytes_integrity_validated": 661400,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Colossal-Crow.zip",
+      "format": "zip",
+      "sha256": "e3272a47fb31a44dfd9723426dfe2cba4cd29d456b2a54e222f68000b3bf1894",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 465703,
+      "unpacked_bytes_integrity_validated": 465703,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Colossal-Crow.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 465703,
+          "unpacked_bytes_integrity_validated": 465703,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Continental-Turtle-Rukkha.zip",
+      "format": "zip",
+      "sha256": "6f6d299db48750d44061e123dff6f663d6d5efab013dd137fa30d37dd76b569b",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 833533,
+      "unpacked_bytes_integrity_validated": 833533,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Continental-Turtle-Rukkha.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 833533,
+          "unpacked_bytes_integrity_validated": 833533,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Crab-King-Karkinos.zip",
+      "format": "zip",
+      "sha256": "da4b29b843b19ff973bcf3d623ea40c29c093f2bfb7719d0944407614063e947",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 963150,
+      "unpacked_bytes_integrity_validated": 963150,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Crab-King-Karkinos.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 963150,
+          "unpacked_bytes_integrity_validated": 963150,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Cultist-Mage.zip",
+      "format": "zip",
+      "sha256": "61f2f4404084ea1eb4cfd8aeda2406f38f05e344a18f1e11567e42051cd91e3a",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 403633,
+      "unpacked_bytes_integrity_validated": 403633,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Cultist-Mage.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 403633,
+          "unpacked_bytes_integrity_validated": 403633,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Daidarabotchi.zip",
+      "format": "zip",
+      "sha256": "0d9fd56fe7e3ca91b43e22f19ab0055afda49e0d6892ddc0f23ab66c193ce57b",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 406742,
+      "unpacked_bytes_integrity_validated": 406742,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Daidarabotchi.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 406742,
+          "unpacked_bytes_integrity_validated": 406742,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Dark-Queen-ShaccadYoggoth.zip",
+      "format": "zip",
+      "sha256": "7008d45fd96c1f3cf47968ae248fd40d1cba73e5359de51c420b90a9d747a63f",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 535023,
+      "unpacked_bytes_integrity_validated": 535023,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Dark-Queen-ShaccadYoggoth.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 535023,
+          "unpacked_bytes_integrity_validated": 535023,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Darkness-Titan-Ilnoct.zip",
+      "format": "zip",
+      "sha256": "82330c466497046c05dbe07af6c03e390239da43c6e3fd4f747796f5f062e88a",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 1882080,
+      "unpacked_bytes_integrity_validated": 1882080,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Darkness-Titan-Ilnoct.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 1882080,
+          "unpacked_bytes_integrity_validated": 1882080,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Dragon-Huanglong.zip",
+      "format": "zip",
+      "sha256": "ce94de7ac75c07749ece7062a7261c925b2546ebf6fedbb0da1f1086ffbff35d",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 777112,
+      "unpacked_bytes_integrity_validated": 777112,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Dragon-Huanglong.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 777112,
+          "unpacked_bytes_integrity_validated": 777112,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Dryad-Queen-Rafflesia.zip",
+      "format": "zip",
+      "sha256": "a4be91a72a249c1b306d3890d783a07026c48bc330a414c8e01ae56267192564",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 1145713,
+      "unpacked_bytes_integrity_validated": 1145713,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Dryad-Queen-Rafflesia.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 1145713,
+          "unpacked_bytes_integrity_validated": 1145713,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Dryad-Yggdrasil.zip",
+      "format": "zip",
+      "sha256": "bc172f3481cac4a2933b46c7c67424e58183edaf812403f72bc336fc80aa32d0",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 522714,
+      "unpacked_bytes_integrity_validated": 522714,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Dryad-Yggdrasil.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 522714,
+          "unpacked_bytes_integrity_validated": 522714,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Eldritch-Overmind.zip",
+      "format": "zip",
+      "sha256": "12bb07fb12382ebe0ec6a6de79e9ee34492a764caf75b50fb1603ba31f2e7989",
+      "containers_recursive": 1,
+      "members_recursive": 7,
+      "unpacked_bytes_crc_validated": 791587,
+      "unpacked_bytes_integrity_validated": 791587,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Eldritch-Overmind.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 791587,
+          "unpacked_bytes_integrity_validated": 791587,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Giant-Kitsune.zip",
+      "format": "zip",
+      "sha256": "e2d0ef7a6fad70926413d083135a8e9cb9f3cf8fd97c432aee4c833e265740df",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 860291,
+      "unpacked_bytes_integrity_validated": 860291,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Giant-Kitsune.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 860291,
+          "unpacked_bytes_integrity_validated": 860291,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-God-Warrior-Dagon.zip",
+      "format": "zip",
+      "sha256": "1232019657054d95b28c1de45e3503557c9e4477ff986a0c2724d25efd8779a7",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 579612,
+      "unpacked_bytes_integrity_validated": 579612,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-God-Warrior-Dagon.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 579612,
+          "unpacked_bytes_integrity_validated": 579612,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-God-Warrior-Isis.zip",
+      "format": "zip",
+      "sha256": "51e13a850e044e02abf47bd143a794b061c8d3083aa26b426c2e213c6ec792b2",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 727578,
+      "unpacked_bytes_integrity_validated": 727578,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-God-Warrior-Isis.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 727578,
+          "unpacked_bytes_integrity_validated": 727578,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-God-Warrior-Osiris.zip",
+      "format": "zip",
+      "sha256": "208ff7c79b9c0a5c3a32d6c3dec4ba2f8b95baff3dfb9818d0aafb6e7d4bd78d",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 425768,
+      "unpacked_bytes_integrity_validated": 425768,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-God-Warrior-Osiris.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 425768,
+          "unpacked_bytes_integrity_validated": 425768,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-God-Warrior-Skoll.zip",
+      "format": "zip",
+      "sha256": "1029803bd69500e57c1d7090b30b6dfaff2112dd2bd7fc1d44f7d29be45c1b76",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 311866,
+      "unpacked_bytes_integrity_validated": 311866,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-God-Warrior-Skoll.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 311866,
+          "unpacked_bytes_integrity_validated": 311866,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Goddess-Aphrodite.zip",
+      "format": "zip",
+      "sha256": "91b3125c176ff266ddc28ce5419f8c2d5a08643a4605f9b638571d45e2bb68af",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 680023,
+      "unpacked_bytes_integrity_validated": 680023,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Goddess-Aphrodite.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 680023,
+          "unpacked_bytes_integrity_validated": 680023,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Grand-Sorceress-Duesa.zip",
+      "format": "zip",
+      "sha256": "968d1bc342892c574e4c4fce017701b3fae22444f086c47c0b8473da5cad5cfc",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 972073,
+      "unpacked_bytes_integrity_validated": 972073,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Grand-Sorceress-Duesa.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 972073,
+          "unpacked_bytes_integrity_validated": 972073,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Hades.zip",
+      "format": "zip",
+      "sha256": "b33b3caebd3d1fb91674c0603003e49a2ca5427b1fd75bc47feeb8a16349c1d4",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 2250700,
+      "unpacked_bytes_integrity_validated": 2250700,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Hades.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 2250700,
+          "unpacked_bytes_integrity_validated": 2250700,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Hellhound-Garm.zip",
+      "format": "zip",
+      "sha256": "dd84a8b7746f6ce37f7b1605a9cea25a6d3d6b67e96e90304b1294ccd2ba4750",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 426333,
+      "unpacked_bytes_integrity_validated": 426333,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Hellhound-Garm.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 426333,
+          "unpacked_bytes_integrity_validated": 426333,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Ice-Titan-Demeres.zip",
+      "format": "zip",
+      "sha256": "7c346a771728332292f407c949edccbb9092b822b1dfa330a6f72f72b5cc786f",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 782030,
+      "unpacked_bytes_integrity_validated": 782030,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Ice-Titan-Demeres.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 782030,
+          "unpacked_bytes_integrity_validated": 782030,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Insect-Queen.zip",
+      "format": "zip",
+      "sha256": "fecbbd88c81fb36df1331e9e1199568bbf64270af6e6b2139ff23ec2cae67107",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 842639,
+      "unpacked_bytes_integrity_validated": 842639,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Insect-Queen.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 842639,
+          "unpacked_bytes_integrity_validated": 842639,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Jubokko.zip",
+      "format": "zip",
+      "sha256": "83c2e63dab1141d29cac407af6e2822d6216083c4dec6bec9c502a77708b47c2",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 1835743,
+      "unpacked_bytes_integrity_validated": 1835743,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Jubokko.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 1835743,
+          "unpacked_bytes_integrity_validated": 1835743,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-King-Archial.zip",
+      "format": "zip",
+      "sha256": "bcd320d8b873f45523f3d62731811e81161eda95559e5ba7d659417f6327d2f9",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 545114,
+      "unpacked_bytes_integrity_validated": 545114,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-King-Archial.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 545114,
+          "unpacked_bytes_integrity_validated": 545114,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Legendary-Knight-Michael.zip",
+      "format": "zip",
+      "sha256": "144d8e2bf368e83a62f92b86a02613658d55d9781fb4821eec8f12e106034b16",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 412407,
+      "unpacked_bytes_integrity_validated": 412407,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Legendary-Knight-Michael.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 412407,
+          "unpacked_bytes_integrity_validated": 412407,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Legendary-Knight-Regulus.zip",
+      "format": "zip",
+      "sha256": "ec54e2f2e4046fd89e150af0048a2ddca6a24b3d22dc41f7afdddb8cf3b0b343",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 629073,
+      "unpacked_bytes_integrity_validated": 629073,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Legendary-Knight-Regulus.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 629073,
+          "unpacked_bytes_integrity_validated": 629073,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Legendary-Knight-Remment.zip",
+      "format": "zip",
+      "sha256": "a1bd135dc412c7e568b3e84288aa0468b393015d54e23f80d7bd3e0b69746679",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 581412,
+      "unpacked_bytes_integrity_validated": 581412,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Legendary-Knight-Remment.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 581412,
+          "unpacked_bytes_integrity_validated": 581412,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Light-Titan-Alfadriel.zip",
+      "format": "zip",
+      "sha256": "0a7e25800fa73003b4f022ef1a1ff290944a4c3d78d38296165ad8682f19182e",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 1123761,
+      "unpacked_bytes_integrity_validated": 1123761,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Light-Titan-Alfadriel.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 1123761,
+          "unpacked_bytes_integrity_validated": 1123761,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Living-Hoard-Midas.zip",
+      "format": "zip",
+      "sha256": "1d3a489ef4b6e39fc5e8eba0b192013b3e7ce7406dc92e58038eef8147ebc975",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 824651,
+      "unpacked_bytes_integrity_validated": 824651,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Living-Hoard-Midas.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 824651,
+          "unpacked_bytes_integrity_validated": 824651,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Mecha-Rattlesnake.zip",
+      "format": "zip",
+      "sha256": "85e2ab2be9f913c8f11730aa5b9b5e98832c07f28539cb31d70d5188cfacc535",
+      "containers_recursive": 1,
+      "members_recursive": 7,
+      "unpacked_bytes_crc_validated": 492397,
+      "unpacked_bytes_integrity_validated": 492397,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Mecha-Rattlesnake.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 492397,
+          "unpacked_bytes_integrity_validated": 492397,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-MechaScorpion.zip",
+      "format": "zip",
+      "sha256": "33364036e32edfbbd6a9251e0302edbe85d720575d7dd775d4eec8a4f164b6b2",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 722190,
+      "unpacked_bytes_integrity_validated": 722190,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-MechaScorpion.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 722190,
+          "unpacked_bytes_integrity_validated": 722190,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Mermaid-Warrior-Undeen.zip",
+      "format": "zip",
+      "sha256": "329e48c6a806725c6d451cdc7d32b78ced8353c5545691c3da9a9f0196e9d8fa",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 337076,
+      "unpacked_bytes_integrity_validated": 337076,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Mermaid-Warrior-Undeen.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 337076,
+          "unpacked_bytes_integrity_validated": 337076,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Mythical-Knight-Goldnharl.zip",
+      "format": "zip",
+      "sha256": "9de3a355b860d5be295be9e3237ac8140f7c6491ccc2e88f50b2ca5da7574dd7",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 358585,
+      "unpacked_bytes_integrity_validated": 358585,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Mythical-Knight-Goldnharl.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 358585,
+          "unpacked_bytes_integrity_validated": 358585,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Orc-Chief-Grunt.zip",
+      "format": "zip",
+      "sha256": "3a72bcbbaf8546375744859d279122a71fc67dd0bd0104a9aa132e41572faac5",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 491007,
+      "unpacked_bytes_integrity_validated": 491007,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Orc-Chief-Grunt.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 491007,
+          "unpacked_bytes_integrity_validated": 491007,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Parrot-King.zip",
+      "format": "zip",
+      "sha256": "16cf62add151b079975860633cb94bcd00f1272242404ecd2a36d7146b1be35c",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 773024,
+      "unpacked_bytes_integrity_validated": 773024,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Parrot-King.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 773024,
+          "unpacked_bytes_integrity_validated": 773024,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Poseidon.zip",
+      "format": "zip",
+      "sha256": "894a2290482d5b7864217a0fb7ce2aa2f3cf4404d7f38fa87447162dd99a2e18",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 435304,
+      "unpacked_bytes_integrity_validated": 435304,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Poseidon.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 435304,
+          "unpacked_bytes_integrity_validated": 435304,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Radulac-The-Voidvod.zip",
+      "format": "zip",
+      "sha256": "8aade1f88b19dd2daef8bf1958ec78d64027dca7f3b34338fb519f7aee9eb6b5",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 780174,
+      "unpacked_bytes_integrity_validated": 780174,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Radulac-The-Voidvod.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 780174,
+          "unpacked_bytes_integrity_validated": 780174,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Runic-Stone-Golem-Goliath.zip",
+      "format": "zip",
+      "sha256": "718008702425b742cdf030163f1ebcbd4ae3db0b32f6f90d084066ec7acb00c9",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 706898,
+      "unpacked_bytes_integrity_validated": 706898,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Runic-Stone-Golem-Goliath.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 706898,
+          "unpacked_bytes_integrity_validated": 706898,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Sea-Calamity-Urmica.zip",
+      "format": "zip",
+      "sha256": "54747f6d7e4077470206671f0909dbd104f15d2e8ebac6154a3b739a0c5525ce",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 1256165,
+      "unpacked_bytes_integrity_validated": 1256165,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Sea-Calamity-Urmica.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 1256165,
+          "unpacked_bytes_integrity_validated": 1256165,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Sea-Dragon-Leviathan.zip",
+      "format": "zip",
+      "sha256": "8b6c135776bec0f0fceaa95ca824effcbf74603a4499dc5732b48caed38d3ad1",
+      "containers_recursive": 1,
+      "members_recursive": 7,
+      "unpacked_bytes_crc_validated": 785967,
+      "unpacked_bytes_integrity_validated": 785967,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Sea-Dragon-Leviathan.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 785967,
+          "unpacked_bytes_integrity_validated": 785967,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-ShaccadYoggoth.zip",
+      "format": "zip",
+      "sha256": "fc8a77056db89b0dfb93b577b0885b040a2e8fb08d1c5d1b3c1f56a349d57bdf",
+      "containers_recursive": 1,
+      "members_recursive": 7,
+      "unpacked_bytes_crc_validated": 1008042,
+      "unpacked_bytes_integrity_validated": 1008042,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-ShaccadYoggoth.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 1008042,
+          "unpacked_bytes_integrity_validated": 1008042,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Slime-Flynn.zip",
+      "format": "zip",
+      "sha256": "acb743c7dd06ae13da4c02bd3309415dbe46496897dc770ac0b63ec4d5676452",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 335957,
+      "unpacked_bytes_integrity_validated": 335957,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Slime-Flynn.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 335957,
+          "unpacked_bytes_integrity_validated": 335957,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Son-Of-Valhalla.zip",
+      "format": "zip",
+      "sha256": "8857ba1be410bb212a2a7baf23db7f2f7004076c84cbea86d05ca2c863afc709",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 652606,
+      "unpacked_bytes_integrity_validated": 652606,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Son-Of-Valhalla.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 652606,
+          "unpacked_bytes_integrity_validated": 652606,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Spirit-Fighter.zip",
+      "format": "zip",
+      "sha256": "3193e0dca1df4281e7879fafe473fda2d1740c4ade2ee12a3be538cf441a518d",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 573607,
+      "unpacked_bytes_integrity_validated": 573607,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Spirit-Fighter.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 573607,
+          "unpacked_bytes_integrity_validated": 573607,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Sun-Goddess.zip",
+      "format": "zip",
+      "sha256": "d0ea94ff372022b9fe1272ca89340a21cf10e6942d8a1c3a1aa45228994ed72a",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 281262,
+      "unpacked_bytes_integrity_validated": 281262,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Sun-Goddess.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 281262,
+          "unpacked_bytes_integrity_validated": 281262,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Tantalus.zip",
+      "format": "zip",
+      "sha256": "4a9ab2c6184a1955e010436ea0b64693779d62390dab45658d4452204fe35fd3",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 1191853,
+      "unpacked_bytes_integrity_validated": 1191853,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Tantalus.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 1191853,
+          "unpacked_bytes_integrity_validated": 1191853,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Thanatos.zip",
+      "format": "zip",
+      "sha256": "6e24182aa4f6e94c47a08ade69771093bbc2411f88ed0014fa05a4635bad30b6",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 726192,
+      "unpacked_bytes_integrity_validated": 726192,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Thanatos.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 726192,
+          "unpacked_bytes_integrity_validated": 726192,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-The-Fallen.zip",
+      "format": "zip",
+      "sha256": "9fcb6a9313d123fb33b2b6e5816a2a947507074b3d64af2b3728c3e3ffec9b73",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 253356,
+      "unpacked_bytes_integrity_validated": 253356,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-The-Fallen.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 253356,
+          "unpacked_bytes_integrity_validated": 253356,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-The-Horde.zip",
+      "format": "zip",
+      "sha256": "0c4982964cc4b6d61ca1bc50aa1b4e6366d405e6eb5ad288e25a1f6bd66c5acd",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 704214,
+      "unpacked_bytes_integrity_validated": 704214,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-The-Horde.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 704214,
+          "unpacked_bytes_integrity_validated": 704214,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Thunder-Titan-Dynamo.zip",
+      "format": "zip",
+      "sha256": "f8a1a42087419eb31a1d2b34fa4c3b7e6d7b6ff9e25a7b5ad50808a339814acf",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 774760,
+      "unpacked_bytes_integrity_validated": 774760,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Thunder-Titan-Dynamo.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 774760,
+          "unpacked_bytes_integrity_validated": 774760,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Tiamat-Double-Release.zip",
+      "format": "zip",
+      "sha256": "7de6389ba2e7e3e436da9ab7291c3d8d201721777754b710c18cb338e77b9096",
+      "containers_recursive": 1,
+      "members_recursive": 15,
+      "unpacked_bytes_crc_validated": 1450163,
+      "unpacked_bytes_integrity_validated": 1450163,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Tiamat-Double-Release.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 15,
+          "unpacked_bytes_crc_validated": 1450163,
+          "unpacked_bytes_integrity_validated": 1450163,
+          "extension_counts": {
+            ".json": 4,
+            ".png": 7,
+            ".txt": 4
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Unicorn.zip",
+      "format": "zip",
+      "sha256": "918472610983e25df0d4f0cc4b24a83950bc5cc64b33ebc1d0b460cb6cbd345e",
+      "containers_recursive": 1,
+      "members_recursive": 7,
+      "unpacked_bytes_crc_validated": 256348,
+      "unpacked_bytes_integrity_validated": 256348,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Unicorn.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 256348,
+          "unpacked_bytes_integrity_validated": 256348,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 2,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Zeograth.zip",
+      "format": "zip",
+      "sha256": "f821bd20c81ad24c48dc5eeb7e6705206a081d41d3d67361556cbf9258bbe690",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 736388,
+      "unpacked_bytes_integrity_validated": 736388,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Zeograth.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 736388,
+          "unpacked_bytes_integrity_validated": 736388,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Zodiac-Aries.zip",
+      "format": "zip",
+      "sha256": "472a1569ec4c1e7e0346e183d27ca6d2f5334c05e4bc16458b5fa1555581c5e3",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 533524,
+      "unpacked_bytes_integrity_validated": 533524,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Zodiac-Aries.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 533524,
+          "unpacked_bytes_integrity_validated": 533524,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Zodiac-Cancer.zip",
+      "format": "zip",
+      "sha256": "85f315d44813d803d5b756c501501eae71c0267a9ed841276048391ca1dc38c0",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 574032,
+      "unpacked_bytes_integrity_validated": 574032,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Aekashics-Librarium-Zodiac-Cancer.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 574032,
+          "unpacked_bytes_integrity_validated": 574032,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Librarium-Animated-Legendary-Knight-Pizarro.zip",
+      "format": "zip",
+      "sha256": "bb1a9a649799a963679101cbba47fd1144a83eef19e3249944eb986a5cc32677",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 460394,
+      "unpacked_bytes_integrity_validated": 460394,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Librarium-Animated-Legendary-Knight-Pizarro.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 460394,
+          "unpacked_bytes_integrity_validated": 460394,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Librarium-Animated-Mechadragon-Ladon.zip",
+      "format": "zip",
+      "sha256": "dc6658d61972454132cbbc10875c2506ba57e42eeb0b8eb9ccafd123fd81521b",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 1398479,
+      "unpacked_bytes_integrity_validated": 1398479,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Librarium-Animated-Mechadragon-Ladon.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 1398479,
+          "unpacked_bytes_integrity_validated": 1398479,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Librarium-Animated-Skull-Knight-Xoer.zip",
+      "format": "zip",
+      "sha256": "295ffddb0f9071ed46e1f7fee5ea415f9b86a10b2def6e01b20851479ba0d55f",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 649117,
+      "unpacked_bytes_integrity_validated": 649117,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Librarium-Animated-Skull-Knight-Xoer.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 649117,
+          "unpacked_bytes_integrity_validated": 649117,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Librarium-Dragonbones-Megapack-I.zip",
+      "format": "zip",
+      "sha256": "9dbd923d7d8864871933f1f21fbbfee55d981fe992eaf4db955a0c06c63a079a",
+      "containers_recursive": 1,
+      "members_recursive": 50,
+      "unpacked_bytes_crc_validated": 2211129,
+      "unpacked_bytes_integrity_validated": 2211129,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Librarium-Dragonbones-Megapack-I.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 50,
+          "unpacked_bytes_crc_validated": 2211129,
+          "unpacked_bytes_integrity_validated": 2211129,
+          "extension_counts": {
+            ".js": 1,
+            ".json": 24,
+            ".png": 12,
+            ".txt": 13
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Ækashics-Librarium-Cosmic-Drifter-Khronos.zip",
+      "format": "zip",
+      "sha256": "9feef7ecdd57cc4a120dd4249730e7a7c7315bd05e5b93492a07b3ba3a126b55",
+      "containers_recursive": 1,
+      "members_recursive": 3,
+      "unpacked_bytes_crc_validated": 56661150,
+      "unpacked_bytes_integrity_validated": 56661150,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Ækashics-Librarium-Cosmic-Drifter-Khronos.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 3,
+          "unpacked_bytes_crc_validated": 56661150,
+          "unpacked_bytes_integrity_validated": 56661150,
+          "extension_counts": {
+            ".png": 2,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Ækashics-Librarium-Jiangshi.zip",
+      "format": "zip",
+      "sha256": "018ddf86f73ddb2fa4c5b0a7bebefe671173412241b8b605e7777321fb97a8bd",
+      "containers_recursive": 1,
+      "members_recursive": 9,
+      "unpacked_bytes_crc_validated": 429937,
+      "unpacked_bytes_integrity_validated": 429937,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Ækashics-Librarium-Jiangshi.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 9,
+          "unpacked_bytes_crc_validated": 429937,
+          "unpacked_bytes_integrity_validated": 429937,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 4,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Ækashics-Librarium-Weretiger-Maxima.zip",
+      "format": "zip",
+      "sha256": "eb9926f83c8f5a70b4fee2804ba09315dae7722447f1084b3bb974b81a9d24c2",
+      "containers_recursive": 1,
+      "members_recursive": 8,
+      "unpacked_bytes_crc_validated": 5979347,
+      "unpacked_bytes_integrity_validated": 5979347,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Ækashics-Librarium-Weretiger-Maxima.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 8,
+          "unpacked_bytes_crc_validated": 5979347,
+          "unpacked_bytes_integrity_validated": 5979347,
+          "extension_counts": {
+            ".json": 2,
+            ".png": 3,
+            ".txt": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Ækashics-Librarium-Witch-Baba.zip",
+      "format": "zip",
+      "sha256": "c779ba4d717db53849eefe77aaf6d394f403710c119c7d70cfbf63c90a92ab08",
+      "containers_recursive": 1,
+      "members_recursive": 7,
+      "unpacked_bytes_crc_validated": 218325,
+      "unpacked_bytes_integrity_validated": 218325,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium - Dragonbones Animated Battlers/Aekashics Librarium - Dragonbones Animated Battlers/Dragonbones Battlers/Ækashics-Librarium-Witch-Baba.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 7,
+          "unpacked_bytes_crc_validated": 218325,
+          "unpacked_bytes_integrity_validated": 218325,
+          "extension_counts": {
+            ".js": 1,
+            ".json": 2,
+            ".png": 2,
+            ".txt": 2
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Alfadriel.zip",
+      "format": "zip",
+      "sha256": "1b4f4dd17dad8cd0fd371ca516a580fec35858b3784f4544e75f63adf14cbfe3",
+      "containers_recursive": 1,
+      "members_recursive": 3,
+      "unpacked_bytes_crc_validated": 56662486,
+      "unpacked_bytes_integrity_validated": 56662486,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Alfadriel.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 3,
+          "unpacked_bytes_crc_validated": 56662486,
+          "unpacked_bytes_integrity_validated": 56662486,
+          "extension_counts": {
+            ".png": 2,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Arriette.zip",
+      "format": "zip",
+      "sha256": "14531e72155e09c1734ab1d10c56f3febe08b9a6317db87b0d7ce538a0e55899",
+      "containers_recursive": 1,
+      "members_recursive": 1,
+      "unpacked_bytes_crc_validated": 31874019,
+      "unpacked_bytes_integrity_validated": 31874019,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Arriette.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 1,
+          "unpacked_bytes_crc_validated": 31874019,
+          "unpacked_bytes_integrity_validated": 31874019,
+          "extension_counts": {
+            ".png": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/BigFish.zip",
+      "format": "zip",
+      "sha256": "918f517cfcf4e01ced6911861fd1037459faaf978d648bb45fca9f9520396982",
+      "containers_recursive": 1,
+      "members_recursive": 1,
+      "unpacked_bytes_crc_validated": 56649798,
+      "unpacked_bytes_integrity_validated": 56649798,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/BigFish.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 1,
+          "unpacked_bytes_crc_validated": 56649798,
+          "unpacked_bytes_integrity_validated": 56649798,
+          "extension_counts": {
+            ".png": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/BloodFeral.zip",
+      "format": "zip",
+      "sha256": "dcebe2ee2a1f195b7f4c42c556c4bd7451a99cc38501624932ad5e44afd536c8",
+      "containers_recursive": 1,
+      "members_recursive": 1,
+      "unpacked_bytes_crc_validated": 56649798,
+      "unpacked_bytes_integrity_validated": 56649798,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/BloodFeral.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 1,
+          "unpacked_bytes_crc_validated": 56649798,
+          "unpacked_bytes_integrity_validated": 56649798,
+          "extension_counts": {
+            ".png": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/DoppelSlime.zip",
+      "format": "zip",
+      "sha256": "0e014445fd94d3730cf6eefdd1f08006166578d6b45e1de5fc77a16e9a555770",
+      "containers_recursive": 1,
+      "members_recursive": 1,
+      "unpacked_bytes_crc_validated": 31872642,
+      "unpacked_bytes_integrity_validated": 31872642,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/DoppelSlime.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 1,
+          "unpacked_bytes_crc_validated": 31872642,
+          "unpacked_bytes_integrity_validated": 31872642,
+          "extension_counts": {
+            ".png": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Earth Dragon.zip",
+      "format": "zip",
+      "sha256": "1c19f49312c8163df4c0c4b1d9287dd8dd8c9b9bcd0f58d7afca888e0262a6bd",
+      "containers_recursive": 1,
+      "members_recursive": 1,
+      "unpacked_bytes_crc_validated": 56651817,
+      "unpacked_bytes_integrity_validated": 56651817,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Earth Dragon.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 1,
+          "unpacked_bytes_crc_validated": 56651817,
+          "unpacked_bytes_integrity_validated": 56651817,
+          "extension_counts": {
+            ".png": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/EldritchOvermind.zip",
+      "format": "zip",
+      "sha256": "09997c51ba06d5d256ed528358ec8cac2b7f1fe5e0af3163921d01eaf120b36d",
+      "containers_recursive": 1,
+      "members_recursive": 1,
+      "unpacked_bytes_crc_validated": 56651175,
+      "unpacked_bytes_integrity_validated": 56651175,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/EldritchOvermind.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 1,
+          "unpacked_bytes_crc_validated": 56651175,
+          "unpacked_bytes_integrity_validated": 56651175,
+          "extension_counts": {
+            ".png": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/God Novus.zip",
+      "format": "zip",
+      "sha256": "2ea2ce2cdaa19cb32d7db7fc365d9f0d97d8d8056d591687fd1996d0cfa33d9f",
+      "containers_recursive": 1,
+      "members_recursive": 3,
+      "unpacked_bytes_crc_validated": 31878839,
+      "unpacked_bytes_integrity_validated": 31878839,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/God Novus.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 3,
+          "unpacked_bytes_crc_validated": 31878839,
+          "unpacked_bytes_integrity_validated": 31878839,
+          "extension_counts": {
+            ".png": 2,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Ice Avian.zip",
+      "format": "zip",
+      "sha256": "1ab65ac4173b8ff3bc43f61c43b1181e6cc5a05db51774b2862429dbb4c2c4f1",
+      "containers_recursive": 1,
+      "members_recursive": 3,
+      "unpacked_bytes_crc_validated": 56657095,
+      "unpacked_bytes_integrity_validated": 56657095,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Ice Avian.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 3,
+          "unpacked_bytes_crc_validated": 56657095,
+          "unpacked_bytes_integrity_validated": 56657095,
+          "extension_counts": {
+            ".png": 2,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Khronos.zip",
+      "format": "zip",
+      "sha256": "5eb4707fa118a243643142a9e07e4cfa32f65b2ac7c3b2fc7f9b6bdda4e0ae94",
+      "containers_recursive": 1,
+      "members_recursive": 1,
+      "unpacked_bytes_crc_validated": 56649798,
+      "unpacked_bytes_integrity_validated": 56649798,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Khronos.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 1,
+          "unpacked_bytes_crc_validated": 56649798,
+          "unpacked_bytes_integrity_validated": 56649798,
+          "extension_counts": {
+            ".png": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Peacock.zip",
+      "format": "zip",
+      "sha256": "f993919555c8b794b4ce1166efe9cb9585c8641cebda04c968f7cd558771e0a8",
+      "containers_recursive": 1,
+      "members_recursive": 3,
+      "unpacked_bytes_crc_validated": 56665779,
+      "unpacked_bytes_integrity_validated": 56665779,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Peacock.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 3,
+          "unpacked_bytes_crc_validated": 56665779,
+          "unpacked_bytes_integrity_validated": 56665779,
+          "extension_counts": {
+            ".png": 2,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Sun Goddess.zip",
+      "format": "zip",
+      "sha256": "a148fcd3567506f45f573c8f894a900ad39ed58bf10f9415b924e82725a08b78",
+      "containers_recursive": 1,
+      "members_recursive": 3,
+      "unpacked_bytes_crc_validated": 31894368,
+      "unpacked_bytes_integrity_validated": 31894368,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Sun Goddess.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 3,
+          "unpacked_bytes_crc_validated": 31894368,
+          "unpacked_bytes_integrity_validated": 31894368,
+          "extension_counts": {
+            ".png": 2,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Tusk God Warrior.zip",
+      "format": "zip",
+      "sha256": "491367f8b7846f4a8b5456461a5a7de7bec4ec54f8dea50d32fd21c5ae8166db",
+      "containers_recursive": 1,
+      "members_recursive": 3,
+      "unpacked_bytes_crc_validated": 56655647,
+      "unpacked_bytes_integrity_validated": 56655647,
+      "containers": [
+        {
+          "path": "Addons/Aekashics Librarium MV Format Animated Battlers/Aekashics Librarium MV Format Animated Battlers/RPG Maker MV format Animated Sideview Battlers/Tusk God Warrior.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 3,
+          "unpacked_bytes_crc_validated": 56655647,
+          "unpacked_bytes_integrity_validated": 56655647,
+          "extension_counts": {
+            ".png": 2,
+            ".txt": 1
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/godot-2d-topdown-template-main/godot-2d-topdown-template-main/scenes/props/.spikes.png-autosave.kra",
+      "format": "zip",
+      "sha256": "e73e2ed08c29f29d66d54dddcad3d76139cc82dc03d350a07b79fc335bf1f4f7",
+      "containers_recursive": 1,
+      "members_recursive": 11,
+      "unpacked_bytes_crc_validated": 56938,
+      "unpacked_bytes_integrity_validated": 56938,
+      "containers": [
+        {
+          "path": "Addons/godot-2d-topdown-template-main/godot-2d-topdown-template-main/scenes/props/.spikes.png-autosave.kra",
+          "format": "zip",
+          "depth": 0,
+          "members": 11,
+          "unpacked_bytes_crc_validated": 56938,
+          "unpacked_bytes_integrity_validated": 56938,
+          "extension_counts": {
+            ".defaultpixel": 2,
+            ".icc": 1,
+            ".pixelselection": 1,
+            ".png": 1,
+            ".xml": 3,
+            "<none>": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Godot-4-Tower-Defense-Template-master.zip",
+      "format": "zip",
+      "sha256": "f723e8af01d05b13fbfe82391adb3f025c05aaa20ec870a40964e660b56fa001",
+      "containers_recursive": 1,
+      "members_recursive": 89,
+      "unpacked_bytes_crc_validated": 6578188,
+      "unpacked_bytes_integrity_validated": 6578188,
+      "containers": [
+        {
+          "path": "Addons/Godot-4-Tower-Defense-Template-master.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 89,
+          "unpacked_bytes_crc_validated": 6578188,
+          "unpacked_bytes_integrity_validated": 6578188,
+          "extension_counts": {
+            ".build": 1,
+            ".cfg": 1,
+            ".gd": 21,
+            ".gdshader": 1,
+            ".godot": 1,
+            ".import": 18,
+            ".md": 1,
+            ".png": 18,
+            ".svg": 1,
+            ".tmp": 3,
+            ".tres": 2,
+            ".tscn": 17,
+            ".webp": 1,
+            "<none>": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/KayKit_Character_Animations_1.1.zip",
+      "format": "zip",
+      "sha256": "65882f31f905ad2e953819648a59287cdeab8f623908d5ef701971d3758be20f",
+      "containers_recursive": 1,
+      "members_recursive": 37,
+      "unpacked_bytes_crc_validated": 42942585,
+      "unpacked_bytes_integrity_validated": 42942585,
+      "containers": [
+        {
+          "path": "Addons/KayKit_Character_Animations_1.1.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 37,
+          "unpacked_bytes_crc_validated": 42942585,
+          "unpacked_bytes_integrity_validated": 42942585,
+          "extension_counts": {
+            ".fbx": 16,
+            ".glb": 16,
+            ".png": 1,
+            ".txt": 1,
+            ".url": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/KayKit_DungeonRemastered_1.1_FREE.zip",
+      "format": "zip",
+      "sha256": "53a38667e062217334807a35c8f916978dea64224cb66d3799134d9ff7b0e365",
+      "containers_recursive": 1,
+      "members_recursive": 1301,
+      "unpacked_bytes_crc_validated": 47893220,
+      "unpacked_bytes_integrity_validated": 47893220,
+      "containers": [
+        {
+          "path": "Addons/KayKit_DungeonRemastered_1.1_FREE.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 1301,
+          "unpacked_bytes_crc_validated": 47893220,
+          "unpacked_bytes_integrity_validated": 47893220,
+          "extension_counts": {
+            ".bin": 211,
+            ".fbx": 422,
+            ".gltf": 211,
+            ".mtl": 216,
+            ".obj": 216,
+            ".png": 21,
+            ".txt": 1,
+            ".url": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Pixel Art Top Down - Basic v1.2.3/Pixel Art Top Down - Basic v1.2.3.unitypackage",
+      "format": "gzip_tar",
+      "sha256": "3293586c0ca39798722345175a97f2972c19a5fb1d07f83775a5fd165f4a6367",
+      "containers_recursive": 4,
+      "members_recursive": 1392,
+      "unpacked_bytes_crc_validated": 9329294,
+      "unpacked_bytes_integrity_validated": 9329294,
+      "containers": [
+        {
+          "path": "Addons/Pixel Art Top Down - Basic v1.2.3/Pixel Art Top Down - Basic v1.2.3.unitypackage",
+          "format": "gzip_tar",
+          "depth": 0,
+          "members": 1228,
+          "unpacked_bytes_crc_validated": 3945161,
+          "unpacked_bytes_integrity_validated": 3945161,
+          "extension_counts": {
+            ".anim": 6,
+            ".asset": 197,
+            ".controller": 1,
+            ".cs": 5,
+            ".mat": 4,
+            ".meta": 312,
+            ".png": 282,
+            ".prefab": 81,
+            ".preset": 1,
+            ".shader": 2,
+            ".txt": 1,
+            ".unity": 2,
+            ".unitypackage": 3,
+            ".url": 1,
+            "<none>": 330
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Pixel Art Top Down - Basic v1.2.3/Pixel Art Top Down - Basic v1.2.3.unitypackage!6c42f65fc9eb82943a26f6d854764887/asset",
+          "format": "gzip_tar",
+          "depth": 1,
+          "members": 54,
+          "unpacked_bytes_crc_validated": 1763780,
+          "unpacked_bytes_integrity_validated": 1763780,
+          "extension_counts": {
+            ".asset": 3,
+            ".mat": 4,
+            ".meta": 18,
+            ".png": 4,
+            ".shader": 5,
+            ".unity": 2,
+            "<none>": 18
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Pixel Art Top Down - Basic v1.2.3/Pixel Art Top Down - Basic v1.2.3.unitypackage!a5c3a95619b36f448aaba53481bced1c/asset",
+          "format": "gzip_tar",
+          "depth": 1,
+          "members": 56,
+          "unpacked_bytes_crc_validated": 1813943,
+          "unpacked_bytes_integrity_validated": 1813943,
+          "extension_counts": {
+            ".asset": 3,
+            ".mat": 4,
+            ".meta": 19,
+            ".png": 4,
+            ".shader": 5,
+            ".unity": 2,
+            "<none>": 19
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Pixel Art Top Down - Basic v1.2.3/Pixel Art Top Down - Basic v1.2.3.unitypackage!cf07105ae3978464cb03bb2036eca5f7/asset",
+          "format": "gzip_tar",
+          "depth": 1,
+          "members": 54,
+          "unpacked_bytes_crc_validated": 1806410,
+          "unpacked_bytes_integrity_validated": 1806410,
+          "extension_counts": {
+            ".asset": 3,
+            ".mat": 4,
+            ".meta": 18,
+            ".png": 4,
+            ".shader": 5,
+            ".unity": 2,
+            "<none>": 18
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Starter-Kit-Basic-Scene-main.zip",
+      "format": "zip",
+      "sha256": "90053a01db2fb45b2856598936cb2d4d8f3b4ee91cbfe2696ec60a1adc7f7357",
+      "containers_recursive": 1,
+      "members_recursive": 64,
+      "unpacked_bytes_crc_validated": 991148,
+      "unpacked_bytes_integrity_validated": 991148,
+      "containers": [
+        {
+          "path": "Addons/Starter-Kit-Basic-Scene-main.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 64,
+          "unpacked_bytes_crc_validated": 991148,
+          "unpacked_bytes_integrity_validated": 991148,
+          "extension_counts": {
+            ".glb": 22,
+            ".godot": 1,
+            ".import": 25,
+            ".md": 2,
+            ".png": 4,
+            ".tmp": 1,
+            ".tres": 2,
+            ".tscn": 1,
+            ".txt": 1,
+            ".url": 2,
+            "<none>": 3
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/vector/sprites.fla",
+      "format": "zip",
+      "sha256": "af4e8ff8d11095ac1c2eb9ee342ab3e7c59063fcd0eedb56f01b4a356ee75a00",
+      "containers_recursive": 1,
+      "members_recursive": 20,
+      "unpacked_bytes_crc_validated": 205659,
+      "unpacked_bytes_integrity_validated": 205659,
+      "containers": [
+        {
+          "path": "Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/vector/sprites.fla",
+          "format": "zip",
+          "depth": 0,
+          "members": 20,
+          "unpacked_bytes_crc_validated": 205659,
+          "unpacked_bytes_integrity_validated": 205659,
+          "extension_counts": {
+            ".cache": 1,
+            ".dat": 2,
+            ".png": 1,
+            ".xfl": 2,
+            ".xml": 12,
+            "<none>": 2
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    },
+    {
+      "path": "Addons/Starter-Kit-City-Builder-main.zip",
+      "format": "zip",
+      "sha256": "5af127d96d360ad847a8c3f29f0cc6fea877f992fc55882c9c786f048b2d85f4",
+      "containers_recursive": 2,
+      "members_recursive": 130,
+      "unpacked_bytes_crc_validated": 2275465,
+      "unpacked_bytes_integrity_validated": 2275465,
+      "containers": [
+        {
+          "path": "Addons/Starter-Kit-City-Builder-main.zip",
+          "format": "zip",
+          "depth": 0,
+          "members": 110,
+          "unpacked_bytes_crc_validated": 2069806,
+          "unpacked_bytes_integrity_validated": 2069806,
+          "extension_counts": {
+            ".fla": 1,
+            ".gd": 6,
+            ".glb": 15,
+            ".godot": 1,
+            ".import": 33,
+            ".md": 2,
+            ".ogg": 11,
+            ".png": 7,
+            ".res": 1,
+            ".tmp": 4,
+            ".tres": 16,
+            ".tscn": 1,
+            ".ttf": 1,
+            ".txt": 1,
+            ".uid": 6,
+            "<none>": 4
+          },
+          "status": "safe_integrity_valid"
+        },
+        {
+          "path": "Addons/Starter-Kit-City-Builder-main.zip!Starter-Kit-City-Builder-main/vector/sprites.fla",
+          "format": "zip",
+          "depth": 1,
+          "members": 20,
+          "unpacked_bytes_crc_validated": 205659,
+          "unpacked_bytes_integrity_validated": 205659,
+          "extension_counts": {
+            ".cache": 1,
+            ".dat": 2,
+            ".png": 1,
+            ".xfl": 2,
+            ".xml": 12,
+            "<none>": 2
+          },
+          "status": "safe_integrity_valid"
+        }
+      ],
+      "status": "safe_integrity_valid"
+    }
+  ],
+  "runtime_assets": [
+    {
+      "source": "Addons/ClawAndBlade_v1.5.0/ClawAndBlade/Tilemaps/Grounds/ground_grass_dirt_light.png",
+      "destination": "res://assets/tiles/claw_forest_ground.png",
+      "category": "tile_atlas",
+      "purpose": "Metsa grass, flower, dirt, and road-shoulder variation",
+      "license_id": "spirit_claw_free_asset_license",
+      "bytes": 25269,
+      "sha256": "12d800d00da86de3542b36af31b26723db39ba8a4f83f8010ae45d7c3a5e43c7",
+      "metadata": {
+        "extension": ".png",
+        "bytes": 25269,
+        "width": 384,
+        "height": 448
+      }
+    },
+    {
+      "source": "Addons/ClawAndBlade_v1.5.0/ClawAndBlade/Tilemaps/Trees/trees_all.png",
+      "destination": "res://assets/tiles/claw_forest_trees.png",
+      "category": "sprite_atlas",
+      "purpose": "forest canopy and foliage variants",
+      "license_id": "spirit_claw_free_asset_license",
+      "bytes": 84091,
+      "sha256": "4395990a706127d7bc439b17f4aee5f44f0ea23935b7ea76a994fa3033f7a60a",
+      "metadata": {
+        "extension": ".png",
+        "bytes": 84091,
+        "width": 1216,
+        "height": 256
+      }
+    },
+    {
+      "source": "Addons/Godot-4-Tower-Defense-Template-master/Godot-4-Tower-Defense-Template-master/Assets/bullets/bullet2.png",
+      "destination": "res://assets/sprites/projectile_bullet_strip.png",
+      "category": "sprite",
+      "purpose": "six-frame projectile head strip sliced to one 16x16 frame at runtime",
+      "license_id": "tower_defense_template_mit",
+      "bytes": 671,
+      "sha256": "a8f2cca505ffee27c89254f6a954c84169bcf1052680b18171cac7782ed86349",
+      "metadata": {
+        "extension": ".png",
+        "bytes": 671,
+        "width": 96,
+        "height": 16
+      }
+    },
+    {
+      "source": "Addons/Game-Component-Bundle-d8ee7d645a4f6216016316ac6f822ebcfbc2c4c9/Game-Component-Bundle-d8ee7d645a4f6216016316ac6f822ebcfbc2c4c9/Exponaut Components/Assets/Sounds/sfx/laser_shot.wav",
+      "destination": "res://assets/audio/shoot_laser.wav",
+      "category": "audio",
+      "purpose": "player projectile firing feedback",
+      "license_id": "game_component_bundle_mit",
+      "bytes": 17434,
+      "sha256": "fb7e3cb65cc418ae4f3b2d1b1a0962cde44ddcbeae1f26f276b5994feb2530cd",
+      "metadata": {
+        "extension": ".wav",
+        "bytes": 17434,
+        "channels": 1,
+        "sample_rate_hz": 22050,
+        "sample_width_bits": 16,
+        "duration_seconds": 0.393651
+      }
+    },
+    {
+      "source": "Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/sounds/placement-a.ogg",
+      "destination": "res://assets/audio/build_placement.ogg",
+      "category": "audio",
+      "purpose": "base and structure placement feedback",
+      "license_id": "kenney_city_builder_mit",
+      "bytes": 7021,
+      "sha256": "55e3bad35a443c0a7cc3e0079ae2d2aaae89277495e5b7f8a9c29ca312c0585f",
+      "metadata": {
+        "extension": ".ogg",
+        "bytes": 7021,
+        "channels": 2,
+        "sample_rate_hz": 44100,
+        "duration_seconds": 0.1
+      }
+    },
+    {
+      "source": "Addons/Game-Component-Bundle-d8ee7d645a4f6216016316ac6f822ebcfbc2c4c9/Game-Component-Bundle-d8ee7d645a4f6216016316ac6f822ebcfbc2c4c9/Exponaut Components/Assets/Sounds/sfx/collect.wav",
+      "destination": "res://assets/audio/harvest_collect.wav",
+      "category": "audio",
+      "purpose": "resource harvesting feedback",
+      "license_id": "game_component_bundle_mit",
+      "bytes": 7786,
+      "sha256": "475ea8ab95c8c898d0f6d61caa58f09d23a6539bdea1d7adcdf1d9061dc743bc",
+      "metadata": {
+        "extension": ".wav",
+        "bytes": 7786,
+        "channels": 1,
+        "sample_rate_hz": 22050,
+        "sample_width_bits": 8,
+        "duration_seconds": 0.351066
+      }
+    },
+    {
+      "source": "Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/sounds/toggle.ogg",
+      "destination": "res://assets/audio/ui_click.ogg",
+      "category": "audio",
+      "purpose": "command and navigation button feedback",
+      "license_id": "kenney_city_builder_cc0_audio",
+      "bytes": 4180,
+      "sha256": "5acba303b9adfb15fc3445801ad2501dd2b7ba57917ec797184b98e4b1c6797f",
+      "metadata": {
+        "extension": ".ogg",
+        "bytes": 4180,
+        "channels": 1,
+        "sample_rate_hz": 44100,
+        "duration_seconds": 0.007868
+      }
+    },
+    {
+      "source": "Addons/ClawAndBlade_v1.5.0/ClawAndBlade/Documentation/License.txt",
+      "destination": "res://assets/licenses/spirit_claw_license.txt",
+      "category": "license",
+      "purpose": "license text for ClawAndBlade runtime art",
+      "license_id": "spirit_claw_free_asset_license",
+      "bytes": 2203,
+      "sha256": "a52da6bc89fbb7ebbc6875b206a9366b87a29d8a03e4061bf1d02bec8b0accdb",
+      "metadata": {
+        "extension": ".txt",
+        "bytes": 2203
+      }
+    },
+    {
+      "source": "Addons/Game-Component-Bundle-d8ee7d645a4f6216016316ac6f822ebcfbc2c4c9/Game-Component-Bundle-d8ee7d645a4f6216016316ac6f822ebcfbc2c4c9/license.txt",
+      "destination": "res://assets/licenses/game_component_bundle_mit.txt",
+      "category": "license",
+      "purpose": "license text for Exponaut-derived runtime audio",
+      "license_id": "game_component_bundle_mit",
+      "bytes": 1084,
+      "sha256": "0ca09763f37576fe1b9b5b579cf4bdf40f8bc256f312a917cf19887379e457cb",
+      "metadata": {
+        "extension": ".txt",
+        "bytes": 1084
+      }
+    },
+    {
+      "source": "Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/LICENSE.md",
+      "destination": "res://assets/licenses/kenney_city_builder_mit.md",
+      "category": "license",
+      "purpose": "license text for city-builder placement audio",
+      "license_id": "kenney_city_builder_mit",
+      "bytes": 1062,
+      "sha256": "8e99e4045f71bb96d77a1765c815511c63c9f9185bfada2b8917e041ced00754",
+      "metadata": {
+        "extension": ".md",
+        "bytes": 1062
+      }
+    },
+    {
+      "source": "Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/README.md",
+      "destination": "res://assets/licenses/kenney_city_builder_readme.md",
+      "category": "license",
+      "purpose": "CC0 statement for included city-builder sound effects",
+      "license_id": "kenney_city_builder_cc0_audio",
+      "bytes": 3353,
+      "sha256": "0d6f9a90d2177658b56c47d4cbc4d759b151f8c3a09b24586da450c969de697d",
+      "metadata": {
+        "extension": ".md",
+        "bytes": 3353
+      }
+    },
+    {
+      "source": "Addons/Godot-4-Tower-Defense-Template-master/Godot-4-Tower-Defense-Template-master/LICENSE",
+      "destination": "res://assets/licenses/tower_defense_template_mit.txt",
+      "category": "license",
+      "purpose": "license text for the sliced projectile sprite",
+      "license_id": "tower_defense_template_mit",
+      "bytes": 1060,
+      "sha256": "9d1d7d95489fd572ad9d98c821d02c0cc84f005fa8eeca3d3f4b2557ec0e7eb2",
+      "metadata": {
+        "extension": ".txt",
+        "bytes": 1060
+      }
+    }
+  ]
+}

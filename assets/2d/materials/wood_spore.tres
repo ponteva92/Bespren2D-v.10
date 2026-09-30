@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cguuhlf2vogsv"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_ppk6d"]
+
+[resource]
+resource_name = "Bespren Wood Spore weathering"
+shader = ExtResource("1_ppk6d")
+shader_parameter/treatment = 1
+shader_parameter/weathering = 0.86
+shader_parameter/structural_damage = 0.08
+shader_parameter/rust_streaks = 0.3
+shader_parameter/toxic_intensity = 0.18
+shader_parameter/glow_color = Color(1, 0.84313726, 0, 1)
+shader_parameter/emission_strength = 0.58
+shader_parameter/pattern_scale = 31.0
+shader_parameter/damage_seed = 11.0

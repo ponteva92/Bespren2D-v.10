@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/structure_readiness_render_validation.gd" id="1_test"]
+
+[node name="StructureReadinessRenderValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Backdrop" type="CanvasLayer" parent="."]
+layer = -2
+
+[node name="Base" type="ColorRect" parent="Backdrop"]
+offset_right = 480.0
+offset_bottom = 270.0
+mouse_filter = 2
+color = Color(0.025, 0.04, 0.03, 1)
+
+[node name="FieldBandTop" type="ColorRect" parent="Backdrop"]
+offset_top = 38.0
+offset_right = 480.0
+offset_bottom = 134.0
+mouse_filter = 2
+color = Color(0.065, 0.092, 0.067, 1)
+
+[node name="FieldBandBottom" type="ColorRect" parent="Backdrop"]
+offset_top = 145.0
+offset_right = 480.0
+offset_bottom = 260.0
+mouse_filter = 2
+color = Color(0.055, 0.077, 0.058, 1)
+
+[node name="Overlay" type="CanvasLayer" parent="."]
+layer = 3
+
+[node name="Title" type="Label" parent="Overlay"]
+offset_left = 8.0
+offset_top = 7.0
+offset_right = 472.0
+offset_bottom = 20.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.84, 0.76, 0.6, 1)
+theme_override_colors/font_outline_color = Color(0.01, 0.015, 0.01, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "T1 READINESS // 0.38x LIVE-SCALE // ARTIFACT ONLY"
+horizontal_alignment = 1

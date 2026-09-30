@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c2u10568tx8tm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_fetero_870e82fca5.png" id="1_x0lks"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_x0lks")
+region = Rect2(0, 0, 378, 269)

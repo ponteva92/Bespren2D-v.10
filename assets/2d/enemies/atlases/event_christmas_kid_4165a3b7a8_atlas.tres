@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bo8siuyqtu710"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f000.png" id="1_ghncl"]
+
+[resource]
+resource_name = "default_000"
+atlas = ExtResource("1_ghncl")
+region = Rect2(0, 0, 768, 768)

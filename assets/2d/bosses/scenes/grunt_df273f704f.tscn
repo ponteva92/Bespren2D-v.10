@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://b7daxobnsxwor"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_ma2ho"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/grunt_1bfcb9f5ed.png" id="2_wwuax"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_ma2ho")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ws3re"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_wwuax")
+region = Rect2(0, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gyiss"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_wwuax")
+region = Rect2(48, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_60n8o"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_wwuax")
+region = Rect2(96, 0, 48, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_noh4m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ws3re")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gyiss")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_60n8o")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]
+
+[node name="$Grunt" type="Node2D" unique_id=1073262839 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "grunt_df273f704f"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "three_frame"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=567952157]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_noh4m")
+animation = &"run"
+autoplay = "run"
+offset = Vector2(0, -96)

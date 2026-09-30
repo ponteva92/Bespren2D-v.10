@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bex06rn6cyo6c"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/flag_cursor_variant2_67809ca512.png" id="1_2rqmh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2rqmh")
+region = Rect2(0, 0, 64, 64)

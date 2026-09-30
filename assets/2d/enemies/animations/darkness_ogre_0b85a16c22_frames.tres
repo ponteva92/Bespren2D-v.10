@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhnar685aww4r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_ogre_5a6e4abe6c.png" id="1_yp8jw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eeov3"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yp8jw")
+region = Rect2(0, 0, 318, 296)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eeov3")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c6ghuw3a27yaf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_dragon_2dbe62bba6.png" id="1_nti4n"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nti4n")
+region = Rect2(0, 0, 501, 356)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dwne225drha5h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/arcane_orb_frost_ce96447063.png" id="1_8fsg2"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8fsg2")
+region = Rect2(0, 0, 103, 147)

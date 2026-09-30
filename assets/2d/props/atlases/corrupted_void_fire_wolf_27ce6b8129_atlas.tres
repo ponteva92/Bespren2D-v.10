@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dp7rcnpjsp7n4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/corrupted_void_fire_wolf_6679dd8570.png" id="1_px6w6"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_px6w6")
+region = Rect2(0, 0, 243, 183)

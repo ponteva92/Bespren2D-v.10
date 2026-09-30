@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cddd8m02dkfax"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/seven_sins_pride_0e85d54240.png" id="1_cyctt"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cyctt")
+region = Rect2(0, 0, 389, 441)

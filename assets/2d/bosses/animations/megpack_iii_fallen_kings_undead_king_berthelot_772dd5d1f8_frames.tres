@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dx2bygm15553d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megpack_iii_fallen_kings_undead_king_berthelot_518b823fd8.png" id="1_x04u1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tre72"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_x04u1")
+region = Rect2(0, 0, 375, 251)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tre72")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

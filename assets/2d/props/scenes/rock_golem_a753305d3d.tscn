@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://lij15xw3wp5x"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_wyswp"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rock_golem_3fa51f5e8a.png" id="2_7hy85"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6nef"]
+resource_name = "Bespren Rusted Prop weathering"
+shader = ExtResource("1_wyswp")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.78
+shader_parameter/structural_damage = 0.1
+shader_parameter/rust_streaks = 0.61
+shader_parameter/toxic_intensity = 0.1
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.2
+shader_parameter/pattern_scale = 27.0
+shader_parameter/damage_seed = 17.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1o5n"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_7hy85")
+region = Rect2(0, 0, 560, 338)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_w00cy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g1o5n")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="RockGolem" type="Node2D" unique_id=1920232072 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "rock_golem_a753305d3d"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1295277910]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6nef")
+sprite_frames = SubResource("SpriteFrames_w00cy")
+offset = Vector2(0, -169)

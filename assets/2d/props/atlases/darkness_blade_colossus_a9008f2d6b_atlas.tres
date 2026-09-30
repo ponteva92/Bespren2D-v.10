@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bn4cwfp00c1ny"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_blade_colossus_ff59d8941f.png" id="1_fqpj2"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fqpj2")
+region = Rect2(0, 0, 471, 240)

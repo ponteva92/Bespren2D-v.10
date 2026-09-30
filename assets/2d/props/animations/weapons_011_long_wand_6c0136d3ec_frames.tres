@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://866oyec407o0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/weapons_011_long_wand_29f4f841a1.png" id="1_tm1qs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6jdhf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tm1qs")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6jdhf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

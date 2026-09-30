@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cl5avg85g5ag5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_crocoknight_9789666c72.png" id="1_7g30y"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7g30y")
+region = Rect2(0, 0, 421, 226)

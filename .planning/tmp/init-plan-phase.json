@@ -1,0 +1,10 @@
+{
+  "args": [
+    "query",
+    "init.plan-phase",
+    "1"
+  ],
+  "status": 0,
+  "stdout": "{\n  \"researcher_model\": \"sonnet\",\n  \"planner_model\": \"opus\",\n  \"checker_model\": \"haiku\",\n  \"tdd_mode\": false,\n  \"granularity\": \"fine\",\n  \"research_enabled\": true,\n  \"plan_checker_enabled\": true,\n  \"nyquist_validation_enabled\": true,\n  \"commit_docs\": true,\n  \"text_mode\": false,\n  \"auto_advance\": false,\n  \"auto_chain_active\": false,\n  \"mode\": \"yolo\",\n  \"phase_found\": true,\n  \"phase_dir\": \".planning/phases/01-map-audit-redesign-contract\",\n  \"expected_phase_dir\": null,\n  \"phase_number\": \"01\",\n  \"phase_name\": \"map-audit-redesign-contract\",\n  \"phase_slug\": \"map-audit-redesign-contract\",\n  \"padded_phase\": \"01\",\n  \"phase_req_ids\": \"CONT-01\",\n  \"phase_status\": \"Pending\",\n  \"has_research\": false,\n  \"has_context\": true,\n  \"has_reviews\": false,\n  \"has_plans\": false,\n  \"plan_count\": 0,\n  \"planning_exists\": true,\n  \"roadmap_exists\": true,\n  \"state_path\": \".planning/STATE.md\",\n  \"roadmap_path\": \".planning/ROADMAP.md\",\n  \"requirements_path\": \".planning/REQUIREMENTS.md\",\n  \"patterns_path\": null,\n  \"context_path\": \".planning/phases/01-map-audit-redesign-contract/01-CONTEXT.md\",\n  \"project_root\": \"C:\\\\Users\\\\heikk\\\\Desktop\\\\Claude\\\\gpt_peli\",\n  \"agents_installed\": true,\n  \"missing_agents\": [],\n  \"agents_dir\": \"C:\\\\Users\\\\heikk\\\\.claude\\\\agents\",\n  \"agent_runtime\": \"claude\",\n  \"project_title\": \"Bespren Visual AAA+ & Map Redesign\"\n}",
+  "stderr": "gsd-tools: warning: unknown config key(s) in .planning/config.json: tavily_search, ref_search, perplexity, jina — these will be ignored\n"
+}

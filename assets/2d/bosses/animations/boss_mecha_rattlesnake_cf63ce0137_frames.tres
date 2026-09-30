@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bx38xtsmupux2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_mecha_rattlesnake_6e37db2581.png" id="1_j2243"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwbwr"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j2243")
+region = Rect2(0, 0, 583, 321)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwbwr")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

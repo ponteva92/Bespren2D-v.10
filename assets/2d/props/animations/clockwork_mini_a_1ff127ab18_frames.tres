@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://qs80bnock4fh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_mini_a_648427ef91.png" id="1_ifrmb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mk4rs"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ifrmb")
+region = Rect2(0, 0, 170, 135)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mk4rs")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

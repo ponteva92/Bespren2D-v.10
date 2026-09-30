@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c1n7fs6prm8tf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_ogre_3cd74b23eb.png" id="1_y1jg4"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_y1jg4")
+region = Rect2(0, 0, 351, 317)

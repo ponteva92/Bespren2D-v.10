@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bhy0q35w83a7m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_claw_knight_2c1daf2b9f.png" id="1_ejxkg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ejxkg")
+region = Rect2(0, 0, 296, 220)

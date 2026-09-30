@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://crp3ewcufg0ta"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/seadragon_tex_d5a1d6c87f.png" id="1_pvkbn"]
+
+[resource]
+resource_name = "ellipse_1"
+atlas = ExtResource("1_pvkbn")
+region = Rect2(1, 601, 453, 30)

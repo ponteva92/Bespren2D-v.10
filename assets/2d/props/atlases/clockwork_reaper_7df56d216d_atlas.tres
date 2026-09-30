@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d0hhl4llqaqwd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_reaper_0a6b752f4c.png" id="1_o6vpl"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_o6vpl")
+region = Rect2(0, 0, 281, 264)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cnbjgi5e4ik6m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/freebies_icons_fishing_d1f35de3f0.png" id="1_8exgq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8gf21"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8exgq")
+region = Rect2(0, 0, 160, 160)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8gf21")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

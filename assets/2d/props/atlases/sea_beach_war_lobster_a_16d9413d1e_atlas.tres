@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dvpmg2a6n5e0h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_war_lobster_a_042bf8c9e1.png" id="1_dxeug"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dxeug")
+region = Rect2(0, 0, 229, 138)

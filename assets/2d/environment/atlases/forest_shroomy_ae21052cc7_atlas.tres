@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://6ef1268rm77f"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_shroomy_a9516484b1.png" id="1_gjyry"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gjyry")
+region = Rect2(0, 0, 100, 85)

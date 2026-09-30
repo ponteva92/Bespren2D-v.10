@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b2r5n8qkjejbm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/orc_archer_weak_06a350bc26.png" id="1_2wsdg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2wsdg")
+region = Rect2(0, 0, 476, 480)

@@ -1,0 +1,116 @@
+[gd_scene format=3 uid="uid://dcpkl2tv08nm2"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_8m1g8"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/skelet_idle_anim_f0_8e140a74ab.png" id="2_430ye"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/skelet_idle_anim_f1_6cdbbe393b.png" id="3_1ucac"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/skelet_idle_anim_f2_cf364d1f2d.png" id="4_f4et3"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/skelet_idle_anim_f3_887606e209.png" id="5_45fv5"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/skelet_run_anim_f0_131a61fcb4.png" id="6_4m2pj"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/skelet_run_anim_f1_1a07f42ec8.png" id="7_wgnl7"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/skelet_run_anim_f2_ad1e64c2a9.png" id="8_f0y3o"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/skelet_run_anim_f3_2adb17ce75.png" id="9_osc8u"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6nef"]
+resource_name = "Bespren Rusted Prop weathering"
+shader = ExtResource("1_8m1g8")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.78
+shader_parameter/structural_damage = 0.1
+shader_parameter/rust_streaks = 0.61
+shader_parameter/toxic_intensity = 0.1
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.2
+shader_parameter/pattern_scale = 27.0
+shader_parameter/damage_seed = 17.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6545a"]
+resource_name = "idle_000"
+atlas = ExtResource("2_430ye")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmmij"]
+resource_name = "idle_001"
+atlas = ExtResource("3_1ucac")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_celbj"]
+resource_name = "idle_002"
+atlas = ExtResource("4_f4et3")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xa305"]
+resource_name = "idle_003"
+atlas = ExtResource("5_45fv5")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cx657"]
+resource_name = "run_000"
+atlas = ExtResource("6_4m2pj")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r5xbi"]
+resource_name = "run_001"
+atlas = ExtResource("7_wgnl7")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ngo6o"]
+resource_name = "run_002"
+atlas = ExtResource("8_f0y3o")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w87ae"]
+resource_name = "run_003"
+atlas = ExtResource("9_osc8u")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r7gyr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6545a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rmmij")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_celbj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xa305")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cx657")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r5xbi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ngo6o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w87ae")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 8.0
+}]
+
+[node name="Skelet" type="Node2D" unique_id=629727732 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "skelet_b6e8242a82"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=851736817]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6nef")
+sprite_frames = SubResource("SpriteFrames_r7gyr")
+animation = &"idle"
+autoplay = "idle"
+offset = Vector2(0, -8)

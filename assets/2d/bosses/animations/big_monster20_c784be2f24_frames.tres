@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cal3gaedtuicj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/big_monster20_10a2936ce3.png" id="1_16a57"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nb03p"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_16a57")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gufnr"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_16a57")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cceog"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_16a57")
+region = Rect2(192, 0, 96, 96)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nb03p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gufnr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cceog")
+}],
+"loop": 1,
+"name": &"walk_down",
+"speed": 6.0
+}]

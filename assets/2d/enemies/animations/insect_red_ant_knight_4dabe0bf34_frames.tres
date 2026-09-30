@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://qosc6ri0ismx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insect_red_ant_knight_98d050c539.png" id="1_g3w1o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_58dyg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_g3w1o")
+region = Rect2(0, 0, 136, 207)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_58dyg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

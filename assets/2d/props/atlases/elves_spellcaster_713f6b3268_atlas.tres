@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b04i65w67ojjn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elves_spellcaster_e9dccb31e3.png" id="1_lr61f"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lr61f")
+region = Rect2(0, 0, 223, 257)

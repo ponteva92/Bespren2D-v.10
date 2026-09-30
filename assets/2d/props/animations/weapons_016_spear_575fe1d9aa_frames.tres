@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://mrt1qtttyr2c"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/weapons_016_spear_efca4fed5d.png" id="1_vts5i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1483"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vts5i")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1483")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

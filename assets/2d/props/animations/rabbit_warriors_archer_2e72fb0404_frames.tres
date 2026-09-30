@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c0252up4g8j6p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rabbit_warriors_archer_cf52585f91.png" id="1_lnb20"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pdf1h"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lnb20")
+region = Rect2(0, 0, 218, 190)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pdf1h")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

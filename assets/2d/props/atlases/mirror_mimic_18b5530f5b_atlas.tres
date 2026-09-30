@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cy81dn7ao1ryp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mirror_mimic_dd80c916e4.png" id="1_nss5d"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nss5d")
+region = Rect2(0, 0, 271, 318)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b7vw3cxxpv202"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/post_modern_machinery_scout_5f4ad46905.png" id="1_ioqgi"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ioqgi")
+region = Rect2(0, 0, 580, 430)

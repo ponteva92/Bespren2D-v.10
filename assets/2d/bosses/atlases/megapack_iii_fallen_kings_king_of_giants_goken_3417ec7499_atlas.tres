@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bockggwncylrq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_fallen_kings_king_of_giants_goken_35f353a754.png" id="1_8e0ln"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8e0ln")
+region = Rect2(0, 0, 635, 506)

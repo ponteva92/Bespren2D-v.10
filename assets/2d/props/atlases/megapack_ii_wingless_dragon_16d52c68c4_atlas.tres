@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://yh0wtki8jh12"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_wingless_dragon_5b9d72c12e.png" id="1_sh8yf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sh8yf")
+region = Rect2(0, 0, 413, 261)

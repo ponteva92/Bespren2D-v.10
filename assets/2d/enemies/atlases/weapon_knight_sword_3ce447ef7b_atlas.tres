@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bh418u344xlg3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_knight_sword_5fe1e6d57b.png" id="1_7w57c"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7w57c")
+region = Rect2(0, 0, 10, 29)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://4mco8j8007nr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titan_ice_demeres_d596b166a3.png" id="1_xx213"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xx213")
+region = Rect2(0, 0, 270, 276)

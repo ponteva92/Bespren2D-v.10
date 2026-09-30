@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ddsrgsf8n1btv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elf_knight_mage_bedb43975d.png" id="1_atcog"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_atcog")
+region = Rect2(0, 0, 241, 207)

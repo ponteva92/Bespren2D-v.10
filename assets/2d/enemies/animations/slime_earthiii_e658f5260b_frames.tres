@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cvif6fs6m67b5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_earthiii_1a7448f26a.png" id="1_ygeul"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jfo33"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ygeul")
+region = Rect2(0, 0, 192, 173)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jfo33")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

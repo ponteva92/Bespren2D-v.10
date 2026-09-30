@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bwxfvvah2ajvn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_rpg_buffer_797cf2319d.png" id="1_unnsg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_unnsg")
+region = Rect2(0, 0, 131, 95)

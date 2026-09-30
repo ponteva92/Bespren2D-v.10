@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b7sa0xcnxc636"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/frogger_hurt_dd9ce27095.png" id="1_587md"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wkclo"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_587md")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rpqxa"]
+resource_name = "frame_000_004"
+atlas = ExtResource("1_587md")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4y8q0"]
+resource_name = "frame_000_007"
+atlas = ExtResource("1_587md")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5itlp"]
+resource_name = "frame_000_010"
+atlas = ExtResource("1_587md")
+region = Rect2(1280, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wkclo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rpqxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4y8q0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5itlp")
+}],
+"loop": 1,
+"name": &"hurt",
+"speed": 10.0
+}]

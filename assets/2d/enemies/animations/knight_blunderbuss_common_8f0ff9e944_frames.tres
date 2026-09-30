@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cws0fh30eo7p0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/knight_blunderbuss_common_8831ec0348.png" id="1_w6idu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rvtwq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w6idu")
+region = Rect2(0, 0, 258, 173)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rvtwq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

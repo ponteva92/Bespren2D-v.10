@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://df46uu6ifp46j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_astral_lich_9529c7dcdb.png" id="1_54ran"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_54ran")
+region = Rect2(0, 0, 288, 281)

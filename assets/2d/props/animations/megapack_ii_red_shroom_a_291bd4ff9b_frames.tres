@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cermf7k5eipmi"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_red_shroom_a_d88e356619.png" id="1_ox8db"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ds3l2"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ox8db")
+region = Rect2(0, 0, 165, 117)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ds3l2")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

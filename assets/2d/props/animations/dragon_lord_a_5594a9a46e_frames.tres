@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://y4anil1304xm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_lord_a_337362c157.png" id="1_cbd4m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5f1bw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cbd4m")
+region = Rect2(0, 0, 410, 354)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5f1bw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

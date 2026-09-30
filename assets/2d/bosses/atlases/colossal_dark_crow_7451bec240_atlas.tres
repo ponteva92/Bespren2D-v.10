@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bvq4e2bwx6vie"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_dark_crow_62e39c9ba6.png" id="1_a1q65"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_a1q65")
+region = Rect2(0, 0, 507, 564)

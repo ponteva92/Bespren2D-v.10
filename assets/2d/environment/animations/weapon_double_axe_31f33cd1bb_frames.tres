@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://7pcsy5lgg5rr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_double_axe_0162cbeb06.png" id="1_funjd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_msku8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_funjd")
+region = Rect2(0, 0, 16, 24)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_msku8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

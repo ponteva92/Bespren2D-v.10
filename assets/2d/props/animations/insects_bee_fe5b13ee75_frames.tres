@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c7pbwe8td3vgj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_bee_bdc21ab96e.png" id="1_w1f4w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkdvk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w1f4w")
+region = Rect2(0, 0, 106, 148)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkdvk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

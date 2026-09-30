@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bam5d81rx3xx4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_black_ant_protector_d413460fac.png" id="1_8b3pc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8b3pc")
+region = Rect2(0, 0, 413, 303)

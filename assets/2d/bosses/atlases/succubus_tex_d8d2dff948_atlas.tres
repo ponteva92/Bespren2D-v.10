@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cab1a8mn4ky75"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/succubus_tex_31310db46e.png" id="1_ujwc1"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_ujwc1")
+region = Rect2(110, 334, 88, 12)

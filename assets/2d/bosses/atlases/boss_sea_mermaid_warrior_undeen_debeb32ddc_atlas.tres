@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dwej62mec0fs0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_sea_mermaid_warrior_undeen_8c2afb1e30.png" id="1_mfo8y"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mfo8y")
+region = Rect2(0, 0, 291, 302)

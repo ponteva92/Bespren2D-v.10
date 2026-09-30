@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ink46mw886rq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_snake_3dfd31ade3.png" id="1_etc8j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ssyg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_etc8j")
+region = Rect2(0, 0, 123, 98)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ssyg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bdlowvloa8bp3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_light_titan_alfadriel_d5ab0ffc67.png" id="1_hfjdi"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hfjdi")
+region = Rect2(0, 0, 603, 616)

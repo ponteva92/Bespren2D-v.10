@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhl144gxuh25l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/crocodile_warriors_paladin_f53b80b55b.png" id="1_jcrnq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpvjg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jcrnq")
+region = Rect2(0, 0, 596, 309)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpvjg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

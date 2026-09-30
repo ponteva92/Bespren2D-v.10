@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bv3rvqoi4ndep"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_lava_spawn_91b5d17175.png" id="1_sl3mx"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sl3mx")
+region = Rect2(0, 0, 347, 252)

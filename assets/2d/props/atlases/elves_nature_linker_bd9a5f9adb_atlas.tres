@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b3airkjjcl3au"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elves_nature_linker_b7e0a5a201.png" id="1_043fm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_043fm")
+region = Rect2(0, 0, 128, 141)

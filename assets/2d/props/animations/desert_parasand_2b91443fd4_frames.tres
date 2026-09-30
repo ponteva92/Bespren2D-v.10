@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b60bcw41kpcev"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/desert_parasand_21b8e58e65.png" id="1_kjnfg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mde4s"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kjnfg")
+region = Rect2(0, 0, 224, 151)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mde4s")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

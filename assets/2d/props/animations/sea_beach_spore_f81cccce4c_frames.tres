@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dxkcoxl41efsc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_spore_8997f226d5.png" id="1_wi5pl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wl6au"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wi5pl")
+region = Rect2(0, 0, 120, 53)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wl6au")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

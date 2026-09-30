@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bnc8hykus3b16"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_creatures_pisces_e67144aa8b.png" id="1_ci8go"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fh04k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ci8go")
+region = Rect2(0, 0, 641, 485)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fh04k")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

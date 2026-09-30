@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://day4urn3epjir"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/kaykit_dungeonremastered_1_1_free_53a38667e0/dungeon_texture_2f9b3819af.png" id="1_3ii24"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4yisw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3ii24")
+region = Rect2(0, 0, 1024, 1024)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4yisw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

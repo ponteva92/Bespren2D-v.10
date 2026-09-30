@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dyguq3fn4a40v"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/corrupted_ice_mantis_b_b15288a025.png" id="1_5xrd2"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5xrd2")
+region = Rect2(0, 0, 316, 233)

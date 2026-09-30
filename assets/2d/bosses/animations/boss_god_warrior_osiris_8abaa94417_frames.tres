@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dvevcmkc46w0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_warrior_osiris_2fb39e20a6.png" id="1_owktm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gtuxt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_owktm")
+region = Rect2(0, 0, 319, 383)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gtuxt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://deawkjckygw27"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/knight_spear_elite_6f1d755368.png" id="1_hiipu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqpo8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hiipu")
+region = Rect2(0, 0, 425, 281)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqpo8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

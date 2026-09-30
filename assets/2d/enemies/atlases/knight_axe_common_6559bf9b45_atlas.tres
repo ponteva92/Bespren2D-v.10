@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dyao05fvr3vbm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/knight_axe_common_0931f8699b.png" id="1_jpfve"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jpfve")
+region = Rect2(0, 0, 473, 281)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cbmjch8lqjf0u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/witch_doctor_skill_4e335467cb.png" id="1_i3hcq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_i3hcq")
+region = Rect2(0, 0, 768, 512)

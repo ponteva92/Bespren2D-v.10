@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bfhha84fki8t0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_lunar_butterfly_2845969392.png" id="1_lejub"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lejub")
+region = Rect2(0, 0, 174, 182)

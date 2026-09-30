@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cgpgmynt4mb6j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/arcane_crystal_7a9acdd6ee.png" id="1_frnhg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2kpvg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_frnhg")
+region = Rect2(0, 0, 214, 291)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2kpvg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://byi016xnpk56h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/freebies_icons_potions_554a9310b6.png" id="1_ytdem"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ytdem")
+region = Rect2(0, 0, 160, 128)

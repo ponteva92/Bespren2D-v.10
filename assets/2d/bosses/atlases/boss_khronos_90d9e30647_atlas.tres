@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c7xng433l8rb5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_khronos_2eb32ad8e4.png" id="1_spwfd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_spwfd")
+region = Rect2(0, 0, 475, 478)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bvw0anakn3b1j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/desert_rock_bunny_e828c4de97.png" id="1_xf32x"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_du6bj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xf32x")
+region = Rect2(0, 0, 118, 133)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_du6bj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

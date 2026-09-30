@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cyjkffibfmrda"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_legendary_knight_remment_fdfcdd4fab.png" id="1_j47ni"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j47ni")
+region = Rect2(0, 0, 581, 341)

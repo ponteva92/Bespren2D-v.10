@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://casubftpqjqfq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_034_beetroot_b3e096b506.png" id="1_pgryy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3sfya"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_pgryy")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3sfya")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

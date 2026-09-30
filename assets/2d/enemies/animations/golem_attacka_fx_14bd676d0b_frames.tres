@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dxqfi0u5sd7q1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_attacka_fx_032cf824db.png" id="1_78bcb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5gcg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_78bcb")
+region = Rect2(0, 0, 192, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5gcg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

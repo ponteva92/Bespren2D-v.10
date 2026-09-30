@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d2go78hyg5e04"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/leafen_71de270c68.png" id="1_hkjjo"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hkjjo")
+region = Rect2(0, 0, 256, 256)

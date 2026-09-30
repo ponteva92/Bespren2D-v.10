@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://7xf71j4831tn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_iron_maiden_886c28fee9.png" id="1_tcu1j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ow2a3"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tcu1j")
+region = Rect2(0, 0, 295, 233)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ow2a3")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://7qcvp2i4wd4u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_black_ant_berserker_de4c0082a6.png" id="1_3si1j"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3si1j")
+region = Rect2(0, 0, 433, 353)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://blo5pm5afwa33"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_reaper_nihilo_f57cf64df0.png" id="1_r0a0y"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r0a0y")
+region = Rect2(0, 0, 438, 259)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://spnhfitow0os"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mermaidwarrior_tex_e3f56f1a2a.png" id="1_bgldl"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_bgldl")
+region = Rect2(118, 318, 218, 14)

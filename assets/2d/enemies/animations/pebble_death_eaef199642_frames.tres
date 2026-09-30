@@ -1,0 +1,27 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dk1sfn63mxmdx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/pebble_death_b339abb1ac.png" id="1_qg12w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ptqp4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qg12w")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1s1rr"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_qg12w")
+region = Rect2(128, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ptqp4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1s1rr")
+}],
+"loop": 1,
+"name": &"death",
+"speed": 10.0
+}]

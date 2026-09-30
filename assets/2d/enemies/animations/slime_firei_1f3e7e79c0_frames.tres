@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://deo2dibyenko7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_firei_e5fef2d404.png" id="1_tsvfq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a82oc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tsvfq")
+region = Rect2(0, 0, 115, 88)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a82oc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

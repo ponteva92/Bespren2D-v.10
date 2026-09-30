@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://nr8ndelb2d1d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_ancient_priestess_753e8e4580.png" id="1_8tf7a"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8tf7a")
+region = Rect2(0, 0, 374, 287)

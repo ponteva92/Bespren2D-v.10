@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bbk77sp8810wo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_queen_0f8ead0db0.png" id="1_b3caf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qucla"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_b3caf")
+region = Rect2(0, 0, 406, 419)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qucla")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

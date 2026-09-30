@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://p3nlraq1hwns"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_egg_d_a7e5bd2eda.png" id="1_y8v06"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_y8v06")
+region = Rect2(0, 0, 81, 67)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://phevcfqklmu1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skeleton_mage_mabon_ed72d6caab.png" id="1_f1ibl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fl2ck"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_f1ibl")
+region = Rect2(0, 0, 178, 230)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fl2ck")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

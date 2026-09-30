@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://chi5ed08sunyv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_dark_shell_961fb1485f.png" id="1_cvqyw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ifdu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cvqyw")
+region = Rect2(0, 0, 149, 98)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ifdu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

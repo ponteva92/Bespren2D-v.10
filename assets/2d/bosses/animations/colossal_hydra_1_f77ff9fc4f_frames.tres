@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://5xtv83ieqhmv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_hydra_1_4c77581c92.png" id="1_06wxe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yr7be"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_06wxe")
+region = Rect2(0, 0, 453, 436)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yr7be")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cstda1aho1vta"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skeleton_knight_alstreim_974d861a74.png" id="1_r02xj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lhos2"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r02xj")
+region = Rect2(0, 0, 248, 215)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lhos2")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

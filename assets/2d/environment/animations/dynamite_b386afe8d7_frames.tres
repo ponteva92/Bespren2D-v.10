@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b0jyejd1oer42"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/godot_4_tower_defense_template_master_f723e8af01/dynamite_f41bca30be.png" id="1_ccloi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vus6"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ccloi")
+region = Rect2(0, 0, 28, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vus6")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

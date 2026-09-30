@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cyt6ixy0uv8bx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_sun_goddess_cdb3c78654.png" id="1_khe01"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x4flr"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_khe01")
+region = Rect2(0, 0, 253, 212)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x4flr")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

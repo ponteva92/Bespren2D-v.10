@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dfhugfqrpujub"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_wolf_0e9ab26e16.png" id="1_qnadm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jsysv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qnadm")
+region = Rect2(0, 0, 205, 215)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jsysv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

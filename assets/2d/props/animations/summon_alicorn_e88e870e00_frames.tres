@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dflpyng3vnhmv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/summon_alicorn_c1cf985a9c.png" id="1_rr6bh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_srl6y"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rr6bh")
+region = Rect2(0, 0, 404, 347)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_srl6y")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://da52obd46jfi0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/earth_gemstone_golem_53b8612e6d.png" id="1_x5352"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkl4t"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_x5352")
+region = Rect2(0, 0, 488, 334)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkl4t")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

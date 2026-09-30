@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c34pjct7djwto"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_white_king_249c3fb67c.png" id="1_eyduj"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_eyduj")
+region = Rect2(0, 0, 721, 526)

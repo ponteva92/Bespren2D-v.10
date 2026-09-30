@@ -1,0 +1,104 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://src/game/player_avatar.gd" id="1_player"]
+[ext_resource type="Texture2D" path="res://assets/2d/effects/radial_light_neutral.svg" id="2_light"]
+[ext_resource type="Script" path="res://src/visual/actor_ground_shadow_2d.gd" id="3_shadow"]
+[ext_resource type="Script" path="res://src/visual/health_bar_2d.gd" id="4_healthbar"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_player"]
+radius = 9.0
+
+[node name="NetworkPlayer" type="CharacterBody2D"]
+z_index = 5
+z_as_relative = false
+motion_mode = 1
+collision_layer = 1
+collision_mask = 2
+script = ExtResource("1_player")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+unique_name_in_owner = true
+shape = SubResource("CircleShape2D_player")
+
+[node name="Shadow" type="Node2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, 12.75)
+script = ExtResource("3_shadow")
+base_radius = 16.0
+
+[node name="VisualAnchor" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+
+[node name="MotionBob" type="Node2D" parent="VisualAnchor"]
+unique_name_in_owner = true
+
+[node name="NameLabel" type="Label" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+offset_left = -56.0
+offset_top = -96.0
+offset_right = 56.0
+offset_bottom = -66.0
+theme_override_colors/font_outline_color = Color(0.0235, 0.0353, 0.0353, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.9)
+theme_override_constants/outline_size = 6
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 21
+horizontal_alignment = 1
+
+[node name="HealthLabel" type="Label" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+offset_left = -44.0
+offset_top = -33.0
+offset_right = 44.0
+offset_bottom = -3.0
+theme_override_colors/font_outline_color = Color(0.0235, 0.0353, 0.0353, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.9)
+theme_override_constants/outline_size = 6
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 21
+text = "DOWN"
+horizontal_alignment = 1
+
+[node name="HealthBar" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+position = Vector2(0, -64)
+script = ExtResource("4_healthbar")
+
+[node name="FlashlightRig" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="Flashlight" type="PointLight2D" parent="FlashlightRig"]
+unique_name_in_owner = true
+enabled = false
+position = Vector2(92, 0)
+scale = Vector2(2.8, 0.72)
+color = Color(0.72, 0.84, 1, 1)
+energy = 1.35
+texture = ExtResource("2_light")
+texture_scale = 0.62
+range_z_min = -20
+range_z_max = 20
+
+[node name="Camera2D" type="Camera2D" parent="."]
+unique_name_in_owner = true
+zoom = Vector2(0.38, 0.38)
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0
+limit_left = -14336
+limit_top = -14336
+limit_right = 14336
+limit_bottom = 14336
+limit_smoothed = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true

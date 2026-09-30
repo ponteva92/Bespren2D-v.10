@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://de5ost110q5xp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/ice_zombie_anim_f0_5d7fa8a91f.png" id="1_wri10"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2bi5x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wri10")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2bi5x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

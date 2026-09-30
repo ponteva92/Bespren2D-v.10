@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://w8eohlx672ix"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_son_of_valhalla_e45b65847a.png" id="1_h51sa"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_h51sa")
+region = Rect2(0, 0, 559, 336)

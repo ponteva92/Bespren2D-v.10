@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bnn80xx48of6i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/moutain_behemoth_b33966c384.png" id="1_dinet"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dinet")
+region = Rect2(0, 0, 263, 246)

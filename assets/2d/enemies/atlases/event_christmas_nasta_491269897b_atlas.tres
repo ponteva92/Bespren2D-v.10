@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://pvjhsv0sj8d6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_nasta_b94a562028/event_christmas_nasta_gif_f000.png" id="1_3vlyt"]
+
+[resource]
+resource_name = "default_000"
+atlas = ExtResource("1_3vlyt")
+region = Rect2(0, 0, 768, 768)

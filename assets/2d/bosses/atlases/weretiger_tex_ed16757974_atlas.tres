@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://donxa581644pc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/weretiger_tex_e2f0945c6f.png" id="1_jy21x"]
+
+[resource]
+resource_name = "shadow_copy"
+atlas = ExtResource("1_jy21x")
+region = Rect2(359, 867, 480, 14)

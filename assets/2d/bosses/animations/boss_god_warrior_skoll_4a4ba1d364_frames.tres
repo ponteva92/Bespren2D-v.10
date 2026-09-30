@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dnba1pnq2ddft"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_warrior_skoll_24483bc786.png" id="1_bvets"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jwtjc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bvets")
+region = Rect2(0, 0, 274, 237)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jwtjc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

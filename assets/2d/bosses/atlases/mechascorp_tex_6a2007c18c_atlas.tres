@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dy3y72f1kpumm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mechascorp_tex_1d5ce4408e.png" id="1_6onxm"]
+
+[resource]
+resource_name = "layer_38"
+atlas = ExtResource("1_6onxm")
+region = Rect2(436, 1, 585, 48)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d4fki68jnnmdn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_slime_7ecae91e10.png" id="1_5vjnk"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5vjnk")
+region = Rect2(0, 0, 105, 46)

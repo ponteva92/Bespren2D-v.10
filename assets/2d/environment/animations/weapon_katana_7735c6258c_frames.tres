@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://nntkjt4i0fyw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_katana_adff5b2dd3.png" id="1_nytcq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0p6ct"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nytcq")
+region = Rect2(0, 0, 6, 29)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0p6ct")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

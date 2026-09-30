@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bgxs55iuq34i6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gunblin_gibson_5c116a3127.png" id="1_7ah2m"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7ah2m")
+region = Rect2(0, 0, 184, 138)

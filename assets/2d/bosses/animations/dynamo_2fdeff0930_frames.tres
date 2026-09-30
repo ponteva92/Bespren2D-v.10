@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ciqv05tbaeld2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dynamo_baf84e1371.png" id="1_ubofw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nk0j4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ubofw")
+region = Rect2(0, 0, 95, 428)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ubs8"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_ubofw")
+region = Rect2(95, 0, 95, 428)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5v1ov"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_ubofw")
+region = Rect2(190, 0, 95, 428)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nk0j4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ubs8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5v1ov")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

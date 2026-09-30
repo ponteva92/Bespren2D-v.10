@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://fqdvo0ig2jxf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rogue_bastard_sword_3bcce31c73.png" id="1_r32su"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r32su")
+region = Rect2(0, 0, 363, 228)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ybugbes7ur2r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_emperor_crab_b_980f57be2c.png" id="1_dcrba"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dcrba")
+region = Rect2(0, 0, 292, 137)

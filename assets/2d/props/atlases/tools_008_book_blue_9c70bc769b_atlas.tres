@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bep6idc6u8snr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/tools_008_book_blue_70c07b2890.png" id="1_25byb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_25byb")
+region = Rect2(0, 0, 64, 64)

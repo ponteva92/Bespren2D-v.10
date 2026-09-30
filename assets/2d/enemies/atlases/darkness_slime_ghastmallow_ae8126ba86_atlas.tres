@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dsv2ovujfw8fd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_slime_ghastmallow_5b4d17d22e.png" id="1_r8y25"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r8y25")
+region = Rect2(0, 0, 158, 126)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b1pn3lbjdhe46"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/orc_axe_warrior_weak_344f83824e.png" id="1_cxbdr"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cxbdr")
+region = Rect2(0, 0, 516, 434)

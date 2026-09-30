@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://chsjocj6pqgb3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_giant_bug_hercules_fbb4cec3a4.png" id="1_j3uyt"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j3uyt")
+region = Rect2(0, 0, 512, 416)

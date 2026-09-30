@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c0cfaaxvg622m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_dragonspawn_639112aacc.png" id="1_2wylv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h7j45"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2wylv")
+region = Rect2(0, 0, 494, 445)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h7j45")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

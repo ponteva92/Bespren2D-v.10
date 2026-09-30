@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d3dk0kfed7nrq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_mecha_rattlesnake_6e37db2581.png" id="1_qe5xu"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qe5xu")
+region = Rect2(0, 0, 583, 321)

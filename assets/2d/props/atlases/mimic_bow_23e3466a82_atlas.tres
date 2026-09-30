@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c44e6hmdw88um"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mimic_bow_8fbef9911d.png" id="1_48l88"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_48l88")
+region = Rect2(0, 0, 192, 273)

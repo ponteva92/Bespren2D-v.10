@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://de21w30b7uvjy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_fallen_kings_king_of_elves_dreyel_177d3fd515.png" id="1_jildv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xbh8a"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jildv")
+region = Rect2(0, 0, 230, 284)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xbh8a")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

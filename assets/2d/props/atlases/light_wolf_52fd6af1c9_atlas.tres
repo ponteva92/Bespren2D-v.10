@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://083sjgy1cdxc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_wolf_0e9ab26e16.png" id="1_rv3kx"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rv3kx")
+region = Rect2(0, 0, 205, 215)

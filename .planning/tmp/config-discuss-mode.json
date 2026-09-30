@@ -1,0 +1,12 @@
+{
+  "args": [
+    "query",
+    "config-get",
+    "workflow.discuss_mode"
+  ],
+  "status": 0,
+  "signal": null,
+  "error": null,
+  "stdout": "\"discuss\"",
+  "stderr": ""
+}

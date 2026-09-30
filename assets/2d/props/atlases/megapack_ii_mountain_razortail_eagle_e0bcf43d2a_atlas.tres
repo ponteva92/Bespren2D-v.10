@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c300benrvshr0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_mountain_razortail_eagle_a67ef2cf42.png" id="1_wxncu"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wxncu")
+region = Rect2(0, 0, 190, 187)

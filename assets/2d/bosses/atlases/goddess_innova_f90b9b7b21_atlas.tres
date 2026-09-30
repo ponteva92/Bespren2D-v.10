@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://drsdmm5wl7ad7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/goddess_innova_f4c8aa194b.png" id="1_83l58"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_83l58")
+region = Rect2(0, 0, 206, 242)

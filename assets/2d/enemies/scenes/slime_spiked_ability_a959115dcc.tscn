@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://yk1o7ih7s80s"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_gqh81"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/slime_spiked_ability_4d66fde763.png" id="2_6ubr6"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_gqh81")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2535i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_6ubr6")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l3vef"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_6ubr6")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kbnp2"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_6ubr6")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x1t5k"]
+resource_name = "frame_000_003"
+atlas = ExtResource("2_6ubr6")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_avwvb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2535i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l3vef")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kbnp2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x1t5k")
+}],
+"loop": 1,
+"name": &"ability",
+"speed": 10.0
+}]
+
+[node name="SlimeSpikedAbility" type="Node2D" unique_id=380283270 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "slime_spiked_ability_a959115dcc"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=306267970]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_avwvb")
+animation = &"ability"
+autoplay = "ability"
+offset = Vector2(0, -32)

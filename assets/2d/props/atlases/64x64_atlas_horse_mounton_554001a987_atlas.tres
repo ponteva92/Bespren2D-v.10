@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dscqpbmlh2y4e"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/64x64_atlas_horse_mounton_f2e3617f68.png" id="1_l0p2b"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l0p2b")
+region = Rect2(0, 0, 64, 64)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c1vwlkdm0we37"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_undead_warrior_benkei_be9c24294a.png" id="1_n3atq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_n3atq")
+region = Rect2(0, 0, 219, 200)

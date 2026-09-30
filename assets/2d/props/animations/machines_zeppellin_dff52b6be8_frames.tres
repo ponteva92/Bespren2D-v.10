@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bfo4ncyp4u4dw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/machines_zeppellin_eda2e94ff7.png" id="1_f6ddu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jgelm"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_f6ddu")
+region = Rect2(0, 0, 278, 263)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jgelm")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

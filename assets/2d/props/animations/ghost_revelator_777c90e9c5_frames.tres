@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://boode823cbxbs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ghost_revelator_1f2e87eac7.png" id="1_idrdq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_he1bm"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_idrdq")
+region = Rect2(0, 0, 85, 90)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_he1bm")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

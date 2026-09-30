@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://qv23hagjr086"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/huanglong_tex_a24ce409c1.png" id="1_q68v4"]
+
+[resource]
+resource_name = "layer_2_copy_16"
+atlas = ExtResource("1_q68v4")
+region = Rect2(1, 961, 432, 52)

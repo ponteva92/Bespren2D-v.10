@@ -1,0 +1,100 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cch8e1pvqa4f0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f000.png" id="1_hji3x"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f001.png" id="2_biuqa"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f002.png" id="3_yl2o7"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f003.png" id="4_jb0l4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f008.png" id="5_o34nv"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f009.png" id="6_sc2aq"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f010.png" id="7_2ahhv"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f011.png" id="8_t6rn1"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f012.png" id="9_i04nb"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f013.png" id="10_lk8l6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bosxy"]
+resource_name = "default_000"
+atlas = ExtResource("1_hji3x")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t2133"]
+resource_name = "default_001"
+atlas = ExtResource("2_biuqa")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8wih"]
+resource_name = "default_002"
+atlas = ExtResource("3_yl2o7")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47gw0"]
+resource_name = "default_003"
+atlas = ExtResource("4_jb0l4")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vyr86"]
+resource_name = "default_008"
+atlas = ExtResource("5_o34nv")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dl2yt"]
+resource_name = "default_009"
+atlas = ExtResource("6_sc2aq")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1hcyh"]
+resource_name = "default_010"
+atlas = ExtResource("7_2ahhv")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3sr7k"]
+resource_name = "default_011"
+atlas = ExtResource("8_t6rn1")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_li75r"]
+resource_name = "default_012"
+atlas = ExtResource("9_i04nb")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ucdf2"]
+resource_name = "default_013"
+atlas = ExtResource("10_lk8l6")
+region = Rect2(0, 0, 768, 768)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_bosxy")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_t2133")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_t8wih")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_47gw0")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_vyr86")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_dl2yt")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_1hcyh")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_3sr7k")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_li75r")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_ucdf2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bdkj10eojvn7m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/pumpkin_dude_idle_anim_f0_acaf7411f0.png" id="1_sh7dm"]
+
+[resource]
+resource_name = "idle_000"
+atlas = ExtResource("1_sh7dm")
+region = Rect2(0, 0, 16, 23)

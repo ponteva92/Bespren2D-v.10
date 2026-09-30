@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dd8fcv2h7u1bj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_vampire_85a9717a64.png" id="1_gkauo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2vupg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gkauo")
+region = Rect2(0, 0, 331, 260)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2vupg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

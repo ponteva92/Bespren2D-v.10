@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://covglar4fm5b2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_creatures_saggitarius_f0aba3e1f5.png" id="1_mc2sc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mc2sc")
+region = Rect2(0, 0, 521, 458)

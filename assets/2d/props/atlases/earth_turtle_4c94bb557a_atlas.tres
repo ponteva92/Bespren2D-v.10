@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cnd1jrcnaae6r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/earth_turtle_4eb939a979.png" id="1_1vdmu"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1vdmu")
+region = Rect2(0, 0, 266, 158)

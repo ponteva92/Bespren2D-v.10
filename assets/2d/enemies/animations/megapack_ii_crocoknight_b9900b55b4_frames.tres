@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bxddsjby601ml"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_crocoknight_3120d96501.png" id="1_dmetl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2hjfw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dmetl")
+region = Rect2(0, 0, 421, 226)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2hjfw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

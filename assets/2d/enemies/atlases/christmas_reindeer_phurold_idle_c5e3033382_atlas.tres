@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://yspo5nr7hy7p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/christmas_reindeer_phurold_idle_4cc6b3571d.png" id="1_rvk3p"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rvk3p")
+region = Rect2(0, 0, 512, 512)

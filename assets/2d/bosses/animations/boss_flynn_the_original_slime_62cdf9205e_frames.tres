@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dxhs8sqiq7rwv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_flynn_the_original_slime_e442e5a81a.png" id="1_so4ob"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sq2th"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_so4ob")
+region = Rect2(0, 0, 348, 274)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sq2th")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

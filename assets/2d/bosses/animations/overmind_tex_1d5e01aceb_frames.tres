@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cyl2gqerksr7n"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/overmind_tex_5436e5af66.png" id="1_3a0xf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cpmkq"]
+resource_name = "layer_56"
+atlas = ExtResource("1_3a0xf")
+region = Rect2(1, 755, 484, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o25fl"]
+resource_name = "rear_tentacle_r_copy"
+atlas = ExtResource("1_3a0xf")
+region = Rect2(1, 276, 240, 291)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1bn3"]
+resource_name = "rear_tentacle_l_copy"
+atlas = ExtResource("1_3a0xf")
+region = Rect2(243, 276, 237, 282)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jqkjl"]
+resource_name = "left_tentacle_copy"
+atlas = ExtResource("1_3a0xf")
+region = Rect2(322, 1, 188, 190)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5nccl"]
+resource_name = "layer_57"
+atlas = ExtResource("1_3a0xf")
+region = Rect2(243, 560, 204, 193)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_35oj6"]
+resource_name = "layer_58"
+atlas = ExtResource("1_3a0xf")
+region = Rect2(1, 1, 319, 273)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cpmkq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o25fl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1bn3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jqkjl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5nccl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_35oj6")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

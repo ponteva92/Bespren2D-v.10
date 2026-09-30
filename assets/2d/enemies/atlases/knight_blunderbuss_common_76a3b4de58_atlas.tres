@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://deouh58wmpkgk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/knight_blunderbuss_common_8c714be7d9.png" id="1_4adnd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4adnd")
+region = Rect2(0, 0, 258, 173)

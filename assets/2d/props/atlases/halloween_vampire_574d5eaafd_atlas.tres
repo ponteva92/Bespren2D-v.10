@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b6ks5lhs52tqa"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_vampire_85a9717a64.png" id="1_p55sc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_p55sc")
+region = Rect2(0, 0, 331, 260)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dp1vlj7rbk0lh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_warrior_osiris_2fb39e20a6.png" id="1_t5kqh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t5kqh")
+region = Rect2(0, 0, 319, 383)

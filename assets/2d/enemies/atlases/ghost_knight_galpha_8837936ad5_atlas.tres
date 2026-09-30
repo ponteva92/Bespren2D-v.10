@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://4pstin2mvtc0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ghost_knight_galpha_d8fbbb3d3d.png" id="1_08rhb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_08rhb")
+region = Rect2(0, 0, 164, 162)

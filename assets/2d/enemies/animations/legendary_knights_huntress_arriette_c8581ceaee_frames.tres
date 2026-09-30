@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://be5ptu5bqplc7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_huntress_arriette_70b64c2eba.png" id="1_ffuqi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3w3nd"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ffuqi")
+region = Rect2(0, 0, 246, 215)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3w3nd")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

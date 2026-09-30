@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d0x5xuc1n0iro"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_bunny_c26f4b2011.png" id="1_58prq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_58prq")
+region = Rect2(0, 0, 97, 102)

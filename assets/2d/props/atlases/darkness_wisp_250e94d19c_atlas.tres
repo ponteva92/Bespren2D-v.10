@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cog77n8g3u25p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_wisp_9d296f0e92.png" id="1_7fhrv"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7fhrv")
+region = Rect2(0, 0, 114, 133)

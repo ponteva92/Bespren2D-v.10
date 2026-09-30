@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://opl10mj0dnl8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_mage_b486974b84.png" id="1_uhgas"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ianpy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_uhgas")
+region = Rect2(0, 0, 133, 233)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ianpy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

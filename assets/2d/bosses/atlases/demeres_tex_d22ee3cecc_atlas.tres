@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dc2xjcdra8p0d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/demeres_tex_5f54eaedfb.png" id="1_ijy7e"]
+
+[resource]
+resource_name = "layer_176"
+atlas = ExtResource("1_ijy7e")
+region = Rect2(1, 875, 437, 34)

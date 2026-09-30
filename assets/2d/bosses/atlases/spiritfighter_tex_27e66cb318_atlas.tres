@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dor4hmv8vg80u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/spiritfighter_tex_5ca4cc4907.png" id="1_17oe6"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_17oe6")
+region = Rect2(1, 494, 295, 17)

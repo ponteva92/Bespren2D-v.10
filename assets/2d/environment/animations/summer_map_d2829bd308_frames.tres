@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cvypq2bu5l3pv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/summer_map_f74e7d77c7.png" id="1_67koq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pb4p1"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_67koq")
+region = Rect2(0, 0, 1200, 675)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pb4p1")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bwh7h626jq4kf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_dryad_queen_rafflesia_14fad402c2.png" id="1_vuxfx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_imdfq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vuxfx")
+region = Rect2(0, 0, 587, 431)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_imdfq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

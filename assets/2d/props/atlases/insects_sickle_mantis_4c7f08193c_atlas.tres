@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bmlm5tv1v6cw3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_sickle_mantis_b61a46cd7e.png" id="1_peots"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_peots")
+region = Rect2(0, 0, 144, 196)

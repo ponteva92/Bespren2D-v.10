@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://lo4s8rroarey"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_life_titan_aphylia_a3c6aab8b7.png" id="1_6so80"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n3esn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6so80")
+region = Rect2(0, 0, 950, 865)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n3esn")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

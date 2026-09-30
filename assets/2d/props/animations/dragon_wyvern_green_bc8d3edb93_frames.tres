@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bs431kwixtabn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_wyvern_green_72f3b4e737.png" id="1_fh7ki"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swwo5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fh7ki")
+region = Rect2(0, 0, 494, 351)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swwo5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

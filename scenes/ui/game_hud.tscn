@@ -1,0 +1,631 @@
+[gd_scene load_steps=15 format=3]
+
+[ext_resource type="Script" path="res://src/ui/game_hud.gd" id="1_hud"]
+[ext_resource type="Script" path="res://src/ui/tactical_minimap.gd" id="2_minimap"]
+[ext_resource type="PackedScene" path="res://scenes/ui/tactical_build_deck.tscn" id="3_deck"]
+[ext_resource type="Texture2D" path="res://assets/2d/ui/icon_wood_hud.svg" id="4_icon_wood"]
+[ext_resource type="Texture2D" path="res://assets/2d/ui/icon_metal_hud.svg" id="5_icon_metal"]
+[ext_resource type="Texture2D" path="res://assets/2d/ui/icon_tech_hud.svg" id="6_icon_tech"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_panel"]
+bg_color = Color(0.035, 0.049, 0.044, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34, 0.47, 0.4, 0.9)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+shadow_color = Color(0, 0, 0, 0.58)
+shadow_size = 2
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_slot"]
+bg_color = Color(0.008, 0.014, 0.013, 0.96)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_button"]
+bg_color = Color(0.098, 0.161, 0.139, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 2
+border_color = Color(0.36, 0.61, 0.52, 0.94)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color(0, 0, 0, 0.5)
+shadow_size = 2
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBox_focus"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_status"]
+bg_color = Color(0.01, 0.025, 0.022, 0.88)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.25, 0.57, 0.49, 0.8)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_threat"]
+bg_color = Color(0.07, 0.028, 0.025, 0.94)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.88, 0.36, 0.22, 0.94)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+shadow_color = Color(0, 0, 0, 0.66)
+shadow_size = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_warning"]
+bg_color = Color(0.31, 0.07, 0.035, 0.98)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 0.53, 0.19, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+shadow_color = Color(0, 0, 0, 0.86)
+shadow_size = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBox_boss"]
+bg_color = Color(0.09, 0.015, 0.035, 0.97)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 0.22, 0.16, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+shadow_color = Color(0, 0, 0, 0.9)
+shadow_size = 5
+
+[node name="GameHUD" type="CanvasLayer"]
+layer = 100
+script = ExtResource("1_hud")
+
+[node name="CommandPanel" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 154.0
+offset_bottom = 64.0
+mouse_filter = 0
+theme_override_styles/panel = SubResource("StyleBox_panel")
+
+[node name="Margins" type="MarginContainer" parent="CommandPanel"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/margin_left = 3
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 3
+theme_override_constants/margin_bottom = 0
+
+[node name="PanelStack" type="VBoxContainer" parent="CommandPanel/Margins"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/separation = 0
+
+[node name="ResourceRow" type="HBoxContainer" parent="CommandPanel/Margins/PanelStack"]
+custom_minimum_size = Vector2(0, 12)
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/separation = 1
+
+[node name="WoodSlot" type="PanelContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(46, 12)
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_slot")
+
+[node name="Pad" type="MarginContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow/WoodSlot"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_right = 3
+
+[node name="Row" type="HBoxContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow/WoodSlot/Pad"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 1
+
+[node name="WoodIcon" type="TextureRect" parent="CommandPanel/Margins/PanelStack/ResourceRow/WoodSlot/Pad/Row"]
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("4_icon_wood")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="WoodValue" type="Label" parent="CommandPanel/Margins/PanelStack/ResourceRow/WoodSlot/Pad/Row"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.93, 0.75, 0.34, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="MetalSlot" type="PanelContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(46, 12)
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_slot")
+
+[node name="Pad" type="MarginContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow/MetalSlot"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_right = 3
+
+[node name="Row" type="HBoxContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow/MetalSlot/Pad"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 1
+
+[node name="MetalIcon" type="TextureRect" parent="CommandPanel/Margins/PanelStack/ResourceRow/MetalSlot/Pad/Row"]
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("5_icon_metal")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="MetalValue" type="Label" parent="CommandPanel/Margins/PanelStack/ResourceRow/MetalSlot/Pad/Row"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.84, 0.89, 0.88, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="TechSlot" type="PanelContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(46, 12)
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_slot")
+
+[node name="Pad" type="MarginContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow/TechSlot"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_right = 3
+
+[node name="Row" type="HBoxContainer" parent="CommandPanel/Margins/PanelStack/ResourceRow/TechSlot/Pad"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 1
+
+[node name="TechIcon" type="TextureRect" parent="CommandPanel/Margins/PanelStack/ResourceRow/TechSlot/Pad/Row"]
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("6_icon_tech")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TechValue" type="Label" parent="CommandPanel/Margins/PanelStack/ResourceRow/TechSlot/Pad/Row"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.42, 0.84, 0.79, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="CommandRow" type="HBoxContainer" parent="CommandPanel/Margins/PanelStack"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/separation = 4
+
+[node name="MakeBaseButton" type="Button" parent="CommandPanel/Margins/PanelStack/CommandRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(44, 44)
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 1, 1, 0)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 0)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 0)
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 0)
+theme_override_font_sizes/font_size = 1
+theme_override_styles/normal = SubResource("StyleBox_focus")
+theme_override_styles/hover = SubResource("StyleBox_focus")
+theme_override_styles/pressed = SubResource("StyleBox_focus")
+theme_override_styles/focus = SubResource("StyleBox_focus")
+text = "Make Base"
+
+[node name="Visual" type="Panel" parent="CommandPanel/Margins/PanelStack/CommandRow/MakeBaseButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -14.5
+offset_right = 20.0
+offset_bottom = 14.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_button")
+
+[node name="Bevel" type="ColorRect" parent="CommandPanel/Margins/PanelStack/CommandRow/MakeBaseButton/Visual"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 3.0
+offset_top = 1.0
+offset_right = -3.0
+offset_bottom = 2.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.66, 0.9, 0.8, 0.72)
+
+[node name="Label" type="Label" parent="CommandPanel/Margins/PanelStack/CommandRow/MakeBaseButton/Visual"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.84, 0.92, 0.88, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "BASE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BuildButton" type="Button" parent="CommandPanel/Margins/PanelStack/CommandRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(44, 44)
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 1, 1, 0)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 0)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 0)
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 0)
+theme_override_font_sizes/font_size = 1
+theme_override_styles/normal = SubResource("StyleBox_focus")
+theme_override_styles/hover = SubResource("StyleBox_focus")
+theme_override_styles/pressed = SubResource("StyleBox_focus")
+theme_override_styles/focus = SubResource("StyleBox_focus")
+text = "Build"
+
+[node name="Visual" type="Panel" parent="CommandPanel/Margins/PanelStack/CommandRow/BuildButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -14.5
+offset_right = 20.0
+offset_bottom = 14.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_button")
+
+[node name="Bevel" type="ColorRect" parent="CommandPanel/Margins/PanelStack/CommandRow/BuildButton/Visual"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 3.0
+offset_top = 1.0
+offset_right = -3.0
+offset_bottom = 2.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.66, 0.9, 0.8, 0.72)
+
+[node name="Label" type="Label" parent="CommandPanel/Margins/PanelStack/CommandRow/BuildButton/Visual"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.84, 0.92, 0.88, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "BUILD"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StartNightButton" type="Button" parent="CommandPanel/Margins/PanelStack/CommandRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(44, 44)
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 1, 1, 0)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 0)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 0)
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 0)
+theme_override_font_sizes/font_size = 1
+theme_override_styles/normal = SubResource("StyleBox_focus")
+theme_override_styles/hover = SubResource("StyleBox_focus")
+theme_override_styles/pressed = SubResource("StyleBox_focus")
+theme_override_styles/focus = SubResource("StyleBox_focus")
+text = "Start Night"
+
+[node name="Visual" type="Panel" parent="CommandPanel/Margins/PanelStack/CommandRow/StartNightButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -14.5
+offset_right = 20.0
+offset_bottom = 14.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_button")
+
+[node name="Bevel" type="ColorRect" parent="CommandPanel/Margins/PanelStack/CommandRow/StartNightButton/Visual"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 3.0
+offset_top = 1.0
+offset_right = -3.0
+offset_bottom = 2.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.66, 0.9, 0.8, 0.72)
+
+[node name="Label" type="Label" parent="CommandPanel/Margins/PanelStack/CommandRow/StartNightButton/Visual"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.9, 0.76, 0.51, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "NIGHT"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="WaveChip" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+offset_left = 158.0
+offset_top = 6.0
+offset_right = 366.0
+offset_bottom = 20.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_status")
+
+[node name="WaveMargins" type="MarginContainer" parent="WaveChip"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 3
+theme_override_constants/margin_right = 3
+
+[node name="WaveRow" type="HBoxContainer" parent="WaveChip/WaveMargins"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 3
+
+[node name="NightIndicator" type="Label" parent="WaveChip/WaveMargins/WaveRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(70, 12)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.91, 0.68, 0.32, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 7
+text = "NIGHT 01 // DAYLIGHT"
+text_overrun_behavior = 3
+vertical_alignment = 1
+
+[node name="ModifierLabel" type="Label" parent="WaveChip/WaveMargins/WaveRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(55, 12)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.48, 0.82, 0.65, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 7
+text = "ZOMBIES -65%"
+text_overrun_behavior = 3
+vertical_alignment = 1
+
+[node name="ClockLabel" type="Label" parent="WaveChip/WaveMargins/WaveRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(60, 12)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.84, 0.9, 0.87, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 7
+text = "07:30 TO NIGHT"
+text_overrun_behavior = 3
+vertical_alignment = 1
+
+[node name="ThreatChip" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_left = 158.0
+offset_top = 23.0
+offset_right = 366.0
+offset_bottom = 37.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_threat")
+
+[node name="Margins" type="MarginContainer" parent="ThreatChip"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_right = 4
+
+[node name="EventRow" type="HBoxContainer" parent="ThreatChip/Margins"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 4
+
+[node name="ThreatTag" type="Label" parent="ThreatChip/Margins/EventRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(34, 12)
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.42, 0.34, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.012, 0.01, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 7
+text = "BOSS"
+vertical_alignment = 1
+
+[node name="ThreatLabel" type="Label" parent="ThreatChip/Margins/EventRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.74, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.012, 0.01, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 7
+text = "GOLIATH // 1 REMAIN"
+text_overrun_behavior = 3
+vertical_alignment = 1
+
+[node name="StatusPanel" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_left = 122.0
+offset_top = 144.0
+offset_right = 358.0
+offset_bottom = 158.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_status")
+
+[node name="StatusLabel" type="Label" parent="StatusPanel"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.67, 0.86, 0.79, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.025, 0.022, 0.95)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 7
+text = "Ready"
+horizontal_alignment = 1
+vertical_alignment = 1
+text_overrun_behavior = 3
+
+[node name="WarningPanel" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_left = 142.0
+offset_top = 34.0
+offset_right = 338.0
+offset_bottom = 62.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_warning")
+
+[node name="WarningLabel" type="Label" parent="WarningPanel"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.94, 0.82, 1)
+theme_override_font_sizes/font_size = 10
+text = "NIGHTFALL // 60 SECONDS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BossMarqueePanel" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_left = 132.0
+offset_top = 70.0
+offset_right = 348.0
+offset_bottom = 104.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBox_boss")
+
+[node name="BossMarqueeLabel" type="Label" parent="BossMarqueePanel"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.91, 0.72, 1)
+theme_override_font_sizes/font_size = 11
+text = "BOSS DETECTED // GOLIATH // 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TacticalMinimap" type="Control" parent="."]
+unique_name_in_owner = true
+offset_left = 378.0
+offset_top = 6.0
+offset_right = 474.0
+offset_bottom = 78.0
+mouse_filter = 0
+script = ExtResource("2_minimap")
+
+[node name="ResourcePickupLayer" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TacticalBuildDeck" parent="." instance=ExtResource("3_deck")]
+unique_name_in_owner = true

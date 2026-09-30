@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dew3li7afxaht"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_pumice_rock_670168ebb9.png" id="1_4ytny"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0g5cv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4ytny")
+region = Rect2(0, 0, 133, 109)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0g5cv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

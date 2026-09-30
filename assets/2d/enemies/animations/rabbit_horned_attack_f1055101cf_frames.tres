@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://buqi4fws03tbw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/rabbit_horned_attack_d2d6cd1ab9.png" id="1_c1wfs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_444hj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c1wfs")
+region = Rect2(0, 0, 768, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_444hj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

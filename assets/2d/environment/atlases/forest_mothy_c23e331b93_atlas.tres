@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cmbsihtqmurc0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_mothy_2f5f1df5b7.png" id="1_32ygi"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_32ygi")
+region = Rect2(0, 0, 202, 180)

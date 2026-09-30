@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b2gslnkow73tw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/library_book_swarm_591b78c1d1.png" id="1_bl24r"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bl24r")
+region = Rect2(0, 0, 187, 213)

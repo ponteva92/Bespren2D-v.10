@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bf1uguayw0tia"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_death_fac1cfde8d.png" id="1_5jg8d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fxe2k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5jg8d")
+region = Rect2(0, 0, 1408, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fxe2k")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

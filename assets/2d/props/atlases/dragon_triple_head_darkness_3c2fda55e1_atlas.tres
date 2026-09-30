@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dm3pdw0l4f2uw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_triple_head_darkness_5540e6b44e.png" id="1_gcd8e"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gcd8e")
+region = Rect2(0, 0, 577, 393)

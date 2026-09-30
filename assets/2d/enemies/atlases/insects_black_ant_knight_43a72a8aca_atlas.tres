@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dwru3b3fteavd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_black_ant_knight_14604fb268.png" id="1_gasbr"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gasbr")
+region = Rect2(0, 0, 166, 214)

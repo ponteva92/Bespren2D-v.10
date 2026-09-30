@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ct4dk6sejvhyy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/plant_warriors_rose_knight_62b04d5d7d.png" id="1_kqts4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7jmme"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kqts4")
+region = Rect2(0, 0, 271, 357)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7jmme")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

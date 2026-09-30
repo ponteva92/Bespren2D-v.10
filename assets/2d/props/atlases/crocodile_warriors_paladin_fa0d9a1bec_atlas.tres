@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bg2eaeav31hrn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/crocodile_warriors_paladin_2e52ceacf6.png" id="1_p0to8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_p0to8")
+region = Rect2(0, 0, 596, 309)

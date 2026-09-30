@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://db42mlmi7p0rr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_flynn_the_original_slime_e442e5a81a.png" id="1_h5xcj"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_h5xcj")
+region = Rect2(0, 0, 348, 274)

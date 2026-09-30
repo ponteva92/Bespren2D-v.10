@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dk8moq5ot2kdf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_abomination_hound_1a91170803.png" id="1_7tj4b"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7tj4b")
+region = Rect2(0, 0, 338, 155)

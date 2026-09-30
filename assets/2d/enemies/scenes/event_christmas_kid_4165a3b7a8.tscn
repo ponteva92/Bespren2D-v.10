@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://70k4xodimffn"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_rgtkq"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f000.png" id="2_b1ver"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f001.png" id="3_1xvta"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f002.png" id="4_k06bf"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f003.png" id="5_62gy7"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f008.png" id="6_60bmy"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f009.png" id="7_vy2eu"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f010.png" id="8_nbyar"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f011.png" id="9_hi3yi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f012.png" id="10_gb4ov"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_kid_80015db1cb/event_christmas_kid_gif_f013.png" id="11_57dh0"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_rgtkq")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bosxy"]
+resource_name = "default_000"
+atlas = ExtResource("2_b1ver")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t2133"]
+resource_name = "default_001"
+atlas = ExtResource("3_1xvta")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8wih"]
+resource_name = "default_002"
+atlas = ExtResource("4_k06bf")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47gw0"]
+resource_name = "default_003"
+atlas = ExtResource("5_62gy7")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vyr86"]
+resource_name = "default_008"
+atlas = ExtResource("6_60bmy")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dl2yt"]
+resource_name = "default_009"
+atlas = ExtResource("7_vy2eu")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1hcyh"]
+resource_name = "default_010"
+atlas = ExtResource("8_nbyar")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3sr7k"]
+resource_name = "default_011"
+atlas = ExtResource("9_hi3yi")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_li75r"]
+resource_name = "default_012"
+atlas = ExtResource("10_gb4ov")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ucdf2"]
+resource_name = "default_013"
+atlas = ExtResource("11_57dh0")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k4y46"]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_bosxy")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_t2133")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_t8wih")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_47gw0")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_vyr86")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_dl2yt")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_1hcyh")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_3sr7k")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_li75r")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_ucdf2")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="EventChristmasKid" type="Node2D" unique_id=448002091 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "event_christmas_kid_4165a3b7a8"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=785245486]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_k4y46")
+autoplay = "default"
+offset = Vector2(0, -384)

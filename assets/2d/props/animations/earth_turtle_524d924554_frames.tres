@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bweuwedfkyjky"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/earth_turtle_3d0ce255d1.png" id="1_vb71g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g618a"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vb71g")
+region = Rect2(0, 0, 266, 158)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g618a")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

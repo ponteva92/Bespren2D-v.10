@@ -1,0 +1,216 @@
+[gd_scene format=3 uid="uid://cux0t1tnbqt7y"]
+
+[ext_resource type="Script" path="res://tests/asset_pipeline_render_validation.gd" id="1_l3kpv"]
+[ext_resource type="PackedScene" path="res://assets/2d/environment/scenes/pixel_029621b9ad.tscn" id="2_gpkmu"]
+[ext_resource type="PackedScene" path="res://assets/2d/environment/scenes/coin_anim_f0_a84e517a94.tscn" id="3_g73xo"]
+[ext_resource type="PackedScene" path="res://assets/2d/enemies/scenes/zombie_anim_f3_bb77853de2.tscn" id="4_vrhcb"]
+[ext_resource type="PackedScene" path="res://assets/2d/enemies/scenes/zombie_anim_f2_aa739fdb63.tscn" id="5_8q0po"]
+[ext_resource type="PackedScene" path="res://assets/2d/bosses/scenes/big_monster20_cc9aad010d.tscn" id="6_41y7o"]
+[ext_resource type="PackedScene" path="res://assets/2d/bosses/scenes/big_monster21_222faf30ce.tscn" id="7_ysoei"]
+[ext_resource type="PackedScene" path="res://assets/2d/props/scenes/halloween_pumpkin_chariot_minion_a_8fcb5eaef2.tscn" id="8_p6c6h"]
+[ext_resource type="PackedScene" path="res://assets/2d/props/scenes/halloween_pumpkin_chariot_minion_a_0975901b59.tscn" id="9_c8l5a"]
+
+[node name="BesprenAssetPipelineGallery" type="Node2D" unique_id=1745045168]
+script = ExtResource("1_l3kpv")
+
+[node name="Background" type="ColorRect" parent="." unique_id=952318646]
+z_index = -100
+offset_right = 480.0
+offset_bottom = 270.0
+mouse_filter = 2
+color = Color(0.02745098, 0.0627451, 0.06666667, 1)
+
+[node name="Title" type="Label" parent="." unique_id=891017600]
+offset_left = 14.0
+offset_top = 7.0
+offset_right = 14.0
+offset_bottom = 7.0
+theme_override_colors/font_color = Color(1, 0.84313726, 0, 1)
+theme_override_font_sizes/font_size = 11
+text = "BESPREN // WEATHERED ASSET PIPELINE"
+
+[node name="Sample00_Environment" type="Node2D" parent="." unique_id=1052723338 groups=["weathered_2d_asset"] instance=ExtResource("2_gpkmu")]
+y_sort_enabled = true
+position = Vector2(60, 132)
+metadata/bespren_asset_id = "pixel_029621b9ad"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="Baseline00" type="Line2D" parent="." unique_id=599036321]
+z_index = -1
+points = PackedVector2Array(18, 133, 102, 133)
+width = 1.0
+default_color = Color(0, 1, 1, 0.34)
+
+[node name="Label00" type="Label" parent="." unique_id=1988993857]
+offset_left = 18.0
+offset_top = 136.0
+offset_right = 18.0
+offset_bottom = 136.0
+theme_override_colors/font_color = Color(0.45, 0.86, 0.88, 0.92)
+theme_override_font_sizes/font_size = 8
+text = "ENVIRONMENT"
+
+[node name="Sample01_Environment" type="Node2D" parent="." unique_id=1032041071 groups=["weathered_2d_asset"] instance=ExtResource("3_g73xo")]
+y_sort_enabled = true
+position = Vector2(180, 132)
+metadata/bespren_asset_id = "coin_anim_f0_a84e517a94"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="Baseline01" type="Line2D" parent="." unique_id=46319166]
+z_index = -1
+points = PackedVector2Array(138, 133, 222, 133)
+width = 1.0
+default_color = Color(0, 1, 1, 0.34)
+
+[node name="Label01" type="Label" parent="." unique_id=1663884060]
+offset_left = 138.0
+offset_top = 136.0
+offset_right = 138.0
+offset_bottom = 136.0
+theme_override_colors/font_color = Color(0.45, 0.86, 0.88, 0.92)
+theme_override_font_sizes/font_size = 8
+text = "ENVIRONMENT"
+
+[node name="Sample02_Enemies" type="Node2D" parent="." unique_id=1813750469 groups=["weathered_2d_asset"] instance=ExtResource("4_vrhcb")]
+y_sort_enabled = true
+position = Vector2(300, 132)
+metadata/bespren_asset_id = "zombie_anim_f3_bb77853de2"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="Baseline02" type="Line2D" parent="." unique_id=456091781]
+z_index = -1
+points = PackedVector2Array(258, 133, 342, 133)
+width = 1.0
+default_color = Color(0, 1, 1, 0.34)
+
+[node name="Label02" type="Label" parent="." unique_id=205726083]
+offset_left = 258.0
+offset_top = 136.0
+offset_right = 258.0
+offset_bottom = 136.0
+theme_override_colors/font_color = Color(0.45, 0.86, 0.88, 0.92)
+theme_override_font_sizes/font_size = 8
+text = "ENEMIES"
+
+[node name="Sample03_Enemies" type="Node2D" parent="." unique_id=173711083 groups=["weathered_2d_asset"] instance=ExtResource("5_8q0po")]
+y_sort_enabled = true
+position = Vector2(420, 132)
+metadata/bespren_asset_id = "zombie_anim_f2_aa739fdb63"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="Baseline03" type="Line2D" parent="." unique_id=2102313208]
+z_index = -1
+points = PackedVector2Array(378, 133, 462, 133)
+width = 1.0
+default_color = Color(0, 1, 1, 0.34)
+
+[node name="Label03" type="Label" parent="." unique_id=263070692]
+offset_left = 378.0
+offset_top = 136.0
+offset_right = 378.0
+offset_bottom = 136.0
+theme_override_colors/font_color = Color(0.45, 0.86, 0.88, 0.92)
+theme_override_font_sizes/font_size = 8
+text = "ENEMIES"
+
+[node name="Sample04_Bosses" type="Node2D" parent="." unique_id=277889681 groups=["weathered_2d_asset"] instance=ExtResource("6_41y7o")]
+y_sort_enabled = true
+position = Vector2(60, 250)
+scale = Vector2(0.8541667, 0.8541667)
+metadata/bespren_asset_id = "big_monster20_cc9aad010d"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "rpg_maker_3x4"
+
+[node name="Baseline04" type="Line2D" parent="." unique_id=1671880211]
+z_index = -1
+points = PackedVector2Array(18, 251, 102, 251)
+width = 1.0
+default_color = Color(0, 1, 1, 0.34)
+
+[node name="Label04" type="Label" parent="." unique_id=1246081073]
+offset_left = 18.0
+offset_top = 254.0
+offset_right = 18.0
+offset_bottom = 254.0
+theme_override_colors/font_color = Color(0.45, 0.86, 0.88, 0.92)
+theme_override_font_sizes/font_size = 8
+text = "BOSSES"
+
+[node name="Sample05_Bosses" type="Node2D" parent="." unique_id=488332249 groups=["weathered_2d_asset"] instance=ExtResource("7_ysoei")]
+y_sort_enabled = true
+position = Vector2(180, 250)
+scale = Vector2(0.8541667, 0.8541667)
+metadata/bespren_asset_id = "big_monster21_222faf30ce"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "rpg_maker_3x4"
+
+[node name="Baseline05" type="Line2D" parent="." unique_id=2141840668]
+z_index = -1
+points = PackedVector2Array(138, 251, 222, 251)
+width = 1.0
+default_color = Color(0, 1, 1, 0.34)
+
+[node name="Label05" type="Label" parent="." unique_id=1605124095]
+offset_left = 138.0
+offset_top = 254.0
+offset_right = 138.0
+offset_bottom = 254.0
+theme_override_colors/font_color = Color(0.45, 0.86, 0.88, 0.92)
+theme_override_font_sizes/font_size = 8
+text = "BOSSES"
+
+[node name="Sample06_Props" type="Node2D" parent="." unique_id=512355674 groups=["weathered_2d_asset"] instance=ExtResource("8_p6c6h")]
+y_sort_enabled = true
+position = Vector2(300, 250)
+metadata/bespren_asset_id = "halloween_pumpkin_chariot_minion_a_8fcb5eaef2"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="Baseline06" type="Line2D" parent="." unique_id=1103185089]
+z_index = -1
+points = PackedVector2Array(258, 251, 342, 251)
+width = 1.0
+default_color = Color(0, 1, 1, 0.34)
+
+[node name="Label06" type="Label" parent="." unique_id=975481593]
+offset_left = 258.0
+offset_top = 254.0
+offset_right = 258.0
+offset_bottom = 254.0
+theme_override_colors/font_color = Color(0.45, 0.86, 0.88, 0.92)
+theme_override_font_sizes/font_size = 8
+text = "PROPS"
+
+[node name="Sample07_Props" type="Node2D" parent="." unique_id=326108377 groups=["weathered_2d_asset"] instance=ExtResource("9_c8l5a")]
+y_sort_enabled = true
+position = Vector2(420, 250)
+metadata/bespren_asset_id = "halloween_pumpkin_chariot_minion_a_0975901b59"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="Baseline07" type="Line2D" parent="." unique_id=1337642474]
+z_index = -1
+points = PackedVector2Array(378, 251, 462, 251)
+width = 1.0
+default_color = Color(0, 1, 1, 0.34)
+
+[node name="Label07" type="Label" parent="." unique_id=1442357863]
+offset_left = 378.0
+offset_top = 254.0
+offset_right = 378.0
+offset_bottom = 254.0
+theme_override_colors/font_color = Color(0.45, 0.86, 0.88, 0.92)
+theme_override_font_sizes/font_size = 8
+text = "PROPS"

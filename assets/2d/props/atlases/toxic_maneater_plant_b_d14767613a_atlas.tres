@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cohehx3t8dvo1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_maneater_plant_b_b123eaea0f.png" id="1_bfjq1"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bfjq1")
+region = Rect2(0, 0, 181, 143)

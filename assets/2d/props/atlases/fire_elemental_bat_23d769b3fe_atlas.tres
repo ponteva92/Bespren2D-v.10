@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dkambdag2vlhj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_elemental_bat_d2d7ba647b.png" id="1_pn8eh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_pn8eh")
+region = Rect2(0, 0, 151, 121)

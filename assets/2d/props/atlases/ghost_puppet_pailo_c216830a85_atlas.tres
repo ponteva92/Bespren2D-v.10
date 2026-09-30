@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dfvo4jehg7oho"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ghost_puppet_pailo_d28d3ccdca.png" id="1_d373h"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_d373h")
+region = Rect2(0, 0, 161, 187)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d0p8byiskpxly"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_blade_colossus_17626b471b.png" id="1_er5m0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygfce"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_er5m0")
+region = Rect2(0, 0, 471, 240)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygfce")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

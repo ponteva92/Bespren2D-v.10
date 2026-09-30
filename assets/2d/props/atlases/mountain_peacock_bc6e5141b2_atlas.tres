@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b6djogy68ri6t"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_peacock_3e37e22b10.png" id="1_5awgs"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5awgs")
+region = Rect2(0, 0, 489, 382)

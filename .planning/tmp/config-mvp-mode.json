@@ -1,0 +1,10 @@
+{
+  "args": [
+    "query",
+    "config-get",
+    "workflow.mvp_mode"
+  ],
+  "status": 1,
+  "stdout": "",
+  "stderr": "Error: Key not found: workflow.mvp_mode\n"
+}

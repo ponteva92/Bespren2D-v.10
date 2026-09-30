@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://xcfg7w0rfh72"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elf_knight_dual_340b8f87c8.png" id="1_lyo37"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hion3"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lyo37")
+region = Rect2(0, 0, 279, 207)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hion3")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

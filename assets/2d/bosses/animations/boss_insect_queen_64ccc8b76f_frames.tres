@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cqunlijc1rrq1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_insect_queen_2bda4b60b0.png" id="1_fuv6y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aye8v"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fuv6y")
+region = Rect2(0, 0, 625, 424)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aye8v")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

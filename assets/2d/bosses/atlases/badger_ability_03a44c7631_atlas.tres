@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dn5jq1vrdpgms"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/badger_ability_c8775a349b.png" id="1_yaupn"]
+
+[resource]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_yaupn")
+region = Rect2(128, 0, 128, 128)

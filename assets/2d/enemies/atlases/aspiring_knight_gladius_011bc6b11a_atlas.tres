@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b6b4m7lgft7ic"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/aspiring_knight_gladius_e26c8cab7f.png" id="1_1fcla"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1fcla")
+region = Rect2(0, 0, 372, 382)

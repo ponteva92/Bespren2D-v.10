@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://j2wqxbs3hg63"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_caterpillar_a_bdd0082765.png" id="1_rjuup"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rjuup")
+region = Rect2(0, 0, 134, 116)

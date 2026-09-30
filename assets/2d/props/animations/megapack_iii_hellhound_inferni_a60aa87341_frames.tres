@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://kxw0vccbralk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_hellhound_inferni_d57791a149.png" id="1_ayvhl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c8fns"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ayvhl")
+region = Rect2(0, 0, 373, 323)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c8fns")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

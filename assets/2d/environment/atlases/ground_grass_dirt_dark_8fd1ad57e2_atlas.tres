@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bsclbfa1wgmtl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/ground_grass_dirt_dark_218b06c512.png" id="1_w578d"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w578d")
+region = Rect2(0, 0, 64, 64)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bv7slkd8wshow"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/voidoll_erebia_f77cf52d4c.png" id="1_0v742"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0v742")
+region = Rect2(0, 0, 92, 72)

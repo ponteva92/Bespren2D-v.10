@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://crc3chc8m4u32"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_t_rex_red_8685cf6952.png" id="1_xuogb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5g53k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xuogb")
+region = Rect2(0, 0, 334, 322)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5g53k")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://0pilojskgtiu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_black_ant_queen_0955b143b6.png" id="1_tux2h"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tux2h")
+region = Rect2(0, 0, 469, 479)

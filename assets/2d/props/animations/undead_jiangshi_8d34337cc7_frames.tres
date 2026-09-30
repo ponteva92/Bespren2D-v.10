@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://uef8k0q2qx2y"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_jiangshi_fe4d132f37.png" id="1_tmoel"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6nrx5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tmoel")
+region = Rect2(0, 0, 161, 210)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6nrx5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

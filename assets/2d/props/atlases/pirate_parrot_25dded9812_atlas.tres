@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dbovbwybx0d7f"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pirate_parrot_41c421c65a.png" id="1_mouh2"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mouh2")
+region = Rect2(0, 0, 169, 228)

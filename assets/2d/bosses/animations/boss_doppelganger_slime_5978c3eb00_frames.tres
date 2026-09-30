@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bdb8n1ujfb0l1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_doppelganger_slime_efef2c9140.png" id="1_jby18"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i64jq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jby18")
+region = Rect2(0, 0, 376, 273)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i64jq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

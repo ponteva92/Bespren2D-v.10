@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cr4qa1vguxdgd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/arcane_orb_thunder_150f293b4d.png" id="1_7gwoj"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7gwoj")
+region = Rect2(0, 0, 94, 86)

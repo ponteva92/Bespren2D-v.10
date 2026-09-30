@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dwctptg6w0l2x"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/highdragon_tex_ec07467a46.png" id="1_ke4a0"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_ke4a0")
+region = Rect2(1, 824, 335, 27)

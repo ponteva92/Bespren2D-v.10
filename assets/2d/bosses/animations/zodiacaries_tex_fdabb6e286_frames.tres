@@ -1,0 +1,123 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dq0yhx7opw258"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiacaries_tex_6fbd10b588.png" id="1_vl2ck"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t77bm"]
+resource_name = "shadow"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(1, 489, 344, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lb6uy"]
+resource_name = "tail"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(72, 401, 63, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qgkix"]
+resource_name = "left_back_leg"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(160, 385, 73, 92)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r2yr1"]
+resource_name = "left_horn"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(405, 222, 82, 148)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w02v7"]
+resource_name = "left_front_leg"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(285, 355, 60, 114)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rddgw"]
+resource_name = "body"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(1, 1, 232, 219)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s36ah"]
+resource_name = "left_minihorn"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(72, 458, 24, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vflju"]
+resource_name = "head"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(1, 401, 69, 86)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ud01l"]
+resource_name = "right_back_leg"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(285, 222, 118, 131)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1v5tc"]
+resource_name = "right_front_leg"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(160, 222, 123, 161)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ba2g7"]
+resource_name = "right_minihorn"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(137, 401, 10, 34)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ot1oy"]
+resource_name = "right_horn"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(1, 222, 157, 177)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2m7uv"]
+resource_name = "right_ear"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(98, 458, 27, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p6rrd"]
+resource_name = "ornament"
+atlas = ExtResource("1_vl2ck")
+region = Rect2(235, 1, 180, 219)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t77bm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lb6uy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qgkix")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r2yr1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w02v7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rddgw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s36ah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vflju")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ud01l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1v5tc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ba2g7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ot1oy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2m7uv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p6rrd")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

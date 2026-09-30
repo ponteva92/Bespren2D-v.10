@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://br4te2s5uwwli"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_nuckelavee_c8fb8cdb47.png" id="1_3pemb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3pemb")
+region = Rect2(0, 0, 368, 333)

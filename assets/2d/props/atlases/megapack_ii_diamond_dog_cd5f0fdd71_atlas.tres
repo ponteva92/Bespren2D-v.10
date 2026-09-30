@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://qrb4almi1ujg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_diamond_dog_9eed4c2839.png" id="1_2lbki"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2lbki")
+region = Rect2(0, 0, 267, 245)

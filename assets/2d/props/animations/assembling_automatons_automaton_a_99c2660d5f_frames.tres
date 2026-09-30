@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://blqkl8negrtmc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/assembling_automatons_automaton_a_f92dc22148.png" id="1_nesgd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsb4i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nesgd")
+region = Rect2(0, 0, 373, 403)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsb4i")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

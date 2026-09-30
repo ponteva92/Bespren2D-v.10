@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmigv5dql06c0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/starter_kit_city_builder_main_5af127d96d/splash_screen_1d2ac9f341.png" id="1_r781c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rspyw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r781c")
+region = Rect2(0, 0, 2560, 1440)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rspyw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ogvdltavpsvp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/garuda_garunix_f539c63b12.png" id="1_5k2sv"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5k2sv")
+region = Rect2(0, 0, 407, 244)

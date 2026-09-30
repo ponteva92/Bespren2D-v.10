@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b78xvu7hky0ip"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/canine_white_attack_3b379a8981.png" id="1_13trx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xiyws"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_13trx")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_noyry"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_13trx")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4g3lp"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_13trx")
+region = Rect2(128, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xiyws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_noyry")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4g3lp")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]

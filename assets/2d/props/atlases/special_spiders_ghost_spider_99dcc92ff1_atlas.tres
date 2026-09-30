@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dt0r88vk7r3iv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/special_spiders_ghost_spider_9bddb3a6d1.png" id="1_eeicx"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_eeicx")
+region = Rect2(0, 0, 282, 626)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dpo14atbrpl6w"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/quetzalcoatl_18d173039a.png" id="1_ukivl"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ukivl")
+region = Rect2(0, 0, 512, 512)

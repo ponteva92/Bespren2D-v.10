@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://hepp245witrl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skoll_tex_eb7840b997.png" id="1_w5a4s"]
+
+[resource]
+resource_name = "ellipse_13"
+atlas = ExtResource("1_w5a4s")
+region = Rect2(1, 143, 228, 34)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d02svafhyl4pc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_dryad_yggdrasil_5d01630dd1.png" id="1_vq0fi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7lbts"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vq0fi")
+region = Rect2(0, 0, 466, 415)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7lbts")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

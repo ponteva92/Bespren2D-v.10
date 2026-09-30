@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dlkklq0k3sx4q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/tantalus_tex_be6a9e63e1.png" id="1_svunf"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_svunf")
+region = Rect2(223, 942, 627, 28)

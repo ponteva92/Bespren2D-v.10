@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bjgmmgfpjmwxn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/face_002_d5b16427aa.png" id="1_bvgm7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2rer"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bvgm7")
+region = Rect2(0, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o2rer")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

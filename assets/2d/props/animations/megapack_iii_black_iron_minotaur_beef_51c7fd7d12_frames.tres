@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c8c25cbs6kesx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_black_iron_minotaur_beef_02a7ffb1a6.png" id="1_8ok4d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_33jts"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8ok4d")
+region = Rect2(0, 0, 492, 431)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_33jts")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dfodwpo0o1ay0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_fallen_kings_king_of_elves_dreyel_177d3fd515.png" id="1_t446s"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t446s")
+region = Rect2(0, 0, 230, 284)

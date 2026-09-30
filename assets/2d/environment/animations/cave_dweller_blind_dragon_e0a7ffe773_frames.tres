@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cnwvf8b7g6a41"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cave_dweller_blind_dragon_4f492e5dfc.png" id="1_c1433"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_itlp7"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c1433")
+region = Rect2(0, 0, 347, 424)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_itlp7")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

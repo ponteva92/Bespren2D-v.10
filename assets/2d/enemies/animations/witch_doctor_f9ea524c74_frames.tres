@@ -1,0 +1,154 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cuq7tgfm3tnal"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f000.png" id="1_0vjms"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f001.png" id="2_38x8g"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f002.png" id="3_ukc3v"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f003.png" id="4_lo80c"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f008.png" id="5_2dmf0"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f009.png" id="6_fu660"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f010.png" id="7_573cc"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f011.png" id="8_lm1vf"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f012.png" id="9_rrqmv"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f013.png" id="10_o66ro"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f026.png" id="11_lco1l"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f027.png" id="12_mclew"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f028.png" id="13_1jtsp"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f029.png" id="14_d5pvy"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f030.png" id="15_w311i"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f031.png" id="16_3vycb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bxkti"]
+resource_name = "default_000"
+atlas = ExtResource("1_0vjms")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_olf6b"]
+resource_name = "default_001"
+atlas = ExtResource("2_38x8g")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gh82p"]
+resource_name = "default_002"
+atlas = ExtResource("3_ukc3v")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mkb72"]
+resource_name = "default_003"
+atlas = ExtResource("4_lo80c")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lx8k5"]
+resource_name = "default_008"
+atlas = ExtResource("5_2dmf0")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esick"]
+resource_name = "default_009"
+atlas = ExtResource("6_fu660")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw74i"]
+resource_name = "default_010"
+atlas = ExtResource("7_573cc")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d10fq"]
+resource_name = "default_011"
+atlas = ExtResource("8_lm1vf")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n34dw"]
+resource_name = "default_012"
+atlas = ExtResource("9_rrqmv")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x2oav"]
+resource_name = "default_013"
+atlas = ExtResource("10_o66ro")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sjfg4"]
+resource_name = "default_026"
+atlas = ExtResource("11_lco1l")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2e34"]
+resource_name = "default_027"
+atlas = ExtResource("12_mclew")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0lbr8"]
+resource_name = "default_028"
+atlas = ExtResource("13_1jtsp")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yq8hc"]
+resource_name = "default_029"
+atlas = ExtResource("14_d5pvy")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqaua"]
+resource_name = "default_030"
+atlas = ExtResource("15_w311i")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8eg5t"]
+resource_name = "default_031"
+atlas = ExtResource("16_3vycb")
+region = Rect2(0, 0, 768, 768)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_bxkti")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_olf6b")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_gh82p")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_mkb72")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_lx8k5")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_esick")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_aw74i")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_d10fq")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_n34dw")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_x2oav")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_sjfg4")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_u2e34")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_0lbr8")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_yq8hc")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_fqaua")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_8eg5t")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://c24pqyq80iwjq"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_tvj8c"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/tools_003_key_copper_e2c20d13a5.png" id="2_al4vo"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7lghi"]
+resource_name = "Bespren Oxidized Copper weathering"
+shader = ExtResource("1_tvj8c")
+shader_parameter/treatment = 2
+shader_parameter/weathering = 0.84
+shader_parameter/structural_damage = 0.12
+shader_parameter/rust_streaks = 0.48
+shader_parameter/toxic_intensity = 0.08
+shader_parameter/glow_color = Color(0, 1, 1, 1)
+shader_parameter/emission_strength = 0.28
+shader_parameter/pattern_scale = 29.0
+shader_parameter/damage_seed = 43.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11mt8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_al4vo")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4yqtr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11mt8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="Tools003KeyCopper" type="Node2D" unique_id=511185023 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "tools_003_key_copper_504abc6d3e"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1082093541]
+texture_filter = 1
+material = SubResource("ShaderMaterial_7lghi")
+sprite_frames = SubResource("SpriteFrames_4yqtr")
+offset = Vector2(0, -32)

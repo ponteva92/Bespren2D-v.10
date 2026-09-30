@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://1fnj8n2d06mq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/urmica_tex_122bd3fc01.png" id="1_4g8vi"]
+
+[resource]
+resource_name = "layer_187"
+atlas = ExtResource("1_4g8vi")
+region = Rect2(1, 1027, 484, 64)

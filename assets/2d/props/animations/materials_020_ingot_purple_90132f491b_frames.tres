@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dfaf0hrtro8wy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/materials_020_ingot_purple_53cefee381.png" id="1_xqsta"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_helor"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xqsta")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_helor")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cc6q8nq5xn8hx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_hornet_warrior_69ffcbf39f.png" id="1_wqpd1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_67u1e"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wqpd1")
+region = Rect2(0, 0, 153, 211)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_67u1e")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

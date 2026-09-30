@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dmknqinesvw0e"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_titan_ignis_62c330644e.png" id="1_f2rb5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_evpfu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_f2rb5")
+region = Rect2(0, 0, 742, 543)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_evpfu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

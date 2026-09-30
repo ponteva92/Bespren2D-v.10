@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c86ouidur6ymm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mimic_bush_b57bbcf28f.png" id="1_g52ra"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8n6c"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_g52ra")
+region = Rect2(0, 0, 148, 134)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8n6c")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

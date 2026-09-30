@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dba48jlacyyq5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_creatures_scorpion_19deede12e.png" id="1_dqm3h"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dqm3h")
+region = Rect2(0, 0, 776, 486)

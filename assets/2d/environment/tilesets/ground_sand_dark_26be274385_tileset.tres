@@ -1,0 +1,66 @@
+[gd_resource type="TileSet" format=3 uid="uid://cm3i3rjfy4ido"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/ground_sand_dark_9047b1642b.png" id="1_xwhth"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cdrxt"]
+texture = ExtResource("1_xwhth")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+0:0/0/y_sort_origin = 32
+1:0/0 = 0
+1:0/0/y_sort_origin = 32
+2:0/0 = 0
+2:0/0/y_sort_origin = 32
+3:0/0 = 0
+3:0/0/y_sort_origin = 32
+4:0/0 = 0
+4:0/0/y_sort_origin = 32
+5:0/0 = 0
+5:0/0/y_sort_origin = 32
+6:0/0 = 0
+6:0/0/y_sort_origin = 32
+7:0/0 = 0
+7:0/0/y_sort_origin = 32
+0:1/0 = 0
+0:1/0/y_sort_origin = 32
+1:1/0 = 0
+1:1/0/y_sort_origin = 32
+2:1/0 = 0
+2:1/0/y_sort_origin = 32
+3:1/0 = 0
+3:1/0/y_sort_origin = 32
+4:1/0 = 0
+4:1/0/y_sort_origin = 32
+5:1/0 = 0
+5:1/0/y_sort_origin = 32
+6:1/0 = 0
+6:1/0/y_sort_origin = 32
+7:1/0 = 0
+7:1/0/y_sort_origin = 32
+0:2/0 = 0
+0:2/0/y_sort_origin = 32
+1:2/0 = 0
+1:2/0/y_sort_origin = 32
+2:2/0 = 0
+2:2/0/y_sort_origin = 32
+3:2/0 = 0
+3:2/0/y_sort_origin = 32
+4:2/0 = 0
+4:2/0/y_sort_origin = 32
+5:2/0 = 0
+5:2/0/y_sort_origin = 32
+6:2/0 = 0
+6:2/0/y_sort_origin = 32
+7:2/0 = 0
+7:2/0/y_sort_origin = 32
+0:3/0 = 0
+0:3/0/y_sort_origin = 32
+6:3/0 = 0
+6:3/0/y_sort_origin = 32
+7:3/0 = 0
+7:3/0/y_sort_origin = 32
+
+[resource]
+resource_name = "Ground Sand Dark weathered tileset"
+tile_size = Vector2i(64, 64)
+sources/0 = SubResource("TileSetAtlasSource_cdrxt")

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://deaihltnpemph"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_nature_titan_tellia_103e1d7c10.png" id="1_68guv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xxnq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_68guv")
+region = Rect2(0, 0, 934, 733)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xxnq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

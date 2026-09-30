@@ -1,0 +1,131 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b1xaiull3bn61"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/valhalla_tex_9b3e1c3b20.png" id="1_ytoga"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_slfgy"]
+resource_name = "shadow"
+atlas = ExtResource("1_ytoga")
+region = Rect2(1, 629, 364, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6x8sq"]
+resource_name = "right_wing"
+atlas = ExtResource("1_ytoga")
+region = Rect2(1, 226, 287, 262)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fpwmk"]
+resource_name = "left_wing"
+atlas = ExtResource("1_ytoga")
+region = Rect2(290, 226, 197, 260)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fntm7"]
+resource_name = "palm"
+atlas = ExtResource("1_ytoga")
+region = Rect2(461, 145, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yvrp5"]
+resource_name = "axe"
+atlas = ExtResource("1_ytoga")
+region = Rect2(1, 1, 361, 223)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6v117"]
+resource_name = "hand"
+atlas = ExtResource("1_ytoga")
+region = Rect2(255, 490, 28, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cohcb"]
+resource_name = "left_leg_back"
+atlas = ExtResource("1_ytoga")
+region = Rect2(205, 490, 48, 115)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_et8tp"]
+resource_name = "left_leg_ftron"
+atlas = ExtResource("1_ytoga")
+region = Rect2(461, 1, 49, 142)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mjxij"]
+resource_name = "lower_body_main"
+atlas = ExtResource("1_ytoga")
+region = Rect2(1, 490, 151, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ubdlr"]
+resource_name = "right_leg_back"
+atlas = ExtResource("1_ytoga")
+region = Rect2(380, 589, 57, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3yw0j"]
+resource_name = "right_leg_front"
+atlas = ExtResource("1_ytoga")
+region = Rect2(154, 490, 49, 123)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8sxnv"]
+resource_name = "left_arm"
+atlas = ExtResource("1_ytoga")
+region = Rect2(380, 488, 73, 99)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_30n1i"]
+resource_name = "body"
+atlas = ExtResource("1_ytoga")
+region = Rect2(290, 488, 88, 139)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrpkj"]
+resource_name = "right_arm"
+atlas = ExtResource("1_ytoga")
+region = Rect2(364, 1, 95, 143)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fo6au"]
+resource_name = "head"
+atlas = ExtResource("1_ytoga")
+region = Rect2(1, 569, 58, 56)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_slfgy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6x8sq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fpwmk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fntm7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yvrp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6v117")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cohcb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_et8tp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mjxij")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ubdlr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3yw0j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8sxnv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_30n1i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mrpkj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fo6au")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

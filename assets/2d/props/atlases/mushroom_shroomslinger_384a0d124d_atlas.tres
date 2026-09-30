@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://kc1d2vn4jg6j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mushroom_shroomslinger_724e50c45a.png" id="1_s8w48"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_s8w48")
+region = Rect2(0, 0, 336, 194)

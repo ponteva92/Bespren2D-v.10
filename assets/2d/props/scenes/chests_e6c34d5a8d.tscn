@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://ch1pwlmst7wd6"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_c3re1"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f000.png" id="2_7qx5d"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f001.png" id="3_8ahs5"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f002.png" id="4_mnr2g"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f003.png" id="5_1phje"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f004.png" id="6_4h7gx"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f005.png" id="7_hacow"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f007.png" id="8_novlg"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f008.png" id="9_bf4fg"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f009.png" id="10_4sg03"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/chests_70d48d934c/chests_gif_f010.png" id="11_reh5k"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_20k0a"]
+resource_name = "Bespren Wood Spore weathering"
+shader = ExtResource("1_c3re1")
+shader_parameter/treatment = 1
+shader_parameter/weathering = 0.86
+shader_parameter/structural_damage = 0.08
+shader_parameter/rust_streaks = 0.3
+shader_parameter/toxic_intensity = 0.18
+shader_parameter/glow_color = Color(1, 0.84313726, 0, 1)
+shader_parameter/emission_strength = 0.58
+shader_parameter/pattern_scale = 31.0
+shader_parameter/damage_seed = 11.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jglc"]
+resource_name = "default_000"
+atlas = ExtResource("2_7qx5d")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cm0kg"]
+resource_name = "default_001"
+atlas = ExtResource("3_8ahs5")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t3qnf"]
+resource_name = "default_002"
+atlas = ExtResource("4_mnr2g")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n6yjn"]
+resource_name = "default_003"
+atlas = ExtResource("5_1phje")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vnx5"]
+resource_name = "default_004"
+atlas = ExtResource("6_4h7gx")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idb17"]
+resource_name = "default_005"
+atlas = ExtResource("7_hacow")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5dwu"]
+resource_name = "default_007"
+atlas = ExtResource("8_novlg")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6rwsv"]
+resource_name = "default_008"
+atlas = ExtResource("9_bf4fg")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fllbl"]
+resource_name = "default_009"
+atlas = ExtResource("10_4sg03")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d1ep0"]
+resource_name = "default_010"
+atlas = ExtResource("11_reh5k")
+region = Rect2(0, 0, 1200, 675)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nvx4v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1jglc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cm0kg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t3qnf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n6yjn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vnx5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idb17")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5dwu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6rwsv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fllbl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d1ep0")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="Chests" type="Node2D" unique_id=1218439670 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "chests_e6c34d5a8d"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1826104378]
+texture_filter = 1
+material = SubResource("ShaderMaterial_20k0a")
+sprite_frames = SubResource("SpriteFrames_nvx4v")
+autoplay = "default"
+offset = Vector2(0, -337.5)

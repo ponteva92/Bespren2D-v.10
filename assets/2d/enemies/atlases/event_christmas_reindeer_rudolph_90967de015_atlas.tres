@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d3hgumy71x40q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f000.png" id="1_lkwap"]
+
+[resource]
+resource_name = "default_000"
+atlas = ExtResource("1_lkwap")
+region = Rect2(0, 0, 768, 768)

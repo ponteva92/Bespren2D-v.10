@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://o2bics8w4hn1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_nobleman_ansellus_3901620a2f.png" id="1_xax8m"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xax8m")
+region = Rect2(0, 0, 185, 222)

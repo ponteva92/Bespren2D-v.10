@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://pgdtsy2am8o4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_abomination_red_1fde76c843.png" id="1_vvad1"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vvad1")
+region = Rect2(0, 0, 504, 311)

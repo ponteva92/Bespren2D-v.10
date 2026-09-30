@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d330t3ygjxeku"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_creatures_throne_9894d83669.png" id="1_ckd1r"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ckd1r")
+region = Rect2(0, 0, 173, 379)

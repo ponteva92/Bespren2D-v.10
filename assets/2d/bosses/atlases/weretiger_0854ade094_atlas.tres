@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bkbgdsewin3s1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/weretiger_11e0c36ab0.png" id="1_v07u8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_v07u8")
+region = Rect2(0, 0, 4608, 3072)

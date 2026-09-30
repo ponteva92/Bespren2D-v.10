@@ -1,0 +1,93 @@
+[gd_scene format=3 uid="uid://c1scsl8safu1g"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_ksas4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/bigmonster11_a0d2c95fa8.png" id="2_s704j"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o613s"]
+resource_name = "Bespren Tech Cyan weathering"
+shader = ExtResource("1_ksas4")
+shader_parameter/treatment = 2
+shader_parameter/weathering = 0.74
+shader_parameter/structural_damage = 0.12
+shader_parameter/rust_streaks = 0.28
+shader_parameter/toxic_intensity = 0.34
+shader_parameter/glow_color = Color(0, 1, 1, 1)
+shader_parameter/emission_strength = 0.92
+shader_parameter/pattern_scale = 35.0
+shader_parameter/damage_seed = 23.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wwulq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_s704j")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v08xh"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_s704j")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iptnc"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_s704j")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cmikf"]
+resource_name = "frame_001_000"
+atlas = ExtResource("2_s704j")
+region = Rect2(0, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vtot"]
+resource_name = "frame_001_001"
+atlas = ExtResource("2_s704j")
+region = Rect2(96, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jehgf"]
+resource_name = "frame_001_002"
+atlas = ExtResource("2_s704j")
+region = Rect2(192, 96, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_336qp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wwulq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v08xh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iptnc")
+}],
+"loop": 1,
+"name": &"walk_down",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cmikf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1vtot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jehgf")
+}],
+"loop": 1,
+"name": &"walk_left",
+"speed": 6.0
+}]
+
+[node name="$Bigmonster11" type="Node2D" unique_id=589637811 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "bigmonster11_b500ec7db3"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "rpg_maker_3x4"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1712002005]
+texture_filter = 1
+material = SubResource("ShaderMaterial_o613s")
+sprite_frames = SubResource("SpriteFrames_336qp")
+animation = &"walk_down"
+autoplay = "walk_down"
+offset = Vector2(0, -48)

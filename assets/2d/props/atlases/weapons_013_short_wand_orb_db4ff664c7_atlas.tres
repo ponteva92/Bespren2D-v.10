@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://qu3bb7j8v6em"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/weapons_013_short_wand_orb_d514818003.png" id="1_kj1am"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kj1am")
+region = Rect2(0, 0, 64, 64)

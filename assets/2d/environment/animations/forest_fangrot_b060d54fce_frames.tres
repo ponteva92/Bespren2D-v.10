@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dyfdcu4eas5vg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_fangrot_4a5a890fc6.png" id="1_rq0o0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n4a1l"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rq0o0")
+region = Rect2(0, 0, 52, 120)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n4a1l")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

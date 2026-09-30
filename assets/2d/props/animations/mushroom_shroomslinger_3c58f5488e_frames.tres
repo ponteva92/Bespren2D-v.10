@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://52y2fypx04o4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mushroom_shroomslinger_96ce215e27.png" id="1_mwg8c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a4pgq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mwg8c")
+region = Rect2(0, 0, 336, 194)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a4pgq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

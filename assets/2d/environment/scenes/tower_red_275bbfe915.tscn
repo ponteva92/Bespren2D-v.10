@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://pa5nyj68wpsx"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_s2qv6"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/tower_red_3b0b838d51.png" id="2_1fbrj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hpba4"]
+resource_name = "Bespren Ruined Structure weathering"
+shader = ExtResource("1_s2qv6")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.91
+shader_parameter/structural_damage = 0.46
+shader_parameter/rust_streaks = 0.88
+shader_parameter/toxic_intensity = 0.12
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.18
+shader_parameter/pattern_scale = 24.0
+shader_parameter/damage_seed = 37.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c3ow0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_1fbrj")
+region = Rect2(0, 0, 128, 320)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o1gfv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c3ow0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="TowerRed" type="Node2D" unique_id=1479622865 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "tower_red_275bbfe915"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1377671249]
+texture_filter = 1
+material = SubResource("ShaderMaterial_hpba4")
+sprite_frames = SubResource("SpriteFrames_o1gfv")
+offset = Vector2(0, -160)

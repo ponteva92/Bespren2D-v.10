@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b4wo1uvguf00o"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_holyi_397dd2b990.png" id="1_iolpj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lbb18"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_iolpj")
+region = Rect2(0, 0, 119, 107)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lbb18")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

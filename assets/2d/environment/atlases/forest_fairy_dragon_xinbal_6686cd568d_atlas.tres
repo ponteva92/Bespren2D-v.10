@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cpyxvnqghv0mn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_fairy_dragon_xinbal_0da9249ebc.png" id="1_jj1ni"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jj1ni")
+region = Rect2(0, 0, 234, 228)

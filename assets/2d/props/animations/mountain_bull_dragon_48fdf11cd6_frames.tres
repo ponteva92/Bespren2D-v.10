@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://svy246jc5ye4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_bull_dragon_486d2592d6.png" id="1_kmwo2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_arwxt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kmwo2")
+region = Rect2(0, 0, 515, 329)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_arwxt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

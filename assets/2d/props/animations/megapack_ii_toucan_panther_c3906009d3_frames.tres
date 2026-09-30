@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ch0hpc5pcv8vp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_toucan_panther_606ea2333b.png" id="1_44bsa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f7ptp"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_44bsa")
+region = Rect2(0, 0, 273, 250)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f7ptp")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

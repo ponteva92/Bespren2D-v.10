@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bc8l1qqn3js5t"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_jupiter_f8b79b8545.png" id="1_om73e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_duiej"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_om73e")
+region = Rect2(0, 0, 330, 284)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_duiej")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

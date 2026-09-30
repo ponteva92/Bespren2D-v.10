@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://df8qc71sd1gpp"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_vuu35"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/64x64_atlas_horse_mountoff_c969fb00d2.png" id="2_nin80"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6nef"]
+resource_name = "Bespren Rusted Prop weathering"
+shader = ExtResource("1_vuu35")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.78
+shader_parameter/structural_damage = 0.1
+shader_parameter/rust_streaks = 0.61
+shader_parameter/toxic_intensity = 0.1
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.2
+shader_parameter/pattern_scale = 27.0
+shader_parameter/damage_seed = 17.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xjjjv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_nin80")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vkmws"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_nin80")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwd5q"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_nin80")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kj4sb"]
+resource_name = "frame_001_000"
+atlas = ExtResource("2_nin80")
+region = Rect2(0, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qf6d6"]
+resource_name = "frame_001_001"
+atlas = ExtResource("2_nin80")
+region = Rect2(64, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fx5bq"]
+resource_name = "frame_001_002"
+atlas = ExtResource("2_nin80")
+region = Rect2(128, 64, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5qub8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xjjjv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vkmws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xwd5q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kj4sb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qf6d6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fx5bq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="64X64AtlasHorseMountoff" type="Node2D" unique_id=934284107 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "64x64_atlas_horse_mountoff_8e4829fe5e"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "grid"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1127917912]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6nef")
+sprite_frames = SubResource("SpriteFrames_5qub8")
+autoplay = "default"
+offset = Vector2(0, -32)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://br2c5lyi4e8xo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_daidarabotchi_930f630227.png" id="1_77k54"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_77k54")
+region = Rect2(0, 0, 373, 271)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://che5i2dategpj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_kawabun_ca3a9d70bf.png" id="1_47olg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fs5uv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_47olg")
+region = Rect2(0, 0, 144, 72)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fs5uv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,83 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d0v4xi7x1qbds"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/shaccad_tex_8a901f1ee1.png" id="1_lial0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7pde3"]
+resource_name = "shadow_botton"
+atlas = ExtResource("1_lial0")
+region = Rect2(1, 481, 857, 47)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m6eks"]
+resource_name = "scythe"
+atlas = ExtResource("1_lial0")
+region = Rect2(723, 280, 210, 177)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4h414"]
+resource_name = "left_arm"
+atlas = ExtResource("1_lial0")
+region = Rect2(1, 207, 230, 271)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ihbcr"]
+resource_name = "tentacle_b"
+atlas = ExtResource("1_lial0")
+region = Rect2(1, 530, 191, 183)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_drego"]
+resource_name = "tentacle_c"
+atlas = ExtResource("1_lial0")
+region = Rect2(445, 280, 276, 170)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_np025"]
+resource_name = "tentacle_a"
+atlas = ExtResource("1_lial0")
+region = Rect2(860, 459, 129, 206)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xngbe"]
+resource_name = "head_top"
+atlas = ExtResource("1_lial0")
+region = Rect2(233, 207, 210, 272)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0f17m"]
+resource_name = "bottom"
+atlas = ExtResource("1_lial0")
+region = Rect2(1, 1, 709, 204)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jk5bi"]
+resource_name = "right_arm"
+atlas = ExtResource("1_lial0")
+region = Rect2(712, 1, 274, 277)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7pde3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m6eks")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4h414")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ihbcr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_drego")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_np025")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xngbe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0f17m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jk5bi")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b1gw52ym4ciyx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_010_mushroom_png_a9789fcbde.png" id="1_1750b"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1750b")
+region = Rect2(0, 0, 64, 64)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5ea0fxk4hrhm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_lion_b862a4e58c.png" id="1_mvufm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nc2vc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mvufm")
+region = Rect2(0, 0, 369, 287)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nc2vc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

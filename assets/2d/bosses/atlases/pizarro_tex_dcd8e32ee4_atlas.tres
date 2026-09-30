@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ok7ybf4uoin6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pizarro_tex_e9c3505641.png" id="1_mgbl6"]
+
+[resource]
+resource_name = "layer_7_copy_7"
+atlas = ExtResource("1_mgbl6")
+region = Rect2(1, 493, 240, 10)

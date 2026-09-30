@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cvod2807gms6p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_black_wolf_47bb73c43b.png" id="1_8on62"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8on62")
+region = Rect2(0, 0, 203, 202)

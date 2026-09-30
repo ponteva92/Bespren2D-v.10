@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bnhf6fal1kole"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/daidarabotchi_tex_8997ecc243.png" id="1_5qoeg"]
+
+[resource]
+resource_name = "layer_22_copy_9"
+atlas = ExtResource("1_5qoeg")
+region = Rect2(154, 1, 302, 7)

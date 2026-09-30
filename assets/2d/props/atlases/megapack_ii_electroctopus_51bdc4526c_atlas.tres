@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://et8ddn4rlguk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_electroctopus_de37d43c3d.png" id="1_ej5n3"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ej5n3")
+region = Rect2(0, 0, 213, 198)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://up4aij11na08"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/blood_manipulation_mage_5c6e4c3035.png" id="1_jbi6u"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jbi6u")
+region = Rect2(0, 0, 265, 199)

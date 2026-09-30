@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d0jbeyn61irqd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_griffon_cd0fe95f21.png" id="1_cy2qi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3jrux"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cy2qi")
+region = Rect2(0, 0, 296, 336)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3jrux")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

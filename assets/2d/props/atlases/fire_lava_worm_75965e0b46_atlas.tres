@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://qy0irqloc5we"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_lava_worm_d7dcf6c0bf.png" id="1_7r7ek"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7r7ek")
+region = Rect2(0, 0, 581, 325)

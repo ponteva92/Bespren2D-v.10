@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bcw4a88jnmvly"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/undead_claw_knight_2c1daf2b9f.png" id="1_63kv5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a4k4k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_63kv5")
+region = Rect2(0, 0, 296, 220)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a4k4k")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

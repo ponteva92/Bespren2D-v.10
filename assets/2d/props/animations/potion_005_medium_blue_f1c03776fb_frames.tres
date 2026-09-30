@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ctdd400aulty4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/potion_005_medium_blue_97dcda123b.png" id="1_ph86b"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gsqb8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ph86b")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gsqb8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

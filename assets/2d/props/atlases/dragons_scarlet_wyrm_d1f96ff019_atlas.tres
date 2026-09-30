@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c3ymaavt5h3i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragons_scarlet_wyrm_2c1c90f04e.png" id="1_w8tnf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w8tnf")
+region = Rect2(0, 0, 447, 453)

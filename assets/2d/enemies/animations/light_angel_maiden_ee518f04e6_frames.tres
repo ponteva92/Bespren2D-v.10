@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5t0spfufo300"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_angel_maiden_5a3d333076.png" id="1_2vftu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1v6g"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2vftu")
+region = Rect2(0, 0, 281, 278)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l1v6g")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

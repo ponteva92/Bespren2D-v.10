@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://6ne0l5sdwn0h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/cobrens_74e20559ba.png" id="1_1t231"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1t231")
+region = Rect2(0, 0, 128, 128)

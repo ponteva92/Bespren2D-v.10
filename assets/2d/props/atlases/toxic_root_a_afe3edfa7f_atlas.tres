@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cd0jd2l0n4y8v"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_root_a_c9aee15383.png" id="1_ye42o"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ye42o")
+region = Rect2(0, 0, 146, 129)

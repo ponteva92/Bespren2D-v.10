@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cjuwg6l0177k1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dynamo_baf84e1371.png" id="1_m45sg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_m45sg")
+region = Rect2(0, 0, 95, 428)

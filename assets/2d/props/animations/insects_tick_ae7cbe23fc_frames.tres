@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://pq812x8xqc1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_tick_36d6cd92a9.png" id="1_q6i3t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dvsu7"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_q6i3t")
+region = Rect2(0, 0, 139, 112)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dvsu7")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b6i7hwfq38h0e"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/unibun_1bb5c6fd61.png" id="1_gav33"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gav33")
+region = Rect2(0, 0, 256, 256)

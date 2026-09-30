@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dpfi3e8ahksr3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_rock_mimic_d7ae7b0b1c.png" id="1_65van"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k421t"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_65van")
+region = Rect2(0, 0, 131, 62)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k421t")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

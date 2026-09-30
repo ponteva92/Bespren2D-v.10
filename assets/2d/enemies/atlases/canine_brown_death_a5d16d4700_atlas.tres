@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bb6w2byw8iiy2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/canine_brown_death_700b39763d.png" id="1_ttm83"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ttm83")
+region = Rect2(0, 0, 64, 64)

@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://bkwpdednmcgos"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_nh4vm"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_run_ebc8a2867e.png" id="2_1oqui"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_nh4vm")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cd3qy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_1oqui")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fxeil"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_1oqui")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rdigy"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_1oqui")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iq532"]
+resource_name = "frame_000_003"
+atlas = ExtResource("2_1oqui")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b68s7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cd3qy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fxeil")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rdigy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iq532")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]
+
+[node name="GolemRun" type="Node2D" unique_id=203925030 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "golem_run_d529e67e8e"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=272791536]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_b68s7")
+animation = &"run"
+autoplay = "run"
+offset = Vector2(0, -32)

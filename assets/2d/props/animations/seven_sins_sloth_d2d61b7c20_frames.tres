@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://drhmohgurow4q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/seven_sins_sloth_b44b040b1d.png" id="1_puum3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7yoxv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_puum3")
+region = Rect2(0, 0, 462, 544)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7yoxv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

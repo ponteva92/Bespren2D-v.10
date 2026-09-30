@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dtxbipgjy0c1i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dark_elves_axe_warrior_33c927c5ee.png" id="1_pcals"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vpnmh"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_pcals")
+region = Rect2(0, 0, 190, 228)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vpnmh")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

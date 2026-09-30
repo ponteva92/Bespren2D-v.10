@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://blnopgv33unu0"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mimic_shield_98adeaa528.png" id="1_qyinx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4fno8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qyinx")
+region = Rect2(0, 0, 229, 276)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4fno8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

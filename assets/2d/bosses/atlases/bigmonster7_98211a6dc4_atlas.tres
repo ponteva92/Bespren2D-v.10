@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://djrdq8e8emm0g"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/bigmonster7_4982ac75f0.png" id="1_g007p"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_g007p")
+region = Rect2(0, 0, 96, 96)

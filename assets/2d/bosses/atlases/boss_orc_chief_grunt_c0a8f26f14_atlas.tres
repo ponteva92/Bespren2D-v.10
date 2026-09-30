@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://df8r3lov8glum"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_orc_chief_grunt_60419b71e3.png" id="1_2t3nw"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2t3nw")
+region = Rect2(0, 0, 465, 352)

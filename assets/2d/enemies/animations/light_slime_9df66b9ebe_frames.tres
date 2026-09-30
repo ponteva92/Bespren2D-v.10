@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://k22lg3ioe6bn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_slime_86d4af7264.png" id="1_l0c1r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2d18u"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l0c1r")
+region = Rect2(0, 0, 166, 126)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2d18u")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

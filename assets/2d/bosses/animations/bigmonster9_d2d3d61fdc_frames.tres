@@ -1,0 +1,122 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://njlclgh5u6oj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/bigmonster9_4a105195b0.png" id="1_8510y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38kt2"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8510y")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jbd5q"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_8510y")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8p6dr"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_8510y")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gwpxp"]
+resource_name = "frame_001_000"
+atlas = ExtResource("1_8510y")
+region = Rect2(0, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aswix"]
+resource_name = "frame_001_001"
+atlas = ExtResource("1_8510y")
+region = Rect2(96, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tporq"]
+resource_name = "frame_001_002"
+atlas = ExtResource("1_8510y")
+region = Rect2(192, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sple1"]
+resource_name = "frame_002_000"
+atlas = ExtResource("1_8510y")
+region = Rect2(0, 192, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pibj1"]
+resource_name = "frame_002_001"
+atlas = ExtResource("1_8510y")
+region = Rect2(96, 192, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i0s16"]
+resource_name = "frame_002_002"
+atlas = ExtResource("1_8510y")
+region = Rect2(192, 192, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dhiaq"]
+resource_name = "frame_003_000"
+atlas = ExtResource("1_8510y")
+region = Rect2(0, 288, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14s0p"]
+resource_name = "frame_003_001"
+atlas = ExtResource("1_8510y")
+region = Rect2(96, 288, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2vo15"]
+resource_name = "frame_003_002"
+atlas = ExtResource("1_8510y")
+region = Rect2(192, 288, 96, 96)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38kt2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jbd5q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8p6dr")
+}],
+"loop": 1,
+"name": &"walk_down",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gwpxp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aswix")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tporq")
+}],
+"loop": 1,
+"name": &"walk_left",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sple1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pibj1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i0s16")
+}],
+"loop": 1,
+"name": &"walk_right",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dhiaq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14s0p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2vo15")
+}],
+"loop": 1,
+"name": &"walk_up",
+"speed": 6.0
+}]

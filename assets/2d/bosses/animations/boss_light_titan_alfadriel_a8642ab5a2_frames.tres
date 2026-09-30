@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dr5gh3qeaerk5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_light_titan_alfadriel_dd0fbb32a2.png" id="1_1r0mg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vjvun"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1r0mg")
+region = Rect2(0, 0, 603, 616)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vjvun")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

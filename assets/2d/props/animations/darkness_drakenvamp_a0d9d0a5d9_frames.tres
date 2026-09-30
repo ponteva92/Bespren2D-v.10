@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://gfcbb18hxrgc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_drakenvamp_ab1b15c18f.png" id="1_u4ku0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yoi3m"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_u4ku0")
+region = Rect2(0, 0, 371, 264)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yoi3m")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

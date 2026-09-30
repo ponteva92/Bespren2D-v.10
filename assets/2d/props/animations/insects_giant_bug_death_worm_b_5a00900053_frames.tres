@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://yqisufdtlibb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_giant_bug_death_worm_b_fadfa5a051.png" id="1_nh5aw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_odau0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nh5aw")
+region = Rect2(0, 0, 512, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_odau0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

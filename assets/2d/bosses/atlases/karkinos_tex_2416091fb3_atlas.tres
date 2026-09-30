@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://8x8o657muash"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/karkinos_tex_9f75084a46.png" id="1_l5a6k"]
+
+[resource]
+resource_name = "ellipse_1"
+atlas = ExtResource("1_l5a6k")
+region = Rect2(1, 557, 741, 60)

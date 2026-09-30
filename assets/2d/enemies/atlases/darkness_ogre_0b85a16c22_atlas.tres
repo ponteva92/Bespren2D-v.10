@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cqqyh6nsviyqx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_ogre_5a6e4abe6c.png" id="1_hg4bj"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hg4bj")
+region = Rect2(0, 0, 318, 296)

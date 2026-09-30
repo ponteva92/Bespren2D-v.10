@@ -1,0 +1,92 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://src/world/world_map_2d.gd" id="1_map"]
+[ext_resource type="Script" path="res://src/world/world_road_network_2d.gd" id="2_roads"]
+[ext_resource type="Script" path="res://src/world/world_background_decor_2d.gd" id="3_decor"]
+[ext_resource type="Script" path="res://src/world/world_ambient_scenery_2d.gd" id="4_ambient_scenery"]
+[ext_resource type="Script" path="res://src/world/world_wilderness_accent_2d.gd" id="7_wilderness_accent"]
+[ext_resource type="Script" path="res://src/world/world_ground_cover_2d.gd" id="8_ground_cover"]
+[ext_resource type="Texture2D" path="res://assets/2d/environment/terrain/polyhaven_terrain_atlas.png" id="4_terrain_atlas"]
+[ext_resource type="Texture2D" path="res://assets/2d/environment/terrain/bespren_biome_blend_mask.png" id="5_biome_mask"]
+[ext_resource type="Shader" path="res://shaders/terrain_material_blend.gdshader" id="6_terrain_shader"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_terrain_blend"]
+shader = ExtResource("6_terrain_shader")
+shader_parameter/biome_mask = ExtResource("5_biome_mask")
+shader_parameter/terrain_atlas = ExtResource("4_terrain_atlas")
+shader_parameter/texture_repeats = 28.0
+shader_parameter/overlay_opacity = 1.0
+shader_parameter/saturation = 1.06
+shader_parameter/macro_scale = 9.0
+shader_parameter/macro_strength = 0.15
+shader_parameter/macro_warmth = 0.05
+shader_parameter/contrast = 1.04
+shader_parameter/exposure = 1.24
+shader_parameter/black_lift = 0.035
+
+[node name="WorldMap2D" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_map")
+
+[node name="GroundTiles" type="TileMapLayer" parent="."]
+unique_name_in_owner = true
+z_index = -20
+z_as_relative = false
+
+[node name="TerrainMaterialOverlay" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+texture_filter = 4
+z_index = -20
+z_as_relative = false
+material = SubResource("ShaderMaterial_terrain_blend")
+scale = Vector2(28, 28)
+texture = ExtResource("4_terrain_atlas")
+
+[node name="TerrainDetails" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = -20
+z_as_relative = false
+
+[node name="TerrainTiles" type="TileMapLayer" parent="TerrainDetails"]
+unique_name_in_owner = true
+z_index = -20
+z_as_relative = false
+
+[node name="RoadNetwork" type="Node2D" parent="TerrainDetails"]
+unique_name_in_owner = true
+z_index = -20
+z_as_relative = false
+script = ExtResource("2_roads")
+
+[node name="GroundCover" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = -5
+z_as_relative = false
+script = ExtResource("8_ground_cover")
+
+[node name="BackgroundDecor" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = -5
+z_as_relative = false
+script = ExtResource("3_decor")
+
+[node name="WildernessAccent" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = -5
+z_as_relative = false
+script = ExtResource("7_wilderness_accent")
+
+[node name="AmbientScenery" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = -4
+z_as_relative = false
+script = ExtResource("4_ambient_scenery")
+
+[node name="Structures" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+y_sort_enabled = true
+
+[node name="WorldBounds" type="Node2D" parent="."]
+unique_name_in_owner = true

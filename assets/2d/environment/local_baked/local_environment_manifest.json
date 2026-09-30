@@ -1,0 +1,678 @@
+{
+	"atlas": {
+		"bytes": 1876301,
+		"layout": "4x4 deterministic frame order; 16 occupied cells",
+		"path": "res://assets/2d/environment/local_baked/local_environment_atlas.png",
+		"sha256": "4482c7f15af36f2334c304d73ccdb128fac02a2b825bb3e86699d3b8d71ff43d",
+		"size": [
+			1536,
+			1536
+		]
+	},
+	"atlas_generator": "res://tools/asset_pipeline/build_local_environment_atlas.gd",
+	"atlas_generator_sha256": "6422a30a0435f16709b5c38573c277adc0771ea54bb9313a0b4d37dbd88304a0",
+	"blender_renderer": "res://tools/art/render_local_environment_sprites.py",
+	"blender_renderer_sha256": "d12a0f263ceacdf5de2380c874bfe0b28cf7bf503d1bd83a6e056e74284c2157",
+	"blender_version": "5.0.0",
+	"derived_assets": [
+		{
+			"alpha_coverage": 0.477220323350694,
+			"alpha_weighted_luma": 53.812931719755,
+			"bytes": 166288,
+			"cell_region": [
+				0,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				39,
+				16,
+				306,
+				347
+			],
+			"key": "city_ruin_a",
+			"license_family": "kenney_cc0+atomic_restricted",
+			"padded_atlas_region": [
+				33,
+				10,
+				318,
+				359
+			],
+			"path": "res://assets/2d/environment/local_baked/local_city_ruin_a.png",
+			"sha256": "b5413f92e43c8ed70619db936d2133b9411088b47a40a064cca41e76f3358d48"
+		},
+		{
+			"alpha_coverage": 0.320821126302083,
+			"alpha_weighted_luma": 92.0498317196285,
+			"bytes": 146479,
+			"cell_region": [
+				384,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				77,
+				49,
+				230,
+				304
+			],
+			"key": "city_ruin_b",
+			"license_family": "kenney_cc0+atomic_restricted",
+			"padded_atlas_region": [
+				455,
+				43,
+				242,
+				316
+			],
+			"path": "res://assets/2d/environment/local_baked/local_city_ruin_b.png",
+			"sha256": "df5c27de4e29854985bc51a1d27e4c84ac7eca6d09fb1f46cb6d1cb5f888b4cf"
+		},
+		{
+			"alpha_coverage": 0.343899197048611,
+			"alpha_weighted_luma": 72.7718762700819,
+			"bytes": 151648,
+			"cell_region": [
+				768,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				86,
+				17,
+				212,
+				334
+			],
+			"key": "city_ruin_c",
+			"license_family": "kenney_cc0+atomic_restricted",
+			"padded_atlas_region": [
+				848,
+				11,
+				224,
+				346
+			],
+			"path": "res://assets/2d/environment/local_baked/local_city_ruin_c.png",
+			"sha256": "9bf6450a551d37da1145d9073ef96c6375b7979738baac945e4e559ec20dbe53"
+		},
+		{
+			"alpha_coverage": 0.405232747395833,
+			"alpha_weighted_luma": 51.0599527006536,
+			"bytes": 156164,
+			"cell_region": [
+				1152,
+				0,
+				384,
+				384
+			],
+			"content_bounds": [
+				52,
+				30,
+				286,
+				320
+			],
+			"key": "city_ruin_d",
+			"license_family": "kenney_cc0+atomic_restricted",
+			"padded_atlas_region": [
+				1198,
+				24,
+				298,
+				332
+			],
+			"path": "res://assets/2d/environment/local_baked/local_city_ruin_d.png",
+			"sha256": "17a6dd8a9dea0b9dc3803a515cfdcd0fc5dcf8f3ef1aa4103362c3057a0fce66"
+		},
+		{
+			"alpha_coverage": 0.436679416232639,
+			"alpha_weighted_luma": 81.9983646045221,
+			"bytes": 165448,
+			"cell_region": [
+				0,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				27,
+				41,
+				330,
+				306
+			],
+			"key": "mall_shell",
+			"license_family": "kenney_cc0+atomic_restricted",
+			"padded_atlas_region": [
+				21,
+				419,
+				342,
+				318
+			],
+			"path": "res://assets/2d/environment/local_baked/local_mall_shell.png",
+			"sha256": "66b171a9d3d2e355f13a7167ed7bfe767b0bc7e562db089449cf77437ab479f8"
+		},
+		{
+			"alpha_coverage": 0.442104763454861,
+			"alpha_weighted_luma": 75.7366338305382,
+			"bytes": 161724,
+			"cell_region": [
+				384,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				22,
+				38,
+				340,
+				312
+			],
+			"key": "industrial_shell",
+			"license_family": "kenney_cc0+atomic_restricted",
+			"padded_atlas_region": [
+				400,
+				416,
+				352,
+				324
+			],
+			"path": "res://assets/2d/environment/local_baked/local_industrial_shell.png",
+			"sha256": "67d4227d8f8d2bf416d8609d4643a54789d67ff5ce4627704a048490f570e10b"
+		},
+		{
+			"alpha_coverage": 0.332600911458333,
+			"alpha_weighted_luma": 80.5456181322545,
+			"bytes": 150473,
+			"cell_region": [
+				768,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				70,
+				53,
+				244,
+				300
+			],
+			"key": "village_west_house",
+			"license_family": "kenney_cc0+atomic_restricted",
+			"padded_atlas_region": [
+				832,
+				431,
+				256,
+				312
+			],
+			"path": "res://assets/2d/environment/local_baked/local_village_west_house.png",
+			"sha256": "b6a22768d99ce710a5eaacea208dd0f66759e25b04049c3005022634341c0883"
+		},
+		{
+			"alpha_coverage": 0.318820529513889,
+			"alpha_weighted_luma": 69.521238875014,
+			"bytes": 145952,
+			"cell_region": [
+				1152,
+				384,
+				384,
+				384
+			],
+			"content_bounds": [
+				80,
+				20,
+				200,
+				318
+			],
+			"key": "village_east_house",
+			"license_family": "kenney_cc0+atomic_restricted",
+			"padded_atlas_region": [
+				1226,
+				398,
+				212,
+				330
+			],
+			"path": "res://assets/2d/environment/local_baked/local_village_east_house.png",
+			"sha256": "04fc764a644fb2d96d545dd4ad12c314eb4f42f904529e2521ba7cfeba8ca3f0"
+		},
+		{
+			"alpha_coverage": 0.201171875,
+			"alpha_weighted_luma": 109.034180188247,
+			"bytes": 117067,
+			"cell_region": [
+				0,
+				768,
+				384,
+				384
+			],
+			"content_bounds": [
+				29,
+				75,
+				278,
+				220
+			],
+			"key": "vehicle_wreck",
+			"license_family": "atomic_restricted",
+			"padded_atlas_region": [
+				23,
+				837,
+				290,
+				232
+			],
+			"path": "res://assets/2d/environment/local_baked/local_vehicle_wreck.png",
+			"sha256": "0635057887cd65b2ce917232b57361e41819966884dee51d5b70a02063f339a9"
+		},
+		{
+			"alpha_coverage": 0.249233669704861,
+			"alpha_weighted_luma": 63.5422236291986,
+			"bytes": 136964,
+			"cell_region": [
+				384,
+				768,
+				384,
+				384
+			],
+			"content_bounds": [
+				47,
+				22,
+				270,
+				309
+			],
+			"key": "wood_barricade",
+			"license_family": "atomic_restricted",
+			"padded_atlas_region": [
+				425,
+				784,
+				282,
+				321
+			],
+			"path": "res://assets/2d/environment/local_baked/local_wood_barricade.png",
+			"sha256": "dd35b85a29ea0c8fc68d89769f084881457eb32ae1d1feac8a64f23ca7b62423"
+		},
+		{
+			"alpha_coverage": 0.0855848524305556,
+			"alpha_weighted_luma": 55.801293966055,
+			"bytes": 76703,
+			"cell_region": [
+				768,
+				768,
+				384,
+				384
+			],
+			"content_bounds": [
+				129,
+				45,
+				141,
+				271
+			],
+			"key": "utility_pole",
+			"license_family": "atomic_restricted",
+			"padded_atlas_region": [
+				891,
+				807,
+				153,
+				283
+			],
+			"path": "res://assets/2d/environment/local_baked/local_utility_pole.png",
+			"sha256": "5bdc93e70962e8ddb08153e3b3014d9af0b3a54f33a9d9758e0cba9df4fa6d51"
+		},
+		{
+			"alpha_coverage": 0.354709201388889,
+			"alpha_weighted_luma": 118.970693320868,
+			"bytes": 174755,
+			"cell_region": [
+				1152,
+				768,
+				384,
+				384
+			],
+			"content_bounds": [
+				42,
+				23,
+				315,
+				340
+			],
+			"key": "roadside_salvage",
+			"license_family": "atomic_restricted",
+			"padded_atlas_region": [
+				1188,
+				785,
+				327,
+				352
+			],
+			"path": "res://assets/2d/environment/local_baked/local_roadside_salvage.png",
+			"sha256": "60aabee82e618a522f477a736d390c0995a2054cab3e8fbcb94ffe613929a807"
+		},
+		{
+			"alpha_coverage": 0.439059787326389,
+			"alpha_weighted_luma": 124.541008695011,
+			"bytes": 181600,
+			"cell_region": [
+				0,
+				1152,
+				384,
+				384
+			],
+			"content_bounds": [
+				53,
+				1,
+				275,
+				367
+			],
+			"key": "roadside_barrier",
+			"license_family": "atomic_restricted",
+			"padded_atlas_region": [
+				47,
+				1152,
+				287,
+				374
+			],
+			"path": "res://assets/2d/environment/local_baked/local_roadside_barrier.png",
+			"sha256": "bbf733e5d1f0bccd89fa4612af679e33fed7eb30cecc5395a13116b01e039cb9"
+		},
+		{
+			"alpha_coverage": 0.214803059895833,
+			"alpha_weighted_luma": 146.334128853943,
+			"bytes": 118399,
+			"cell_region": [
+				384,
+				1152,
+				384,
+				384
+			],
+			"content_bounds": [
+				89,
+				81,
+				242,
+				234
+			],
+			"key": "camp_bedding",
+			"license_family": "atomic_into_the_wild_restricted",
+			"padded_atlas_region": [
+				467,
+				1227,
+				254,
+				246
+			],
+			"path": "res://assets/2d/environment/local_baked/local_camp_bedding.png",
+			"sha256": "ecf8931587da465faae581fff3947b361ac1ee4181895342676cd5b2d6e0c3cb"
+		},
+		{
+			"alpha_coverage": 0.216518825954861,
+			"alpha_weighted_luma": 60.647783502087,
+			"bytes": 117561,
+			"cell_region": [
+				768,
+				1152,
+				384,
+				384
+			],
+			"content_bounds": [
+				48,
+				83,
+				288,
+				248
+			],
+			"key": "camp_supply_cache",
+			"license_family": "atomic_gas_station_restricted",
+			"padded_atlas_region": [
+				810,
+				1229,
+				300,
+				260
+			],
+			"path": "res://assets/2d/environment/local_baked/local_camp_supply_cache.png",
+			"sha256": "6a02cdfe7f625341f19f84cbdb71d2fb58b08085a4918b318b1c26a19b866cc9"
+		},
+		{
+			"alpha_coverage": 0.425347222222222,
+			"alpha_weighted_luma": 174.23795382229,
+			"bytes": 162505,
+			"cell_region": [
+				1152,
+				1152,
+				384,
+				384
+			],
+			"content_bounds": [
+				7,
+				53,
+				353,
+				280
+			],
+			"key": "camp_medical_cache",
+			"license_family": "atomic_pharmacy+into_the_wild_restricted",
+			"padded_atlas_region": [
+				1153,
+				1199,
+				365,
+				292
+			],
+			"path": "res://assets/2d/environment/local_baked/local_camp_medical_cache.png",
+			"sha256": "03744914800c2ef004b53f105658c5d19714f0d5f82c91df1bab3145d45d4842"
+		}
+	],
+	"license_evidence": "res://assets/licenses/local_baked_environment_sources.md",
+	"license_sources": [
+		{
+			"bytes": 1062,
+			"family": "kenney_city_builder_models",
+			"path": "res://Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/LICENSE.md",
+			"sha256": "8e99e4045f71bb96d77a1765c815511c63c9f9185bfada2b8917e041ced00754",
+			"terms": "package MIT; models explicitly CC0 in README"
+		},
+		{
+			"bytes": 3353,
+			"family": "kenney_city_builder_models",
+			"path": "res://Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/README.md",
+			"sha256": "0d6f9a90d2177658b56c47d4cbc4d759b151f8c3a09b24586da450c969de697d",
+			"terms": "included 3D models marked CC0"
+		},
+		{
+			"bytes": 76228,
+			"family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/2. License.png",
+			"sha256": "aa1ecf6a2ba69668a72f2792411dda2de254d16319d1658ebf10a7db1454ac39",
+			"terms": "commercial editing/use allowed; repackaging, resale and redistribution forbidden"
+		},
+		{
+			"bytes": 76228,
+			"family": "atomic_realm_into_the_wild",
+			"path": "res://Addons/[FREE] Into The Wild/2. License.png",
+			"sha256": "aa1ecf6a2ba69668a72f2792411dda2de254d16319d1658ebf10a7db1454ac39",
+			"terms": "commercial editing/use allowed; repackaging, resale and redistribution forbidden"
+		},
+		{
+			"bytes": 76228,
+			"family": "atomic_realm_gas_station",
+			"path": "res://Addons/[FREE] Gas Station/2. License.png",
+			"sha256": "aa1ecf6a2ba69668a72f2792411dda2de254d16319d1658ebf10a7db1454ac39",
+			"terms": "commercial editing/use allowed; repackaging, resale and redistribution forbidden"
+		},
+		{
+			"bytes": 76228,
+			"family": "atomic_realm_pharmacy",
+			"path": "res://Addons/[FREE] Pharmacy/2. License.png",
+			"sha256": "aa1ecf6a2ba69668a72f2792411dda2de254d16319d1658ebf10a7db1454ac39",
+			"terms": "commercial editing/use allowed; repackaging, resale and redistribution forbidden"
+		}
+	],
+	"render_policy": "orthographic_rgba_freestyle_agx_mobile_midtones_runtime_grounding",
+	"schema_version": 1,
+	"source_assets": [
+		{
+			"bytes": 39660,
+			"license_family": "kenney_city_builder_models",
+			"path": "res://Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/models/building-small-a.glb",
+			"sha256": "22ce989013bd16b1732e81798e343cf85f947e92b6c93825b18131feded48e07"
+		},
+		{
+			"bytes": 49764,
+			"license_family": "kenney_city_builder_models",
+			"path": "res://Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/models/building-small-b.glb",
+			"sha256": "0bc8459045975158524753d6b648ff77e5f91fe8c033bc4886930b6d55543a2b"
+		},
+		{
+			"bytes": 70088,
+			"license_family": "kenney_city_builder_models",
+			"path": "res://Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/models/building-small-c.glb",
+			"sha256": "3ea0f46fbed4e0acba7fda365cd968b3f23a6e02b9fee79dd54c99c42ffadf2f"
+		},
+		{
+			"bytes": 39348,
+			"license_family": "kenney_city_builder_models",
+			"path": "res://Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/models/building-small-d.glb",
+			"sha256": "0ab476fbd7956cea52e590a8e68e351ce2f6fc04df158aa3f5a76b7744bf37a0"
+		},
+		{
+			"bytes": 19204,
+			"license_family": "kenney_city_builder_models",
+			"path": "res://Addons/Starter-Kit-City-Builder-main/Starter-Kit-City-Builder-main/models/building-garage.glb",
+			"sha256": "7373b558fc9b1e27e60b60ca1ce53000af7e132d7304eeb6d49b47528a3b6806"
+		},
+		{
+			"bytes": 656812,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/metal_board_1.glb",
+			"sha256": "1351d5b87f7fc597b2ba9c87ba6aad040a41eac43c9551c3a8b9c7152865decf"
+		},
+		{
+			"bytes": 656812,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/metal_board_2.glb",
+			"sha256": "5067e59fe0335840f88d888b409303b74fbf104fde83de9987b96c9060caf410"
+		},
+		{
+			"bytes": 660532,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/metal_board_3.glb",
+			"sha256": "b691caf1f981cfc473537334f009b4a8d32a103fcd9cf50f7ed9c716e9c12c24"
+		},
+		{
+			"bytes": 1013264,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_hole.glb",
+			"sha256": "4366ec2e9abd478b9ef65873a2e19b73e995c0bb798880bd8986bae2c37ee5db"
+		},
+		{
+			"bytes": 712748,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_door_boarded.glb",
+			"sha256": "9c4b730ba2971aaa0aa167bbe6c85fc73e12bdf0dac1af62b77fed8c42ccea1d"
+		},
+		{
+			"bytes": 672272,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_window_2.glb",
+			"sha256": "b5fbe9918539b399af637319c0a39214c475738384731f6066fc986d8fb4fef6"
+		},
+		{
+			"bytes": 1122952,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_1_brick.glb",
+			"sha256": "5f45a4cd42d310920151f03f97ce0bb0a828ba4d595d6a58e32222c8a852d3cd"
+		},
+		{
+			"bytes": 687636,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_concrete_metal.glb",
+			"sha256": "174b456e25c0878d33e5fd9d9522c83dd57b9785f76bb7e5ecf73a51cb7156f4"
+		},
+		{
+			"bytes": 718196,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_spiked.glb",
+			"sha256": "72dba99d653300c3b64ca4c22031c82594074b249624e4a06e3fd17e56917126"
+		},
+		{
+			"bytes": 654724,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wall_metal_1.glb",
+			"sha256": "d30be0cc7a62c7f487b9b6c1f7cd887a7b873d1c72a66debd2179cb8b830b0de"
+		},
+		{
+			"bytes": 707088,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wooden_wall.glb",
+			"sha256": "4b23252062ab5c0960253c4ddcc6083256e56d25b859e983ddd21e8432d22b47"
+		},
+		{
+			"bytes": 767372,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wooden_spike_barricade.glb",
+			"sha256": "ec50c095194ea1ca8a79b9e4a2bf40ff60aad15df996c76134dbc2bc939af96d"
+		},
+		{
+			"bytes": 1004900,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/car.glb",
+			"sha256": "ce6e55856a272eb0316a9a5dd6c04466bd627c7059098ec65da7fdc6193fda2c"
+		},
+		{
+			"bytes": 700124,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/tire.glb",
+			"sha256": "d3a2e4dd45d73d80f870844dcf0de12c22652673585d2cb17e2696fac48b8dc1"
+		},
+		{
+			"bytes": 686880,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/electric_pole_1.glb",
+			"sha256": "5f48770afe260168275cb05f9262912030202b94125625080927d499106510d5"
+		},
+		{
+			"bytes": 711936,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/barrel.glb",
+			"sha256": "3892fb5acf3c1bfe303de2ca3ef20b30d03098b5d49f7632b2f6d26f7448d1be"
+		},
+		{
+			"bytes": 729336,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/box_1.glb",
+			"sha256": "08ffc825fd0abce582858c3f60cd6cf90693b46aceb7877dbdb55e3db88bff67"
+		},
+		{
+			"bytes": 729404,
+			"license_family": "atomic_realm_post_apocalyptic",
+			"path": "res://Addons/[AR] Post-Apocalyptic - Starter Pack/3. Models/gltf/wheel.glb",
+			"sha256": "c4db85c5be6041678d3ce619857ec587b44bd68d2a599e9d6b4d7fb883295880"
+		},
+		{
+			"bytes": 706576,
+			"license_family": "atomic_realm_into_the_wild",
+			"path": "res://Addons/[FREE] Into The Wild/FREE/gltf/sleeping_bag.glb",
+			"sha256": "63a080d59c7da078751559b5b2f3ea225149eccb0c80a3ce3540e8c449ba785b"
+		},
+		{
+			"bytes": 633932,
+			"license_family": "atomic_realm_into_the_wild",
+			"path": "res://Addons/[FREE] Into The Wild/FREE/gltf/sharpened_stick.glb",
+			"sha256": "6d9a1176ee3e296de4ea2297f5de51c493f3dace2a48c1cf5f3204175b558c4b"
+		},
+		{
+			"bytes": 1021008,
+			"license_family": "atomic_realm_into_the_wild",
+			"path": "res://Addons/[FREE] Into The Wild/FREE/gltf/bush_1.glb",
+			"sha256": "94177f384ba570c2abc7c062ece17f1ddebacc946b32686e4bd9ce945031f9cd"
+		},
+		{
+			"bytes": 830340,
+			"license_family": "atomic_realm_gas_station",
+			"path": "res://Addons/[FREE] Gas Station/FREE/gltf/pallet_cluster_1.glb",
+			"sha256": "1e50470d4a9f4b58dac91b71aa0d47a69fd94b124d07ff4610aac0af03c0bb78"
+		},
+		{
+			"bytes": 691932,
+			"license_family": "atomic_realm_gas_station",
+			"path": "res://Addons/[FREE] Gas Station/FREE/gltf/jerry_can_with_nozzle.glb",
+			"sha256": "ad58678ce475e7c1cb4a3ad12edb903dbbcb5b47ce374297dbe1a8f34ff0b2df"
+		},
+		{
+			"bytes": 722180,
+			"license_family": "atomic_realm_pharmacy",
+			"path": "res://Addons/[FREE] Pharmacy/FREE/gltf/medpack_1.glb",
+			"sha256": "47ff3d466c70a0c6bafc089ad11064b396ed2353da0d7bdc90ccb07f98e6da25"
+		}
+	],
+	"usage": "derived sprites embedded in Bespren; never redistribute source GLBs or derived Atomic Realm assets as an asset pack",
+	"workshop": "res://tools/art/blender/bespren_local_environment_workshop.blend",
+	"workshop_bytes": 90149,
+	"workshop_sha256": "2b8cee05db67a18c9fa69871bb3c5059addf58cf09a2e13aca1a400250b44e45"
+}

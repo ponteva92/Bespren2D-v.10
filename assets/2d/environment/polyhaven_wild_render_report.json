@@ -1,0 +1,1617 @@
+{
+ "schema_version": 1,
+ "mode": "production",
+ "output_root": "assets/2d/environment",
+ "frame_size": 256,
+ "families": {
+  "polyhaven_wild": {
+   "output_dir": "assets/2d/environment/polyhaven_wild",
+   "source_manifest": "tools/art/blender/vault/polyhaven_wild/_fetch_manifest.json",
+   "license": "CC0-1.0",
+   "license_url": "https://polyhaven.com/license",
+   "source_ids": [
+    "fir_tree_01",
+    "tree_small_02",
+    "dead_tree_trunk_02",
+    "tree_stump_02",
+    "pine_roots",
+    "root_cluster_01",
+    "shrub_02",
+    "fern_02",
+    "grass_medium_01",
+    "rock_moss_set_02",
+    "rock_07",
+    "dry_branches_medium_01"
+   ],
+   "sources": 12,
+   "frames": 29,
+   "frame_list": [
+    {
+     "key": "fir",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "fir_0.png",
+     "source_id": "fir_tree_01",
+     "source_name": "Fir Tree 01",
+     "source_url": "https://polyhaven.com/a/fir_tree_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers",
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      6.5338,
+      6.4268,
+      18.9251
+     ],
+     "world_height_m": 18.9251,
+     "sha256": "c9e8dca4b29d58a2a4a7e3fc13d9aa05309b637930467fce99b18d52ff134401",
+     "visible_pixels": 8710,
+     "edge_margin_px": 59,
+     "alpha_weighted_luma": 104.292
+    },
+    {
+     "key": "fir",
+     "variant": 1,
+     "yaw_deg": 118.0,
+     "file": "fir_1.png",
+     "source_id": "fir_tree_01",
+     "source_name": "Fir Tree 01",
+     "source_url": "https://polyhaven.com/a/fir_tree_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers",
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      5.6126,
+      6.0567,
+      14.0552
+     ],
+     "world_height_m": 14.0552,
+     "sha256": "2370ccd3a3c79fe8a07c14bf0b6c07af393f2804158ec2a392ec5125e62d6784",
+     "visible_pixels": 10889,
+     "edge_margin_px": 53,
+     "alpha_weighted_luma": 106.282
+    },
+    {
+     "key": "fir",
+     "variant": 2,
+     "yaw_deg": 224.0,
+     "file": "fir_2.png",
+     "source_id": "fir_tree_01",
+     "source_name": "Fir Tree 01",
+     "source_url": "https://polyhaven.com/a/fir_tree_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers",
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      6.3059,
+      5.9662,
+      14.5206
+     ],
+     "world_height_m": 14.5206,
+     "sha256": "4cbd61fec29a98fe7b29694a94882565caa9ded24940f4128ecd8e82dc1763ca",
+     "visible_pixels": 8603,
+     "edge_margin_px": 50,
+     "alpha_weighted_luma": 84.663
+    },
+    {
+     "key": "broadleaf_small",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "broadleaf_small_0.png",
+     "source_id": "tree_small_02",
+     "source_name": "Tree Small 02",
+     "source_url": "https://polyhaven.com/a/tree_small_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      2.9167,
+      4.2925,
+      4.5567
+     ],
+     "world_height_m": 4.5567,
+     "sha256": "78c6b2f7948dd980559f5cdbb39dac0f607a924d2b827ec2c86f99751f3fc8f8",
+     "visible_pixels": 8546,
+     "edge_margin_px": 45,
+     "alpha_weighted_luma": 87.227
+    },
+    {
+     "key": "broadleaf_small",
+     "variant": 1,
+     "yaw_deg": 143.0,
+     "file": "broadleaf_small_1.png",
+     "source_id": "tree_small_02",
+     "source_name": "Tree Small 02",
+     "source_url": "https://polyhaven.com/a/tree_small_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      2.9167,
+      4.2925,
+      4.5567
+     ],
+     "world_height_m": 4.5567,
+     "sha256": "53a275d1254588152345fb313a61937e1a0c357138df03607e3236f723a2aa30",
+     "visible_pixels": 11981,
+     "edge_margin_px": 46,
+     "alpha_weighted_luma": 82.239
+    },
+    {
+     "key": "dead_trunk",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "dead_trunk_0.png",
+     "source_id": "dead_tree_trunk_02",
+     "source_name": "Dead Tree Trunk 02",
+     "source_url": "https://polyhaven.com/a/dead_tree_trunk_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jenelle van Heerden",
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      4.0514,
+      1.0561,
+      1.0551
+     ],
+     "world_height_m": 1.0551,
+     "sha256": "5a86aaf6fcaa9da91f439c4f7e85d4c8558c53a91f23f662e176acc185467620",
+     "visible_pixels": 5137,
+     "edge_margin_px": 25,
+     "alpha_weighted_luma": 102.581
+    },
+    {
+     "key": "dead_trunk",
+     "variant": 1,
+     "yaw_deg": 129.0,
+     "file": "dead_trunk_1.png",
+     "source_id": "dead_tree_trunk_02",
+     "source_name": "Dead Tree Trunk 02",
+     "source_url": "https://polyhaven.com/a/dead_tree_trunk_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jenelle van Heerden",
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      4.0514,
+      1.0561,
+      1.0551
+     ],
+     "world_height_m": 1.0551,
+     "sha256": "ba73974877210799f204563f3d2ad551ae0ba54a815c92ce9186158f5724d701",
+     "visible_pixels": 5194,
+     "edge_margin_px": 29,
+     "alpha_weighted_luma": 98.478
+    },
+    {
+     "key": "dead_trunk",
+     "variant": 2,
+     "yaw_deg": 242.0,
+     "file": "dead_trunk_2.png",
+     "source_id": "dead_tree_trunk_02",
+     "source_name": "Dead Tree Trunk 02",
+     "source_url": "https://polyhaven.com/a/dead_tree_trunk_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jenelle van Heerden",
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      3.3704,
+      3.8131,
+      1.0551
+     ],
+     "world_height_m": 1.0551,
+     "sha256": "e8d7abbdb9e6feb263652671aafb0a7723e2a930fe93a834dd3a31ec365e5e91",
+     "visible_pixels": 4942,
+     "edge_margin_px": 28,
+     "alpha_weighted_luma": 93.718
+    },
+    {
+     "key": "stump",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "stump_0.png",
+     "source_id": "tree_stump_02",
+     "source_name": "Tree Stump 02",
+     "source_url": "https://polyhaven.com/a/tree_stump_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.5217,
+      1.3925,
+      0.5221
+     ],
+     "world_height_m": 0.5221,
+     "sha256": "34f5d2c111f69f823a62ae3a082ceba121afec018728c92a159bc337b10b526f",
+     "visible_pixels": 14669,
+     "edge_margin_px": 42,
+     "alpha_weighted_luma": 96.152
+    },
+    {
+     "key": "stump",
+     "variant": 1,
+     "yaw_deg": 151.0,
+     "file": "stump_1.png",
+     "source_id": "tree_stump_02",
+     "source_name": "Tree Stump 02",
+     "source_url": "https://polyhaven.com/a/tree_stump_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.5217,
+      1.3925,
+      0.5221
+     ],
+     "world_height_m": 0.5221,
+     "sha256": "3e258797712eebbb2ae4c5aaab83ef4c110fc75f7ffc384fd573db43bc7fbd27",
+     "visible_pixels": 16170,
+     "edge_margin_px": 41,
+     "alpha_weighted_luma": 94.328
+    },
+    {
+     "key": "roots_pine",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "roots_pine_0.png",
+     "source_id": "pine_roots",
+     "source_name": "Pine Roots",
+     "source_url": "https://polyhaven.com/a/pine_roots",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.7721,
+      1.8931,
+      0.1548
+     ],
+     "world_height_m": 0.1548,
+     "sha256": "f1080f3b04fde2fd5fcdf33003aab57f3d19cdb235cdc4df315c703eab2aa8a4",
+     "visible_pixels": 11990,
+     "edge_margin_px": 24,
+     "alpha_weighted_luma": 97.064
+    },
+    {
+     "key": "roots_pine",
+     "variant": 1,
+     "yaw_deg": 133.0,
+     "file": "roots_pine_1.png",
+     "source_id": "pine_roots",
+     "source_name": "Pine Roots",
+     "source_url": "https://polyhaven.com/a/pine_roots",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.7721,
+      1.8931,
+      0.1548
+     ],
+     "world_height_m": 0.1548,
+     "sha256": "780994a5b8ee2fac83c1b0e29a6744bfce2166b6cafbc5991ef63696f48a4cad",
+     "visible_pixels": 19063,
+     "edge_margin_px": 21,
+     "alpha_weighted_luma": 100.573
+    },
+    {
+     "key": "roots_cluster",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "roots_cluster_0.png",
+     "source_id": "root_cluster_01",
+     "source_name": "Root Cluster 01",
+     "source_url": "https://polyhaven.com/a/root_cluster_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jenelle van Heerden",
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      4.1227,
+      2.6828,
+      1.5093
+     ],
+     "world_height_m": 1.5093,
+     "sha256": "c097a79dacd9dd8fbba1ee4cfadcc37f131fcb979c99fb90a3bb5ebabb7c9472",
+     "visible_pixels": 17769,
+     "edge_margin_px": 38,
+     "alpha_weighted_luma": 99.956
+    },
+    {
+     "key": "roots_cluster",
+     "variant": 1,
+     "yaw_deg": 147.0,
+     "file": "roots_cluster_1.png",
+     "source_id": "root_cluster_01",
+     "source_name": "Root Cluster 01",
+     "source_url": "https://polyhaven.com/a/root_cluster_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jenelle van Heerden",
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      4.1227,
+      2.6828,
+      1.5093
+     ],
+     "world_height_m": 1.5093,
+     "sha256": "c158c86ef15d76ee1e423a8115b43c233983ccb58c017aa2461303f9d9fdb547",
+     "visible_pixels": 12791,
+     "edge_margin_px": 43,
+     "alpha_weighted_luma": 96.173
+    },
+    {
+     "key": "shrub",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "shrub_0.png",
+     "source_id": "shrub_02",
+     "source_name": "Shrub 02",
+     "source_url": "https://polyhaven.com/a/shrub_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      2.6678,
+      2.3153,
+      1.5489
+     ],
+     "world_height_m": 1.5489,
+     "sha256": "72d1350f24b92217b515c9815ccbd12243dbf77d59be8dba5f460677b8800cc4",
+     "visible_pixels": 9301,
+     "edge_margin_px": 39,
+     "alpha_weighted_luma": 70.7
+    },
+    {
+     "key": "shrub",
+     "variant": 1,
+     "yaw_deg": 0.0,
+     "file": "shrub_1.png",
+     "source_id": "shrub_02",
+     "source_name": "Shrub 02",
+     "source_url": "https://polyhaven.com/a/shrub_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      2.4631,
+      2.7353,
+      1.6228
+     ],
+     "world_height_m": 1.6228,
+     "sha256": "d48adf15eea89bbe936a812bc4414e5b05270092fa06863962aeeccec5834679",
+     "visible_pixels": 8845,
+     "edge_margin_px": 40,
+     "alpha_weighted_luma": 70.316
+    },
+    {
+     "key": "shrub",
+     "variant": 2,
+     "yaw_deg": 0.0,
+     "file": "shrub_2.png",
+     "source_id": "shrub_02",
+     "source_name": "Shrub 02",
+     "source_url": "https://polyhaven.com/a/shrub_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      2.5189,
+      2.9072,
+      1.7615
+     ],
+     "world_height_m": 1.7615,
+     "sha256": "7440feb9c7aec825c04a24d671c33ea76ff8c4ea28dde7196e53e32c95226033",
+     "visible_pixels": 7115,
+     "edge_margin_px": 41,
+     "alpha_weighted_luma": 71.892
+    },
+    {
+     "key": "fern",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "fern_0.png",
+     "source_id": "fern_02",
+     "source_name": "Fern 02",
+     "source_url": "https://polyhaven.com/a/fern_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers",
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.4798,
+      1.2757,
+      0.4288
+     ],
+     "world_height_m": 0.4288,
+     "sha256": "60b0a85b83d6bbb75acd2f6438a5f796c570cc146de89a6e4e20bc146738d58c",
+     "visible_pixels": 11809,
+     "edge_margin_px": 28,
+     "alpha_weighted_luma": 103.394
+    },
+    {
+     "key": "fern",
+     "variant": 1,
+     "yaw_deg": 0.0,
+     "file": "fern_1.png",
+     "source_id": "fern_02",
+     "source_name": "Fern 02",
+     "source_url": "https://polyhaven.com/a/fern_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers",
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.4915,
+      1.2812,
+      0.4521
+     ],
+     "world_height_m": 0.4521,
+     "sha256": "54a2ad0b4019dcf59c495a729a2fe24833f3ef1b44c898700be0d2faf325cbb0",
+     "visible_pixels": 11796,
+     "edge_margin_px": 27,
+     "alpha_weighted_luma": 103.238
+    },
+    {
+     "key": "grass",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "grass_0.png",
+     "source_id": "grass_medium_01",
+     "source_name": "Grass Medium 01",
+     "source_url": "https://polyhaven.com/a/grass_medium_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers",
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.25,
+      1.0853,
+      0.798
+     ],
+     "world_height_m": 0.798,
+     "sha256": "4715cfb366bc10e29e89ae0afdfd4dfc594a43759dc5c36ce847fea9f0c83c49",
+     "visible_pixels": 12857,
+     "edge_margin_px": 29,
+     "alpha_weighted_luma": 73.195
+    },
+    {
+     "key": "grass",
+     "variant": 1,
+     "yaw_deg": 0.0,
+     "file": "grass_1.png",
+     "source_id": "grass_medium_01",
+     "source_name": "Grass Medium 01",
+     "source_url": "https://polyhaven.com/a/grass_medium_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers",
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.1497,
+      1.25,
+      0.7278
+     ],
+     "world_height_m": 0.7278,
+     "sha256": "b2398e269ce294232b008afc98976e119eef660f4c5374d71697a28ca8eb1431",
+     "visible_pixels": 14365,
+     "edge_margin_px": 32,
+     "alpha_weighted_luma": 75.953
+    },
+    {
+     "key": "grass",
+     "variant": 2,
+     "yaw_deg": 0.0,
+     "file": "grass_2.png",
+     "source_id": "grass_medium_01",
+     "source_name": "Grass Medium 01",
+     "source_url": "https://polyhaven.com/a/grass_medium_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers",
+      "Rob Tuytel"
+     ],
+     "world_size_m": [
+      1.25,
+      1.2048,
+      0.6844
+     ],
+     "world_height_m": 0.6844,
+     "sha256": "afddc8dea0d512e205aca492149375b678abd1616ee5a544ecd2fc4239cbddd0",
+     "visible_pixels": 18698,
+     "edge_margin_px": 30,
+     "alpha_weighted_luma": 70.823
+    },
+    {
+     "key": "rock_mossy",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "rock_mossy_0.png",
+     "source_id": "rock_moss_set_02",
+     "source_name": "Rock Moss Set 02",
+     "source_url": "https://polyhaven.com/a/rock_moss_set_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Kless Gyzen"
+     ],
+     "world_size_m": [
+      1.2063,
+      0.9836,
+      0.5287
+     ],
+     "world_height_m": 0.5287,
+     "sha256": "e6dcdf4ebc0f4a736374872154b54d4e276753f84df8585edb67a359811a4410",
+     "visible_pixels": 16055,
+     "edge_margin_px": 28,
+     "alpha_weighted_luma": 100.863
+    },
+    {
+     "key": "rock_mossy",
+     "variant": 1,
+     "yaw_deg": 126.0,
+     "file": "rock_mossy_1.png",
+     "source_id": "rock_moss_set_02",
+     "source_name": "Rock Moss Set 02",
+     "source_url": "https://polyhaven.com/a/rock_moss_set_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Kless Gyzen"
+     ],
+     "world_size_m": [
+      2.0914,
+      1.1383,
+      1.2564
+     ],
+     "world_height_m": 1.2564,
+     "sha256": "2da0f0173d10ff302f26b806469638ef43a05e3e77770a9645e038b8136913ec",
+     "visible_pixels": 12917,
+     "edge_margin_px": 38,
+     "alpha_weighted_luma": 104.435
+    },
+    {
+     "key": "rock_mossy",
+     "variant": 2,
+     "yaw_deg": 248.0,
+     "file": "rock_mossy_2.png",
+     "source_id": "rock_moss_set_02",
+     "source_name": "Rock Moss Set 02",
+     "source_url": "https://polyhaven.com/a/rock_moss_set_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Kless Gyzen"
+     ],
+     "world_size_m": [
+      2.2029,
+      1.5516,
+      0.7685
+     ],
+     "world_height_m": 0.7685,
+     "sha256": "3bde2a93be904aacd2f032fadddbcc1a7b4aab77869120c073af045944b6eb38",
+     "visible_pixels": 12504,
+     "edge_margin_px": 42,
+     "alpha_weighted_luma": 101.925
+    },
+    {
+     "key": "rock_bare",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "rock_bare_0.png",
+     "source_id": "rock_07",
+     "source_name": "Rock 07",
+     "source_url": "https://polyhaven.com/a/rock_07",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jenelle van Heerden"
+     ],
+     "world_size_m": [
+      0.1689,
+      0.3203,
+      0.1437
+     ],
+     "world_height_m": 0.1437,
+     "sha256": "268a58a6a951025276c5ebfb8f210e53f678d54699110b1d64e1b1c8306b9354",
+     "visible_pixels": 4479,
+     "edge_margin_px": 82,
+     "alpha_weighted_luma": 72.381
+    },
+    {
+     "key": "rock_bare",
+     "variant": 1,
+     "yaw_deg": 139.0,
+     "file": "rock_bare_1.png",
+     "source_id": "rock_07",
+     "source_name": "Rock 07",
+     "source_url": "https://polyhaven.com/a/rock_07",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jenelle van Heerden"
+     ],
+     "world_size_m": [
+      0.1689,
+      0.3203,
+      0.1437
+     ],
+     "world_height_m": 0.1437,
+     "sha256": "1f82e7e05d6e4c4cff69745737a0eaaf29f9a3c45a16667842ca4ce678633a30",
+     "visible_pixels": 3966,
+     "edge_margin_px": 79,
+     "alpha_weighted_luma": 94.944
+    },
+    {
+     "key": "branches",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "branches_0.png",
+     "source_id": "dry_branches_medium_01",
+     "source_name": "Dry Branches Medium 01",
+     "source_url": "https://polyhaven.com/a/dry_branches_medium_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      1.0595,
+      1.2992,
+      0.341
+     ],
+     "world_height_m": 0.341,
+     "sha256": "0963f501cdd96c5e66f42fdcd147f16e8479fd485d547a9b7ec9a4b8218067f7",
+     "visible_pixels": 4546,
+     "edge_margin_px": 27,
+     "alpha_weighted_luma": 84.04
+    },
+    {
+     "key": "branches",
+     "variant": 1,
+     "yaw_deg": 154.0,
+     "file": "branches_1.png",
+     "source_id": "dry_branches_medium_01",
+     "source_name": "Dry Branches Medium 01",
+     "source_url": "https://polyhaven.com/a/dry_branches_medium_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Rico Cilliers"
+     ],
+     "world_size_m": [
+      1.0595,
+      1.2992,
+      0.341
+     ],
+     "world_height_m": 0.341,
+     "sha256": "70ac7c4191d47ace773458b999206a0512e13f0b26a52b4ff0a706daf2b5aa88",
+     "visible_pixels": 3932,
+     "edge_margin_px": 18,
+     "alpha_weighted_luma": 83.148
+    }
+   ]
+  },
+  "polyhaven_salvage": {
+   "output_dir": "assets/2d/environment/polyhaven_salvage",
+   "source_manifest": "tools/art/blender/vault/polyhaven_salvage/_fetch_manifest.json",
+   "license": "CC0-1.0",
+   "license_url": "https://polyhaven.com/license",
+   "source_ids": [
+    "Barrel_01",
+    "Barrel_02",
+    "barrel_03",
+    "wooden_crate_01",
+    "wooden_military_crate",
+    "plastic_crate_01",
+    "metal_jerrycan",
+    "propane_tank",
+    "trashbag",
+    "hand_truck",
+    "rusted_wheel_rim_01",
+    "metal_toolbox",
+    "street_lamp_01",
+    "utility_box_01",
+    "old_military_compressor",
+    "plastic_container"
+   ],
+   "sources": 16,
+   "frames": 38,
+   "frame_list": [
+    {
+     "key": "barrel_steel",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "barrel_steel_0.png",
+     "source_id": "Barrel_01",
+     "source_name": "Barrel_01",
+     "source_url": "https://polyhaven.com/a/Barrel_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jorge Camacho"
+     ],
+     "world_size_m": [
+      0.563,
+      0.563,
+      0.88
+     ],
+     "world_height_m": 0.88,
+     "sha256": "edb740e64e347ff1ef724a14bdcbe2746fa37f7ffd696009782b0f2f9994975c",
+     "visible_pixels": 18567,
+     "edge_margin_px": 32,
+     "alpha_weighted_luma": 78.159
+    },
+    {
+     "key": "barrel_steel",
+     "variant": 1,
+     "yaw_deg": 142.0,
+     "file": "barrel_steel_1.png",
+     "source_id": "Barrel_01",
+     "source_name": "Barrel_01",
+     "source_url": "https://polyhaven.com/a/Barrel_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jorge Camacho"
+     ],
+     "world_size_m": [
+      0.563,
+      0.563,
+      0.88
+     ],
+     "world_height_m": 0.88,
+     "sha256": "73de9d7d7a6494e523e052396dc3962a2c5b520789d31f0659c78021d1880f63",
+     "visible_pixels": 19984,
+     "edge_margin_px": 28,
+     "alpha_weighted_luma": 76.783
+    },
+    {
+     "key": "barrel_ribbed",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "barrel_ribbed_0.png",
+     "source_id": "Barrel_02",
+     "source_name": "Barrel 02",
+     "source_url": "https://polyhaven.com/a/Barrel_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jorge Camacho"
+     ],
+     "world_size_m": [
+      0.4882,
+      0.4846,
+      0.88
+     ],
+     "world_height_m": 0.88,
+     "sha256": "61f7e73909ee5313b498125b692ffdd7561eeae45faa652b83d6a8eabb89b234",
+     "visible_pixels": 15735,
+     "edge_margin_px": 37,
+     "alpha_weighted_luma": 76.528
+    },
+    {
+     "key": "barrel_ribbed",
+     "variant": 1,
+     "yaw_deg": 131.0,
+     "file": "barrel_ribbed_1.png",
+     "source_id": "Barrel_02",
+     "source_name": "Barrel 02",
+     "source_url": "https://polyhaven.com/a/Barrel_02",
+     "license": "CC0-1.0",
+     "authors": [
+      "Jorge Camacho"
+     ],
+     "world_size_m": [
+      0.4882,
+      0.4846,
+      0.88
+     ],
+     "world_height_m": 0.88,
+     "sha256": "fc0f83b92bbc8727653b062ab02143860756ba0b5ed0e2affcb022bb11676f65",
+     "visible_pixels": 18328,
+     "edge_margin_px": 30,
+     "alpha_weighted_luma": 76.981
+    },
+    {
+     "key": "barrel_rusted",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "barrel_rusted_0.png",
+     "source_id": "barrel_03",
+     "source_name": "Barrel 03",
+     "source_url": "https://polyhaven.com/a/barrel_03",
+     "license": "CC0-1.0",
+     "authors": [
+      "Serhii Khromov"
+     ],
+     "world_size_m": [
+      0.6339,
+      0.6386,
+      0.9305
+     ],
+     "world_height_m": 0.9305,
+     "sha256": "1b522c38c38c3b401e183d9a9ec86a0f3a0cdb58e1ad741606d92b998340441b",
+     "visible_pixels": 18739,
+     "edge_margin_px": 33,
+     "alpha_weighted_luma": 98.465
+    },
+    {
+     "key": "barrel_rusted",
+     "variant": 1,
+     "yaw_deg": 155.0,
+     "file": "barrel_rusted_1.png",
+     "source_id": "barrel_03",
+     "source_name": "Barrel 03",
+     "source_url": "https://polyhaven.com/a/barrel_03",
+     "license": "CC0-1.0",
+     "authors": [
+      "Serhii Khromov"
+     ],
+     "world_size_m": [
+      0.6339,
+      0.6386,
+      0.9305
+     ],
+     "world_height_m": 0.9305,
+     "sha256": "a5d4f61c22067d935e3397df766110b532d39df37736ed8b8fbc32b3d0f56425",
+     "visible_pixels": 18827,
+     "edge_margin_px": 33,
+     "alpha_weighted_luma": 98.539
+    },
+    {
+     "key": "crate_wood",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "crate_wood_0.png",
+     "source_id": "wooden_crate_01",
+     "source_name": "Wooden Crate 01",
+     "source_url": "https://polyhaven.com/a/wooden_crate_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "James Ray Cock"
+     ],
+     "world_size_m": [
+      0.8253,
+      0.409,
+      0.3496
+     ],
+     "world_height_m": 0.3496,
+     "sha256": "d61713bd28825407d6992ae6adad20bcd918bc38e94b1ac54e94fc111366d915",
+     "visible_pixels": 22347,
+     "edge_margin_px": 31,
+     "alpha_weighted_luma": 100.118
+    },
+    {
+     "key": "crate_wood",
+     "variant": 1,
+     "yaw_deg": 34.0,
+     "file": "crate_wood_1.png",
+     "source_id": "wooden_crate_01",
+     "source_name": "Wooden Crate 01",
+     "source_url": "https://polyhaven.com/a/wooden_crate_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "James Ray Cock"
+     ],
+     "world_size_m": [
+      0.8253,
+      0.409,
+      0.3496
+     ],
+     "world_height_m": 0.3496,
+     "sha256": "9781629e9f481647c0e03f018eaa2b70583243ec11fc1602c7e8dde4098505c2",
+     "visible_pixels": 26780,
+     "edge_margin_px": 19,
+     "alpha_weighted_luma": 100.699
+    },
+    {
+     "key": "crate_wood",
+     "variant": 2,
+     "yaw_deg": 149.0,
+     "file": "crate_wood_2.png",
+     "source_id": "wooden_crate_01",
+     "source_name": "Wooden Crate 01",
+     "source_url": "https://polyhaven.com/a/wooden_crate_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "James Ray Cock"
+     ],
+     "world_size_m": [
+      0.9125,
+      0.8,
+      0.3496
+     ],
+     "world_height_m": 0.3496,
+     "sha256": "2013b716431b1dfa566698036c03660845b947d2d31f47f234d4bf19cd654545",
+     "visible_pixels": 22835,
+     "edge_margin_px": 28,
+     "alpha_weighted_luma": 101.818
+    },
+    {
+     "key": "crate_military",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "crate_military_0.png",
+     "source_id": "wooden_military_crate",
+     "source_name": "Wooden Military Crate",
+     "source_url": "https://polyhaven.com/a/wooden_military_crate",
+     "license": "CC0-1.0",
+     "authors": [
+      "Prabhjinder Singh"
+     ],
+     "world_size_m": [
+      1.2421,
+      0.5198,
+      0.4648
+     ],
+     "world_height_m": 0.4648,
+     "sha256": "cd8ab5d981b3742cde8db1ca15b37bfeeb24ebd5716d1e5a9affdb99e2575ff5",
+     "visible_pixels": 21210,
+     "edge_margin_px": 23,
+     "alpha_weighted_luma": 81.732
+    },
+    {
+     "key": "crate_military",
+     "variant": 1,
+     "yaw_deg": 41.0,
+     "file": "crate_military_1.png",
+     "source_id": "wooden_military_crate",
+     "source_name": "Wooden Military Crate",
+     "source_url": "https://polyhaven.com/a/wooden_military_crate",
+     "license": "CC0-1.0",
+     "authors": [
+      "Prabhjinder Singh"
+     ],
+     "world_size_m": [
+      1.2421,
+      0.5198,
+      0.4648
+     ],
+     "world_height_m": 0.4648,
+     "sha256": "35a3640df3921357334d7f57a4078f661dbbdaddb501a990c69f70ea4472d0ea",
+     "visible_pixels": 18987,
+     "edge_margin_px": 18,
+     "alpha_weighted_luma": 73.188
+    },
+    {
+     "key": "crate_military",
+     "variant": 2,
+     "yaw_deg": 152.0,
+     "file": "crate_military_2.png",
+     "source_id": "wooden_military_crate",
+     "source_name": "Wooden Military Crate",
+     "source_url": "https://polyhaven.com/a/wooden_military_crate",
+     "license": "CC0-1.0",
+     "authors": [
+      "Prabhjinder Singh"
+     ],
+     "world_size_m": [
+      1.4018,
+      1.2323,
+      0.4648
+     ],
+     "world_height_m": 0.4648,
+     "sha256": "6c3bcc1633567163abaafdd5fb437dc2d8960053201127b6c0202a5001056b08",
+     "visible_pixels": 24547,
+     "edge_margin_px": 22,
+     "alpha_weighted_luma": 77.38
+    },
+    {
+     "key": "crate_plastic",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "crate_plastic_0.png",
+     "source_id": "plastic_crate_01",
+     "source_name": "Plastic Crate 01",
+     "source_url": "https://polyhaven.com/a/plastic_crate_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "PierreB3D"
+     ],
+     "world_size_m": [
+      0.298,
+      0.408,
+      0.2642
+     ],
+     "world_height_m": 0.2642,
+     "sha256": "12764ba4fdd0157ea3c9bf20a497f997fe0fa6cc68eced3e0edc95946dd33520",
+     "visible_pixels": 14756,
+     "edge_margin_px": 51,
+     "alpha_weighted_luma": 73.554
+    },
+    {
+     "key": "crate_plastic",
+     "variant": 1,
+     "yaw_deg": 37.0,
+     "file": "crate_plastic_1.png",
+     "source_id": "plastic_crate_01",
+     "source_name": "Plastic Crate 01",
+     "source_url": "https://polyhaven.com/a/plastic_crate_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "PierreB3D"
+     ],
+     "world_size_m": [
+      0.298,
+      0.408,
+      0.2642
+     ],
+     "world_height_m": 0.2642,
+     "sha256": "c7db372b9ed0a1a33b95c9295e951e299f050feeb24fc2cc18d0a41a388419b1",
+     "visible_pixels": 12593,
+     "edge_margin_px": 57,
+     "alpha_weighted_luma": 71.311
+    },
+    {
+     "key": "jerrycan",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "jerrycan_0.png",
+     "source_id": "metal_jerrycan",
+     "source_name": "Metal Jerrycan",
+     "source_url": "https://polyhaven.com/a/metal_jerrycan",
+     "license": "CC0-1.0",
+     "authors": [
+      "Sean Buckley"
+     ],
+     "world_size_m": [
+      0.3503,
+      0.1717,
+      0.4552
+     ],
+     "world_height_m": 0.4552,
+     "sha256": "85acbd6ffbb504b0cacd9347a8b2d7c9bd17e65004934d323450f8e685a5006a",
+     "visible_pixels": 12995,
+     "edge_margin_px": 51,
+     "alpha_weighted_luma": 77.94
+    },
+    {
+     "key": "jerrycan",
+     "variant": 1,
+     "yaw_deg": 124.0,
+     "file": "jerrycan_1.png",
+     "source_id": "metal_jerrycan",
+     "source_name": "Metal Jerrycan",
+     "source_url": "https://polyhaven.com/a/metal_jerrycan",
+     "license": "CC0-1.0",
+     "authors": [
+      "Sean Buckley"
+     ],
+     "world_size_m": [
+      0.3503,
+      0.1717,
+      0.4552
+     ],
+     "world_height_m": 0.4552,
+     "sha256": "ee8c2adab3cd96665b7ef4d255f3fd218d68301525bfcbc3f59c86419fa15e8d",
+     "visible_pixels": 8356,
+     "edge_margin_px": 49,
+     "alpha_weighted_luma": 80.385
+    },
+    {
+     "key": "jerrycan",
+     "variant": 2,
+     "yaw_deg": 236.0,
+     "file": "jerrycan_2.png",
+     "source_id": "metal_jerrycan",
+     "source_name": "Metal Jerrycan",
+     "source_url": "https://polyhaven.com/a/metal_jerrycan",
+     "license": "CC0-1.0",
+     "authors": [
+      "Sean Buckley"
+     ],
+     "world_size_m": [
+      0.3383,
+      0.3865,
+      0.4552
+     ],
+     "world_height_m": 0.4552,
+     "sha256": "63c4cd1a6a673b85463051b0f0b8be79f1269b37aa3f8e52419214226f9efbdb",
+     "visible_pixels": 13334,
+     "edge_margin_px": 54,
+     "alpha_weighted_luma": 77.254
+    },
+    {
+     "key": "propane",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "propane_0.png",
+     "source_id": "propane_tank",
+     "source_name": "Propane Tank",
+     "source_url": "https://polyhaven.com/a/propane_tank",
+     "license": "CC0-1.0",
+     "authors": [
+      "Slinc"
+     ],
+     "world_size_m": [
+      0.3374,
+      0.3374,
+      0.5538
+     ],
+     "world_height_m": 0.5538,
+     "sha256": "892f68be5ab180d010c3827b4084fde1ea0d6791dab9499b84395b689c9d4377",
+     "visible_pixels": 14300,
+     "edge_margin_px": 37,
+     "alpha_weighted_luma": 77.84
+    },
+    {
+     "key": "propane",
+     "variant": 1,
+     "yaw_deg": 138.0,
+     "file": "propane_1.png",
+     "source_id": "propane_tank",
+     "source_name": "Propane Tank",
+     "source_url": "https://polyhaven.com/a/propane_tank",
+     "license": "CC0-1.0",
+     "authors": [
+      "Slinc"
+     ],
+     "world_size_m": [
+      0.3374,
+      0.3374,
+      0.5538
+     ],
+     "world_height_m": 0.5538,
+     "sha256": "e8535787c086f8b7ad686b386176a45e9e196eeb3814982880b9029080200dd7",
+     "visible_pixels": 14111,
+     "edge_margin_px": 37,
+     "alpha_weighted_luma": 75.253
+    },
+    {
+     "key": "trashbag",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "trashbag_0.png",
+     "source_id": "trashbag",
+     "source_name": "Trashbag",
+     "source_url": "https://polyhaven.com/a/trashbag",
+     "license": "CC0-1.0",
+     "authors": [
+      "Benny Weimer"
+     ],
+     "world_size_m": [
+      0.5281,
+      0.4629,
+      0.575
+     ],
+     "world_height_m": 0.575,
+     "sha256": "31fe09686909a1ebc902e7defccf51b8913a86187a276e8b8cfd75a424481ffd",
+     "visible_pixels": 13586,
+     "edge_margin_px": 47,
+     "alpha_weighted_luma": 75.721
+    },
+    {
+     "key": "trashbag",
+     "variant": 1,
+     "yaw_deg": 147.0,
+     "file": "trashbag_1.png",
+     "source_id": "trashbag",
+     "source_name": "Trashbag",
+     "source_url": "https://polyhaven.com/a/trashbag",
+     "license": "CC0-1.0",
+     "authors": [
+      "Benny Weimer"
+     ],
+     "world_size_m": [
+      0.5281,
+      0.4629,
+      0.575
+     ],
+     "world_height_m": 0.575,
+     "sha256": "a662dd28edd8c8af512d9de571cea3b4175d9369bead3a7085205f68ddbfcd41",
+     "visible_pixels": 13516,
+     "edge_margin_px": 37,
+     "alpha_weighted_luma": 70.093
+    },
+    {
+     "key": "trashbag",
+     "variant": 2,
+     "yaw_deg": 259.0,
+     "file": "trashbag_2.png",
+     "source_id": "trashbag",
+     "source_name": "Trashbag",
+     "source_url": "https://polyhaven.com/a/trashbag",
+     "license": "CC0-1.0",
+     "authors": [
+      "Benny Weimer"
+     ],
+     "world_size_m": [
+      0.695,
+      0.6758,
+      0.575
+     ],
+     "world_height_m": 0.575,
+     "sha256": "e303d1d796c0a1cfebe967f7b0c90ba75e8a8b313f46cd9e852dab6906c2e0ee",
+     "visible_pixels": 11851,
+     "edge_margin_px": 42,
+     "alpha_weighted_luma": 76.933
+    },
+    {
+     "key": "hand_truck",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "hand_truck_0.png",
+     "source_id": "hand_truck",
+     "source_name": "Hand Truck",
+     "source_url": "https://polyhaven.com/a/hand_truck",
+     "license": "CC0-1.0",
+     "authors": [
+      "Mutanzom3D"
+     ],
+     "world_size_m": [
+      0.5933,
+      0.6925,
+      1.4025
+     ],
+     "world_height_m": 1.4025,
+     "sha256": "bddfa09113cf2f5cd69625aed06299ff157b4101544643bc2fe9ea146a6e188a",
+     "visible_pixels": 6585,
+     "edge_margin_px": 29,
+     "alpha_weighted_luma": 69.395
+    },
+    {
+     "key": "hand_truck",
+     "variant": 1,
+     "yaw_deg": 118.0,
+     "file": "hand_truck_1.png",
+     "source_id": "hand_truck",
+     "source_name": "Hand Truck",
+     "source_url": "https://polyhaven.com/a/hand_truck",
+     "license": "CC0-1.0",
+     "authors": [
+      "Mutanzom3D"
+     ],
+     "world_size_m": [
+      0.5933,
+      0.6925,
+      1.4025
+     ],
+     "world_height_m": 1.4025,
+     "sha256": "e00a7e68ecde015559e19083474a35909d2bb78a8b1e1251a2dc34de41df92f2",
+     "visible_pixels": 6251,
+     "edge_margin_px": 25,
+     "alpha_weighted_luma": 68.745
+    },
+    {
+     "key": "hand_truck",
+     "variant": 2,
+     "yaw_deg": 243.0,
+     "file": "hand_truck_2.png",
+     "source_id": "hand_truck",
+     "source_name": "Hand Truck",
+     "source_url": "https://polyhaven.com/a/hand_truck",
+     "license": "CC0-1.0",
+     "authors": [
+      "Mutanzom3D"
+     ],
+     "world_size_m": [
+      0.89,
+      0.8489,
+      1.4025
+     ],
+     "world_height_m": 1.4025,
+     "sha256": "672d2a8bf2b64b982219210821f237ed85c61159a8f87532198046ff40aed905",
+     "visible_pixels": 5798,
+     "edge_margin_px": 24,
+     "alpha_weighted_luma": 75.315
+    },
+    {
+     "key": "wheel_rim",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "wheel_rim_0.png",
+     "source_id": "rusted_wheel_rim_01",
+     "source_name": "Rusted Wheel Rim 01",
+     "source_url": "https://polyhaven.com/a/rusted_wheel_rim_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "John Hutcheson"
+     ],
+     "world_size_m": [
+      0.4029,
+      0.1541,
+      0.3955
+     ],
+     "world_height_m": 0.3955,
+     "sha256": "52ec89e8c95129c4b3e3bfe54bb707d8b8497fe48ea6b12e6b0363aa9d25933a",
+     "visible_pixels": 10794,
+     "edge_margin_px": 65,
+     "alpha_weighted_luma": 76.187
+    },
+    {
+     "key": "wheel_rim",
+     "variant": 1,
+     "yaw_deg": 133.0,
+     "file": "wheel_rim_1.png",
+     "source_id": "rusted_wheel_rim_01",
+     "source_name": "Rusted Wheel Rim 01",
+     "source_url": "https://polyhaven.com/a/rusted_wheel_rim_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "John Hutcheson"
+     ],
+     "world_size_m": [
+      0.4029,
+      0.1541,
+      0.3955
+     ],
+     "world_height_m": 0.3955,
+     "sha256": "19420b64ab70a5f5ea0f2c3e0e77c67a5a133a4c11c3211f6ee21c0d1ceb0bb8",
+     "visible_pixels": 6463,
+     "edge_margin_px": 65,
+     "alpha_weighted_luma": 71.432
+    },
+    {
+     "key": "toolbox",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "toolbox_0.png",
+     "source_id": "metal_toolbox",
+     "source_name": "Metal Toolbox",
+     "source_url": "https://polyhaven.com/a/metal_toolbox",
+     "license": "CC0-1.0",
+     "authors": [
+      "Mateusz Sadek"
+     ],
+     "world_size_m": [
+      0.4,
+      0.2923,
+      0.3471
+     ],
+     "world_height_m": 0.3471,
+     "sha256": "a50d17f0c75db8f41f8d80ee4ee56e2d2850bd20ffec806096e98090683a0d13",
+     "visible_pixels": 12527,
+     "edge_margin_px": 56,
+     "alpha_weighted_luma": 100.463
+    },
+    {
+     "key": "toolbox",
+     "variant": 1,
+     "yaw_deg": 39.0,
+     "file": "toolbox_1.png",
+     "source_id": "metal_toolbox",
+     "source_name": "Metal Toolbox",
+     "source_url": "https://polyhaven.com/a/metal_toolbox",
+     "license": "CC0-1.0",
+     "authors": [
+      "Mateusz Sadek"
+     ],
+     "world_size_m": [
+      0.4,
+      0.2923,
+      0.3471
+     ],
+     "world_height_m": 0.3471,
+     "sha256": "27dd2a8c8c53320585dc8e6aab97530b059c521be6f83c2ff1c8bf5ea720fcfb",
+     "visible_pixels": 11846,
+     "edge_margin_px": 58,
+     "alpha_weighted_luma": 105.029
+    },
+    {
+     "key": "street_lamp",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "street_lamp_0.png",
+     "source_id": "street_lamp_01",
+     "source_name": "Street Lamp 01",
+     "source_url": "https://polyhaven.com/a/street_lamp_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Josh Dean"
+     ],
+     "world_size_m": [
+      0.7043,
+      0.3865,
+      3.8706
+     ],
+     "world_height_m": 3.8706,
+     "sha256": "4c36ad89648281f90a13a08614a07e0783706e361cfb62fad64e52f39b4f6af2",
+     "visible_pixels": 2958,
+     "edge_margin_px": 27,
+     "alpha_weighted_luma": 67.551
+    },
+    {
+     "key": "street_lamp",
+     "variant": 1,
+     "yaw_deg": 127.0,
+     "file": "street_lamp_1.png",
+     "source_id": "street_lamp_01",
+     "source_name": "Street Lamp 01",
+     "source_url": "https://polyhaven.com/a/street_lamp_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "Josh Dean"
+     ],
+     "world_size_m": [
+      0.7043,
+      0.3865,
+      3.8706
+     ],
+     "world_height_m": 3.8706,
+     "sha256": "89ccd5ad6b38a26596129774ef3b2d811f8095a86d3cfd3e1ac4f1646d24a02c",
+     "visible_pixels": 2714,
+     "edge_margin_px": 28,
+     "alpha_weighted_luma": 66.003
+    },
+    {
+     "key": "utility_box",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "utility_box_0.png",
+     "source_id": "utility_box_01",
+     "source_name": "Utility Box 01",
+     "source_url": "https://polyhaven.com/a/utility_box_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "James Ray Cock"
+     ],
+     "world_size_m": [
+      0.52,
+      0.432,
+      1.1203
+     ],
+     "world_height_m": 1.1203,
+     "sha256": "aa5dca9271a9cee9144946c9bdd9fb6358132afd77a61d09aa5e3bc33ea4ba14",
+     "visible_pixels": 19177,
+     "edge_margin_px": 22,
+     "alpha_weighted_luma": 104.599
+    },
+    {
+     "key": "utility_box",
+     "variant": 1,
+     "yaw_deg": 36.0,
+     "file": "utility_box_1.png",
+     "source_id": "utility_box_01",
+     "source_name": "Utility Box 01",
+     "source_url": "https://polyhaven.com/a/utility_box_01",
+     "license": "CC0-1.0",
+     "authors": [
+      "James Ray Cock"
+     ],
+     "world_size_m": [
+      0.52,
+      0.432,
+      1.1203
+     ],
+     "world_height_m": 1.1203,
+     "sha256": "6f9760afe982da0ee902ae3fbb9a43b38530cc996fe722d20e2ccddbc537f781",
+     "visible_pixels": 20632,
+     "edge_margin_px": 22,
+     "alpha_weighted_luma": 101.11
+    },
+    {
+     "key": "compressor",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "compressor_0.png",
+     "source_id": "old_military_compressor",
+     "source_name": "Old Military Compressor",
+     "source_url": "https://polyhaven.com/a/old_military_compressor",
+     "license": "CC0-1.0",
+     "authors": [
+      "Brian Speight"
+     ],
+     "world_size_m": [
+      0.5983,
+      1.6755,
+      1.1791
+     ],
+     "world_height_m": 1.1791,
+     "sha256": "52cd7d267a75cc5baa83794dc516edd5e237a3776fcdf6311bdd871e35a6d541",
+     "visible_pixels": 9486,
+     "edge_margin_px": 36,
+     "alpha_weighted_luma": 96.154
+    },
+    {
+     "key": "compressor",
+     "variant": 1,
+     "yaw_deg": 122.0,
+     "file": "compressor_1.png",
+     "source_id": "old_military_compressor",
+     "source_name": "Old Military Compressor",
+     "source_url": "https://polyhaven.com/a/old_military_compressor",
+     "license": "CC0-1.0",
+     "authors": [
+      "Brian Speight"
+     ],
+     "world_size_m": [
+      0.5983,
+      1.6755,
+      1.1791
+     ],
+     "world_height_m": 1.1791,
+     "sha256": "89953f6c856bdfddc91b9b479dd17f6b435b799c0d2c7578c343d1c8e57d2d3a",
+     "visible_pixels": 16859,
+     "edge_margin_px": 18,
+     "alpha_weighted_luma": 101.942
+    },
+    {
+     "key": "compressor",
+     "variant": 2,
+     "yaw_deg": 246.0,
+     "file": "compressor_2.png",
+     "source_id": "old_military_compressor",
+     "source_name": "Old Military Compressor",
+     "source_url": "https://polyhaven.com/a/old_military_compressor",
+     "license": "CC0-1.0",
+     "authors": [
+      "Brian Speight"
+     ],
+     "world_size_m": [
+      1.738,
+      1.3953,
+      1.1791
+     ],
+     "world_height_m": 1.1791,
+     "sha256": "acf73c5ca9639eda4fa27ec1a42f1d7c823fa401a632a766a46465e79bc72d16",
+     "visible_pixels": 9023,
+     "edge_margin_px": 50,
+     "alpha_weighted_luma": 96.149
+    },
+    {
+     "key": "container_plastic",
+     "variant": 0,
+     "yaw_deg": 0.0,
+     "file": "container_plastic_0.png",
+     "source_id": "plastic_container",
+     "source_name": "Plastic Container",
+     "source_url": "https://polyhaven.com/a/plastic_container",
+     "license": "CC0-1.0",
+     "authors": [
+      "PierreB3D"
+     ],
+     "world_size_m": [
+      0.8951,
+      0.6264,
+      0.4297
+     ],
+     "world_height_m": 0.4297,
+     "sha256": "90dd227518c8eb311412449705bad49626d473145cc6b7f8281d9c482058cac8",
+     "visible_pixels": 25574,
+     "edge_margin_px": 24,
+     "alpha_weighted_luma": 101.244
+    },
+    {
+     "key": "container_plastic",
+     "variant": 1,
+     "yaw_deg": 145.0,
+     "file": "container_plastic_1.png",
+     "source_id": "plastic_container",
+     "source_name": "Plastic Container",
+     "source_url": "https://polyhaven.com/a/plastic_container",
+     "license": "CC0-1.0",
+     "authors": [
+      "PierreB3D"
+     ],
+     "world_size_m": [
+      0.8951,
+      0.6264,
+      0.4297
+     ],
+     "world_height_m": 0.4297,
+     "sha256": "d5dae4768aaa1d1b4375fc25c0c06c9d2ca1d9c5769759268b190b70fed5c1f8",
+     "visible_pixels": 26166,
+     "edge_margin_px": 23,
+     "alpha_weighted_luma": 102.315
+    }
+   ]
+  }
+ },
+ "errors": [],
+ "sharded": "one Blender --factory-startup process per source",
+ "seconds": 598.4
+}

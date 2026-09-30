@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://4qvn6tjxgf3a"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_panda_503a87a8c2.png" id="1_pmibc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_pmibc")
+region = Rect2(0, 0, 382, 263)

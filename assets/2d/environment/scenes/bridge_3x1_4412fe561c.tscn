@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://d2ck25s0qgsxv"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_fmxe4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/bridge_3x1_821508beca.png" id="2_afytc"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hpba4"]
+resource_name = "Bespren Ruined Structure weathering"
+shader = ExtResource("1_fmxe4")
+shader_parameter/treatment = 0
+shader_parameter/weathering = 0.91
+shader_parameter/structural_damage = 0.46
+shader_parameter/rust_streaks = 0.88
+shader_parameter/toxic_intensity = 0.12
+shader_parameter/glow_color = Color(1, 0.6901961, 0, 1)
+shader_parameter/emission_strength = 0.18
+shader_parameter/pattern_scale = 24.0
+shader_parameter/damage_seed = 37.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gt3ou"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_afytc")
+region = Rect2(0, 0, 192, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_du5tr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gt3ou")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="Bridge3X1" type="Node2D" unique_id=139264152 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "bridge_3x1_4412fe561c"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=232074969]
+texture_filter = 1
+material = SubResource("ShaderMaterial_hpba4")
+sprite_frames = SubResource("SpriteFrames_du5tr")
+offset = Vector2(0, -32)

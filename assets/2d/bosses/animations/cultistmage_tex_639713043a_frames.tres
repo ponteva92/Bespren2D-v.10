@@ -1,0 +1,91 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://u7vepcofqs44"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cultistmage_tex_021bcadb4f.png" id="1_3dsbn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jx15k"]
+resource_name = "top_summon"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(198, 408, 126, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1afu"]
+resource_name = "left_summon"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(115, 281, 98, 125)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3e5r6"]
+resource_name = "right_summon"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(1, 281, 112, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pmose"]
+resource_name = "shadow"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(198, 479, 189, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ku62o"]
+resource_name = "right_arm_a"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(1, 445, 74, 62)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rljm8"]
+resource_name = "left_arm_a"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(326, 408, 76, 69)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oxod0"]
+resource_name = "body"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(1, 1, 217, 278)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_omg0n"]
+resource_name = "head"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(115, 408, 81, 91)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhb5l"]
+resource_name = "right_orb"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(215, 281, 54, 49)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ola2n"]
+resource_name = "left_orb"
+atlas = ExtResource("1_3dsbn")
+region = Rect2(215, 332, 42, 39)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jx15k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1afu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3e5r6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pmose")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ku62o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rljm8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oxod0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_omg0n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhb5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ola2n")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c6buxfc7fwm1y"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_darklord_excelsios_e8bf6dbc50.png" id="1_g3qb2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5drcc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_g3qb2")
+region = Rect2(0, 0, 386, 264)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5drcc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c83qrbcvdt4y1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titan_earth_terran_f70ed026c6.png" id="1_breeq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_breeq")
+region = Rect2(0, 0, 245, 240)

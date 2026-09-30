@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bv5drgk6sflsk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/jupiter_12c6ea8ae7.png" id="1_ff0vi"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ff0vi")
+region = Rect2(0, 0, 512, 512)

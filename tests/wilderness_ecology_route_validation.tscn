@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://tests/wilderness_ecology_route_validation.gd" id="1_test"]
+[ext_resource type="PackedScene" path="res://scenes/world/world_map_2d.tscn" id="2_map"]
+[ext_resource type="Script" path="res://src/visual/night_atmosphere_2d.gd" id="3_atmosphere"]
+
+[node name="WildernessEcologyRouteValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="ValidationCanvasModulate" type="CanvasModulate" parent="."]
+unique_name_in_owner = true
+
+[node name="YSortWorld" type="Node2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+y_sort_enabled = true
+
+[node name="WorldMap2D" parent="YSortWorld" instance=ExtResource("2_map")]
+unique_name_in_owner = true
+y_sort_enabled = true
+
+[node name="NightAtmosphere2D" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("3_atmosphere")
+canvas_modulate_path = NodePath("../ValidationCanvasModulate")
+
+[node name="ValidationCamera" type="Camera2D" parent="."]
+unique_name_in_owner = true
+zoom = Vector2(0.38, 0.38)
+position_smoothing_enabled = false

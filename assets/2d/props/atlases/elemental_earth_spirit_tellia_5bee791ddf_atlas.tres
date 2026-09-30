@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bspdficvnods5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_earth_spirit_tellia_14b3f8b1bd.png" id="1_u4744"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_u4744")
+region = Rect2(0, 0, 262, 241)

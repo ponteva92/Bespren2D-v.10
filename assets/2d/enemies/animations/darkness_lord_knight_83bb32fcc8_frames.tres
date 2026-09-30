@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dutbr5acr64hn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_lord_knight_33901050cb.png" id="1_gxghx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4mlew"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gxghx")
+region = Rect2(0, 0, 869, 433)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4mlew")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

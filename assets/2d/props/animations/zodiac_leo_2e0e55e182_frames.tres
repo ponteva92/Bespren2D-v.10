@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://7n4uhiwly37x"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_leo_bbd7bd47a0.png" id="1_b7uuh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r7xam"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_b7uuh")
+region = Rect2(0, 0, 710, 515)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r7xam")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

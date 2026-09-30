@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cxguxwg74j7b6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ygg_tex_6ac0c86a19.png" id="1_3kw6d"]
+
+[resource]
+resource_name = "layer_250"
+atlas = ExtResource("1_3kw6d")
+region = Rect2(191, 294, 308, 30)

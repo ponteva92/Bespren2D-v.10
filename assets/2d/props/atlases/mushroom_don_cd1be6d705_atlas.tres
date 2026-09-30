@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bqib3nst5ms60"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mushroom_don_69b7658374.png" id="1_h7fey"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_h7fey")
+region = Rect2(0, 0, 463, 301)

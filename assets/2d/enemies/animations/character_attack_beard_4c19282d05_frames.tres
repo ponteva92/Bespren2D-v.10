@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://chw20ju3iq3qr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_attack_beard_b72ff38548.png" id="1_g2bwg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_04xt6"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_g2bwg")
+region = Rect2(0, 0, 768, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_04xt6")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

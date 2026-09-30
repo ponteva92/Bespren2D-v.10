@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://btqfd3gaq48xu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_lurker_6d9f2fc0aa.png" id="1_dxak4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5bsh"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dxak4")
+region = Rect2(0, 0, 119, 80)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5bsh")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

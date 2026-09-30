@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://nyhtsa65i6aa"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/urmica_97af099483.png" id="1_v5jkj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_psj0l"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_v5jkj")
+region = Rect2(0, 0, 390, 412)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_psj0l")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

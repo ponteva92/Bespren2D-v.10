@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b5v8cy5l7ktel"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/aspiring_knight_valterra_c0413031a2.png" id="1_l0eh7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l0eh7")
+region = Rect2(0, 0, 351, 269)

@@ -1,0 +1,123 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dikmxyaoqrt7k"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiaccancer_tex_efe7bd695e.png" id="1_85ul6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_asuwc"]
+resource_name = "ellipse_1"
+atlas = ExtResource("1_85ul6")
+region = Rect2(1, 672, 425, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_45qu7"]
+resource_name = "layer_11"
+atlas = ExtResource("1_85ul6")
+region = Rect2(245, 356, 120, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l2jn1"]
+resource_name = "layer_11_copy"
+atlas = ExtResource("1_85ul6")
+region = Rect2(1, 290, 120, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ww4fj"]
+resource_name = "layer_11_copy_2"
+atlas = ExtResource("1_85ul6")
+region = Rect2(123, 290, 120, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p7eel"]
+resource_name = "layer_3"
+atlas = ExtResource("1_85ul6")
+region = Rect2(1, 536, 93, 68)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01qnl"]
+resource_name = "layer_5"
+atlas = ExtResource("1_85ul6")
+region = Rect2(1, 454, 215, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gun36"]
+resource_name = "layer_4"
+atlas = ExtResource("1_85ul6")
+region = Rect2(1, 155, 262, 133)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lgcdj"]
+resource_name = "layer_7"
+atlas = ExtResource("1_85ul6")
+region = Rect2(1, 1, 296, 152)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lbnh5"]
+resource_name = "layer_12_copy_2"
+atlas = ExtResource("1_85ul6")
+region = Rect2(367, 508, 97, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cbvwu"]
+resource_name = "layer_12"
+atlas = ExtResource("1_85ul6")
+region = Rect2(367, 356, 97, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6y5pl"]
+resource_name = "layer_12_copy"
+atlas = ExtResource("1_85ul6")
+region = Rect2(218, 520, 97, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfrfl"]
+resource_name = "layer_6"
+atlas = ExtResource("1_85ul6")
+region = Rect2(442, 204, 63, 145)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2yek4"]
+resource_name = "layer_9"
+atlas = ExtResource("1_85ul6")
+region = Rect2(265, 204, 175, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ddlpg"]
+resource_name = "layer_10"
+atlas = ExtResource("1_85ul6")
+region = Rect2(299, 1, 188, 201)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_asuwc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_45qu7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l2jn1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ww4fj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p7eel")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01qnl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gun36")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lgcdj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lbnh5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cbvwu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6y5pl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wfrfl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2yek4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ddlpg")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

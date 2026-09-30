@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://da8r3n7tart48"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/medieval_bandit_great_sword_ed76cb7e74.png" id="1_dfwik"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4prmn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dfwik")
+region = Rect2(0, 0, 269, 232)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4prmn")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

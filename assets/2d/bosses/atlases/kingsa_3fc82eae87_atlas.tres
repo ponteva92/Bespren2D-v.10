@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ccym4gjxlce80"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/kingsa_01ab9ca879.png" id="1_v206s"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_v206s")
+region = Rect2(0, 0, 48, 192)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://5xa4lp1fwgtc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_hellhound_garm_b46906927e.png" id="1_tuv31"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tuv31")
+region = Rect2(0, 0, 353, 324)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cldyiasyibmtf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_rpg_buffer_f97d547959.png" id="1_unpqh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0migi"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_unpqh")
+region = Rect2(0, 0, 131, 95)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0migi")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

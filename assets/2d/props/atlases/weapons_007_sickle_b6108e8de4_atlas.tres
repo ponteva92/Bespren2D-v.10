@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://daafkdldwff84"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/weapons_007_sickle_d16cb8178c.png" id="1_xqqhm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xqqhm")
+region = Rect2(0, 0, 64, 64)

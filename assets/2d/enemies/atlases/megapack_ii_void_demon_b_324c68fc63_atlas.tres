@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bla3pq83nmuth"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_void_demon_b_d8f281147e.png" id="1_rj3eu"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rj3eu")
+region = Rect2(0, 0, 557, 437)

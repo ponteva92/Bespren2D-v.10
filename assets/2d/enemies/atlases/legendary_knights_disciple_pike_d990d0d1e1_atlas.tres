@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bgjmdm0t0f256"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_disciple_pike_0c3d8a70e6.png" id="1_thc67"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_thc67")
+region = Rect2(0, 0, 383, 223)

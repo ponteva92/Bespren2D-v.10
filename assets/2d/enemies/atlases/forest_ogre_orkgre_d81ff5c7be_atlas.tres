@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://qet2q2dmhbfg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_ogre_orkgre_c171799304.png" id="1_3oaf6"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3oaf6")
+region = Rect2(0, 0, 187, 228)

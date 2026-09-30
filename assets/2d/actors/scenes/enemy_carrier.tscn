@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/2d/actors/frames/enemy_carrier_frames.tres" id="1_ym7lp"]
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" unique_id=1216822809]
+texture_filter = 1
+sprite_frames = ExtResource("1_ym7lp")
+animation = &"idle_2"
+autoplay = "idle_2"
+offset = Vector2(0, -18.5634)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmbau6warhvyg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/wood_banner_192x64_a1cbe29bb4.png" id="1_nnacj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iiumi"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nnacj")
+region = Rect2(0, 0, 192, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iiumi")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

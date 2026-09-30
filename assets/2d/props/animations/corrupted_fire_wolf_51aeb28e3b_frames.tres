@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dg5182gfs6q5o"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/corrupted_fire_wolf_fc13093e05.png" id="1_fksrl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rq0me"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fksrl")
+region = Rect2(0, 0, 241, 182)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rq0me")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

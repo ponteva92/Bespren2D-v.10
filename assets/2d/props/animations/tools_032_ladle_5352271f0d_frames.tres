@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://elv5m43h7ewt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/tools_032_ladle_d84fdf8333.png" id="1_nd84e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mayjy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nd84e")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mayjy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

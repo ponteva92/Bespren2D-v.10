@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cyohmoy761r1h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/witch_hunters_noble_db98973521.png" id="1_q4d6q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i8o2x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_q4d6q")
+region = Rect2(0, 0, 157, 229)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i8o2x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

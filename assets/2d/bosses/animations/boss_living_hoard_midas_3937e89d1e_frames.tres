@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dgokit8ttrs3a"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_living_hoard_midas_a81e471af8.png" id="1_g7ho7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sb2fq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_g7ho7")
+region = Rect2(0, 0, 356, 198)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sb2fq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

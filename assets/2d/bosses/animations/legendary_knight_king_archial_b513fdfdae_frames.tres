@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cc2kjtr3gu5jj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knight_king_archial_c944994759.png" id="1_mahsh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ghm4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mahsh")
+region = Rect2(0, 0, 570, 409)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ghm4")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

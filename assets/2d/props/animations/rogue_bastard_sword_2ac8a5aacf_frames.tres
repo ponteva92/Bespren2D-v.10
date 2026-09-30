@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmebog2srjwgw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rogue_bastard_sword_3bcce31c73.png" id="1_ib1ru"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3k2ka"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ib1ru")
+region = Rect2(0, 0, 363, 228)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3k2ka")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

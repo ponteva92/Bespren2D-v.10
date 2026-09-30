@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dtu46x2srlo73"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_scholar_jeanne_a2427067ee.png" id="1_uloa8"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_uloa8")
+region = Rect2(0, 0, 182, 206)

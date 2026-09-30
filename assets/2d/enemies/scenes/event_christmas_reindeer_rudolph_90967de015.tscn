@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://dapgomte7q4xx"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_p45rj"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f000.png" id="2_d08ah"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f001.png" id="3_40eix"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f002.png" id="4_5p0tu"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f003.png" id="5_sc64b"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f008.png" id="6_cm07r"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f009.png" id="7_qm7b1"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f010.png" id="8_myodi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f011.png" id="9_45anc"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f012.png" id="10_s88op"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_rudolph_10260b09b6/event_christmas_reindeer_rudolph_gif_f013.png" id="11_kt4xm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_p45rj")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b1u5m"]
+resource_name = "default_000"
+atlas = ExtResource("2_d08ah")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xulyc"]
+resource_name = "default_001"
+atlas = ExtResource("3_40eix")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7mxo5"]
+resource_name = "default_002"
+atlas = ExtResource("4_5p0tu")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0k8f6"]
+resource_name = "default_003"
+atlas = ExtResource("5_sc64b")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g0ol5"]
+resource_name = "default_008"
+atlas = ExtResource("6_cm07r")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jau2q"]
+resource_name = "default_009"
+atlas = ExtResource("7_qm7b1")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m68c1"]
+resource_name = "default_010"
+atlas = ExtResource("8_myodi")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6mv46"]
+resource_name = "default_011"
+atlas = ExtResource("9_45anc")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k6o14"]
+resource_name = "default_012"
+atlas = ExtResource("10_s88op")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3mids"]
+resource_name = "default_013"
+atlas = ExtResource("11_kt4xm")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5q05c"]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_b1u5m")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_xulyc")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_7mxo5")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_0k8f6")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_g0ol5")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_jau2q")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_m68c1")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_6mv46")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_k6o14")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_3mids")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="EventChristmasReindeerRudolph" type="Node2D" unique_id=1951812915 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "event_christmas_reindeer_rudolph_90967de015"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1389962431]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_5q05c")
+autoplay = "default"
+offset = Vector2(0, -384)

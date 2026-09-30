@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://davh5pdatshqe"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_seagull_536a57b551.png" id="1_cg21c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3youx"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cg21c")
+region = Rect2(0, 0, 163, 97)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3youx")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

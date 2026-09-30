@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b73ieuwtynu4u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_cactus_c_76ac7eabf7.png" id="1_j4u12"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j4u12")
+region = Rect2(0, 0, 422, 268)

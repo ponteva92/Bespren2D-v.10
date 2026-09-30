@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://63xovckhufbv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_oculus_e94542d89c.png" id="1_2aaos"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ncfpf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2aaos")
+region = Rect2(0, 0, 191, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ncfpf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

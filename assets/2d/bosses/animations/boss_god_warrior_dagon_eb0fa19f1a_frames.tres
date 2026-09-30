@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cfp7gny1jki1r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_warrior_dagon_8d4371a2ff.png" id="1_n4lfs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xgr4g"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_n4lfs")
+region = Rect2(0, 0, 262, 163)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xgr4g")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

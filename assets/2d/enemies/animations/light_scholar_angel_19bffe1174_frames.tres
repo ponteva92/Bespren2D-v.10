@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://5iqy3u53uxwu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_scholar_angel_c5f9cfb4db.png" id="1_5lhvu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2kxuw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5lhvu")
+region = Rect2(0, 0, 184, 177)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2kxuw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

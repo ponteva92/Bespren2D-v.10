@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://l0i4rxucxfed"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wall_fountain_top_1_bf376810e7.png" id="1_q4rkr"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_q4rkr")
+region = Rect2(0, 0, 16, 16)

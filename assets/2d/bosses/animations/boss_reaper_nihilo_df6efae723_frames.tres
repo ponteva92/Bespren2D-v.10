@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dfaa04p7bnu5r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_reaper_nihilo_f57cf64df0.png" id="1_1algd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2denm"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1algd")
+region = Rect2(0, 0, 438, 259)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2denm")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

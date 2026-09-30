@@ -1,0 +1,83 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bsr3v6y3veg8v"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/baba_tex_10641b1d70.png" id="1_tw3mo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u22ns"]
+resource_name = "shadow"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(1, 413, 246, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d174f"]
+resource_name = "back_hair"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(316, 101, 135, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sh7p1"]
+resource_name = "broom"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(1, 188, 313, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pa7r6"]
+resource_name = "spell_arm"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(316, 196, 82, 99)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfcbc"]
+resource_name = "body"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(1, 1, 253, 185)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2yh4q"]
+resource_name = "hat_back"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(1, 274, 149, 51)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47vbj"]
+resource_name = "head_default"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(1, 332, 120, 79)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y8v08"]
+resource_name = "right_arm"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(409, 196, 90, 134)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jkqal"]
+resource_name = "hat"
+atlas = ExtResource("1_tw3mo")
+region = Rect2(256, 1, 151, 98)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u22ns")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d174f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sh7p1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pa7r6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wfcbc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2yh4q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_47vbj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y8v08")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jkqal")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

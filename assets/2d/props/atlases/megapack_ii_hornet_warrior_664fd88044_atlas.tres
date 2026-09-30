@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://one1xwhg62r2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_hornet_warrior_e9dce4085e.png" id="1_22djh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_22djh")
+region = Rect2(0, 0, 153, 211)

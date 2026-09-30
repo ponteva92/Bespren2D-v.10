@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ch3ol48wiv4ky"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_spirit_fire_blazia_5393c6f079.png" id="1_22w6b"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_22w6b")
+region = Rect2(0, 0, 164, 250)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cane4dphg6opv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/goblin_elite_73a72805dd.png" id="1_4llu3"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4llu3")
+region = Rect2(0, 0, 331, 164)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bxjbqc3knat3o"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/3_b6a3616c3f.png" id="1_hby8p"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hby8p")
+region = Rect2(0, 0, 384, 216)

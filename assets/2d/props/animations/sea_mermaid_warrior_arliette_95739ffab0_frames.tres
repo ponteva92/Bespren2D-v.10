@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bs6te4ad8uqib"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_mermaid_warrior_arliette_531d300f52.png" id="1_ndi5a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1xc3x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ndi5a")
+region = Rect2(0, 0, 363, 314)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1xc3x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bcapmjabk5fx4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/bones_singleskull_fly_9eaadf5326.png" id="1_23upu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0sh6b"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_23upu")
+region = Rect2(0, 0, 256, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0sh6b")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

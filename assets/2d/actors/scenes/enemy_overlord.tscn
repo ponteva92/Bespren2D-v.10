@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/2d/actors/frames/enemy_overlord_frames.tres" id="1_mjfw5"]
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" unique_id=197070219]
+texture_filter = 1
+sprite_frames = ExtResource("1_mjfw5")
+animation = &"idle_2"
+autoplay = "idle_2"
+offset = Vector2(0, -26.704)

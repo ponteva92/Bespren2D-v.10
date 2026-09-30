@@ -1,0 +1,151 @@
+[gd_scene format=3 uid="uid://bt7jkudbh6b4i"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_w5byv"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/big_monster13_1a0febd674.png" id="2_kiy3t"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_w5byv")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6jjng"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ts7l"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hj6fg"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tjvam"]
+resource_name = "frame_001_000"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(0, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u66dy"]
+resource_name = "frame_001_001"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(96, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ga3uu"]
+resource_name = "frame_001_002"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(192, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3mrvm"]
+resource_name = "frame_002_000"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(0, 192, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dinvk"]
+resource_name = "frame_002_001"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(96, 192, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a3nr2"]
+resource_name = "frame_002_002"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(192, 192, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8s4mh"]
+resource_name = "frame_003_000"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(0, 288, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a8eqo"]
+resource_name = "frame_003_001"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(96, 288, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0sogf"]
+resource_name = "frame_003_002"
+atlas = ExtResource("2_kiy3t")
+region = Rect2(192, 288, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n3p4x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6jjng")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ts7l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hj6fg")
+}],
+"loop": 1,
+"name": &"walk_down",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tjvam")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u66dy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ga3uu")
+}],
+"loop": 1,
+"name": &"walk_left",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3mrvm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dinvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a3nr2")
+}],
+"loop": 1,
+"name": &"walk_right",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8s4mh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a8eqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0sogf")
+}],
+"loop": 1,
+"name": &"walk_up",
+"speed": 6.0
+}]
+
+[node name="$BigMonster13" type="Node2D" unique_id=620557120 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "big_monster13_9494aee000"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "rpg_maker_3x4"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=920025016]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_n3p4x")
+animation = &"walk_down"
+autoplay = "walk_down"
+offset = Vector2(0, -48)

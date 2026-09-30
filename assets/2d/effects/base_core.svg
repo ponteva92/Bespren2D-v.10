@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <radialGradient id="ember" cx="50%" cy="44%" r="58%">
+      <stop offset="0" stop-color="#fff4b0"/>
+      <stop offset="0.22" stop-color="#ffd45a"/>
+      <stop offset="0.58" stop-color="#d76a16"/>
+      <stop offset="1" stop-color="#3c160b"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6b716c"/>
+      <stop offset="0.5" stop-color="#272d2b"/>
+      <stop offset="1" stop-color="#0c1110"/>
+    </linearGradient>
+  </defs>
+  <path d="M80 7 137 39 145 101 108 148 45 145 12 96 24 35Z" fill="#080b0b" stroke="#020303" stroke-width="8"/>
+  <path d="M80 17 128 44 135 96 103 137 51 134 22 92 33 43Z" fill="url(#steel)" stroke="#8b3d17" stroke-width="5"/>
+  <path d="M50 42 81 25 111 43 124 80 109 116 80 134 49 116 35 80Z" fill="#171d1b" stroke="#b85b1d" stroke-width="4"/>
+  <circle cx="80" cy="80" r="37" fill="url(#ember)" stroke="#050706" stroke-width="7"/>
+  <circle cx="80" cy="80" r="22" fill="#fff0a1" stroke="#ff9d22" stroke-width="5"/>
+  <path d="M80 45V24M80 136v-21M45 80H25m110 0h-20M56 56 41 41m78 78-15-15M104 56l15-15M41 119l15-15" stroke="#ffd45a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M30 72 39 49 49 46M112 119l15-19M43 112l-11-18M119 45l10 20" stroke="#bd431a" stroke-width="4" stroke-linecap="round"/>
+</svg>
+

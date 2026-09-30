@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d6icnwgekswy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/corrupted_ice_mantis_b_b15288a025.png" id="1_85gqi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2a03"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_85gqi")
+region = Rect2(0, 0, 316, 233)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j2a03")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cvrvg4l8sp1eb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_snobros_0de0d97379.png" id="1_sje3i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rcb7m"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sje3i")
+region = Rect2(0, 0, 126, 119)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rcb7m")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ld8oi38006pl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/coin_anim_f2_337d4269e4.png" id="1_6wasl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhst5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6wasl")
+region = Rect2(0, 0, 6, 7)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhst5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

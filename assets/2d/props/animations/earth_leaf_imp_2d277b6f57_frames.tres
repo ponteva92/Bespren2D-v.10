@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dnps6ef18o7t3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/earth_leaf_imp_69f385b0de.png" id="1_bl4ov"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ruvyp"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bl4ov")
+region = Rect2(0, 0, 195, 229)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ruvyp")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

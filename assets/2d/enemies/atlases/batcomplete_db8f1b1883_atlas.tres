@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bfi06lg8huq3q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/batcomplete_213814800a/batcomplete_gif_f000.png" id="1_pucbi"]
+
+[resource]
+resource_name = "default_000"
+atlas = ExtResource("1_pucbi")
+region = Rect2(0, 0, 1024, 640)

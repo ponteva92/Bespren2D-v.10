@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dus84xcvnk0fd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_mecha_dragon_ladon_1a5c2ceac6.png" id="1_mbj0f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_um1a6"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mbj0f")
+region = Rect2(0, 0, 293, 461)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_um1a6")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

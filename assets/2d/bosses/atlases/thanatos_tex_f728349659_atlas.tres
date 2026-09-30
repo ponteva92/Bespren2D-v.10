@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bjg7tlsoo8tnu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/thanatos_tex_58efb880ba.png" id="1_8arkt"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_8arkt")
+region = Rect2(544, 498, 401, 13)

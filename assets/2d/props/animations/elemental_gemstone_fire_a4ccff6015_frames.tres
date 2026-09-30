@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d1vvr6hoq0q3m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_gemstone_fire_0e9c952af1.png" id="1_qpt0d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sba33"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qpt0d")
+region = Rect2(0, 0, 146, 155)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sba33")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

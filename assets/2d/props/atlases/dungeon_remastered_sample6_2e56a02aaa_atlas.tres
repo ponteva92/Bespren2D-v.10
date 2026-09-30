@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ca762fcqox2sl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/kaykit_dungeonremastered_1_1_free_53a38667e0/dungeon_remastered_sample6_f46180f867.png" id="1_qfndr"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qfndr")
+region = Rect2(0, 0, 1920, 1080)

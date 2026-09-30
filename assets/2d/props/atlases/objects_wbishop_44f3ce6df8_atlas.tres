@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://xhf1bkvdeled"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_wbishop_a86c296130.png" id="1_gelp4"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gelp4")
+region = Rect2(0, 0, 122, 166)

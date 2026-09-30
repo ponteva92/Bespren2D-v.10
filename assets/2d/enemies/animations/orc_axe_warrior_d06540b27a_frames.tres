@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://70ehfs0tkolj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/orc_axe_warrior_d12fd71f89.png" id="1_2ug41"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nyfjp"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2ug41")
+region = Rect2(0, 0, 516, 434)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nyfjp")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

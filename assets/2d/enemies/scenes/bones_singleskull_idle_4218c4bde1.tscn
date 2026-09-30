@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://chbavgvcqd73b"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_qhccy"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/bones_singleskull_idle_629e5acbef.png" id="2_16ijk"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_qhccy")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yb4pg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_16ijk")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fllkh"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_16ijk")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1cxny"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_16ijk")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xnde2"]
+resource_name = "frame_000_003"
+atlas = ExtResource("2_16ijk")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5hrpc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yb4pg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fllkh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1cxny")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xnde2")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[node name="BonesSingleskullIdle" type="Node2D" unique_id=114189035 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "bones_singleskull_idle_4218c4bde1"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=637133331]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_5hrpc")
+animation = &"idle"
+autoplay = "idle"
+offset = Vector2(0, -32)

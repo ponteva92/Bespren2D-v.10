@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dwwnxufimxigq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/kingsa_01ab9ca879.png" id="1_rwbyb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e65de"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rwbyb")
+region = Rect2(0, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qraef"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_rwbyb")
+region = Rect2(48, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqvxv"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_rwbyb")
+region = Rect2(96, 0, 48, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e65de")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qraef")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqvxv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

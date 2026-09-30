@@ -1,0 +1,118 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://src/visual/core_pulse_driver.gd" id="1_driver"]
+[ext_resource type="Texture2D" path="res://assets/2d/effects/radial_light.svg" id="2_radial"]
+[ext_resource type="Texture2D" path="res://assets/2d/structures/base_camp_topdown.png" id="3_core"]
+[ext_resource type="Shader" path="res://shaders/volumetric_aura.gdshader" id="4_aura"]
+[ext_resource type="Shader" path="res://shaders/toon_emissive_outline.gdshader" id="5_toon"]
+[ext_resource type="Shader" path="res://shaders/base_scale_glow.gdshader" id="6_scale_glow"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_aura"]
+shader = ExtResource("4_aura")
+shader_parameter/aura_color = Color(1, 0.48, 0.035, 1)
+shader_parameter/intensity = 0.85
+shader_parameter/edge_power = 2.35
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_core"]
+resource_local_to_scene = true
+shader = ExtResource("5_toon")
+shader_parameter/outline_color = Color(0.003, 0.005, 0.004, 1)
+shader_parameter/glow_color = Color(0.91, 0.58, 0.2, 1)
+shader_parameter/outline_width = 2.2
+shader_parameter/emission_strength = 0.1
+shader_parameter/pulse_speed = 1.75
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_scale_glow"]
+resource_local_to_scene = true
+shader = ExtResource("6_scale_glow")
+shader_parameter/glow_color = Color(0.91, 0.58, 0.2, 1)
+shader_parameter/glow_strength = 0.4
+shader_parameter/scale_amount = 0.045
+shader_parameter/pulse_phase = 0.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_core"]
+radius = 60.0
+
+[node name="BaseCore" type="Node2D"]
+z_index = 5
+z_as_relative = false
+script = ExtResource("1_driver")
+
+[node name="ContactShadow" type="Sprite2D" parent="."]
+; Every grounded thing in this world casts one - the trees, the houses, the
+; undergrowth - and the refuge, which is the object the player looks at most,
+; was the one that did not, so it sat on the terrain like a decal.
+; light_mask 0 is deliberate and is the one place this node departs from
+; ActorGroundShadow2D. A survivor's shadow is rarely under a lamp, but this
+; shadow is directly beneath the brightest light in the game, and letting the
+; AmberLight brighten it would erase the shadow exactly where it is needed.
+z_index = 4
+z_as_relative = false
+light_mask = 0
+modulate = Color(0.03, 0.045, 0.04, 0.55)
+texture = ExtResource("2_radial")
+position = Vector2(6, -8)
+scale = Vector2(0.52, 0.34)
+
+[node name="Aura" type="Sprite2D" parent="."]
+z_index = 5
+z_as_relative = false
+material = SubResource("ShaderMaterial_aura")
+texture = ExtResource("2_radial")
+scale = Vector2(0.74, 0.74)
+
+[node name="AmberLight" type="PointLight2D" parent="."]
+z_index = 5
+z_as_relative = false
+color = Color(1, 0.55, 0.14, 1)
+energy = 1.05
+texture = ExtResource("2_radial")
+texture_scale = 1.5
+range_z_min = -20
+range_z_max = 10
+
+[node name="GlowSilhouette" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+; Follows Core exactly - see the note there for the scale and offset. It has
+; to be the SAME scale, not a larger one. This sprite is an additive copy of
+; the camp drawn behind the camp, and the texture's alpha is a hard cutout, so
+; any size difference here is not a glow - it is a band of flat amber tracing
+; the silhouette at a fixed width, which reads as a UI selection ring stuck to
+; the refuge. The breathing is the shader's job: base_scale_glow scales VERTEX
+; by up to scale_amount on the pulse, so at rest the copy hides exactly under
+; the Core and only the pulse lifts a rim out from behind it.
+texture_filter = 3
+material = SubResource("ShaderMaterial_scale_glow")
+texture = ExtResource("3_core")
+position = Vector2(0, -13)
+scale = Vector2(0.42, 0.42)
+
+[node name="Core" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+z_index = 5
+z_as_relative = false
+; TEXTURE_FILTER_LINEAR_WITH_MIPMAPS. The eight structures opt into this in
+; placed_structure_2d.gd and the camp never did, so it drew through the
+; project default - linear with no mipmap selection - while its own .import
+; was baking mips nothing sampled. This sprite is minified about 4x on the
+; way to the screen, which is precisely the case mips exist for, and without
+; them the refuge's fine detail resolved as shimmer rather than as detail.
+texture_filter = 3
+material = SubResource("ShaderMaterial_core")
+texture = ExtResource("3_core")
+; The rebaked camp is a tighter cluster than the one this was tuned for: the
+; opaque content went from 264x195 to 219x183 and rose 8px in the frame. The
+; scale restores the refuge's on-screen mass and the offset restores where it
+; sits, so the rebake changes how the camp reads without changing how big it
+; is or where it stands relative to its collision shape.
+position = Vector2(0, -13)
+scale = Vector2(0.42, 0.42)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("CircleShape2D_core")

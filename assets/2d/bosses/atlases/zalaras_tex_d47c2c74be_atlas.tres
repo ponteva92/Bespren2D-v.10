@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cj2de2c7qbe1i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/zalaras_tex_17ff65adfb.png" id="1_5df2j"]
+
+[resource]
+resource_name = "layer_2"
+atlas = ExtResource("1_5df2j")
+region = Rect2(712, 993, 300, 22)

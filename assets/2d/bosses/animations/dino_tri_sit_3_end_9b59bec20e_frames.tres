@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dvqkku80ch1xx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/dino_tri_sit_3_end_2cf9e1a779.png" id="1_bnqtl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_focxk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bnqtl")
+region = Rect2(0, 0, 3072, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_focxk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

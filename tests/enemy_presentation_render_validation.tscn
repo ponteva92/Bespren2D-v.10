@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/enemy_presentation_render_validation.gd" id="1_test"]
+
+[node name="EnemyPresentationRenderValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 480.0
+offset_bottom = 270.0
+mouse_filter = 2
+color = Color(0.027, 0.037, 0.052, 1)
+
+[node name="UpperBand" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 30, 480, 26, 480, 134, 0, 140)
+color = Color(0.052, 0.071, 0.078, 1)
+
+[node name="LowerBand" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 145, 480, 139, 480, 258, 0, 270)
+color = Color(0.061, 0.055, 0.071, 1)
+
+[node name="Divider" type="ColorRect" parent="."]
+offset_top = 137.0
+offset_right = 480.0
+offset_bottom = 139.0
+mouse_filter = 2
+color = Color(0.231, 0.306, 0.337, 0.7)
+
+[node name="Title" type="Label" parent="."]
+offset_left = 12.0
+offset_top = 6.0
+offset_right = 468.0
+offset_bottom = 25.0
+theme_override_colors/font_color = Color(0.84, 0.91, 0.93, 1)
+theme_override_colors/font_shadow_color = Color(0.01, 0.015, 0.02, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 11
+text = "INFECTED FIELD LIBRARY // 8 READABLE ARCHETYPES"
+horizontal_alignment = 1

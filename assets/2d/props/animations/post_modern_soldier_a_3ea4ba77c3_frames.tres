@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bcgiyjm6clwdh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/post_modern_soldier_a_fc89f6ab16.png" id="1_6658t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xh5b4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6658t")
+region = Rect2(0, 0, 232, 188)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xh5b4")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

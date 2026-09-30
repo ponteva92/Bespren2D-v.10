@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://wenln3cs4qve"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_dagger_skeleton_c5697ab69b.png" id="1_e3x04"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0vpyb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_e3x04")
+region = Rect2(0, 0, 372, 309)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0vpyb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

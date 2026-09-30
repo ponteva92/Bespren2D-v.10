@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cohm80dl61p5s"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_m_hit_anim_f0_d4e607224b.png" id="1_4nlxo"]
+
+[resource]
+resource_name = "hit_000"
+atlas = ExtResource("1_4nlxo")
+region = Rect2(0, 0, 16, 28)

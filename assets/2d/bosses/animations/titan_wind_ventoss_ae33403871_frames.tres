@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://y4kafr3ti6vn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titan_wind_ventoss_1d1e79fc42.png" id="1_3qkyx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_317gk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3qkyx")
+region = Rect2(0, 0, 263, 276)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_317gk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

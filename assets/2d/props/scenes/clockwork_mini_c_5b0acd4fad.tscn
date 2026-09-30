@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://c474tjo3bdyv1"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_b6rfu"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_mini_c_d888ece046.png" id="2_xb1mh"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o613s"]
+resource_name = "Bespren Tech Cyan weathering"
+shader = ExtResource("1_b6rfu")
+shader_parameter/treatment = 2
+shader_parameter/weathering = 0.74
+shader_parameter/structural_damage = 0.12
+shader_parameter/rust_streaks = 0.28
+shader_parameter/toxic_intensity = 0.34
+shader_parameter/glow_color = Color(0, 1, 1, 1)
+shader_parameter/emission_strength = 0.92
+shader_parameter/pattern_scale = 35.0
+shader_parameter/damage_seed = 23.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iuvar"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_xb1mh")
+region = Rect2(0, 0, 272, 170)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_44kf4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iuvar")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="ClockworkMiniC" type="Node2D" unique_id=1763817166 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "clockwork_mini_c_5b0acd4fad"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1351108528]
+texture_filter = 1
+material = SubResource("ShaderMaterial_o613s")
+sprite_frames = SubResource("SpriteFrames_44kf4")
+offset = Vector2(0, -85)

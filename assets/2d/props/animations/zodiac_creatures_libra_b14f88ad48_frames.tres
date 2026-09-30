@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ccd7qe2gntefr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_creatures_libra_6d09f698a0.png" id="1_lmhw6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nr661"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lmhw6")
+region = Rect2(0, 0, 446, 444)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nr661")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

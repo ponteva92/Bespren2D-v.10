@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://de18ahn86e1m1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_void_gargoyle_sabre_8e98338046.png" id="1_c8gxg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c8gxg")
+region = Rect2(0, 0, 506, 577)

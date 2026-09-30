@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://caidfetqwud6m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/materials_003_wooden_plank_632b588769.png" id="1_gkmir"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gkmir")
+region = Rect2(0, 0, 64, 64)

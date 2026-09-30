@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dniilt0wh3bj3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/chests_snow_bfae65a55f.png" id="1_n7m6e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jgrms"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_n7m6e")
+region = Rect2(0, 0, 240, 256)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jgrms")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

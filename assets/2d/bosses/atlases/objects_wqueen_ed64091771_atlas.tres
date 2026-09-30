@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cissb83vxvwwu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_wqueen_bad90f86a2.png" id="1_1yaox"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1yaox")
+region = Rect2(0, 0, 132, 198)

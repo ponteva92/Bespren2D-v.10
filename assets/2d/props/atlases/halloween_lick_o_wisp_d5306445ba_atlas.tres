@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://u8ansgi1xni6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_lick_o_wisp_46ce1bfe3b.png" id="1_v1jty"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_v1jty")
+region = Rect2(0, 0, 92, 86)

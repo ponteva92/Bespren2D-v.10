@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://xbj0meq11qcx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_blue_seeker_6a6bf8610f.png" id="1_2eu3q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j5jyt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2eu3q")
+region = Rect2(0, 0, 159, 153)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j5jyt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

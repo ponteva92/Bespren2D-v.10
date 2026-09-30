@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://uh7e17tfrs44"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/vampiric_creatures_giant_mosquito_6d30805296.png" id="1_ro2mh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ro2mh")
+region = Rect2(0, 0, 261, 325)

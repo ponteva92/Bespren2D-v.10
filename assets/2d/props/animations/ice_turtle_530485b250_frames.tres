@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dtwb4x44lgy10"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_turtle_9beb5b960e.png" id="1_ygnvf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hguau"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ygnvf")
+region = Rect2(0, 0, 234, 166)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hguau")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

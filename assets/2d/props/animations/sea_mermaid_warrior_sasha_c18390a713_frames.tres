@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://md330fjhcfsh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_mermaid_warrior_sasha_3a7c12f40a.png" id="1_7mk3d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t0qmd"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7mk3d")
+region = Rect2(0, 0, 297, 306)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t0qmd")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

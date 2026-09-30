@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b63mb8qut1u4e"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_black_ant_berserker_de4c0082a6.png" id="1_626gc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ul3q4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_626gc")
+region = Rect2(0, 0, 433, 353)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ul3q4")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

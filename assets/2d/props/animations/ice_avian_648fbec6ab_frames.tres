@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bodrlai43put7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_avian_f2bb9ca1d6.png" id="1_rrmjt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h4k0y"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rrmjt")
+region = Rect2(0, 0, 445, 262)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h4k0y")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

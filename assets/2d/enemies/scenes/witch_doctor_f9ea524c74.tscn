@@ -1,0 +1,182 @@
+[gd_scene format=3 uid="uid://dade51g4nnw1p"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_0uep6"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f000.png" id="2_5d681"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f001.png" id="3_en2n4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f002.png" id="4_yxcyw"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f003.png" id="5_07vqi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f008.png" id="6_0gh73"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f009.png" id="7_igcxx"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f010.png" id="8_btah6"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f011.png" id="9_80vqy"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f012.png" id="10_wqwkl"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f013.png" id="11_btvjp"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f026.png" id="12_uvpim"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f027.png" id="13_1vxyl"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f028.png" id="14_8o6k3"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f029.png" id="15_nrd3v"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f030.png" id="16_fnggi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/witch_doctor_58af8bd2d4/witch_doctor_gif_f031.png" id="17_1dfw2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_0uep6")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bxkti"]
+resource_name = "default_000"
+atlas = ExtResource("2_5d681")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_olf6b"]
+resource_name = "default_001"
+atlas = ExtResource("3_en2n4")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gh82p"]
+resource_name = "default_002"
+atlas = ExtResource("4_yxcyw")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mkb72"]
+resource_name = "default_003"
+atlas = ExtResource("5_07vqi")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lx8k5"]
+resource_name = "default_008"
+atlas = ExtResource("6_0gh73")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esick"]
+resource_name = "default_009"
+atlas = ExtResource("7_igcxx")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw74i"]
+resource_name = "default_010"
+atlas = ExtResource("8_btah6")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d10fq"]
+resource_name = "default_011"
+atlas = ExtResource("9_80vqy")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n34dw"]
+resource_name = "default_012"
+atlas = ExtResource("10_wqwkl")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x2oav"]
+resource_name = "default_013"
+atlas = ExtResource("11_btvjp")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sjfg4"]
+resource_name = "default_026"
+atlas = ExtResource("12_uvpim")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2e34"]
+resource_name = "default_027"
+atlas = ExtResource("13_1vxyl")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0lbr8"]
+resource_name = "default_028"
+atlas = ExtResource("14_8o6k3")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yq8hc"]
+resource_name = "default_029"
+atlas = ExtResource("15_nrd3v")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqaua"]
+resource_name = "default_030"
+atlas = ExtResource("16_fnggi")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8eg5t"]
+resource_name = "default_031"
+atlas = ExtResource("17_1dfw2")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r2btx"]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_bxkti")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_olf6b")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_gh82p")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_mkb72")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_lx8k5")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_esick")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_aw74i")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_d10fq")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_n34dw")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_x2oav")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_sjfg4")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_u2e34")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_0lbr8")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_yq8hc")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_fqaua")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_8eg5t")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="WitchDoctor" type="Node2D" unique_id=1220812591 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "witch_doctor_f9ea524c74"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=809055661]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_r2btx")
+autoplay = "default"
+offset = Vector2(0, -384)

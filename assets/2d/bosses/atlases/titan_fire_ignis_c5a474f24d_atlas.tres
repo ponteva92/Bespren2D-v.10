@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cvd1jub68j3xu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titan_fire_ignis_3277897bdb.png" id="1_rkjcb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rkjcb")
+region = Rect2(0, 0, 319, 252)

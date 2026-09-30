@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bs4m8fp0s2sam"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_thanatos_03ad552f64.png" id="1_hix36"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hix36")
+region = Rect2(0, 0, 748, 636)

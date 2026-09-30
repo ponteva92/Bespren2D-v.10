@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dhogy2ilwy0wb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/breakfast_nightmares_bread_loaf_1e88f63c62.png" id="1_um5uc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_um5uc")
+region = Rect2(0, 0, 454, 305)

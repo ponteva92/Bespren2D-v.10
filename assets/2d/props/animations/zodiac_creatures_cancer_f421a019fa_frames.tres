@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cp5cjkfv47p8p"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_creatures_cancer_03a53f5494.png" id="1_gxj4i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xc4vt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gxj4i")
+region = Rect2(0, 0, 644, 300)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xc4vt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

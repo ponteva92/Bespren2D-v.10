@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cyp4yxra0spfs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_capricorn_d30a054363.png" id="1_0mn8m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6iwmf"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0mn8m")
+region = Rect2(0, 0, 398, 347)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6iwmf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

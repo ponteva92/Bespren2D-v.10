@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://xqqg6at03dn5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ghost_knight_galpha_4cb4edfb9f.png" id="1_ekylc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3xjoo"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ekylc")
+region = Rect2(0, 0, 164, 162)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3xjoo")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

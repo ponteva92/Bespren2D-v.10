@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dwd81vkbdjyp8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_abomination_aqua_2f2beb95ad.png" id="1_vm2ho"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_irxrw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vm2ho")
+region = Rect2(0, 0, 412, 387)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_irxrw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

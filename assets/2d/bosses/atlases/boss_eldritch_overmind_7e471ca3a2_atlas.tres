@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dnkomol850vjl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_eldritch_overmind_7627393dd6.png" id="1_epgq7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_epgq7")
+region = Rect2(0, 0, 530, 515)

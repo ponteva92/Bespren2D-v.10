@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bep1ih53uv473"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/weapons_004_stone_hammer_52d0595059.png" id="1_l7qx1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jbvt1"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_l7qx1")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jbvt1")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

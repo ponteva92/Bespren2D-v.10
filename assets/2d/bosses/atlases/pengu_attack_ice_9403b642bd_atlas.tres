@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cenrkvcgya81l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/pengu_attack_ice_68a6e6e6ab.png" id="1_8y3lg"]
+
+[resource]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_8y3lg")
+region = Rect2(128, 0, 128, 128)

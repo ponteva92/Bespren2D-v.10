@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d0uteqnunqsso"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/queenshaccad_tex_7350d327bc.png" id="1_wikbr"]
+
+[resource]
+resource_name = "ellipse_1"
+atlas = ExtResource("1_wikbr")
+region = Rect2(1, 444, 326, 28)

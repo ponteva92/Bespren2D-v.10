@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cdlc1wpmwun20"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_rpg_attacker_5e5d3413a1.png" id="1_7aa5s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3rpuk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7aa5s")
+region = Rect2(0, 0, 174, 91)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3rpuk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

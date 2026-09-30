@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://deno1ootuqupj"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_868qo"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/canine_attack_fx_bdd302c484.png" id="2_racsc"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_868qo")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4pf16"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_racsc")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2srih"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_racsc")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_so2ni"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_racsc")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_157dh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4pf16")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2srih")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_so2ni")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]
+
+[node name="CanineAttackFx" type="Node2D" unique_id=816021371 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "canine_attack_fx_4cc0b88882"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=367161969]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_157dh")
+animation = &"attack"
+autoplay = "attack"
+offset = Vector2(0, -32)

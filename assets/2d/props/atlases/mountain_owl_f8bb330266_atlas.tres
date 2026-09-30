@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cgo1w127mpwvs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_owl_b89c4c24a6.png" id="1_bcqjx"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bcqjx")
+region = Rect2(0, 0, 78, 150)

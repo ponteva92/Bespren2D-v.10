@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dl700yj58hh6y"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/badger_hurt_3562e87951.png" id="1_lj1nx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqg8p"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_lj1nx")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3rxml"]
+resource_name = "frame_000_004"
+atlas = ExtResource("1_lj1nx")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_deaii"]
+resource_name = "frame_000_007"
+atlas = ExtResource("1_lj1nx")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7la0e"]
+resource_name = "frame_000_010"
+atlas = ExtResource("1_lj1nx")
+region = Rect2(1280, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqg8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3rxml")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_deaii")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7la0e")
+}],
+"loop": 1,
+"name": &"hurt",
+"speed": 10.0
+}]

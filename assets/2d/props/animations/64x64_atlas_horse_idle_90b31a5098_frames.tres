@@ -1,0 +1,51 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://eb4qo26cjcwj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/64x64_atlas_horse_idle_369c74d20c.png" id="1_8100f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2qffn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8100f")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwjl1"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_8100f")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_if7pk"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_8100f")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qysnx"]
+resource_name = "frame_001_000"
+atlas = ExtResource("1_8100f")
+region = Rect2(0, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ml7x"]
+resource_name = "frame_001_001"
+atlas = ExtResource("1_8100f")
+region = Rect2(64, 64, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2qffn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xwjl1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_if7pk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qysnx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ml7x")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]

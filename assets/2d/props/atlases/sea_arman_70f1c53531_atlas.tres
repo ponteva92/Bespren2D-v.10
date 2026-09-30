@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://grktsn3pkj4i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_arman_7ad66481eb.png" id="1_6hjfv"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6hjfv")
+region = Rect2(0, 0, 188, 120)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c5js4gj7x808"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ghost_ghostus_bdbb88e32d.png" id="1_or2mt"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_or2mt")
+region = Rect2(0, 0, 141, 132)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cnwblk2r86xng"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fallen_winged_sword_970c0b943d.png" id="1_w2e1y"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w2e1y")
+region = Rect2(0, 0, 261, 222)

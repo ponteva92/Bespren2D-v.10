@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bltr5kbokenee"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_god_warrior_dagon_8d4371a2ff.png" id="1_kfpyc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kfpyc")
+region = Rect2(0, 0, 262, 163)

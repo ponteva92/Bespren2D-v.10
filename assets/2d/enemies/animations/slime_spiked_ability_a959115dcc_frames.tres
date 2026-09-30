@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cboemwc1hcj2d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/slime_spiked_ability_4d66fde763.png" id="1_htxmh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2535i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_htxmh")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l3vef"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_htxmh")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kbnp2"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_htxmh")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x1t5k"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_htxmh")
+region = Rect2(192, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2535i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l3vef")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kbnp2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x1t5k")
+}],
+"loop": 1,
+"name": &"ability",
+"speed": 10.0
+}]

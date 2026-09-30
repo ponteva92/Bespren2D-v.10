@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://crvcle5p5neul"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skeleton_hare_81e5e5a25d.png" id="1_s04u6"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_s04u6")
+region = Rect2(0, 0, 118, 93)

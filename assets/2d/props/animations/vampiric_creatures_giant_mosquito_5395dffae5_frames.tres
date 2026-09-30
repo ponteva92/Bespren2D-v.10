@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d16wwhq3qy2vu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/vampiric_creatures_giant_mosquito_778c1003cd.png" id="1_uce2c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bay1o"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_uce2c")
+region = Rect2(0, 0, 261, 325)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bay1o")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

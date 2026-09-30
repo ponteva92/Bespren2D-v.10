@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://mqikvwuxt211"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_the_originator_4e40bcb7bb.png" id="1_6prdv"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6prdv")
+region = Rect2(0, 0, 922, 524)

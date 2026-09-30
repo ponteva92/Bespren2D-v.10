@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://byl8qe42peb2n"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_lion_620256f9a7.png" id="1_m5yfa"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_m5yfa")
+region = Rect2(0, 0, 287, 283)

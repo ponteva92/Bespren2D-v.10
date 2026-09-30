@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cb4dy7x3x4kyp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/halloween_black_cat_e03fe0b3f4.png" id="1_gfn4u"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k5c2t"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gfn4u")
+region = Rect2(0, 0, 137, 132)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k5c2t")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

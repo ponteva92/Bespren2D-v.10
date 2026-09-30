@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bj0v4jmp4fakw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_tantalus_c0777107f8.png" id="1_mdo58"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pxpea"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mdo58")
+region = Rect2(0, 0, 795, 629)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pxpea")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

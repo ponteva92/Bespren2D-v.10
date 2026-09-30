@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://chw5auig4kq2d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_axe_warrior_dwarf_ad4894973d.png" id="1_xgtjb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qojmy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xgtjb")
+region = Rect2(0, 0, 191, 214)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qojmy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

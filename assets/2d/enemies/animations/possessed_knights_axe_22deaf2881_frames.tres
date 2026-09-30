@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cunetk5hlrnlu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/possessed_knights_axe_cc178e51c4.png" id="1_3v0yu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r4j2x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3v0yu")
+region = Rect2(0, 0, 403, 361)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r4j2x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

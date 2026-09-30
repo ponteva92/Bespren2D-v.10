@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b4qcwyh8w6aly"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_goddess_forest_flora_e59398a71f.png" id="1_mf0ml"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eplnv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mf0ml")
+region = Rect2(0, 0, 292, 265)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eplnv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

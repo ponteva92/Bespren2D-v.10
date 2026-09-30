@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c3wxg1xi5tb0j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_wyrm_5db39221af.png" id="1_3rekg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wjmti"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3rekg")
+region = Rect2(0, 0, 338, 264)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wjmti")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

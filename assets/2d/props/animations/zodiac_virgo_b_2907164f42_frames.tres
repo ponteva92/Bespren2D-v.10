@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cudjj3t5sv8pe"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_virgo_b_c208a50d1c.png" id="1_fogja"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_drci4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fogja")
+region = Rect2(0, 0, 1267, 592)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_drci4")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmgpmsew5858y"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slimei_07b8f87183.png" id="1_jmd33"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_io3lt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jmd33")
+region = Rect2(0, 0, 104, 60)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_io3lt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

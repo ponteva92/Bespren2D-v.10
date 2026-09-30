@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmto1xq0q6sun"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/tribal_elves_bastard_sword_0931d26450.png" id="1_cuxsl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tja8i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cuxsl")
+region = Rect2(0, 0, 315, 289)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tja8i")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

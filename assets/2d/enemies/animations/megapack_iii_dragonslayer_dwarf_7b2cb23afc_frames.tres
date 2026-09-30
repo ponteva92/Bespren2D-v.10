@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://btcqeovdlwxll"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_dragonslayer_dwarf_54e6fe0141.png" id="1_dfsvh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6a88f"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dfsvh")
+region = Rect2(0, 0, 198, 184)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6a88f")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

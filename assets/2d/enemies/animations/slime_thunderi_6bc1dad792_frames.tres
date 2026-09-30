@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dleysn8r3gu7e"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_thunderi_bc33349ceb.png" id="1_t42ou"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5hrsa"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_t42ou")
+region = Rect2(0, 0, 98, 73)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5hrsa")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

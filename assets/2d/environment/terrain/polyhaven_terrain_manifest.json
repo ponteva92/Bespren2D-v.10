@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "license": "CC0",
+  "license_evidence": "res://assets/licenses/polyhaven_cc0.md",
+  "license_evidence_sha256": "8767ed2cf4fb26103940647a138777668ee52b7fe2d75a27a6f7301ee235fb31",
+  "runtime_policy": "2D atlas and blend mask only; no PBR source maps, meshes, materials, or Node3D",
+  "blender_version": "5.0.0",
+  "workshop": "res://tools/art/blender/bespren_terrain_material_workshop.blend",
+  "workshop_bytes": 16924261,
+  "workshop_sha256": "10af97f2d4dad62eac2ac2122b9a51d55a7261db848c2048aa6d4ab3696bcd75",
+  "generator": "res://tools/art/bake_polyhaven_terrain_materials.py",
+  "generator_bytes": 13466,
+  "generator_sha256": "05d7786deb4e6551e06b42ae2f8201288a19ca8e7a5959f11621205b66f829d2",
+  "sources": [
+    {
+      "key": "asphalt",
+      "asset_id": "aerial_asphalt_01",
+      "asset_type": "textures",
+      "resolution": "1k",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/aerial_asphalt_01",
+      "packed_diffuse_image": "aerial_asphalt_01_Diffuse.png",
+      "packed_pixel_sha256": "966b9b45f0e1b5f4c9f87084b15a3a55a112480d490582c9a75f74f0a9032898",
+      "target_linear_luma": 0.26,
+      "atlas_cell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sample_region": [
+        8,
+        8,
+        496,
+        496
+      ]
+    },
+    {
+      "key": "mud_tracks",
+      "asset_id": "muddy_tracks",
+      "asset_type": "textures",
+      "resolution": "1k",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/muddy_tracks",
+      "packed_diffuse_image": "muddy_tracks_Diffuse.png",
+      "packed_pixel_sha256": "7a5955c2dd3747330400517e1981b035e59e6b5df49d3f47fe00a1b95aaa2b58",
+      "target_linear_luma": 0.2,
+      "atlas_cell": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "sample_region": [
+        520,
+        8,
+        496,
+        496
+      ]
+    },
+    {
+      "key": "forest_litter",
+      "asset_id": "forest_leaves_02",
+      "asset_type": "textures",
+      "resolution": "1k",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/forest_leaves_02",
+      "packed_diffuse_image": "forest_leaves_02_Diffuse.png",
+      "packed_pixel_sha256": "ca568e323d734f121da9e4574e9428f3b5fe8d7ca7dd0e231c05b6e00e2a248b",
+      "target_linear_luma": 0.23,
+      "atlas_cell": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "sample_region": [
+        8,
+        520,
+        496,
+        496
+      ]
+    },
+    {
+      "key": "concrete",
+      "asset_id": "concrete_pavement_03",
+      "asset_type": "textures",
+      "resolution": "1k",
+      "license": "CC0",
+      "url": "https://polyhaven.com/a/concrete_pavement_03",
+      "packed_diffuse_image": "concrete_pavement_03_Diffuse.png",
+      "packed_pixel_sha256": "6ced7a3474e5649f665308c537cb8323d6ddb43523ce3d204150afb4ba807f38",
+      "target_linear_luma": 0.28,
+      "atlas_cell": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "sample_region": [
+        520,
+        520,
+        496,
+        496
+      ]
+    }
+  ],
+  "atlas": {
+    "path": "res://assets/2d/environment/terrain/polyhaven_terrain_atlas.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 1635604,
+    "sha256": "1599b881cabea9663a6ffccf0415aa93a7ca38136bcbf66fcc5e7cc66fd431ff",
+    "layout": "2x2 cells with 8px wrapped gutters"
+  },
+  "blend_mask": {
+    "path": "res://assets/2d/environment/terrain/bespren_biome_blend_mask.png",
+    "size": [
+      224,
+      224
+    ],
+    "bytes": 27254,
+    "sha256": "774210c397ba60dfa795ce4e114673c20165b01589dfc04954189e88628475f1",
+    "encoding": "R forest, G asphalt, B concrete, mud reconstructed as 1-R-G-B; alpha opaque",
+    "grid": "14x14 authored biome blueprint with 16 mask pixels per macro cell and bounded 0.42-cell organic warp"
+  }
+}

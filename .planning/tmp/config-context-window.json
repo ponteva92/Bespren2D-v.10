@@ -1,0 +1,12 @@
+{
+  "args": [
+    "query",
+    "config-get",
+    "context_window"
+  ],
+  "status": 0,
+  "signal": null,
+  "error": null,
+  "stdout": "200000",
+  "stderr": ""
+}

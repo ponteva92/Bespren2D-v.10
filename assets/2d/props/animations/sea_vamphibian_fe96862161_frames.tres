@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bn6ejxys1ccpv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_vamphibian_e623d7f77f.png" id="1_k5rhj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ho00"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_k5rhj")
+region = Rect2(0, 0, 192, 91)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ho00")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

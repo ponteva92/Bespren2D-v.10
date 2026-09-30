@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ny334n2f0vra"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_scorpion_scopus_ec9b483699.png" id="1_mp4xk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nnw0q"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mp4xk")
+region = Rect2(0, 0, 125, 112)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nnw0q")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

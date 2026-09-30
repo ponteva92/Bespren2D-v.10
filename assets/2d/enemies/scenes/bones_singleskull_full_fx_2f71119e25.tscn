@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://cpjpgw3u76afa"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_81ikb"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/bones_singleskull_full_fx_cfd455e8a3.png" id="2_tik31"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_81ikb")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_424ll"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_tik31")
+region = Rect2(0, 0, 384, 320)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dk27i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_424ll")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="BonesSingleskullFullFx" type="Node2D" unique_id=870722895 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "bones_singleskull_full_fx_2f71119e25"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1037953761]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_dk27i")
+offset = Vector2(0, -160)

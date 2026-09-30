@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://csliifvebx3jw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_bull_b7497ad810.png" id="1_lpa1o"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lpa1o")
+region = Rect2(0, 0, 352, 258)

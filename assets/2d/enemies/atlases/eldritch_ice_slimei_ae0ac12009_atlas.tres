@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://fdh4vxatvwer"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_ice_slimei_30a3b14d13.png" id="1_8viow"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8viow")
+region = Rect2(0, 0, 100, 89)

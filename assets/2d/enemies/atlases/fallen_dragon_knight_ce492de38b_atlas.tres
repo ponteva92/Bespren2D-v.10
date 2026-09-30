@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bm7rio0j1jtw1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fallen_dragon_knight_710bdd9ca3.png" id="1_c4kkj"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c4kkj")
+region = Rect2(0, 0, 532, 304)

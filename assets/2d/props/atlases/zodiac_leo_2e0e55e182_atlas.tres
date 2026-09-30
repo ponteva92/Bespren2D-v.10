@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://7rrkwvq3kmci"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_leo_bbd7bd47a0.png" id="1_ny22v"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ny22v")
+region = Rect2(0, 0, 710, 515)

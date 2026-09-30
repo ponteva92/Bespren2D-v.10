@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b51s00i6w12bx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/flynn_tex_cfb4625b2a.png" id="1_qyp41"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ivqg2"]
+resource_name = "shadow"
+atlas = ExtResource("1_qyp41")
+region = Rect2(1, 453, 322, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d5mxd"]
+resource_name = "hat_bottom"
+atlas = ExtResource("1_qyp41")
+region = Rect2(289, 235, 105, 142)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ehit"]
+resource_name = "hat_top"
+atlas = ExtResource("1_qyp41")
+region = Rect2(280, 379, 104, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_16djl"]
+resource_name = "feather"
+atlas = ExtResource("1_qyp41")
+region = Rect2(122, 414, 121, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ko7kc"]
+resource_name = "hatring"
+atlas = ExtResource("1_qyp41")
+region = Rect2(325, 460, 95, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d07w1"]
+resource_name = "hatbottom"
+atlas = ExtResource("1_qyp41")
+region = Rect2(122, 235, 165, 99)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8sfpp"]
+resource_name = "left_arm"
+atlas = ExtResource("1_qyp41")
+region = Rect2(396, 1, 60, 69)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0fiug"]
+resource_name = "body"
+atlas = ExtResource("1_qyp41")
+region = Rect2(1, 1, 210, 232)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x8fdt"]
+resource_name = "hat_bottom_b"
+atlas = ExtResource("1_qyp41")
+region = Rect2(122, 336, 156, 76)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1rcer"]
+resource_name = "brain"
+atlas = ExtResource("1_qyp41")
+region = Rect2(245, 414, 19, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4vbec"]
+resource_name = "right_arm"
+atlas = ExtResource("1_qyp41")
+region = Rect2(386, 379, 66, 79)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tn1ld"]
+resource_name = "staff"
+atlas = ExtResource("1_qyp41")
+region = Rect2(1, 235, 119, 187)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ivqg2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d5mxd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ehit")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_16djl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ko7kc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d07w1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8sfpp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0fiug")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x8fdt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1rcer")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4vbec")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tn1ld")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

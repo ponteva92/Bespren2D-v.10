@@ -1,0 +1,116 @@
+[gd_scene format=3 uid="uid://dm0qkv3xplbn0"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_0e0hr"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_idle_anim_f0_5a88c4a10d.png" id="2_htg2l"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_idle_anim_f1_04887009ad.png" id="3_stw68"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_idle_anim_f2_877ae1e6dd.png" id="4_4gwho"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_idle_anim_f3_73ac2d785d.png" id="5_maf2j"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_run_anim_f0_a67e01cdfe.png" id="6_3rdmi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_run_anim_f1_286fb01076.png" id="7_tge72"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_run_anim_f2_6697395335.png" id="8_o0mro"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/orc_shaman_run_anim_f3_af64a1617b.png" id="9_52kgq"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_0e0hr")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u1cl7"]
+resource_name = "idle_000"
+atlas = ExtResource("2_htg2l")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r4px3"]
+resource_name = "idle_001"
+atlas = ExtResource("3_stw68")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hp7yt"]
+resource_name = "idle_002"
+atlas = ExtResource("4_4gwho")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q0x82"]
+resource_name = "idle_003"
+atlas = ExtResource("5_maf2j")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hy22n"]
+resource_name = "run_000"
+atlas = ExtResource("6_3rdmi")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqxcc"]
+resource_name = "run_001"
+atlas = ExtResource("7_tge72")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2tgli"]
+resource_name = "run_002"
+atlas = ExtResource("8_o0mro")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xueu8"]
+resource_name = "run_003"
+atlas = ExtResource("9_52kgq")
+region = Rect2(0, 0, 16, 23)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hl58u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u1cl7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r4px3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hp7yt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q0x82")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hy22n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqxcc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2tgli")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xueu8")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 8.0
+}]
+
+[node name="OrcShaman" type="Node2D" unique_id=1315569023 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "orc_shaman_9c91389a4d"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1851670334]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_hl58u")
+animation = &"idle"
+autoplay = "idle"
+offset = Vector2(0, -11.5)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://7l1831xitkt5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_tiamat_unleashed_300312ecb6.png" id="1_6qqed"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6qqed")
+region = Rect2(0, 0, 410, 466)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://23l5v1ro3v8s"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/knight_axe_common_46bd518a8b.png" id="1_5q2k5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ws1i8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5q2k5")
+region = Rect2(0, 0, 473, 281)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ws1i8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

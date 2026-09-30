@@ -1,0 +1,100 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d1r1xhqvo0di1"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f000.png" id="1_qfnx4"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f001.png" id="2_l1sof"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f002.png" id="3_ewxii"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f003.png" id="4_wk44m"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f008.png" id="5_d3pcn"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f009.png" id="6_dw6uu"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f010.png" id="7_n30j1"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f011.png" id="8_a4yjb"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f012.png" id="9_lf2jk"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/event_christmas_reindeer_phurold_8dafa379f5/event_christmas_reindeer_phurold_gif_f013.png" id="10_6w0g4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r8apy"]
+resource_name = "default_000"
+atlas = ExtResource("1_qfnx4")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_glxmf"]
+resource_name = "default_001"
+atlas = ExtResource("2_l1sof")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c3170"]
+resource_name = "default_002"
+atlas = ExtResource("3_ewxii")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t2425"]
+resource_name = "default_003"
+atlas = ExtResource("4_wk44m")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_10thv"]
+resource_name = "default_008"
+atlas = ExtResource("5_d3pcn")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fv611"]
+resource_name = "default_009"
+atlas = ExtResource("6_dw6uu")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pwtkg"]
+resource_name = "default_010"
+atlas = ExtResource("7_n30j1")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gfjux"]
+resource_name = "default_011"
+atlas = ExtResource("8_a4yjb")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5a2qa"]
+resource_name = "default_012"
+atlas = ExtResource("9_lf2jk")
+region = Rect2(0, 0, 768, 768)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ue3oh"]
+resource_name = "default_013"
+atlas = ExtResource("10_6w0g4")
+region = Rect2(0, 0, 768, 768)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_r8apy")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_glxmf")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_c3170")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_t2425")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_10thv")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_fv611")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_pwtkg")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_gfjux")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_5a2qa")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_ue3oh")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]

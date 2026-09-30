@@ -1,0 +1,107 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cyftxpfmfkwct"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/karkinos_tex_9f75084a46.png" id="1_e8q6a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h88wq"]
+resource_name = "ellipse_1"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(1, 557, 741, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g3pts"]
+resource_name = "folder_7_copy_8"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(832, 179, 107, 124)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_emukv"]
+resource_name = "folder_7_copy_7"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(519, 320, 274, 235)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5mgvt"]
+resource_name = "folder_7_copy_12"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(183, 619, 179, 158)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0321p"]
+resource_name = "folder_7_copy_11"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(1, 735, 180, 158)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c7ry3"]
+resource_name = "folder_7_copy_10"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(364, 619, 179, 158)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ckod1"]
+resource_name = "folder_7_copy_3"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(1, 1, 516, 415)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jed7"]
+resource_name = "folder_7_copy_9"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(744, 557, 190, 176)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4hdd"]
+resource_name = "folder_7_copy_5"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(795, 320, 189, 176)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jhw13"]
+resource_name = "folder_7_copy_6"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(832, 1, 189, 176)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_akssi"]
+resource_name = "folder_7_copy_4"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(936, 498, 75, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rwdeg"]
+resource_name = "folder_7_copy_2"
+atlas = ExtResource("1_e8q6a")
+region = Rect2(519, 1, 311, 317)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h88wq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g3pts")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_emukv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5mgvt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0321p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c7ry3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ckod1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1jed7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l4hdd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jhw13")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_akssi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rwdeg")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

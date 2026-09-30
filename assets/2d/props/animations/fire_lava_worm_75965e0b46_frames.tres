@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bo8ij7quxfsqv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_lava_worm_d7dcf6c0bf.png" id="1_425m5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnyky"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_425m5")
+region = Rect2(0, 0, 581, 325)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnyky")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

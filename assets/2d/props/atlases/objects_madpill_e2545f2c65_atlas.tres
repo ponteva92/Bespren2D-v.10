@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dk8qdcgbov3ja"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_madpill_7d0155634a.png" id="1_j1wie"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j1wie")
+region = Rect2(0, 0, 58, 78)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dai11gnjjwvuk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_minion_axe_c6540ed716.png" id="1_fh2yk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_shrni"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fh2yk")
+region = Rect2(0, 0, 493, 311)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_shrni")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

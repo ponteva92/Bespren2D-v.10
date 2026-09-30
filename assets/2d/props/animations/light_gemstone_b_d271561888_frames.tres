@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dslg27bsduhxb"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_gemstone_b_ae827f5a90.png" id="1_ckqq7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62wd0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ckqq7")
+region = Rect2(0, 0, 171, 180)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62wd0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

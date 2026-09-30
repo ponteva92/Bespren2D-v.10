@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bytm256bt8s6n"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_octopus_1f4c93ada6.png" id="1_6t6xs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ry2x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6t6xs")
+region = Rect2(0, 0, 187, 224)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ry2x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,83 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://6hw1lgx20lbm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/slimeattacker_tex_a133d298ef.png" id="1_c7wu8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hb5sg"]
+resource_name = "shadow"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(1, 64, 57, 18)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yr0y8"]
+resource_name = "cape"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(1, 1, 131, 61)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xs4wo"]
+resource_name = "shoulderl"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(134, 61, 56, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6cfj2"]
+resource_name = "shoulderr"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(218, 1, 37, 27)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yttiu"]
+resource_name = "slime"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(134, 1, 82, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_be31t"]
+resource_name = "grip"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(1, 84, 17, 19)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xs5gr"]
+resource_name = "hilta"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(60, 64, 26, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8eplt"]
+resource_name = "hiltb"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(218, 30, 21, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgyrk"]
+resource_name = "blade"
+atlas = ExtResource("1_c7wu8")
+region = Rect2(192, 61, 60, 50)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hb5sg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yr0y8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xs4wo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6cfj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yttiu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_be31t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xs5gr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8eplt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgyrk")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

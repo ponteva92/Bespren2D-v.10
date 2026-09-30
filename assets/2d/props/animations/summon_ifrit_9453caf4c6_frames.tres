@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dbclgqak73qfx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/summon_ifrit_1fdff5008c.png" id="1_rd1f2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_03cu8"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rd1f2")
+region = Rect2(0, 0, 550, 430)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_03cu8")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cv1hw42apj8n"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_goddess_forest_flora_e59398a71f.png" id="1_pm55j"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_pm55j")
+region = Rect2(0, 0, 292, 265)

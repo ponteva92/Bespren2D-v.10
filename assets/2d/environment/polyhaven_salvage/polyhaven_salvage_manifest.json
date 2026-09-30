@@ -1,0 +1,1645 @@
+{
+	"atlas": {
+		"bytes": 1293715,
+		"frame_size": [
+			256,
+			256
+		],
+		"layout": "7x6 deterministic frame order; 38 occupied cells",
+		"path": "res://assets/2d/environment/polyhaven_salvage/polyhaven_salvage_atlas.png",
+		"sha256": "4b880142841bace5b3b69f4cfd0c83a6064d1720fa56f512d6479c8b62f859ef",
+		"size": [
+			1792,
+			1536
+		]
+	},
+	"atlas_generator": "res://tools/asset_pipeline/build_polyhaven_wild_atlas.gd",
+	"atlas_generator_bytes": 12862,
+	"atlas_generator_sha256": "2a0f799f70de97b29bfc39856bf9483e6ebd25c589d9ab89b847445d31a42c2d",
+	"blender_renderer": "res://tools/art/render_polyhaven_wild_sprites.py",
+	"blender_renderer_bytes": 64384,
+	"blender_renderer_sha256": "27aa5ff0369e4f73bc642d54e230cbd0689c2e886add82c3ea9567a3f436a37c",
+	"blender_version": "5.0.0",
+	"derived_assets": [
+		{
+			"alpha_coverage": 0.287033,
+			"alpha_weighted_luma_255": 78.154,
+			"bytes": 45633,
+			"cell_region": [
+				0,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				74,
+				32,
+				108,
+				192
+			],
+			"edge_margin_px": 32,
+			"key": "barrel_steel",
+			"padded_atlas_region": [
+				70,
+				28,
+				116,
+				200
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/barrel_steel_0.png",
+			"sha256": "edb740e64e347ff1ef724a14bdcbe2746fa37f7ffd696009782b0f2f9994975c",
+			"source_id": "Barrel_01",
+			"variant": 0,
+			"visible_pixel_count": 18811,
+			"world_height_m": 0.88,
+			"world_size_m": [
+				0.563,
+				0.563,
+				0.88
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.308823,
+			"alpha_weighted_luma_255": 76.778,
+			"bytes": 48058,
+			"cell_region": [
+				256,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				72,
+				28,
+				112,
+				200
+			],
+			"edge_margin_px": 28,
+			"key": "barrel_steel",
+			"padded_atlas_region": [
+				68,
+				24,
+				120,
+				208
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/barrel_steel_1.png",
+			"sha256": "73de9d7d7a6494e523e052396dc3962a2c5b520789d31f0659c78021d1880f63",
+			"source_id": "Barrel_01",
+			"variant": 1,
+			"visible_pixel_count": 20239,
+			"world_height_m": 0.88,
+			"world_size_m": [
+				0.563,
+				0.563,
+				0.88
+			],
+			"yaw_deg": 142.0
+		},
+		{
+			"alpha_coverage": 0.24176,
+			"alpha_weighted_luma_255": 76.526,
+			"bytes": 34151,
+			"cell_region": [
+				512,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				78,
+				37,
+				100,
+				182
+			],
+			"edge_margin_px": 37,
+			"key": "barrel_ribbed",
+			"padded_atlas_region": [
+				74,
+				33,
+				108,
+				190
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/barrel_ribbed_0.png",
+			"sha256": "61f7e73909ee5313b498125b692ffdd7561eeae45faa652b83d6a8eabb89b234",
+			"source_id": "Barrel_02",
+			"variant": 0,
+			"visible_pixel_count": 15844,
+			"world_height_m": 0.88,
+			"world_size_m": [
+				0.4882,
+				0.4846,
+				0.88
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.281143,
+			"alpha_weighted_luma_255": 76.979,
+			"bytes": 38413,
+			"cell_region": [
+				768,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				74,
+				30,
+				108,
+				196
+			],
+			"edge_margin_px": 30,
+			"key": "barrel_ribbed",
+			"padded_atlas_region": [
+				70,
+				26,
+				116,
+				204
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/barrel_ribbed_1.png",
+			"sha256": "fc0f83b92bbc8727653b062ab02143860756ba0b5ed0e2affcb022bb11676f65",
+			"source_id": "Barrel_02",
+			"variant": 1,
+			"visible_pixel_count": 18425,
+			"world_height_m": 0.88,
+			"world_size_m": [
+				0.4882,
+				0.4846,
+				0.88
+			],
+			"yaw_deg": 131.0
+		},
+		{
+			"alpha_coverage": 0.289429,
+			"alpha_weighted_luma_255": 98.46,
+			"bytes": 42651,
+			"cell_region": [
+				1024,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				72,
+				33,
+				112,
+				190
+			],
+			"edge_margin_px": 33,
+			"key": "barrel_rusted",
+			"padded_atlas_region": [
+				68,
+				29,
+				120,
+				198
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/barrel_rusted_0.png",
+			"sha256": "1b522c38c38c3b401e183d9a9ec86a0f3a0cdb58e1ad741606d92b998340441b",
+			"source_id": "barrel_03",
+			"variant": 0,
+			"visible_pixel_count": 18968,
+			"world_height_m": 0.9305,
+			"world_size_m": [
+				0.6339,
+				0.6386,
+				0.9305
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.290726,
+			"alpha_weighted_luma_255": 98.535,
+			"bytes": 43035,
+			"cell_region": [
+				1280,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				72,
+				33,
+				112,
+				191
+			],
+			"edge_margin_px": 32,
+			"key": "barrel_rusted",
+			"padded_atlas_region": [
+				68,
+				29,
+				120,
+				199
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/barrel_rusted_1.png",
+			"sha256": "a5d4f61c22067d935e3397df766110b532d39df37736ed8b8fbc32b3d0f56425",
+			"source_id": "barrel_03",
+			"variant": 1,
+			"visible_pixel_count": 19053,
+			"world_height_m": 0.9305,
+			"world_size_m": [
+				0.6339,
+				0.6386,
+				0.9305
+			],
+			"yaw_deg": 155.0
+		},
+		{
+			"alpha_coverage": 0.343491,
+			"alpha_weighted_luma_255": 100.114,
+			"bytes": 51804,
+			"cell_region": [
+				1536,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				33,
+				39,
+				193,
+				173
+			],
+			"edge_margin_px": 30,
+			"key": "crate_wood",
+			"padded_atlas_region": [
+				29,
+				35,
+				201,
+				181
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/crate_wood_0.png",
+			"sha256": "d61713bd28825407d6992ae6adad20bcd918bc38e94b1ac54e94fc111366d915",
+			"source_id": "wooden_crate_01",
+			"variant": 0,
+			"visible_pixel_count": 22511,
+			"world_height_m": 0.3496,
+			"world_size_m": [
+				0.8253,
+				0.409,
+				0.3496
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.411682,
+			"alpha_weighted_luma_255": 100.695,
+			"bytes": 50109,
+			"cell_region": [
+				0,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				18,
+				59,
+				219,
+				137
+			],
+			"edge_margin_px": 18,
+			"key": "crate_wood",
+			"padded_atlas_region": [
+				14,
+				55,
+				227,
+				145
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/crate_wood_1.png",
+			"sha256": "9781629e9f481647c0e03f018eaa2b70583243ec11fc1602c7e8dde4098505c2",
+			"source_id": "wooden_crate_01",
+			"variant": 1,
+			"visible_pixel_count": 26980,
+			"world_height_m": 0.3496,
+			"world_size_m": [
+				0.8253,
+				0.409,
+				0.3496
+			],
+			"yaw_deg": 34.0
+		},
+		{
+			"alpha_coverage": 0.350372,
+			"alpha_weighted_luma_255": 101.815,
+			"bytes": 53170,
+			"cell_region": [
+				256,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				42,
+				28,
+				168,
+				199
+			],
+			"edge_margin_px": 28,
+			"key": "crate_wood",
+			"padded_atlas_region": [
+				38,
+				24,
+				176,
+				207
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/crate_wood_2.png",
+			"sha256": "2013b716431b1dfa566698036c03660845b947d2d31f47f234d4bf19cd654545",
+			"source_id": "wooden_crate_01",
+			"variant": 2,
+			"visible_pixel_count": 22962,
+			"world_height_m": 0.3496,
+			"world_size_m": [
+				0.9125,
+				0.8,
+				0.3496
+			],
+			"yaw_deg": 149.0
+		},
+		{
+			"alpha_coverage": 0.325775,
+			"alpha_weighted_luma_255": 81.73,
+			"bytes": 55604,
+			"cell_region": [
+				512,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				23,
+				42,
+				210,
+				168
+			],
+			"edge_margin_px": 23,
+			"key": "crate_military",
+			"padded_atlas_region": [
+				19,
+				38,
+				218,
+				176
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/crate_military_0.png",
+			"sha256": "cd8ab5d981b3742cde8db1ca15b37bfeeb24ebd5716d1e5a9affdb99e2575ff5",
+			"source_id": "wooden_military_crate",
+			"variant": 0,
+			"visible_pixel_count": 21350,
+			"world_height_m": 0.4648,
+			"world_size_m": [
+				1.2421,
+				0.5198,
+				0.4648
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.292389,
+			"alpha_weighted_luma_255": 73.184,
+			"bytes": 41971,
+			"cell_region": [
+				768,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				19,
+				71,
+				219,
+				110
+			],
+			"edge_margin_px": 18,
+			"key": "crate_military",
+			"padded_atlas_region": [
+				15,
+				67,
+				227,
+				118
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/crate_military_1.png",
+			"sha256": "35a3640df3921357334d7f57a4078f661dbbdaddb501a990c69f70ea4472d0ea",
+			"source_id": "wooden_military_crate",
+			"variant": 1,
+			"visible_pixel_count": 19162,
+			"world_height_m": 0.4648,
+			"world_size_m": [
+				1.2421,
+				0.5198,
+				0.4648
+			],
+			"yaw_deg": 41.0
+		},
+		{
+			"alpha_coverage": 0.376984,
+			"alpha_weighted_luma_255": 77.377,
+			"bytes": 65153,
+			"cell_region": [
+				1024,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				29,
+				21,
+				202,
+				210
+			],
+			"edge_margin_px": 21,
+			"key": "crate_military",
+			"padded_atlas_region": [
+				25,
+				17,
+				210,
+				218
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/crate_military_2.png",
+			"sha256": "6c3bcc1633567163abaafdd5fb437dc2d8960053201127b6c0202a5001056b08",
+			"source_id": "wooden_military_crate",
+			"variant": 2,
+			"visible_pixel_count": 24706,
+			"world_height_m": 0.4648,
+			"world_size_m": [
+				1.4018,
+				1.2323,
+				0.4648
+			],
+			"yaw_deg": 152.0
+		},
+		{
+			"alpha_coverage": 0.226807,
+			"alpha_weighted_luma_255": 73.552,
+			"bytes": 47482,
+			"cell_region": [
+				1280,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				61,
+				51,
+				134,
+				154
+			],
+			"edge_margin_px": 51,
+			"key": "crate_plastic",
+			"padded_atlas_region": [
+				57,
+				47,
+				142,
+				162
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/crate_plastic_0.png",
+			"sha256": "12764ba4fdd0157ea3c9bf20a497f997fe0fa6cc68eced3e0edc95946dd33520",
+			"source_id": "plastic_crate_01",
+			"variant": 0,
+			"visible_pixel_count": 14864,
+			"world_height_m": 0.2642,
+			"world_size_m": [
+				0.298,
+				0.408,
+				0.2642
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.194229,
+			"alpha_weighted_luma_255": 71.308,
+			"bytes": 35498,
+			"cell_region": [
+				1536,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				80,
+				57,
+				96,
+				142
+			],
+			"edge_margin_px": 57,
+			"key": "crate_plastic",
+			"padded_atlas_region": [
+				76,
+				53,
+				104,
+				150
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/crate_plastic_1.png",
+			"sha256": "c7db372b9ed0a1a33b95c9295e951e299f050feeb24fc2cc18d0a41a388419b1",
+			"source_id": "plastic_crate_01",
+			"variant": 1,
+			"visible_pixel_count": 12729,
+			"world_height_m": 0.2642,
+			"world_size_m": [
+				0.298,
+				0.408,
+				0.2642
+			],
+			"yaw_deg": 37.0
+		},
+		{
+			"alpha_coverage": 0.19986,
+			"alpha_weighted_luma_255": 77.937,
+			"bytes": 35599,
+			"cell_region": [
+				0,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				72,
+				61,
+				112,
+				145
+			],
+			"edge_margin_px": 50,
+			"key": "jerrycan",
+			"padded_atlas_region": [
+				68,
+				57,
+				120,
+				153
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/jerrycan_0.png",
+			"sha256": "85acbd6ffbb504b0cacd9347a8b2d7c9bd17e65004934d323450f8e685a5006a",
+			"source_id": "metal_jerrycan",
+			"variant": 0,
+			"visible_pixel_count": 13098,
+			"world_height_m": 0.4552,
+			"world_size_m": [
+				0.3503,
+				0.1717,
+				0.4552
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.128479,
+			"alpha_weighted_luma_255": 80.382,
+			"bytes": 21749,
+			"cell_region": [
+				256,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				101,
+				48,
+				54,
+				159
+			],
+			"edge_margin_px": 48,
+			"key": "jerrycan",
+			"padded_atlas_region": [
+				97,
+				44,
+				62,
+				167
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/jerrycan_1.png",
+			"sha256": "ee8c2adab3cd96665b7ef4d255f3fd218d68301525bfcbc3f59c86419fa15e8d",
+			"source_id": "metal_jerrycan",
+			"variant": 1,
+			"visible_pixel_count": 8420,
+			"world_height_m": 0.4552,
+			"world_size_m": [
+				0.3503,
+				0.1717,
+				0.4552
+			],
+			"yaw_deg": 124.0
+		},
+		{
+			"alpha_coverage": 0.205948,
+			"alpha_weighted_luma_255": 77.25,
+			"bytes": 37347,
+			"cell_region": [
+				512,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				71,
+				57,
+				114,
+				146
+			],
+			"edge_margin_px": 53,
+			"key": "jerrycan",
+			"padded_atlas_region": [
+				67,
+				53,
+				122,
+				154
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/jerrycan_2.png",
+			"sha256": "63c4cd1a6a673b85463051b0f0b8be79f1269b37aa3f8e52419214226f9efbdb",
+			"source_id": "metal_jerrycan",
+			"variant": 2,
+			"visible_pixel_count": 13497,
+			"world_height_m": 0.4552,
+			"world_size_m": [
+				0.3383,
+				0.3865,
+				0.4552
+			],
+			"yaw_deg": 236.0
+		},
+		{
+			"alpha_coverage": 0.21994,
+			"alpha_weighted_luma_255": 77.837,
+			"bytes": 38187,
+			"cell_region": [
+				768,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				77,
+				48,
+				102,
+				171
+			],
+			"edge_margin_px": 37,
+			"key": "propane",
+			"padded_atlas_region": [
+				73,
+				44,
+				110,
+				179
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/propane_0.png",
+			"sha256": "892f68be5ab180d010c3827b4084fde1ea0d6791dab9499b84395b689c9d4377",
+			"source_id": "propane_tank",
+			"variant": 0,
+			"visible_pixel_count": 14414,
+			"world_height_m": 0.5538,
+			"world_size_m": [
+				0.3374,
+				0.3374,
+				0.5538
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.217041,
+			"alpha_weighted_luma_255": 75.25,
+			"bytes": 37324,
+			"cell_region": [
+				1024,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				78,
+				47,
+				100,
+				172
+			],
+			"edge_margin_px": 37,
+			"key": "propane",
+			"padded_atlas_region": [
+				74,
+				43,
+				108,
+				180
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/propane_1.png",
+			"sha256": "e8535787c086f8b7ad686b386176a45e9e196eeb3814982880b9029080200dd7",
+			"source_id": "propane_tank",
+			"variant": 1,
+			"visible_pixel_count": 14224,
+			"world_height_m": 0.5538,
+			"world_size_m": [
+				0.3374,
+				0.3374,
+				0.5538
+			],
+			"yaw_deg": 138.0
+		},
+		{
+			"alpha_coverage": 0.20929,
+			"alpha_weighted_luma_255": 75.722,
+			"bytes": 41872,
+			"cell_region": [
+				1280,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				64,
+				69,
+				128,
+				140
+			],
+			"edge_margin_px": 47,
+			"key": "trashbag",
+			"padded_atlas_region": [
+				60,
+				65,
+				136,
+				148
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/trashbag_0.png",
+			"sha256": "31fe09686909a1ebc902e7defccf51b8913a86187a276e8b8cfd75a424481ffd",
+			"source_id": "trashbag",
+			"variant": 0,
+			"visible_pixel_count": 13716,
+			"world_height_m": 0.575,
+			"world_size_m": [
+				0.5281,
+				0.4629,
+				0.575
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.207794,
+			"alpha_weighted_luma_255": 70.093,
+			"bytes": 42397,
+			"cell_region": [
+				1536,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				69,
+				66,
+				120,
+				153
+			],
+			"edge_margin_px": 37,
+			"key": "trashbag",
+			"padded_atlas_region": [
+				65,
+				62,
+				128,
+				161
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/trashbag_1.png",
+			"sha256": "a662dd28edd8c8af512d9de571cea3b4175d9369bead3a7085205f68ddbfcd41",
+			"source_id": "trashbag",
+			"variant": 1,
+			"visible_pixel_count": 13618,
+			"world_height_m": 0.575,
+			"world_size_m": [
+				0.5281,
+				0.4629,
+				0.575
+			],
+			"yaw_deg": 147.0
+		},
+		{
+			"alpha_coverage": 0.182693,
+			"alpha_weighted_luma_255": 76.933,
+			"bytes": 37674,
+			"cell_region": [
+				0,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				69,
+				75,
+				115,
+				140
+			],
+			"edge_margin_px": 41,
+			"key": "trashbag",
+			"padded_atlas_region": [
+				65,
+				71,
+				123,
+				148
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/trashbag_2.png",
+			"sha256": "e303d1d796c0a1cfebe967f7b0c90ba75e8a8b313f46cd9e852dab6906c2e0ee",
+			"source_id": "trashbag",
+			"variant": 2,
+			"visible_pixel_count": 11973,
+			"world_height_m": 0.575,
+			"world_size_m": [
+				0.695,
+				0.6758,
+				0.575
+			],
+			"yaw_deg": 259.0
+		},
+		{
+			"alpha_coverage": 0.106964,
+			"alpha_weighted_luma_255": 69.369,
+			"bytes": 26225,
+			"cell_region": [
+				256,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				85,
+				30,
+				100,
+				197
+			],
+			"edge_margin_px": 29,
+			"key": "hand_truck",
+			"padded_atlas_region": [
+				81,
+				26,
+				108,
+				205
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/hand_truck_0.png",
+			"sha256": "bddfa09113cf2f5cd69625aed06299ff157b4101544643bc2fe9ea146a6e188a",
+			"source_id": "hand_truck",
+			"variant": 0,
+			"visible_pixel_count": 7010,
+			"world_height_m": 1.4025,
+			"world_size_m": [
+				0.5933,
+				0.6925,
+				1.4025
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.098633,
+			"alpha_weighted_luma_255": 68.732,
+			"bytes": 22026,
+			"cell_region": [
+				512,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				72,
+				29,
+				109,
+				202
+			],
+			"edge_margin_px": 25,
+			"key": "hand_truck",
+			"padded_atlas_region": [
+				68,
+				25,
+				117,
+				210
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/hand_truck_1.png",
+			"sha256": "e00a7e68ecde015559e19083474a35909d2bb78a8b1e1251a2dc34de41df92f2",
+			"source_id": "hand_truck",
+			"variant": 1,
+			"visible_pixel_count": 6464,
+			"world_height_m": 1.4025,
+			"world_size_m": [
+				0.5933,
+				0.6925,
+				1.4025
+			],
+			"yaw_deg": 118.0
+		},
+		{
+			"alpha_coverage": 0.093018,
+			"alpha_weighted_luma_255": 75.295,
+			"bytes": 22662,
+			"cell_region": [
+				768,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				88,
+				67,
+				96,
+				165
+			],
+			"edge_margin_px": 24,
+			"key": "hand_truck",
+			"padded_atlas_region": [
+				84,
+				63,
+				104,
+				173
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/hand_truck_2.png",
+			"sha256": "672d2a8bf2b64b982219210821f237ed85c61159a8f87532198046ff40aed905",
+			"source_id": "hand_truck",
+			"variant": 2,
+			"visible_pixel_count": 6096,
+			"world_height_m": 1.4025,
+			"world_size_m": [
+				0.89,
+				0.8489,
+				1.4025
+			],
+			"yaw_deg": 243.0
+		},
+		{
+			"alpha_coverage": 0.166473,
+			"alpha_weighted_luma_255": 76.184,
+			"bytes": 31216,
+			"cell_region": [
+				1024,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				66,
+				68,
+				125,
+				123
+			],
+			"edge_margin_px": 65,
+			"key": "wheel_rim",
+			"padded_atlas_region": [
+				62,
+				64,
+				133,
+				131
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/wheel_rim_0.png",
+			"sha256": "52ec89e8c95129c4b3e3bfe54bb707d8b8497fe48ea6b12e6b0363aa9d25933a",
+			"source_id": "rusted_wheel_rim_01",
+			"variant": 0,
+			"visible_pixel_count": 10910,
+			"world_height_m": 0.3955,
+			"world_size_m": [
+				0.4029,
+				0.1541,
+				0.3955
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.09993,
+			"alpha_weighted_luma_255": 71.428,
+			"bytes": 17787,
+			"cell_region": [
+				1280,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				94,
+				66,
+				67,
+				125
+			],
+			"edge_margin_px": 65,
+			"key": "wheel_rim",
+			"padded_atlas_region": [
+				90,
+				62,
+				75,
+				133
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/wheel_rim_1.png",
+			"sha256": "19420b64ab70a5f5ea0f2c3e0e77c67a5a133a4c11c3211f6ee21c0d1ceb0bb8",
+			"source_id": "rusted_wheel_rim_01",
+			"variant": 1,
+			"visible_pixel_count": 6549,
+			"world_height_m": 0.3955,
+			"world_size_m": [
+				0.4029,
+				0.1541,
+				0.3955
+			],
+			"yaw_deg": 133.0
+		},
+		{
+			"alpha_coverage": 0.19252,
+			"alpha_weighted_luma_255": 100.458,
+			"bytes": 33817,
+			"cell_region": [
+				1536,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				57,
+				62,
+				138,
+				138
+			],
+			"edge_margin_px": 56,
+			"key": "toolbox",
+			"padded_atlas_region": [
+				53,
+				58,
+				146,
+				146
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/toolbox_0.png",
+			"sha256": "a50d17f0c75db8f41f8d80ee4ee56e2d2850bd20ffec806096e98090683a0d13",
+			"source_id": "metal_toolbox",
+			"variant": 0,
+			"visible_pixel_count": 12617,
+			"world_height_m": 0.3471,
+			"world_size_m": [
+				0.4,
+				0.2923,
+				0.3471
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.182892,
+			"alpha_weighted_luma_255": 105.021,
+			"bytes": 26941,
+			"cell_region": [
+				0,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				57,
+				77,
+				142,
+				107
+			],
+			"edge_margin_px": 57,
+			"key": "toolbox",
+			"padded_atlas_region": [
+				53,
+				73,
+				150,
+				115
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/toolbox_1.png",
+			"sha256": "27dd2a8c8c53320585dc8e6aab97530b059c521be6f83c2ff1c8bf5ea720fcfb",
+			"source_id": "metal_toolbox",
+			"variant": 1,
+			"visible_pixel_count": 11986,
+			"world_height_m": 0.3471,
+			"world_size_m": [
+				0.4,
+				0.2923,
+				0.3471
+			],
+			"yaw_deg": 39.0
+		},
+		{
+			"alpha_coverage": 0.047134,
+			"alpha_weighted_luma_255": 67.551,
+			"bytes": 12273,
+			"cell_region": [
+				256,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				107,
+				33,
+				42,
+				196
+			],
+			"edge_margin_px": 27,
+			"key": "street_lamp",
+			"padded_atlas_region": [
+				103,
+				29,
+				50,
+				204
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/street_lamp_0.png",
+			"sha256": "4c36ad89648281f90a13a08614a07e0783706e361cfb62fad64e52f39b4f6af2",
+			"source_id": "street_lamp_01",
+			"variant": 0,
+			"visible_pixel_count": 3089,
+			"world_height_m": 3.8706,
+			"world_size_m": [
+				0.7043,
+				0.3865,
+				3.8706
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.043213,
+			"alpha_weighted_luma_255": 66.005,
+			"bytes": 11139,
+			"cell_region": [
+				512,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				113,
+				33,
+				30,
+				196
+			],
+			"edge_margin_px": 27,
+			"key": "street_lamp",
+			"padded_atlas_region": [
+				109,
+				29,
+				38,
+				204
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/street_lamp_1.png",
+			"sha256": "89ccd5ad6b38a26596129774ef3b2d811f8095a86d3cfd3e1ac4f1646d24a02c",
+			"source_id": "street_lamp_01",
+			"variant": 1,
+			"visible_pixel_count": 2832,
+			"world_height_m": 3.8706,
+			"world_size_m": [
+				0.7043,
+				0.3865,
+				3.8706
+			],
+			"yaw_deg": 127.0
+		},
+		{
+			"alpha_coverage": 0.293732,
+			"alpha_weighted_luma_255": 104.597,
+			"bytes": 40403,
+			"cell_region": [
+				768,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				70,
+				22,
+				117,
+				207
+			],
+			"edge_margin_px": 22,
+			"key": "utility_box",
+			"padded_atlas_region": [
+				66,
+				18,
+				125,
+				215
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/utility_box_0.png",
+			"sha256": "aa5dca9271a9cee9144946c9bdd9fb6358132afd77a61d09aa5e3bc33ea4ba14",
+			"source_id": "utility_box_01",
+			"variant": 0,
+			"visible_pixel_count": 19250,
+			"world_height_m": 1.1203,
+			"world_size_m": [
+				0.52,
+				0.432,
+				1.1203
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.319733,
+			"alpha_weighted_luma_255": 101.098,
+			"bytes": 37724,
+			"cell_region": [
+				1024,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				74,
+				22,
+				107,
+				208
+			],
+			"edge_margin_px": 22,
+			"key": "utility_box",
+			"padded_atlas_region": [
+				70,
+				18,
+				115,
+				216
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/utility_box_1.png",
+			"sha256": "6f9760afe982da0ee902ae3fbb9a43b38530cc996fe722d20e2ccddbc537f781",
+			"source_id": "utility_box_01",
+			"variant": 1,
+			"visible_pixel_count": 20954,
+			"world_height_m": 1.1203,
+			"world_size_m": [
+				0.52,
+				0.432,
+				1.1203
+			],
+			"yaw_deg": 36.0
+		},
+		{
+			"alpha_coverage": 0.147827,
+			"alpha_weighted_luma_255": 96.143,
+			"bytes": 32382,
+			"cell_region": [
+				1280,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				63,
+				38,
+				140,
+				182
+			],
+			"edge_margin_px": 36,
+			"key": "compressor",
+			"padded_atlas_region": [
+				59,
+				34,
+				148,
+				190
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/compressor_0.png",
+			"sha256": "52cd7d267a75cc5baa83794dc516edd5e237a3776fcdf6311bdd871e35a6d541",
+			"source_id": "old_military_compressor",
+			"variant": 0,
+			"visible_pixel_count": 9688,
+			"world_height_m": 1.1791,
+			"world_size_m": [
+				0.5983,
+				1.6755,
+				1.1791
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.261963,
+			"alpha_weighted_luma_255": 101.932,
+			"bytes": 46674,
+			"cell_region": [
+				1536,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				18,
+				60,
+				220,
+				145
+			],
+			"edge_margin_px": 18,
+			"key": "compressor",
+			"padded_atlas_region": [
+				14,
+				56,
+				228,
+				153
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/compressor_1.png",
+			"sha256": "89953f6c856bdfddc91b9b479dd17f6b435b799c0d2c7578c343d1c8e57d2d3a",
+			"source_id": "old_military_compressor",
+			"variant": 1,
+			"visible_pixel_count": 17168,
+			"world_height_m": 1.1791,
+			"world_size_m": [
+				0.5983,
+				1.6755,
+				1.1791
+			],
+			"yaw_deg": 122.0
+		},
+		{
+			"alpha_coverage": 0.139999,
+			"alpha_weighted_luma_255": 96.141,
+			"bytes": 30533,
+			"cell_region": [
+				0,
+				1280,
+				256,
+				256
+			],
+			"content_bounds": [
+				63,
+				50,
+				139,
+				142
+			],
+			"edge_margin_px": 50,
+			"key": "compressor",
+			"padded_atlas_region": [
+				59,
+				46,
+				147,
+				150
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/compressor_2.png",
+			"sha256": "acf73c5ca9639eda4fa27ec1a42f1d7c823fa401a632a766a46465e79bc72d16",
+			"source_id": "old_military_compressor",
+			"variant": 2,
+			"visible_pixel_count": 9175,
+			"world_height_m": 1.1791,
+			"world_size_m": [
+				1.738,
+				1.3953,
+				1.1791
+			],
+			"yaw_deg": 246.0
+		},
+		{
+			"alpha_coverage": 0.39267,
+			"alpha_weighted_luma_255": 101.24,
+			"bytes": 57952,
+			"cell_region": [
+				256,
+				1280,
+				256,
+				256
+			],
+			"content_bounds": [
+				24,
+				32,
+				208,
+				185
+			],
+			"edge_margin_px": 24,
+			"key": "container_plastic",
+			"padded_atlas_region": [
+				20,
+				28,
+				216,
+				193
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/container_plastic_0.png",
+			"sha256": "90dd227518c8eb311412449705bad49626d473145cc6b7f8281d9c482058cac8",
+			"source_id": "plastic_container",
+			"variant": 0,
+			"visible_pixel_count": 25734,
+			"world_height_m": 0.4297,
+			"world_size_m": [
+				0.8951,
+				0.6264,
+				0.4297
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.401642,
+			"alpha_weighted_luma_255": 102.311,
+			"bytes": 57065,
+			"cell_region": [
+				512,
+				1280,
+				256,
+				256
+			],
+			"content_bounds": [
+				35,
+				23,
+				186,
+				203
+			],
+			"edge_margin_px": 23,
+			"key": "container_plastic",
+			"padded_atlas_region": [
+				31,
+				19,
+				194,
+				211
+			],
+			"path": "res://assets/2d/environment/polyhaven_salvage/container_plastic_1.png",
+			"sha256": "d5dae4768aaa1d1b4375fc25c0c06c9d2ca1d9c5769759268b190b70fed5c1f8",
+			"source_id": "plastic_container",
+			"variant": 1,
+			"visible_pixel_count": 26322,
+			"world_height_m": 0.4297,
+			"world_size_m": [
+				0.8951,
+				0.6264,
+				0.4297
+			],
+			"yaw_deg": 145.0
+		}
+	],
+	"family": "polyhaven_salvage",
+	"license": "CC0-1.0",
+	"license_evidence": "res://assets/licenses/polyhaven_cc0.md",
+	"license_url": "https://polyhaven.com/license",
+	"quality_gates": {
+		"minimum_alpha_weighted_luma_255": 34.0,
+		"minimum_frame_margin": 5,
+		"observed_minimum_luma_255": 66.005,
+		"observed_minimum_margin_px": 18
+	},
+	"render_policy": "orthographic_transparent_freestyle_agx_shared_district_rig",
+	"runtime_policy": "offline_baked_2d_atlas_only_no_runtime_mesh_or_node3d",
+	"scale_range_m": {
+		"shortest": 0.2642,
+		"tallest": 3.8706
+	},
+	"schema_version": 1,
+	"source_assets": [
+		{
+			"authors": [
+				"Jorge Camacho"
+			],
+			"format": "gltf",
+			"id": "Barrel_01",
+			"license": "CC0-1.0",
+			"name": "Barrel_01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/Barrel_01"
+		},
+		{
+			"authors": [
+				"Jorge Camacho"
+			],
+			"format": "gltf",
+			"id": "Barrel_02",
+			"license": "CC0-1.0",
+			"name": "Barrel 02",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/Barrel_02"
+		},
+		{
+			"authors": [
+				"Serhii Khromov"
+			],
+			"format": "gltf",
+			"id": "barrel_03",
+			"license": "CC0-1.0",
+			"name": "Barrel 03",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/barrel_03"
+		},
+		{
+			"authors": [
+				"Mutanzom3D"
+			],
+			"format": "gltf",
+			"id": "hand_truck",
+			"license": "CC0-1.0",
+			"name": "Hand Truck",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/hand_truck"
+		},
+		{
+			"authors": [
+				"Sean Buckley"
+			],
+			"format": "gltf",
+			"id": "metal_jerrycan",
+			"license": "CC0-1.0",
+			"name": "Metal Jerrycan",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/metal_jerrycan"
+		},
+		{
+			"authors": [
+				"Mateusz Sadek"
+			],
+			"format": "gltf",
+			"id": "metal_toolbox",
+			"license": "CC0-1.0",
+			"name": "Metal Toolbox",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/metal_toolbox"
+		},
+		{
+			"authors": [
+				"Brian Speight"
+			],
+			"format": "gltf",
+			"id": "old_military_compressor",
+			"license": "CC0-1.0",
+			"name": "Old Military Compressor",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/old_military_compressor"
+		},
+		{
+			"authors": [
+				"PierreB3D"
+			],
+			"format": "gltf",
+			"id": "plastic_container",
+			"license": "CC0-1.0",
+			"name": "Plastic Container",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/plastic_container"
+		},
+		{
+			"authors": [
+				"PierreB3D"
+			],
+			"format": "gltf",
+			"id": "plastic_crate_01",
+			"license": "CC0-1.0",
+			"name": "Plastic Crate 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/plastic_crate_01"
+		},
+		{
+			"authors": [
+				"Slinc"
+			],
+			"format": "gltf",
+			"id": "propane_tank",
+			"license": "CC0-1.0",
+			"name": "Propane Tank",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/propane_tank"
+		},
+		{
+			"authors": [
+				"John Hutcheson"
+			],
+			"format": "gltf",
+			"id": "rusted_wheel_rim_01",
+			"license": "CC0-1.0",
+			"name": "Rusted Wheel Rim 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/rusted_wheel_rim_01"
+		},
+		{
+			"authors": [
+				"Josh Dean"
+			],
+			"format": "gltf",
+			"id": "street_lamp_01",
+			"license": "CC0-1.0",
+			"name": "Street Lamp 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/street_lamp_01"
+		},
+		{
+			"authors": [
+				"Benny Weimer"
+			],
+			"format": "gltf",
+			"id": "trashbag",
+			"license": "CC0-1.0",
+			"name": "Trashbag",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/trashbag"
+		},
+		{
+			"authors": [
+				"James Ray Cock"
+			],
+			"format": "gltf",
+			"id": "utility_box_01",
+			"license": "CC0-1.0",
+			"name": "Utility Box 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/utility_box_01"
+		},
+		{
+			"authors": [
+				"James Ray Cock"
+			],
+			"format": "gltf",
+			"id": "wooden_crate_01",
+			"license": "CC0-1.0",
+			"name": "Wooden Crate 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/wooden_crate_01"
+		},
+		{
+			"authors": [
+				"Prabhjinder Singh"
+			],
+			"format": "gltf",
+			"id": "wooden_military_crate",
+			"license": "CC0-1.0",
+			"name": "Wooden Military Crate",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/wooden_military_crate"
+		}
+	],
+	"source_contract": "tools/art/blender/vault/polyhaven_salvage/_fetch_manifest.json",
+	"source_fetcher": "res://tools/asset_pipeline/fetch_polyhaven_models.py",
+	"source_fetcher_sha256": "4507a2eec20b50d3cc0cfcbb05b25863209f0bf2f390efdfdd8b9a092e500a27"
+}

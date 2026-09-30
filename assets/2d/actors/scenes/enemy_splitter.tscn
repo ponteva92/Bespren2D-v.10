@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/2d/actors/frames/enemy_splitter_frames.tres" id="1_61sjh"]
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" unique_id=74261771]
+texture_filter = 1
+sprite_frames = ExtResource("1_61sjh")
+animation = &"idle_2"
+autoplay = "idle_2"
+offset = Vector2(0, -17.8348)

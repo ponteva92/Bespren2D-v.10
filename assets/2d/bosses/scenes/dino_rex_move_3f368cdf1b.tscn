@@ -1,0 +1,104 @@
+[gd_scene format=3 uid="uid://s5i1kh6wjfdt"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_323sk"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/dino_rex_move_4a515fd83a.png" id="2_curhg"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_323sk")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8y2v"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_curhg")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jh6d"]
+resource_name = "frame_000_004"
+atlas = ExtResource("2_curhg")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_shb2c"]
+resource_name = "frame_000_007"
+atlas = ExtResource("2_curhg")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qiigs"]
+resource_name = "frame_000_010"
+atlas = ExtResource("2_curhg")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vf3sn"]
+resource_name = "frame_000_013"
+atlas = ExtResource("2_curhg")
+region = Rect2(1664, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ysuvj"]
+resource_name = "frame_000_016"
+atlas = ExtResource("2_curhg")
+region = Rect2(2048, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wp8nt"]
+resource_name = "frame_000_019"
+atlas = ExtResource("2_curhg")
+region = Rect2(2432, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wh1hh"]
+resource_name = "frame_000_022"
+atlas = ExtResource("2_curhg")
+region = Rect2(2816, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p8440"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b8y2v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5jh6d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_shb2c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qiigs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vf3sn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ysuvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wp8nt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wh1hh")
+}],
+"loop": 1,
+"name": &"move",
+"speed": 10.0
+}]
+
+[node name="DinoRexMove" type="Node2D" unique_id=1383442087 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "dino_rex_move_3f368cdf1b"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "horizontal_strip"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=353758994]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_p8440")
+animation = &"move"
+autoplay = "move"
+offset = Vector2(0, -64)

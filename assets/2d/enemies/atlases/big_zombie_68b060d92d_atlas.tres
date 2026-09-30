@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cv55kd5us7c75"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_idle_anim_f0_cfa24e832f.png" id="1_iwfkf"]
+
+[resource]
+resource_name = "idle_000"
+atlas = ExtResource("1_iwfkf")
+region = Rect2(0, 0, 32, 36)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bi4ipnof2ejre"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/moutain_behemoth_b33966c384.png" id="1_f4oo2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hf3qq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_f4oo2")
+region = Rect2(0, 0, 263, 246)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hf3qq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

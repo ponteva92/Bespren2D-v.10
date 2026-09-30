@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dmsu2osgxds1n"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_red_guard_c_be6b0343ba.png" id="1_vd4wh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vd4wh")
+region = Rect2(0, 0, 252, 163)

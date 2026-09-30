@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b3hl4rxhf2138"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_lickitoad_c81dbf2def.png" id="1_7d3e8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3eb8h"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7d3e8")
+region = Rect2(0, 0, 145, 78)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3eb8h")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

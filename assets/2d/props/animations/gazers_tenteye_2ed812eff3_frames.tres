@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://j6v2b2in6lk7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/gazers_tenteye_ac05825d0c.png" id="1_b5ufg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c05dn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_b5ufg")
+region = Rect2(0, 0, 312, 210)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c05dn")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

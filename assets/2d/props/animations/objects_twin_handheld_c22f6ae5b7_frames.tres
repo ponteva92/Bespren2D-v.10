@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://3x61ddgsquxm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_twin_handheld_0824a7a9fd.png" id="1_d6muc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bw1rh"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_d6muc")
+region = Rect2(0, 0, 151, 138)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bw1rh")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

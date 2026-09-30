@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b27ey3uk8fudk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/orc_archer_weak_06a350bc26.png" id="1_d2xks"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhgju"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_d2xks")
+region = Rect2(0, 0, 476, 480)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhgju")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

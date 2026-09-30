@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cjl17rt7r88su"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/earth_lion_3ed3869082.png" id="1_ouyl0"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ouyl0")
+region = Rect2(0, 0, 371, 290)

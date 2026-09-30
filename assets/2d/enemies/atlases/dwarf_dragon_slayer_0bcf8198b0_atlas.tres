@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bro0hkuqopuiq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dwarf_dragon_slayer_7ab8505105.png" id="1_6o7nm"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6o7nm")
+region = Rect2(0, 0, 328, 311)

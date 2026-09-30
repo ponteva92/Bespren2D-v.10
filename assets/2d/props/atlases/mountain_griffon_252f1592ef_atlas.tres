@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://61y56y1ema4h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_griffon_c77e75726f.png" id="1_y3wt5"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_y3wt5")
+region = Rect2(0, 0, 296, 336)

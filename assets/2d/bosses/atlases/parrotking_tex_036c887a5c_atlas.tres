@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bbtoxcvywsfr4"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/parrotking_tex_8bb5b6fd3d.png" id="1_wxqu7"]
+
+[resource]
+resource_name = "folder_53_copy_3"
+atlas = ExtResource("1_wxqu7")
+region = Rect2(1, 1, 343, 344)

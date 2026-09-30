@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dekm2omx5nxao"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_shelltacke_6441fd1385.png" id="1_otf6o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipsrm"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_otf6o")
+region = Rect2(0, 0, 139, 177)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ipsrm")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

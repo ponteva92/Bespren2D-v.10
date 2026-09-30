@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5vvkjcnf42t6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_slime_a_99847fdf19.png" id="1_06vcm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t24oh"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_06vcm")
+region = Rect2(0, 0, 162, 95)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t24oh")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://j7gssyfvcxig"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/frogger_tongue_e304dff688.png" id="1_xbqh6"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xbqh6")
+region = Rect2(0, 0, 3072, 128)

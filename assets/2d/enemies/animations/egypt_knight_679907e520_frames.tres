@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ce3dkhnu0nu1y"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_knight_9264a57e74.png" id="1_ulymu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dv2af"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ulymu")
+region = Rect2(0, 0, 165, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dv2af")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

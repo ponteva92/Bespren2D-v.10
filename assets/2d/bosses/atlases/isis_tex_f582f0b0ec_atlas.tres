@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d2hoym7b2jkur"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/isis_tex_57a0342151.png" id="1_y41e8"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_y41e8")
+region = Rect2(116, 709, 358, 21)

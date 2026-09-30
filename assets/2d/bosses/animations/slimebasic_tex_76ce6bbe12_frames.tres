@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://duovox1n785vw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/slimebasic_tex_7723ba5003.png" id="1_aynrh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kusie"]
+resource_name = "shadow"
+atlas = ExtResource("1_aynrh")
+region = Rect2(1, 151, 75, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5408y"]
+resource_name = "emoteanger"
+atlas = ExtResource("1_aynrh")
+region = Rect2(70, 1, 51, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1kb15"]
+resource_name = "emotedeathb"
+atlas = ExtResource("1_aynrh")
+region = Rect2(1, 52, 51, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufqyn"]
+resource_name = "emotebasic"
+atlas = ExtResource("1_aynrh")
+region = Rect2(70, 51, 51, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0pdnu"]
+resource_name = "emotedeatha"
+atlas = ExtResource("1_aynrh")
+region = Rect2(54, 101, 51, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jmhog"]
+resource_name = "slime"
+atlas = ExtResource("1_aynrh")
+region = Rect2(1, 1, 67, 49)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kusie")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5408y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1kb15")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ufqyn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0pdnu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jmhog")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

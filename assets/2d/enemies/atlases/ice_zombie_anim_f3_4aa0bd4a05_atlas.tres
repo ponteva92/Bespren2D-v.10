@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bmjybhr40c8xd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/ice_zombie_anim_f3_0d4d187708.png" id="1_nhxla"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nhxla")
+region = Rect2(0, 0, 16, 16)

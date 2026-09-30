@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ct6p61cunfaup"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/jiangshi_tex_8cf74345a5.png" id="1_k4qh8"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_k4qh8")
+region = Rect2(52, 245, 125, 7)

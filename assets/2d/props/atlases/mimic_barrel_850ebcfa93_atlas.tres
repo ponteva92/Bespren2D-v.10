@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cd8g5qlcutost"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mimic_barrel_60620236b5.png" id="1_ri1vy"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ri1vy")
+region = Rect2(0, 0, 253, 286)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c4iiyw2v4lbv2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/machines_cannon_e3cb940533.png" id="1_kjurg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kjurg")
+region = Rect2(0, 0, 288, 195)

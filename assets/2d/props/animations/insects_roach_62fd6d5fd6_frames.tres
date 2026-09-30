@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cmlkhfl3t8f6u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_roach_75f658408a.png" id="1_1cb5o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nuwa6"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1cb5o")
+region = Rect2(0, 0, 175, 86)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nuwa6")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

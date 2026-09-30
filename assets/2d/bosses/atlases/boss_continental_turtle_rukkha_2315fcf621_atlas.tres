@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://btt5ytpvqmxx8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_continental_turtle_rukkha_ec972a16ed.png" id="1_jir30"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jir30")
+region = Rect2(0, 0, 787, 512)

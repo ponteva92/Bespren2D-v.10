@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://usj3f4ecpb8u"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titan_ice_demeres_f0215459f6.png" id="1_n3ydx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jswmm"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_n3ydx")
+region = Rect2(0, 0, 270, 276)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jswmm")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

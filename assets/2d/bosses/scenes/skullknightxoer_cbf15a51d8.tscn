@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://bea34vesx1cjl"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_ootyl"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skullknightxoer_7404c3d2f9.png" id="2_xt0ns"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34te1"]
+resource_name = "Bespren Boss Toxic weathering"
+shader = ExtResource("1_ootyl")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.8
+shader_parameter/structural_damage = 0.07
+shader_parameter/rust_streaks = 0.22
+shader_parameter/toxic_intensity = 0.94
+shader_parameter/glow_color = Color(0.7137255, 1, 0, 1)
+shader_parameter/emission_strength = 0.88
+shader_parameter/pattern_scale = 38.0
+shader_parameter/damage_seed = 59.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pwvla"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_xt0ns")
+region = Rect2(0, 0, 94, 272)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cb6t4"]
+resource_name = "frame_000_001"
+atlas = ExtResource("2_xt0ns")
+region = Rect2(94, 0, 94, 272)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gcfk0"]
+resource_name = "frame_000_002"
+atlas = ExtResource("2_xt0ns")
+region = Rect2(188, 0, 94, 272)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2usoe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pwvla")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cb6t4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gcfk0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="Skullknightxoer" type="Node2D" unique_id=826500147 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "skullknightxoer_cbf15a51d8"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "three_frame"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=479532764]
+texture_filter = 1
+material = SubResource("ShaderMaterial_34te1")
+sprite_frames = SubResource("SpriteFrames_2usoe")
+autoplay = "default"
+offset = Vector2(0, -136)

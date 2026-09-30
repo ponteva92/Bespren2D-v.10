@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b7kkochdcj5gf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titan_earth_terran_f70ed026c6.png" id="1_kw1bs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_407kp"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kw1bs")
+region = Rect2(0, 0, 245, 240)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_407kp")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

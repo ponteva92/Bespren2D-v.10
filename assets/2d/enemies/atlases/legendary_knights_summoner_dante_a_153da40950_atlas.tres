@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://csxvsp61ln7ar"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_summoner_dante_a_22860fb36c.png" id="1_20o1g"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_20o1g")
+region = Rect2(0, 0, 244, 214)

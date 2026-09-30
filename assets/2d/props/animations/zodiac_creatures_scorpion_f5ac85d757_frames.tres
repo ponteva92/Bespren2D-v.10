@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bg3gsf4ivbc8l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_creatures_scorpion_19deede12e.png" id="1_a1obe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n3vgn"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_a1obe")
+region = Rect2(0, 0, 776, 486)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n3vgn")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

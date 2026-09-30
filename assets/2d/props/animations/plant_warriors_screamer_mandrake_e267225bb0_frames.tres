@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://lvxit3l2mwfs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/plant_warriors_screamer_mandrake_90ee7fce31.png" id="1_qsx08"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fyo5r"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qsx08")
+region = Rect2(0, 0, 214, 210)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fyo5r")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

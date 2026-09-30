@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ce85n71w8d577"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_radulac_the_voidvod_9e3efd30f5.png" id="1_60dvg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tk2pd"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_60dvg")
+region = Rect2(0, 0, 673, 445)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tk2pd")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

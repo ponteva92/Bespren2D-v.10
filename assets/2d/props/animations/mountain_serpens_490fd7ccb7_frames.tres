@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://x7gxivmh0xbf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mountain_serpens_3202857e67.png" id="1_uaeox"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3dab7"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_uaeox")
+region = Rect2(0, 0, 145, 137)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3dab7")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

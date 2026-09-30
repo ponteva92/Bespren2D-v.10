@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ch4b0q17ona6x"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_red_gem_sword_55713af513.png" id="1_1r3cu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o735e"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1r3cu")
+region = Rect2(0, 0, 10, 21)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o735e")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

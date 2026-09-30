@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://l0dv3qu6yy74"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/toxic_shroom_b_4888ca26b2.png" id="1_ir23g"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ir23g")
+region = Rect2(0, 0, 262, 185)

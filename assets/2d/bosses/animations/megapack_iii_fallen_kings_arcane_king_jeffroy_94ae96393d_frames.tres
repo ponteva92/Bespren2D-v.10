@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bv1ftenjxen5w"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_fallen_kings_arcane_king_jeffroy_9345df0f44.png" id="1_msept"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8py15"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_msept")
+region = Rect2(0, 0, 304, 283)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8py15")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

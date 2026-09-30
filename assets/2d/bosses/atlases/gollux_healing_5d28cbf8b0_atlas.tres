@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bahplwuact6tg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/gollux_healing_f7eaf4c2b3.png" id="1_upp8h"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_upp8h")
+region = Rect2(0, 0, 9600, 128)

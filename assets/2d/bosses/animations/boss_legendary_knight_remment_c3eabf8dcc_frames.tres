@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dhj15fa8d8aal"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_legendary_knight_remment_7109df9139.png" id="1_omjr0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ft1e"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_omjr0")
+region = Rect2(0, 0, 581, 341)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ft1e")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

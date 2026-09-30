@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://beedui3jccj71"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_earth_dragon_fc4087fbc7.png" id="1_2wlrl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iyhfc"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2wlrl")
+region = Rect2(0, 0, 417, 315)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iyhfc")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bdj7r5805li4d"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_colossal_mummy_e426ce6a7e.png" id="1_llvvf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_llvvf")
+region = Rect2(0, 0, 635, 265)

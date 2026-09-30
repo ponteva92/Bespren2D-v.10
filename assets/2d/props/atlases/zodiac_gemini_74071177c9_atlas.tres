@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://casryxiqlym37"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiac_gemini_9111b019f0.png" id="1_ydvf0"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ydvf0")
+region = Rect2(0, 0, 347, 358)

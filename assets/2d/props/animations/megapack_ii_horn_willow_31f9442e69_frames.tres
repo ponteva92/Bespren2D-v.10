@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://clp0iykp1cvo7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_horn_willow_757f68db4f.png" id="1_i317s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vdxje"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_i317s")
+region = Rect2(0, 0, 173, 129)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vdxje")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dsib5dxryevfg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_abominations_scout_f6bc54a417.png" id="1_jfho7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jfho7")
+region = Rect2(0, 0, 317, 263)

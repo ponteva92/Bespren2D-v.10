@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bcbmdu2aeukyg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_slime_cerulean_aa5251a15d.png" id="1_6t2fg"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6t2fg")
+region = Rect2(0, 0, 337, 251)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cydcuqnt2psod"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_deathb_86fd121f79.png" id="1_lqh8a"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lqh8a")
+region = Rect2(0, 0, 256, 192)

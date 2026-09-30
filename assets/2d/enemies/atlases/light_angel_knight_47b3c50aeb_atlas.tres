@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cvybiw3oim1g5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_angel_knight_630e9a34fa.png" id="1_8aeoo"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8aeoo")
+region = Rect2(0, 0, 300, 260)

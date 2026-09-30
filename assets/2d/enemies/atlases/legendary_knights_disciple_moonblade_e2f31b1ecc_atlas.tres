@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dc6j3fw6wsu1i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knights_disciple_moonblade_0eb1ba812c.png" id="1_xidgh"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xidgh")
+region = Rect2(0, 0, 420, 319)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://byjajan0qi76y"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wall_fountain_top_3_8c55a100aa.png" id="1_lqwrf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qjgkt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lqwrf")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qjgkt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

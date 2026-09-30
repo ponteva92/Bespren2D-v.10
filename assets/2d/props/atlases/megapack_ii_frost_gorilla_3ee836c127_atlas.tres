@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bimbx2qpitss"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_frost_gorilla_7fd637f31f.png" id="1_rqroa"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rqroa")
+region = Rect2(0, 0, 373, 282)

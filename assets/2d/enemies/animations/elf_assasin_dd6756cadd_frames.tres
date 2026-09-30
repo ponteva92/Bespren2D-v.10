@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://f2prdw4qbdwt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elf_assasin_34635c5aca.png" id="1_652nk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dndkk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_652nk")
+region = Rect2(0, 0, 244, 220)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dndkk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

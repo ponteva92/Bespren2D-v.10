@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bwo2g8wku4nku"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/god_novus_98dfa083f3.png" id="1_bvtum"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bvtum")
+region = Rect2(0, 0, 328, 310)

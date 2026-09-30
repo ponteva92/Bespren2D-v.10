@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dfody1jr8i8sf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/wind_mantis_400a5a6305.png" id="1_aco67"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_aco67")
+region = Rect2(0, 0, 235, 171)

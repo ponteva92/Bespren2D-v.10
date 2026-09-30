@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cfhkmd7ph7huq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/osiris_tex_315fe3f21c.png" id="1_bh2ab"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hsp3b"]
+resource_name = "shadow"
+atlas = ExtResource("1_bh2ab")
+region = Rect2(1, 973, 451, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v0qax"]
+resource_name = "left_arm"
+atlas = ExtResource("1_bh2ab")
+region = Rect2(1, 704, 177, 267)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tw333"]
+resource_name = "hatback"
+atlas = ExtResource("1_bh2ab")
+region = Rect2(180, 870, 59, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0jsa7"]
+resource_name = "body"
+atlas = ExtResource("1_bh2ab")
+region = Rect2(1, 1, 370, 390)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n7d5b"]
+resource_name = "head"
+atlas = ExtResource("1_bh2ab")
+region = Rect2(180, 704, 86, 164)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_448mb"]
+resource_name = "right_arm"
+atlas = ExtResource("1_bh2ab")
+region = Rect2(1, 393, 240, 309)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hsp3b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v0qax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tw333")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0jsa7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n7d5b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_448mb")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

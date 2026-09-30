@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cs4c63o8b0who"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/weretiger_11e0c36ab0.png" id="1_kgf1u"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j8uh5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kgf1u")
+region = Rect2(0, 0, 4608, 3072)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j8uh5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

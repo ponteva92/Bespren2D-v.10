@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://04kc5nxnauuu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/armor_009_armor_chest_6c0a56912b.png" id="1_no2kn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lk5m0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_no2kn")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lk5m0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ir0n1qe5orl8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_duel_sword_623206bb5e.png" id="1_gpche"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ge8v"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gpche")
+region = Rect2(0, 0, 9, 30)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ge8v")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://feewb12gp34m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_red_shroom_a_65622096d2.png" id="1_as8s6"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_as8s6")
+region = Rect2(0, 0, 165, 117)

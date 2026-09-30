@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://wfwuo0g35y6k"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/rogue_twin_dagger_5ebc999d3b.png" id="1_v6acr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a5kbs"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_v6acr")
+region = Rect2(0, 0, 196, 232)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a5kbs")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cxerytmwtffop"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_feathered_snake_26c2ab329b.png" id="1_1ho5x"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4w6mb"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1ho5x")
+region = Rect2(0, 0, 251, 236)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4w6mb")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

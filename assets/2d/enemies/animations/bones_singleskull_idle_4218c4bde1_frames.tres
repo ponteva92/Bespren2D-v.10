@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dtlfiq8lpkd67"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/bones_singleskull_idle_629e5acbef.png" id="1_dd5t3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yb4pg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dd5t3")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fllkh"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_dd5t3")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1cxny"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_dd5t3")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xnde2"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_dd5t3")
+region = Rect2(192, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yb4pg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fllkh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1cxny")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xnde2")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]

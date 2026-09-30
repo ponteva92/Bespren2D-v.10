@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bn8f7gn51dq6g"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/machines_zeppellin_eda2e94ff7.png" id="1_e38w6"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_e38w6")
+region = Rect2(0, 0, 278, 263)

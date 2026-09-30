@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bsn3c5u3bub8i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_archer_9c5b0b2209.png" id="1_qs0wp"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_qs0wp")
+region = Rect2(0, 0, 194, 200)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cdh60qrsyrhba"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_mobun_4d4602f847.png" id="1_x6vjs"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_x6vjs")
+region = Rect2(0, 0, 78, 84)

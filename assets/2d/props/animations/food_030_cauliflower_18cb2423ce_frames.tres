@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://rjkcwc7fgbqc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_030_cauliflower_8e6f2777b9.png" id="1_c1me6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_13fsa"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c1me6")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_13fsa")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

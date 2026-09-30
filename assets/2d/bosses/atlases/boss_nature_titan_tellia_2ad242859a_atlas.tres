@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dipm4qhjmadvw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_nature_titan_tellia_103e1d7c10.png" id="1_1li8v"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_1li8v")
+region = Rect2(0, 0, 934, 733)

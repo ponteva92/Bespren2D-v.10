@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhmhwu6ax1klh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_hieracosphinx_cd03078de1.png" id="1_chcc1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x1ev4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_chcc1")
+region = Rect2(0, 0, 423, 340)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x1ev4")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

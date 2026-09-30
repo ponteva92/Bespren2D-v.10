@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://brxk3b2sxmd5j"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_gazer_merem_81cefea4a4.png" id="1_671cp"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_671cp")
+region = Rect2(0, 0, 184, 198)

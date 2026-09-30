@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c1bhln7u7ql17"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_yeti_bf6c619211.png" id="1_2rvmu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h6g00"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_2rvmu")
+region = Rect2(0, 0, 427, 184)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h6g00")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

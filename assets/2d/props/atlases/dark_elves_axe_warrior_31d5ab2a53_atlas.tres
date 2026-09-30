@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dfls7sb4v2r14"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dark_elves_axe_warrior_33c927c5ee.png" id="1_p5jbf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_p5jbf")
+region = Rect2(0, 0, 190, 228)

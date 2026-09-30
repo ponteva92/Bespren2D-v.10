@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://2inmc5iccq81"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/slimecaster_tex_17fabef94b.png" id="1_qgjax"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70f4w"]
+resource_name = "shadow"
+atlas = ExtResource("1_qgjax")
+region = Rect2(1, 87, 75, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_db5uv"]
+resource_name = "hand"
+atlas = ExtResource("1_qgjax")
+region = Rect2(77, 55, 28, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y8n36"]
+resource_name = "staffpole"
+atlas = ExtResource("1_qgjax")
+region = Rect2(1, 1, 46, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bmfve"]
+resource_name = "staffend"
+atlas = ExtResource("1_qgjax")
+region = Rect2(49, 55, 26, 25)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_am06q"]
+resource_name = "fingers"
+atlas = ExtResource("1_qgjax")
+region = Rect2(78, 77, 21, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4hhin"]
+resource_name = "thumb"
+atlas = ExtResource("1_qgjax")
+region = Rect2(78, 103, 10, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cfbw0"]
+resource_name = "slime"
+atlas = ExtResource("1_qgjax")
+region = Rect2(49, 1, 66, 52)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70f4w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_db5uv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y8n36")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bmfve")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_am06q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4hhin")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cfbw0")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

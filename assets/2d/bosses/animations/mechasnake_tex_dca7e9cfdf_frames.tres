@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://e7j0k0jqugrl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mechasnake_tex_f8c1a4f36d.png" id="1_peq2m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_skqre"]
+resource_name = "layer_113_copy"
+atlas = ExtResource("1_peq2m")
+region = Rect2(1, 318, 576, 39)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lbgrr"]
+resource_name = "folder_12_copy_3"
+atlas = ExtResource("1_peq2m")
+region = Rect2(1, 1, 443, 282)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_058c8"]
+resource_name = "folder_12_copy_2"
+atlas = ExtResource("1_peq2m")
+region = Rect2(446, 1, 277, 315)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u6miw"]
+resource_name = "folder_12_copy_8"
+atlas = ExtResource("1_peq2m")
+region = Rect2(808, 318, 58, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g7hwl"]
+resource_name = "folder_12_copy_4"
+atlas = ExtResource("1_peq2m")
+region = Rect2(579, 318, 126, 88)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70obq"]
+resource_name = "folder_12_copy_5"
+atlas = ExtResource("1_peq2m")
+region = Rect2(707, 318, 99, 106)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_orhnb"]
+resource_name = "folder_12_copy_7"
+atlas = ExtResource("1_peq2m")
+region = Rect2(808, 413, 68, 63)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_skqre")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lbgrr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_058c8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u6miw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g7hwl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70obq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_orhnb")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

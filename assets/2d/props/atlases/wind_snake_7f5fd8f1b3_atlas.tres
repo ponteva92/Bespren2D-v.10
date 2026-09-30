@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://djx7bdp5x2nie"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/wind_snake_13dbc706d6.png" id="1_ctke0"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ctke0")
+region = Rect2(0, 0, 95, 93)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://lxlvftl1rtc5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/medieval_bandit_dagger_gun_5a7241f2d6.png" id="1_gea3k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0e6d4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_gea3k")
+region = Rect2(0, 0, 237, 220)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0e6d4")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

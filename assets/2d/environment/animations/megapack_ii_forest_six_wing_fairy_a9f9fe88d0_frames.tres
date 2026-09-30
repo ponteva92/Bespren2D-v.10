@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://8bb6sko6024h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_forest_six_wing_fairy_489f5f0876.png" id="1_lg6pd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jrria"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lg6pd")
+region = Rect2(0, 0, 162, 174)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jrria")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

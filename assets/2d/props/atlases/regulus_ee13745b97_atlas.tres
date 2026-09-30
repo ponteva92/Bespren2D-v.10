@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://l7n2qouww4pc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics_mv/direct/regulus_5bf0c5e272.png" id="1_r1gfd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_r1gfd")
+region = Rect2(0, 0, 256, 256)

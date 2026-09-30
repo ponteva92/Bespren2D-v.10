@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c52biklnar5aq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_spider_crab_b_b1584c926a.png" id="1_p0vic"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lxyco"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_p0vic")
+region = Rect2(0, 0, 274, 110)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lxyco")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

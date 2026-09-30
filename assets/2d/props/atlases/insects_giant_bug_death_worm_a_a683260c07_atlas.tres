@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cr5abdodqo3k7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_giant_bug_death_worm_a_7bbf4c30b1.png" id="1_nhy4n"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nhy4n")
+region = Rect2(0, 0, 505, 244)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b6y8ictsht5wm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_colossal_mummy_6c421b2d1c.png" id="1_aptx1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_psgwa"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_aptx1")
+region = Rect2(0, 0, 635, 265)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_psgwa")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

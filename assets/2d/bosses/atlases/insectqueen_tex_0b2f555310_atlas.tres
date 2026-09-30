@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ba8h8bilixxpk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insectqueen_tex_94ba710521.png" id="1_wqwi8"]
+
+[resource]
+resource_name = "layer_35"
+atlas = ExtResource("1_wqwi8")
+region = Rect2(233, 731, 625, 51)

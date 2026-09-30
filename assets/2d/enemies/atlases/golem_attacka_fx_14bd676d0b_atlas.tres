@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dcaoe4fyvcwo7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_attacka_fx_032cf824db.png" id="1_cp5cw"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cp5cw")
+region = Rect2(0, 0, 192, 128)

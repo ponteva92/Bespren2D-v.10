@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5824trnl82yg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ghost_knight_goliath_486498c322.png" id="1_03f0t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kr02q"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_03f0t")
+region = Rect2(0, 0, 190, 258)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kr02q")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://h8qspooc4hx3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dwarfdrill_tex_16aae9bb50.png" id="1_qjqcg"]
+
+[resource]
+resource_name = "rifle_back"
+atlas = ExtResource("1_qjqcg")
+region = Rect2(1, 284, 73, 75)

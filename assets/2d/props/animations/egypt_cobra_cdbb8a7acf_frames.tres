@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://du7kis3dotmfk"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/egypt_cobra_ade0eef245.png" id="1_bg0qc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxe2m"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bg0qc")
+region = Rect2(0, 0, 185, 157)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxe2m")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

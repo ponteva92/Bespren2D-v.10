@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bl1hfble6bjaw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/shaccadyogg_985097cfaf.png" id="1_kno8l"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kno8l")
+region = Rect2(0, 0, 120, 424)

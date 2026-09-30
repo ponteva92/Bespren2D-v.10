@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dh4efp7feqir5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/kobolds_dagger_kobold_df0d42b2dc.png" id="1_48n1l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y0ew2"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_48n1l")
+region = Rect2(0, 0, 251, 199)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y0ew2")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

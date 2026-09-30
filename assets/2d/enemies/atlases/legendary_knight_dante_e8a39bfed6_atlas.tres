@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://lw15ipc1nre2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/legendary_knight_dante_d550cdf3a6.png" id="1_cckfq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cckfq")
+region = Rect2(0, 0, 232, 183)

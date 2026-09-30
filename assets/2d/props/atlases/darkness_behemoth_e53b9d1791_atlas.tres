@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dqkmecbxk7irp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_behemoth_085c4a852a.png" id="1_ssbp0"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ssbp0")
+region = Rect2(0, 0, 442, 327)

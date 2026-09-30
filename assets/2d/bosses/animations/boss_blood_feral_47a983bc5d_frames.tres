@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ccnygb7kpdrcg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_blood_feral_868276d35b.png" id="1_vk2xh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r8vku"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vk2xh")
+region = Rect2(0, 0, 422, 417)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r8vku")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

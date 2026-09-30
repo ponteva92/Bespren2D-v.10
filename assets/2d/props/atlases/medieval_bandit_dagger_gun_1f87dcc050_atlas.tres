@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://2dmxcdvn1ffo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/medieval_bandit_dagger_gun_c8145162a9.png" id="1_c15mv"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c15mv")
+region = Rect2(0, 0, 237, 220)

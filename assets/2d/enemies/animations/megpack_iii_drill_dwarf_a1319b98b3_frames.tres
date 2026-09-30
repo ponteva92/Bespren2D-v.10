@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://oqma10g6urqx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megpack_iii_drill_dwarf_cfe8904d1d.png" id="1_wq7ye"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kjsyk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wq7ye")
+region = Rect2(0, 0, 250, 208)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kjsyk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

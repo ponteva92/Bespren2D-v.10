@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5oiutxxj1i5m"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zodiaccancer_9005d14300.png" id="1_3mhug"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2xa1k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3mhug")
+region = Rect2(0, 0, 100, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wc7s"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_3mhug")
+region = Rect2(100, 0, 100, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4iy4m"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_3mhug")
+region = Rect2(200, 0, 100, 200)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2xa1k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1wc7s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4iy4m")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

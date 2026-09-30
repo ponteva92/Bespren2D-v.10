@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://1f5wshjm7ajx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mushroom_don_59e63c2dbc.png" id="1_q1gw3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iri6u"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_q1gw3")
+region = Rect2(0, 0, 463, 301)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iri6u")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

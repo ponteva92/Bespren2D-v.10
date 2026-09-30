@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://brkr3txgnl1fa"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_knife_f2b30d1508.png" id="1_vv74a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xp0mw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vv74a")
+region = Rect2(0, 0, 6, 13)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xp0mw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

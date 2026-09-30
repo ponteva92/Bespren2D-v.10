@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bcemvsweq6clo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_green_spider_a692a29b9f.png" id="1_vgwvf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4yw6r"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vgwvf")
+region = Rect2(0, 0, 140, 107)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4yw6r")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

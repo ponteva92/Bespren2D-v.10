@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c8kabjkgb0cbv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/slime_spiked_idle_f1df347f46.png" id="1_5ex5y"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5ex5y")
+region = Rect2(0, 0, 64, 64)

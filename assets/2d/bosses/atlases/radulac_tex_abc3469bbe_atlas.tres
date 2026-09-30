@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://du64wm756j4oq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/radulac_tex_e5c1b75cb4.png" id="1_5hm6o"]
+
+[resource]
+resource_name = "layer_317_copy"
+atlas = ExtResource("1_5hm6o")
+region = Rect2(1, 894, 415, 31)

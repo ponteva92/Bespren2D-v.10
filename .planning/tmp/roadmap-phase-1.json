@@ -1,0 +1,12 @@
+{
+  "args": [
+    "query",
+    "roadmap.get-phase",
+    "1"
+  ],
+  "status": 0,
+  "signal": null,
+  "error": null,
+  "stdout": "{\n  \"found\": true,\n  \"phase_number\": \"1\",\n  \"phase_name\": \"Map Audit + Redesign Contract\",\n  \"goal\": \"Team has a written redesign contract for the 14×14 world, grounded in a live audit, before anyone edits world layout\",\n  \"mode\": \"mvp\",\n  \"success_criteria\": [\n    \"Reviewer can open a `docs/` redesign contract that names camp, roads, district jobs, landmarks, salvage/threat pockets, 30s-loop beats, way-home language that is not the minimap, exclusion volumes, and capture cameras that will prove the loop\",\n    \"Reviewer can read an audit of the current map — captures, density, pocket/obstacle overlaps, 1× unreadables — quoting live counts, not stale foundation docs\",\n    \"Phase 1 diff contains no `src/world/` layout edits, no new atlas regions in `src/world/`, and no scenery/cover/resource count changes\"\n  ],\n  \"section\": \"### Phase 1: Map Audit + Redesign Contract\\n**Goal**: Team has a written redesign contract for the 14×14 world, grounded in a live audit, before anyone edits world layout\\n**Mode:** mvp\\n**Depends on**: Nothing (first phase)\\n**Requirements**: CONT-01\\n**Success Criteria** (what must be TRUE):\\n  1. Reviewer can open a `docs/` redesign contract that names camp, roads, district jobs, landmarks, salvage/threat pockets, 30s-loop beats, way-home language that is not the minimap, exclusion volumes, and capture cameras that will prove the loop\\n  2. Reviewer can read an audit of the current map — captures, density, pocket/obstacle overlaps, 1× unreadables — quoting live counts, not stale foundation docs\\n  3. Phase 1 diff contains no `src/world/` layout edits, no new atlas regions in `src/world/`, and no scenery/cover/resource count changes\\n**Plans**: TBD\"\n}",
+  "stderr": ""
+}

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://k25nbk8gumnx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_turtle_16e42a6ace.png" id="1_cvt7n"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_cvt7n")
+region = Rect2(0, 0, 318, 222)

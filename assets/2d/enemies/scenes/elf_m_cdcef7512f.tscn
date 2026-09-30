@@ -1,0 +1,129 @@
+[gd_scene format=3 uid="uid://covogwys5nct"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_4brst"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_hit_anim_f0_e8f0f6f77f.png" id="2_dmrqu"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_idle_anim_f0_c6e75df220.png" id="3_ksjp0"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_idle_anim_f1_5fdfdc0104.png" id="4_moj7g"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_idle_anim_f2_29515309bc.png" id="5_357yl"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_idle_anim_f3_5b2454cd13.png" id="6_2f1v2"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_run_anim_f0_39ddb8cd7f.png" id="7_i4cvi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_run_anim_f1_b494b2a1ed.png" id="8_c3sat"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_run_anim_f2_c00a40cf3b.png" id="9_x2p27"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/elf_m_run_anim_f3_d957f3743e.png" id="10_d4uv2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_4brst")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o30t6"]
+resource_name = "hit_000"
+atlas = ExtResource("2_dmrqu")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y7nox"]
+resource_name = "idle_000"
+atlas = ExtResource("3_ksjp0")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqxlw"]
+resource_name = "idle_001"
+atlas = ExtResource("4_moj7g")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jthoy"]
+resource_name = "idle_002"
+atlas = ExtResource("5_357yl")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a85up"]
+resource_name = "idle_003"
+atlas = ExtResource("6_2f1v2")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_87wpb"]
+resource_name = "run_000"
+atlas = ExtResource("7_i4cvi")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5wat"]
+resource_name = "run_001"
+atlas = ExtResource("8_c3sat")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w01ld"]
+resource_name = "run_002"
+atlas = ExtResource("9_x2p27")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_230ot"]
+resource_name = "run_003"
+atlas = ExtResource("10_d4uv2")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6ff53"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o30t6")
+}],
+"loop": 0,
+"name": &"hit",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y7nox")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqxlw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jthoy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a85up")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_87wpb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5wat")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w01ld")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_230ot")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 8.0
+}]
+
+[node name="ElfM" type="Node2D" unique_id=1030170101 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "elf_m_cdcef7512f"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=2118453439]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_6ff53")
+animation = &"hit"
+offset = Vector2(0, -14)

@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://uc2kwfbckjaj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkqueenshaccad_520d28cef3.png" id="1_3hm4g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wsq2g"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3hm4g")
+region = Rect2(0, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jop5i"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_3hm4g")
+region = Rect2(48, 0, 48, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hx62u"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_3hm4g")
+region = Rect2(96, 0, 48, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wsq2g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jop5i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hx62u")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

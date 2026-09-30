@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b4dt2p05dq88n"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_madpill_7d0155634a.png" id="1_4g3iy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r37lg"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4g3iy")
+region = Rect2(0, 0, 58, 78)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r37lg")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

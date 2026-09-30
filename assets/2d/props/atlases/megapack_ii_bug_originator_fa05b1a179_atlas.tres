@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ycc6y8ore73k"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_bug_originator_3d9793bdda.png" id="1_8mfxk"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8mfxk")
+region = Rect2(0, 0, 160, 251)

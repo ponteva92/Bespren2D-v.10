@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d1fm1sx2bvrov"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_shadow_knight_bcab2d599c.png" id="1_td6fm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2v6b"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_td6fm")
+region = Rect2(0, 0, 503, 392)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j2v6b")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

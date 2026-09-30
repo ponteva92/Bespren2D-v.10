@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dvfjbjniny0u2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_dragon_5b5908abae.png" id="1_ddcue"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fsq2b"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ddcue")
+region = Rect2(0, 0, 501, 356)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fsq2b")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dmlxw1ybdnn2r"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/titan_aquos_4ec078dd6c.png" id="1_vnuqa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_twkru"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vnuqa")
+region = Rect2(0, 0, 361, 264)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_twkru")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://8f2550ka03jr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/secondary_elementals_time_elemental_06bc896020.png" id="1_dwke5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ii06t"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dwke5")
+region = Rect2(0, 0, 379, 342)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ii06t")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

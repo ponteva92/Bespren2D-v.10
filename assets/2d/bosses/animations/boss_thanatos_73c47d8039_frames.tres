@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://chnvjvgr4w4vx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_thanatos_44015a6bbf.png" id="1_glo6y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rsbvt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_glo6y")
+region = Rect2(0, 0, 748, 636)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rsbvt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c5bnorgt76x5x"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_duel_sword_623206bb5e.png" id="1_y3nqd"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_y3nqd")
+region = Rect2(0, 0, 9, 30)

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="64" viewBox="0 0 384 64">
+  <defs>
+    <pattern id="forest-grain" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#304439"/>
+      <path d="M1 12L6 4M10 16L15 8M-2 5L3-1" stroke="#405847" stroke-width="1.4" opacity=".52"/>
+      <circle cx="12" cy="4" r="1.4" fill="#24362d"/>
+      <circle cx="5" cy="13" r="1" fill="#71806a" opacity=".34"/>
+    </pattern>
+    <pattern id="city-grain" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#3b4240"/>
+      <path d="M0 4L7 6L10 15M16 1L12 7L16 12" fill="none" stroke="#252c2a" stroke-width="1" opacity=".66"/>
+      <path d="M2 14L6 10" stroke="#78503b" stroke-width=".8" opacity=".34"/>
+      <circle cx="12" cy="3" r="1" fill="#69716e" opacity=".36"/>
+    </pattern>
+    <pattern id="mall-grain" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#3e4949"/>
+      <path d="M0 0H16M0 8H16M8 0V16" stroke="#293230" stroke-width=".8" opacity=".74"/>
+      <path d="M1 1L7 7M9 15L15 9" stroke="#58736e" stroke-width=".8" opacity=".30"/>
+      <circle cx="12" cy="4" r="1" fill="#79523e" opacity=".34"/>
+    </pattern>
+    <pattern id="village-west" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#554a3b"/>
+      <path d="M0 3C5 1 9 5 16 2M0 11C6 8 10 14 16 10" fill="none" stroke="#2c2a20" stroke-width="1.5"/>
+      <path d="M4 0V16M12 0V16" stroke="#786148" stroke-width=".7" opacity=".38"/>
+    </pattern>
+    <pattern id="village-east" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#4b5141"/>
+      <path d="M0 5C5 2 10 7 16 3M0 14C5 10 11 15 16 12" fill="none" stroke="#242a20" stroke-width="1.5"/>
+      <circle cx="4" cy="11" r="1.3" fill="#6f7053"/>
+      <circle cx="13" cy="6" r="1" fill="#28392d"/>
+    </pattern>
+    <pattern id="wild-grain" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#35463b"/>
+      <path d="M0 15L6 9L9 11L16 5" fill="none" stroke="#1c2821" stroke-width="2"/>
+      <path d="M2 4L5 1M11 15L15 11" stroke="#5a6a57" stroke-width=".8" opacity=".58"/>
+    </pattern>
+  </defs>
+
+  <!-- Explicit opaque foundations are intentionally separate from SVG pattern
+       fills. Godot's mobile SVG importer may omit a pattern paint server, but
+       must never turn a biome tile into transparent black. -->
+  <rect x="0" y="0" width="64" height="64" fill="#304439"/>
+  <rect x="64" y="0" width="64" height="64" fill="#3b4240"/>
+  <rect x="128" y="0" width="64" height="64" fill="#3e4949"/>
+  <rect x="192" y="0" width="64" height="64" fill="#554a3b"/>
+  <rect x="256" y="0" width="64" height="64" fill="#4b5141"/>
+  <rect x="320" y="0" width="64" height="64" fill="#35463b"/>
+
+  <rect x="0" y="0" width="64" height="64" fill="url(#forest-grain)"/>
+  <path d="M4 54C15 44 24 56 34 46S53 40 62 31" fill="none" stroke="#5c6a54" stroke-width="2" opacity=".24"/>
+  <path d="M11 18L18 6L25 18M40 31L48 15L56 31" fill="none" stroke="#203329" stroke-width="1.4" opacity=".54"/>
+
+  <rect x="64" y="0" width="64" height="64" fill="url(#city-grain)"/>
+  <path d="M68 9L86 14L91 30L107 39L124 36M73 58L87 45L103 49L112 27" fill="none" stroke="#252b29" stroke-width="1.35" opacity=".72"/>
+  <path d="M67 33L81 30M108 8L126 13" stroke="#80533f" stroke-width="1.2" opacity=".30"/>
+
+  <rect x="128" y="0" width="64" height="64" fill="url(#mall-grain)"/>
+  <path d="M132 8H188M132 56H188" stroke="#7b8783" stroke-width="1.3" opacity=".28"/>
+  <path d="M139 48L153 31L164 39L179 20L189 25" fill="none" stroke="#64877f" stroke-width="1" opacity=".34"/>
+
+  <rect x="192" y="0" width="64" height="64" fill="url(#village-west)"/>
+  <path d="M197 14L211 9L225 14M230 49L242 43L252 48" fill="none" stroke="#98734c" stroke-width="1.3" opacity=".34"/>
+  <path d="M203 58L217 42M237 23L252 7" stroke="#26221b" stroke-width="2"/>
+
+  <rect x="256" y="0" width="64" height="64" fill="url(#village-east)"/>
+  <path d="M260 49L277 39L290 45L316 29" fill="none" stroke="#20271f" stroke-width="2"/>
+  <path d="M265 12L281 18M298 7L316 14" stroke="#7c7156" stroke-width="1.3" opacity=".34"/>
+
+  <rect x="320" y="0" width="64" height="64" fill="url(#wild-grain)"/>
+  <path d="M325 8L339 20L350 16L361 31L379 22M323 58L339 46L353 53L381 39" fill="none" stroke="#18241c" stroke-width="2"/>
+  <circle cx="337" cy="33" r="3" fill="#66745f" opacity=".28"/>
+  <circle cx="372" cy="9" r="2" fill="#75533f" opacity=".30"/>
+
+  <g fill="none" stroke="#18201e" stroke-width="1" opacity=".34">
+    <rect x="1" y="1" width="62" height="62"/>
+    <rect x="65" y="1" width="62" height="62"/>
+    <rect x="129" y="1" width="62" height="62"/>
+    <rect x="193" y="1" width="62" height="62"/>
+    <rect x="257" y="1" width="62" height="62"/>
+    <rect x="321" y="1" width="62" height="62"/>
+  </g>
+</svg>

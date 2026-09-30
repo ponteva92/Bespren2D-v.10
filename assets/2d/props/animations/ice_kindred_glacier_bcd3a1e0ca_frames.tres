@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cy0da47f7nila"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_kindred_glacier_58b09c6f5b.png" id="1_64k5l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uycmw"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_64k5l")
+region = Rect2(0, 0, 234, 211)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uycmw")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

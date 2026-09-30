@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dlo2vrk7sroh3"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_goddess_aphrodite_62001ce3b2.png" id="1_p5rwu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hi1e5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_p5rwu")
+region = Rect2(0, 0, 350, 351)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hi1e5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

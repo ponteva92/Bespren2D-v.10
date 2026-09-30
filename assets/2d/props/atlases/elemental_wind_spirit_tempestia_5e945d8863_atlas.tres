@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bqyk3q5mt6pug"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/elemental_wind_spirit_tempestia_c547f6c088.png" id="1_51wdx"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_51wdx")
+region = Rect2(0, 0, 194, 240)

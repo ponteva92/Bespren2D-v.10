@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://d4b66k362j04h"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/objects_ybox_e7746354e9.png" id="1_3qb1j"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3qb1j")
+region = Rect2(0, 0, 310, 196)

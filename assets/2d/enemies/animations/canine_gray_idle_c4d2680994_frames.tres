@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dkiwklbrcttut"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/canine_gray_idle_a46e455493.png" id="1_ibg4a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kk8hq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ibg4a")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4a7g6"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_ibg4a")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8h3ir"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_ibg4a")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ymi4n"]
+resource_name = "frame_000_003"
+atlas = ExtResource("1_ibg4a")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfh1p"]
+resource_name = "frame_000_004"
+atlas = ExtResource("1_ibg4a")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tmimh"]
+resource_name = "frame_000_005"
+atlas = ExtResource("1_ibg4a")
+region = Rect2(160, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kk8hq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4a7g6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8h3ir")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ymi4n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lfh1p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tmimh")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]

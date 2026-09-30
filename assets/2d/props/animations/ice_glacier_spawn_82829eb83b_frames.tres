@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dt6uwer5afq81"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_glacier_spawn_54c146bcd5.png" id="1_ii2m0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jwgl0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ii2m0")
+region = Rect2(0, 0, 265, 312)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jwgl0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

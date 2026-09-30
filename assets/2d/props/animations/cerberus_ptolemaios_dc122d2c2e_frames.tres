@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://qp6tpxjkqc5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cerberus_ptolemaios_28577f2a32.png" id="1_4g22s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mol6x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_4g22s")
+region = Rect2(0, 0, 271, 241)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mol6x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

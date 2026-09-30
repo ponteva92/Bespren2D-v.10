@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bqunhva0gliqg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mknightgoldnharl_tex_ad954916ab.png" id="1_7qxp7"]
+
+[resource]
+resource_name = "ellipse_14"
+atlas = ExtResource("1_7qxp7")
+region = Rect2(1, 570, 239, 25)

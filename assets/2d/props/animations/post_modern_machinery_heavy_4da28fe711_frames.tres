@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://da3xe2tadq2sd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/post_modern_machinery_heavy_c243b7db0a.png" id="1_fyfhg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygttj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fyfhg")
+region = Rect2(0, 0, 462, 264)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygttj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

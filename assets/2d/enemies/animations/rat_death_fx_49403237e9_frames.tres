@@ -1,0 +1,27 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://udwkpqgsmsgo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/rat_death_fx_115e9b4b2b.png" id="1_p1cqi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4jgj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_p1cqi")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_54jwy"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_p1cqi")
+region = Rect2(64, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4jgj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_54jwy")
+}],
+"loop": 1,
+"name": &"death",
+"speed": 10.0
+}]

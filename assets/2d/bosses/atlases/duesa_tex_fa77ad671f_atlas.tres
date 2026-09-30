@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ceyp0qfag8bbw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/duesa_tex_827d6aa19e.png" id="1_3l6eu"]
+
+[resource]
+resource_name = "layer_19_copy_4"
+atlas = ExtResource("1_3l6eu")
+region = Rect2(906, 622, 92, 189)

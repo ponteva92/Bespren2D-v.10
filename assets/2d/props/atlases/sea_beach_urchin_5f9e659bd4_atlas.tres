@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://u3lsdtrf013n"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_beach_urchin_73b62e1a48.png" id="1_lduyj"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_lduyj")
+region = Rect2(0, 0, 101, 60)

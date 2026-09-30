@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cgcgibacjsvbs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/aekashics_librarium_tiamat_double_release_7de6389ba2/tiamat_tex_4be187c6bc.png" id="1_68yyt"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_68yyt")
+region = Rect2(1, 775, 584, 29)

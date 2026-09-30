@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://du8rck68xhydf"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_feral_kitsune_32a003c5f5.png" id="1_vrw0r"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vrw0r")
+region = Rect2(0, 0, 592, 402)

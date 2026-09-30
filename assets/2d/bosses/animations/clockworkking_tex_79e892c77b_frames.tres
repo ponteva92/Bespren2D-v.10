@@ -1,0 +1,99 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c5qyis3nwowjs"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockworkking_tex_6dc9ef3ffd.png" id="1_acmh4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tm0yy"]
+resource_name = "shadow"
+atlas = ExtResource("1_acmh4")
+region = Rect2(1, 926, 421, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r64k5"]
+resource_name = "ornament_c"
+atlas = ExtResource("1_acmh4")
+region = Rect2(1, 775, 158, 122)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0v785"]
+resource_name = "ornament_b"
+atlas = ExtResource("1_acmh4")
+region = Rect2(395, 292, 49, 118)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hnrw2"]
+resource_name = "ornament_a"
+atlas = ExtResource("1_acmh4")
+region = Rect2(446, 292, 13, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4hyw0"]
+resource_name = "cape"
+atlas = ExtResource("1_acmh4")
+region = Rect2(1, 1, 462, 289)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r7rdi"]
+resource_name = "left_arm"
+atlas = ExtResource("1_acmh4")
+region = Rect2(161, 775, 115, 149)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3gsd1"]
+resource_name = "chest"
+atlas = ExtResource("1_acmh4")
+region = Rect2(265, 292, 128, 177)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_spsaw"]
+resource_name = "skirt"
+atlas = ExtResource("1_acmh4")
+region = Rect2(465, 1, 301, 440)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bcty"]
+resource_name = "right_arm"
+atlas = ExtResource("1_acmh4")
+region = Rect2(1, 292, 262, 481)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_imkid"]
+resource_name = "head"
+atlas = ExtResource("1_acmh4")
+region = Rect2(395, 412, 53, 68)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5n8qd"]
+resource_name = "scar_top"
+atlas = ExtResource("1_acmh4")
+region = Rect2(424, 775, 74, 79)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tm0yy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r64k5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0v785")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hnrw2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4hyw0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r7rdi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3gsd1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_spsaw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bcty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_imkid")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5n8qd")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

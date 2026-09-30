@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://1xsxpbr4magu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/light_angel_heavy_knight_0be5914f22.png" id="1_mr1a5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6lrp0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mr1a5")
+region = Rect2(0, 0, 475, 307)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6lrp0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

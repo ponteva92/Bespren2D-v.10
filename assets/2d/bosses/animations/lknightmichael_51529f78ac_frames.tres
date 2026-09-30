@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://1xblq5unguat"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/lknightmichael_eaa5fa8904.png" id="1_i6j8n"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m05qv"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_i6j8n")
+region = Rect2(0, 0, 57, 172)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3wig"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_i6j8n")
+region = Rect2(57, 0, 57, 172)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xbjuv"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_i6j8n")
+region = Rect2(114, 0, 57, 172)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m05qv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3wig")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xbjuv")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

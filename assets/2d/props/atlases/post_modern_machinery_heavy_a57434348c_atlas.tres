@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dot1t4436p0qw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/post_modern_machinery_heavy_0e45b8cb37.png" id="1_shuao"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_shuao")
+region = Rect2(0, 0, 462, 264)

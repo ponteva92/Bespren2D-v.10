@@ -1,0 +1,182 @@
+[gd_scene format=3 uid="uid://brxwpm7qbkpjn"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_hx1k1"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f000.png" id="2_j44k7"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f001.png" id="3_4f0um"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f002.png" id="4_plnq7"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f003.png" id="5_syrjg"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f008.png" id="6_0krpb"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f009.png" id="7_ha175"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f010.png" id="8_wukth"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f011.png" id="9_pdahi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f012.png" id="10_qnvpi"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f013.png" id="11_tlfyr"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f026.png" id="12_t7qrl"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f027.png" id="13_vifkl"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f028.png" id="14_yop24"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f029.png" id="15_cmiov"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f030.png" id="16_ilfvl"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/gif_frames/admurin/rabbit_horned_d06679e7bf/rabbit_horned_gif_f031.png" id="17_27whn"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_miemr"]
+resource_name = "Bespren Mutant Toxic weathering"
+shader = ExtResource("1_hx1k1")
+shader_parameter/treatment = 3
+shader_parameter/weathering = 0.72
+shader_parameter/structural_damage = 0.04
+shader_parameter/rust_streaks = 0.16
+shader_parameter/toxic_intensity = 0.72
+shader_parameter/glow_color = Color(0.6156863, 1, 0, 1)
+shader_parameter/emission_strength = 0.64
+shader_parameter/pattern_scale = 33.0
+shader_parameter/damage_seed = 51.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxk8p"]
+resource_name = "default_000"
+atlas = ExtResource("2_j44k7")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4rxxw"]
+resource_name = "default_001"
+atlas = ExtResource("3_4f0um")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ds7nf"]
+resource_name = "default_002"
+atlas = ExtResource("4_plnq7")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mcmvm"]
+resource_name = "default_003"
+atlas = ExtResource("5_syrjg")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufm56"]
+resource_name = "default_008"
+atlas = ExtResource("6_0krpb")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1uj7"]
+resource_name = "default_009"
+atlas = ExtResource("7_ha175")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2fc6c"]
+resource_name = "default_010"
+atlas = ExtResource("8_wukth")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gk32r"]
+resource_name = "default_011"
+atlas = ExtResource("9_pdahi")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b2rem"]
+resource_name = "default_012"
+atlas = ExtResource("10_qnvpi")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q7o6r"]
+resource_name = "default_013"
+atlas = ExtResource("11_tlfyr")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ar6ca"]
+resource_name = "default_026"
+atlas = ExtResource("12_t7qrl")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5r2y8"]
+resource_name = "default_027"
+atlas = ExtResource("13_vifkl")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dccgj"]
+resource_name = "default_028"
+atlas = ExtResource("14_yop24")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uxfjo"]
+resource_name = "default_029"
+atlas = ExtResource("15_cmiov")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1f3cp"]
+resource_name = "default_030"
+atlas = ExtResource("16_ilfvl")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ygon"]
+resource_name = "default_031"
+atlas = ExtResource("17_27whn")
+region = Rect2(0, 0, 480, 480)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rv735"]
+animations = [{
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_cxk8p")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_4rxxw")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_ds7nf")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_mcmvm")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_ufm56")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_k1uj7")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_2fc6c")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_gk32r")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_b2rem")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_q7o6r")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_ar6ca")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_5r2y8")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_dccgj")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_uxfjo")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_1f3cp")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_2ygon")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="RabbitHorned" type="Node2D" unique_id=1565692431 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "rabbit_horned_b52725708b"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1870518054]
+texture_filter = 1
+material = SubResource("ShaderMaterial_miemr")
+sprite_frames = SubResource("SpriteFrames_rv735")
+autoplay = "default"
+offset = Vector2(0, -240)

@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://bvucpsljdan8m"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_hv05t"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/chest_empty_open_anim_f0_5b79317a3c.png" id="2_povuo"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/chest_empty_open_anim_f1_7b42ce1730.png" id="3_p1pik"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/chest_empty_open_anim_f2_7af7cdce27.png" id="4_clg76"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_20k0a"]
+resource_name = "Bespren Wood Spore weathering"
+shader = ExtResource("1_hv05t")
+shader_parameter/treatment = 1
+shader_parameter/weathering = 0.86
+shader_parameter/structural_damage = 0.08
+shader_parameter/rust_streaks = 0.3
+shader_parameter/toxic_intensity = 0.18
+shader_parameter/glow_color = Color(1, 0.84313726, 0, 1)
+shader_parameter/emission_strength = 0.58
+shader_parameter/pattern_scale = 31.0
+shader_parameter/damage_seed = 11.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqre7"]
+resource_name = "open_000"
+atlas = ExtResource("2_povuo")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hv0ga"]
+resource_name = "open_001"
+atlas = ExtResource("3_p1pik")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2qvaf"]
+resource_name = "open_002"
+atlas = ExtResource("4_clg76")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nn27t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqre7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hv0ga")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2qvaf")
+}],
+"loop": 1,
+"name": &"open",
+"speed": 8.0
+}]
+
+[node name="ChestEmpty" type="Node2D" unique_id=802134992 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "chest_empty_c715a274ff"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "frame_sequence"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=259335137]
+texture_filter = 1
+material = SubResource("ShaderMaterial_20k0a")
+sprite_frames = SubResource("SpriteFrames_nn27t")
+animation = &"open"
+autoplay = "open"
+offset = Vector2(0, -8)

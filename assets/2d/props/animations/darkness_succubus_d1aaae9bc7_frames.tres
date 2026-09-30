@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://tw87qdpmhilt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_succubus_da31a156b3.png" id="1_a3ql3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5dpoo"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_a3ql3")
+region = Rect2(0, 0, 391, 285)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5dpoo")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b1ilm7ifp75xd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/weapon_big_hammer_73f163d067.png" id="1_of0yq"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_of0yq")
+region = Rect2(0, 0, 10, 37)

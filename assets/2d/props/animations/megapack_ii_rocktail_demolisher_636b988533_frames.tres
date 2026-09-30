@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dutuh2v6v8o0x"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_rocktail_demolisher_1a0c75a72f.png" id="1_j3njn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wua8j"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_j3njn")
+region = Rect2(0, 0, 312, 286)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wua8j")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://c3o8kvwx0ii5q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossalcrow_tex_90fee20f4d.png" id="1_ndos5"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_ndos5")
+region = Rect2(1, 525, 321, 18)

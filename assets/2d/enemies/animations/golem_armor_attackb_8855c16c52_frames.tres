@@ -1,0 +1,27 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://furr4leclvk7"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/golem_armor_attackb_26d7c54dfd.png" id="1_os141"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8kcy4"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_os141")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8wu3r"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_os141")
+region = Rect2(128, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8kcy4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8wu3r")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]

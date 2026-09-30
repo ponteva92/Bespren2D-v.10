@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bq3lnmlfo53w5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_astral_lich_9529c7dcdb.png" id="1_b23t4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ne1aj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_b23t4")
+region = Rect2(0, 0, 288, 281)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ne1aj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b1jy0snlsn643"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_crab_king_karkinos_28dc8d92cb.png" id="1_yd6ch"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n700c"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_yd6ch")
+region = Rect2(0, 0, 839, 492)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n700c")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

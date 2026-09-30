@@ -1,0 +1,101 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dbnpqjx1o17ao"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_hit_anim_f0_4ac52f1a17.png" id="1_c7n4d"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_idle_anim_f0_1b48c5f190.png" id="2_e83dp"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_idle_anim_f1_65144f67da.png" id="3_gd6ar"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_idle_anim_f2_c07e7c8290.png" id="4_vcr8o"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_idle_anim_f3_17aecc1f79.png" id="5_sfppu"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_run_anim_f0_a38a1463ba.png" id="6_3rftx"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_run_anim_f1_d88f17ea3c.png" id="7_cgylf"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_run_anim_f2_392b1f56fa.png" id="8_snlt3"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/wizzard_f_run_anim_f3_8030969c2f.png" id="9_ydlag"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_232nc"]
+resource_name = "hit_000"
+atlas = ExtResource("1_c7n4d")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cjvur"]
+resource_name = "idle_000"
+atlas = ExtResource("2_e83dp")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hspon"]
+resource_name = "idle_001"
+atlas = ExtResource("3_gd6ar")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5gvl"]
+resource_name = "idle_002"
+atlas = ExtResource("4_vcr8o")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4vsaw"]
+resource_name = "idle_003"
+atlas = ExtResource("5_sfppu")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n74if"]
+resource_name = "run_000"
+atlas = ExtResource("6_3rftx")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i74a5"]
+resource_name = "run_001"
+atlas = ExtResource("7_cgylf")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v0q8c"]
+resource_name = "run_002"
+atlas = ExtResource("8_snlt3")
+region = Rect2(0, 0, 16, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2bkxh"]
+resource_name = "run_003"
+atlas = ExtResource("9_ydlag")
+region = Rect2(0, 0, 16, 28)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_232nc")
+}],
+"loop": 0,
+"name": &"hit",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cjvur")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hspon")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5gvl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4vsaw")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n74if")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i74a5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v0q8c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2bkxh")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 8.0
+}]

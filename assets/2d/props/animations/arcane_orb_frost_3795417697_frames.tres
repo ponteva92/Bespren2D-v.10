@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://4ed1yjmypln2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/arcane_orb_frost_93504c6175.png" id="1_o7yqh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gy4r0"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_o7yqh")
+region = Rect2(0, 0, 103, 147)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gy4r0")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

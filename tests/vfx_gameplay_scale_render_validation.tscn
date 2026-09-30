@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://tests/vfx_gameplay_scale_render_validation.gd" id="1_test"]
+[ext_resource type="PackedScene" path="res://scenes/world/world_map_2d.tscn" id="2_world"]
+
+[node name="VfxGameplayScaleRenderValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="WorldMap2D" parent="." instance=ExtResource("2_world")]
+unique_name_in_owner = true
+
+[node name="ValidationCamera" type="Camera2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-5210, 1650)
+zoom = Vector2(0.38, 0.38)
+
+[node name="Overlay" type="CanvasLayer" parent="."]
+layer = 20
+
+[node name="Title" type="Label" parent="Overlay"]
+offset_left = 8.0
+offset_top = 7.0
+offset_right = 472.0
+offset_bottom = 20.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.84, 0.76, 0.6, 1)
+theme_override_colors/font_outline_color = Color(0.01, 0.015, 0.01, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 8
+text = "WORLD VFX // 0.38x LIVE-SCALE // ARTIFACT ONLY"
+horizontal_alignment = 1

@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bwggw4lk5v3mt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/canine_brown_attack_d19a3a2a64.png" id="1_c31rp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uvpfs"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_c31rp")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r6ivm"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_c31rp")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ohvg6"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_c31rp")
+region = Rect2(128, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uvpfs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r6ivm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ohvg6")
+}],
+"loop": 1,
+"name": &"attack",
+"speed": 10.0
+}]

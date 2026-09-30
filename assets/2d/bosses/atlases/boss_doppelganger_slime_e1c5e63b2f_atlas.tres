@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bm2lftyjtugt"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_doppelganger_slime_f69658539e.png" id="1_njaag"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_njaag")
+region = Rect2(0, 0, 376, 273)

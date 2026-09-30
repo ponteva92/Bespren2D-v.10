@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://tests/tactical_hud_render_validation.gd" id="1_test"]
+[ext_resource type="PackedScene" path="res://scenes/ui/game_hud.tscn" id="2_hud"]
+
+[node name="TacticalHUDRenderValidation" type="Node2D"]
+script = ExtResource("1_test")
+
+[node name="Backdrop" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="WorldTone" type="ColorRect" parent="Backdrop"]
+offset_right = 480.0
+offset_bottom = 270.0
+mouse_filter = 2
+color = Color(0.055, 0.087, 0.072, 1)
+
+[node name="Road" type="Polygon2D" parent="."]
+z_index = 1
+polygon = PackedVector2Array(-100, 105, 580, 105, 580, 166, -100, 166)
+color = Color(0.11, 0.115, 0.105, 1)
+
+[node name="ScrapA" type="Polygon2D" parent="."]
+z_index = 2
+polygon = PackedVector2Array(156, 92, 208, 72, 240, 94, 219, 116, 168, 118)
+color = Color(0.42, 0.18, 0.075, 1)
+
+[node name="ScrapB" type="Polygon2D" parent="."]
+z_index = 2
+polygon = PackedVector2Array(285, 174, 342, 165, 365, 193, 330, 218, 278, 205)
+color = Color(0.08, 0.3, 0.26, 1)
+
+[node name="GameHUD" parent="." instance=ExtResource("2_hud")]
+unique_name_in_owner = true
+

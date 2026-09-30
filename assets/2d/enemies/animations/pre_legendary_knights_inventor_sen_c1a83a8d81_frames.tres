@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cja3o7mpl1b60"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/pre_legendary_knights_inventor_sen_ba90210958.png" id="1_3ghsl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ln6my"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3ghsl")
+region = Rect2(0, 0, 323, 203)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ln6my")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

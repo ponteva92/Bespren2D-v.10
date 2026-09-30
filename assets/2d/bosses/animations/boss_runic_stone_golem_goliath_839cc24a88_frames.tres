@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dvp463c0v77hy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_runic_stone_golem_goliath_f8315c5bce.png" id="1_icwex"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_51moj"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_icwex")
+region = Rect2(0, 0, 470, 614)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_51moj")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

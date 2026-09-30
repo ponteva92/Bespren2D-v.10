@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b1feg82jg2vci"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_hell_mantis_2e20605ec2.png" id="1_rw3wf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rw3wf")
+region = Rect2(0, 0, 275, 154)

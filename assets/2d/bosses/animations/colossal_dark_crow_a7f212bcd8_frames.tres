@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://blhdc434020kn"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_dark_crow_eb1be37884.png" id="1_8o2qy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t2wno"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8o2qy")
+region = Rect2(0, 0, 507, 564)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t2wno")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cor6f8ti7qock"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_king_green_b6010130a6.png" id="1_mgvgq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vgbin"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_mgvgq")
+region = Rect2(0, 0, 645, 671)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vgbin")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

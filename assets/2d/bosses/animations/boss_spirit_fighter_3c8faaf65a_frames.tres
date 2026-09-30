@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bl0856tkrm5ef"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_spirit_fighter_96ff580751.png" id="1_873o4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_el0vq"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_873o4")
+region = Rect2(0, 0, 178, 293)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_el0vq")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

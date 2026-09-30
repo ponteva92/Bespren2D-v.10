@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://nwi2b1eqx4iv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cybermancer_969c9d7736.png" id="1_805mt"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_805mt")
+region = Rect2(0, 0, 242, 262)

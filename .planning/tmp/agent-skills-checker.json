@@ -1,0 +1,12 @@
+{
+  "args": [
+    "query",
+    "agent-skills",
+    "gsd-plan-checker"
+  ],
+  "status": 0,
+  "signal": null,
+  "error": null,
+  "stdout": "",
+  "stderr": "gsd-tools: warning: unknown config key(s) in .planning/config.json: tavily_search, ref_search, perplexity, jina — these will be ignored\n"
+}

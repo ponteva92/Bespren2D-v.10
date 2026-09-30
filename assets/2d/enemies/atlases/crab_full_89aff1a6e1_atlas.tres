@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://m4np2nrrmjon"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/crab_full_9f05438de0.png" id="1_jmeaf"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jmeaf")
+region = Rect2(0, 0, 448, 448)

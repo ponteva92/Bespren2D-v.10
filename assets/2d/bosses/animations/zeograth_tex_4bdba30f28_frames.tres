@@ -1,0 +1,99 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b0ftwg48u2vg5"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/zeograth_tex_980535f246.png" id="1_osb3k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kj565"]
+resource_name = "layer_393"
+atlas = ExtResource("1_osb3k")
+region = Rect2(190, 450, 680, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f3kgx"]
+resource_name = "folder_87_copy_13"
+atlas = ExtResource("1_osb3k")
+region = Rect2(190, 311, 344, 137)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5xk2"]
+resource_name = "folder_87_copy_11"
+atlas = ExtResource("1_osb3k")
+region = Rect2(872, 1, 139, 188)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qgoom"]
+resource_name = "folder_87_copy_12"
+atlas = ExtResource("1_osb3k")
+region = Rect2(670, 1, 159, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hyuht"]
+resource_name = "folder_87_copy_8"
+atlas = ExtResource("1_osb3k")
+region = Rect2(490, 1, 178, 254)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3kbqi"]
+resource_name = "folder_87_copy_5"
+atlas = ExtResource("1_osb3k")
+region = Rect2(1, 1, 309, 233)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kskqt"]
+resource_name = "folder_87_copy_3"
+atlas = ExtResource("1_osb3k")
+region = Rect2(872, 359, 95, 129)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xovi6"]
+resource_name = "folder_87_copy_2"
+atlas = ExtResource("1_osb3k")
+region = Rect2(1, 236, 187, 271)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cgex4"]
+resource_name = "folder_87_copy_6"
+atlas = ExtResource("1_osb3k")
+region = Rect2(312, 1, 176, 308)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vgr37"]
+resource_name = "folder_87_copy_7"
+atlas = ExtResource("1_osb3k")
+region = Rect2(536, 257, 224, 175)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5vd3s"]
+resource_name = "folder_87_copy_9"
+atlas = ExtResource("1_osb3k")
+region = Rect2(872, 191, 114, 166)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kj565")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f3kgx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5xk2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qgoom")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hyuht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3kbqi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kskqt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xovi6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cgex4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vgr37")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5vd3s")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

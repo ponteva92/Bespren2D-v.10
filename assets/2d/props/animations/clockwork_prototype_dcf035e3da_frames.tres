@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://wwc3li60bpa2"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockwork_prototype_525a3a6572.png" id="1_tksig"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_op3vo"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tksig")
+region = Rect2(0, 0, 272, 228)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_op3vo")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

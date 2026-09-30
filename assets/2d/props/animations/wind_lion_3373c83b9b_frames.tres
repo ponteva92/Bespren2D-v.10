@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dfyk4lp4733st"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/wind_lion_d3c41b1983.png" id="1_asyuf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iva8j"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_asyuf")
+region = Rect2(0, 0, 259, 282)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iva8j")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

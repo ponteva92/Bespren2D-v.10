@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cm80fb5vd2hxq"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/valhalla_tex_9b3e1c3b20.png" id="1_ntnnx"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_ntnnx")
+region = Rect2(1, 629, 364, 16)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ddt4yoteypygy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/insects_ant_lion_7b60afd6d3.png" id="1_jivcs"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_jivcs")
+region = Rect2(0, 0, 271, 228)

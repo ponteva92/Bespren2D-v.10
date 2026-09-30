@@ -1,0 +1,149 @@
+{
+	"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd",
+	"sheet_directory": "res://assets/2d/actors/sheets",
+	"directions": 8,
+	"clips": {
+		"idle": {
+			"fps": 6.0,
+			"loop": true
+		},
+		"walk": {
+			"fps": 10.0,
+			"loop": true
+		},
+		"run": {
+			"fps": 14.0,
+			"loop": true
+		},
+		"gather": {
+			"fps": 10.0,
+			"loop": true
+		},
+		"shoot": {
+			"fps": 14.0,
+			"loop": false
+		},
+		"attack": {
+			"fps": 12.0,
+			"loop": false
+		},
+		"hit": {
+			"fps": 14.0,
+			"loop": false
+		},
+		"death": {
+			"fps": 9.0,
+			"loop": false
+		},
+		"spawn": {
+			"fps": 9.0,
+			"loop": false
+		},
+		"taunt": {
+			"fps": 9.0,
+			"loop": false
+		}
+	},
+	"actors": [
+		{
+			"actor": "enemy_carrier",
+			"cell": 136,
+			"clips": 7,
+			"animations": 56,
+			"foot_offset": 18.5634,
+			"frames": "res://assets/2d/actors/frames/enemy_carrier_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/enemy_carrier.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "enemy_goliath",
+			"cell": 224,
+			"clips": 7,
+			"animations": 56,
+			"foot_offset": 29.3929,
+			"frames": "res://assets/2d/actors/frames/enemy_goliath_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/enemy_goliath.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "enemy_overlord",
+			"cell": 160,
+			"clips": 7,
+			"animations": 56,
+			"foot_offset": 26.704,
+			"frames": "res://assets/2d/actors/frames/enemy_overlord_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/enemy_overlord.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "enemy_rat_swarm",
+			"cell": 56,
+			"clips": 6,
+			"animations": 48,
+			"foot_offset": 6.788,
+			"frames": "res://assets/2d/actors/frames/enemy_rat_swarm_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/enemy_rat_swarm.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "enemy_scrap_shield",
+			"cell": 112,
+			"clips": 6,
+			"animations": 48,
+			"foot_offset": 18.1605,
+			"frames": "res://assets/2d/actors/frames/enemy_scrap_shield_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/enemy_scrap_shield.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "enemy_splitter",
+			"cell": 136,
+			"clips": 7,
+			"animations": 56,
+			"foot_offset": 17.8348,
+			"frames": "res://assets/2d/actors/frames/enemy_splitter_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/enemy_splitter.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "enemy_static_walker",
+			"cell": 128,
+			"clips": 6,
+			"animations": 48,
+			"foot_offset": 15.8571,
+			"frames": "res://assets/2d/actors/frames/enemy_static_walker_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/enemy_static_walker.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "enemy_walker",
+			"cell": 112,
+			"clips": 6,
+			"animations": 48,
+			"foot_offset": 16.912,
+			"frames": "res://assets/2d/actors/frames/enemy_walker_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/enemy_walker.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "hero_heikki",
+			"cell": 128,
+			"clips": 7,
+			"animations": 56,
+			"foot_offset": 10.2483,
+			"frames": "res://assets/2d/actors/frames/hero_heikki_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/hero_heikki.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		},
+		{
+			"actor": "hero_shane",
+			"cell": 120,
+			"clips": 7,
+			"animations": 56,
+			"foot_offset": 9.9277,
+			"frames": "res://assets/2d/actors/frames/hero_shane_frames.tres",
+			"scene": "res://assets/2d/actors/scenes/hero_shane.tscn",
+			"generator": "res://tools/asset_pipeline/build_actor_sprite_frames.gd"
+		}
+	]
+}

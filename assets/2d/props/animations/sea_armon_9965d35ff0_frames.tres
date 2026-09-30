@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bgq8o7a1ns7ii"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/sea_armon_99120da4d6.png" id="1_d7mch"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_418gr"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_d7mch")
+region = Rect2(0, 0, 185, 121)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_418gr")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

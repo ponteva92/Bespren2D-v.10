@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://hoyg8sk8svje"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/xmas_cookie_dae806e0db.png" id="1_650p4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eixkm"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_650p4")
+region = Rect2(0, 0, 189, 143)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eixkm")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

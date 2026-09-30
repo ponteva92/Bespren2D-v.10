@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bmy243v3ci6tl"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_crab_king_karkinos_6b854f8a4a.png" id="1_u7j8f"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_u7j8f")
+region = Rect2(0, 0, 839, 492)

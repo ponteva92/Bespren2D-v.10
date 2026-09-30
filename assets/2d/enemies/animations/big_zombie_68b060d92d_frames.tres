@@ -1,0 +1,87 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c3wgfvsdv4aow"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_idle_anim_f0_cfa24e832f.png" id="1_tkjn2"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_idle_anim_f1_99d93b3535.png" id="2_wwj3y"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_idle_anim_f2_f8b32237e0.png" id="3_bgg6x"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_idle_anim_f3_c8f4940471.png" id="4_riy0a"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_run_anim_f0_6c8030fea3.png" id="5_jw4pm"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_run_anim_f1_9d5977b35c.png" id="6_om2aj"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_run_anim_f2_0214636e4a.png" id="7_7j7wt"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/big_zombie_run_anim_f3_b364166c8d.png" id="8_bd4k1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cina"]
+resource_name = "idle_000"
+atlas = ExtResource("1_tkjn2")
+region = Rect2(0, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1uytc"]
+resource_name = "idle_001"
+atlas = ExtResource("2_wwj3y")
+region = Rect2(0, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xm3d5"]
+resource_name = "idle_002"
+atlas = ExtResource("3_bgg6x")
+region = Rect2(0, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ejx1"]
+resource_name = "idle_003"
+atlas = ExtResource("4_riy0a")
+region = Rect2(0, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_imw7h"]
+resource_name = "run_000"
+atlas = ExtResource("5_jw4pm")
+region = Rect2(0, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1l6ad"]
+resource_name = "run_001"
+atlas = ExtResource("6_om2aj")
+region = Rect2(0, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f7kgs"]
+resource_name = "run_002"
+atlas = ExtResource("7_7j7wt")
+region = Rect2(0, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpfhe"]
+resource_name = "run_003"
+atlas = ExtResource("8_bd4k1")
+region = Rect2(0, 0, 32, 36)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cina")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1uytc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xm3d5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ejx1")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_imw7h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1l6ad")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f7kgs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qpfhe")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 8.0
+}]

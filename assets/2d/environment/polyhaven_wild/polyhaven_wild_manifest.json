@@ -1,0 +1,1269 @@
+{
+	"atlas": {
+		"bytes": 966809,
+		"frame_size": [
+			256,
+			256
+		],
+		"layout": "6x5 deterministic frame order; 29 occupied cells",
+		"path": "res://assets/2d/environment/polyhaven_wild/polyhaven_wild_atlas.png",
+		"sha256": "0486ac7ed341644d3bae9ab33713f54f8de99c38fb2f62ada88e84d368f2576a",
+		"size": [
+			1536,
+			1280
+		]
+	},
+	"atlas_generator": "res://tools/asset_pipeline/build_polyhaven_wild_atlas.gd",
+	"atlas_generator_bytes": 12862,
+	"atlas_generator_sha256": "2a0f799f70de97b29bfc39856bf9483e6ebd25c589d9ab89b847445d31a42c2d",
+	"blender_renderer": "res://tools/art/render_polyhaven_wild_sprites.py",
+	"blender_renderer_bytes": 64384,
+	"blender_renderer_sha256": "27aa5ff0369e4f73bc642d54e230cbd0689c2e886add82c3ea9567a3f436a37c",
+	"blender_version": "5.0.0",
+	"derived_assets": [
+		{
+			"alpha_coverage": 0.135635,
+			"alpha_weighted_luma_255": 104.274,
+			"bytes": 30096,
+			"cell_region": [
+				0,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				80,
+				58,
+				96,
+				128
+			],
+			"edge_margin_px": 58,
+			"key": "fir",
+			"padded_atlas_region": [
+				76,
+				54,
+				104,
+				136
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/fir_0.png",
+			"sha256": "c9e8dca4b29d58a2a4a7e3fc13d9aa05309b637930467fce99b18d52ff134401",
+			"source_id": "fir_tree_01",
+			"variant": 0,
+			"visible_pixel_count": 8889,
+			"world_height_m": 18.9251,
+			"world_size_m": [
+				6.5338,
+				6.4268,
+				18.9251
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.169632,
+			"alpha_weighted_luma_255": 106.266,
+			"bytes": 36860,
+			"cell_region": [
+				256,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				62,
+				53,
+				129,
+				133
+			],
+			"edge_margin_px": 53,
+			"key": "fir",
+			"padded_atlas_region": [
+				58,
+				49,
+				137,
+				141
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/fir_1.png",
+			"sha256": "2370ccd3a3c79fe8a07c14bf0b6c07af393f2804158ec2a392ec5125e62d6784",
+			"source_id": "fir_tree_01",
+			"variant": 1,
+			"visible_pixel_count": 11117,
+			"world_height_m": 14.0552,
+			"world_size_m": [
+				5.6126,
+				6.0567,
+				14.0552
+			],
+			"yaw_deg": 118.0
+		},
+		{
+			"alpha_coverage": 0.136139,
+			"alpha_weighted_luma_255": 84.634,
+			"bytes": 33017,
+			"cell_region": [
+				512,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				66,
+				49,
+				123,
+				131
+			],
+			"edge_margin_px": 49,
+			"key": "fir",
+			"padded_atlas_region": [
+				62,
+				45,
+				131,
+				139
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/fir_2.png",
+			"sha256": "4cbd61fec29a98fe7b29694a94882565caa9ded24940f4128ecd8e82dc1763ca",
+			"source_id": "fir_tree_01",
+			"variant": 2,
+			"visible_pixel_count": 8922,
+			"world_height_m": 14.5206,
+			"world_size_m": [
+				6.3059,
+				5.9662,
+				14.5206
+			],
+			"yaw_deg": 224.0
+		},
+		{
+			"alpha_coverage": 0.133591,
+			"alpha_weighted_luma_255": 87.21,
+			"bytes": 31529,
+			"cell_region": [
+				768,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				75,
+				45,
+				124,
+				125
+			],
+			"edge_margin_px": 45,
+			"key": "broadleaf_small",
+			"padded_atlas_region": [
+				71,
+				41,
+				132,
+				133
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/broadleaf_small_0.png",
+			"sha256": "78c6b2f7948dd980559f5cdbb39dac0f607a924d2b827ec2c86f99751f3fc8f8",
+			"source_id": "tree_small_02",
+			"variant": 0,
+			"visible_pixel_count": 8755,
+			"world_height_m": 4.5567,
+			"world_size_m": [
+				2.9167,
+				4.2925,
+				4.5567
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.187164,
+			"alpha_weighted_luma_255": 82.224,
+			"bytes": 42578,
+			"cell_region": [
+				1024,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				45,
+				48,
+				162,
+				153
+			],
+			"edge_margin_px": 45,
+			"key": "broadleaf_small",
+			"padded_atlas_region": [
+				41,
+				44,
+				170,
+				161
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/broadleaf_small_1.png",
+			"sha256": "53a275d1254588152345fb313a61937e1a0c357138df03607e3236f723a2aa30",
+			"source_id": "tree_small_02",
+			"variant": 1,
+			"visible_pixel_count": 12266,
+			"world_height_m": 4.5567,
+			"world_size_m": [
+				2.9167,
+				4.2925,
+				4.5567
+			],
+			"yaw_deg": 143.0
+		},
+		{
+			"alpha_coverage": 0.080551,
+			"alpha_weighted_luma_255": 102.565,
+			"bytes": 20096,
+			"cell_region": [
+				1280,
+				0,
+				256,
+				256
+			],
+			"content_bounds": [
+				24,
+				76,
+				201,
+				93
+			],
+			"edge_margin_px": 24,
+			"key": "dead_trunk",
+			"padded_atlas_region": [
+				20,
+				72,
+				209,
+				101
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/dead_trunk_0.png",
+			"sha256": "5a86aaf6fcaa9da91f439c4f7e85d4c8558c53a91f23f662e176acc185467620",
+			"source_id": "dead_tree_trunk_02",
+			"variant": 0,
+			"visible_pixel_count": 5279,
+			"world_height_m": 1.0551,
+			"world_size_m": [
+				4.0514,
+				1.0561,
+				1.0551
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.08197,
+			"alpha_weighted_luma_255": 98.459,
+			"bytes": 21508,
+			"cell_region": [
+				0,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				97,
+				29,
+				76,
+				193
+			],
+			"edge_margin_px": 29,
+			"key": "dead_trunk",
+			"padded_atlas_region": [
+				93,
+				25,
+				84,
+				201
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/dead_trunk_1.png",
+			"sha256": "ba73974877210799f204563f3d2ad551ae0ba54a815c92ce9186158f5724d701",
+			"source_id": "dead_tree_trunk_02",
+			"variant": 1,
+			"visible_pixel_count": 5372,
+			"world_height_m": 1.0551,
+			"world_size_m": [
+				4.0514,
+				1.0561,
+				1.0551
+			],
+			"yaw_deg": 129.0
+		},
+		{
+			"alpha_coverage": 0.07785,
+			"alpha_weighted_luma_255": 93.701,
+			"bytes": 19518,
+			"cell_region": [
+				256,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				28,
+				64,
+				192,
+				101
+			],
+			"edge_margin_px": 28,
+			"key": "dead_trunk",
+			"padded_atlas_region": [
+				24,
+				60,
+				200,
+				109
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/dead_trunk_2.png",
+			"sha256": "e8d7abbdb9e6feb263652671aafb0a7723e2a930fe93a834dd3a31ec365e5e91",
+			"source_id": "dead_tree_trunk_02",
+			"variant": 2,
+			"visible_pixel_count": 5102,
+			"world_height_m": 1.0551,
+			"world_size_m": [
+				3.3704,
+				3.8131,
+				1.0551
+			],
+			"yaw_deg": 242.0
+		},
+		{
+			"alpha_coverage": 0.225632,
+			"alpha_weighted_luma_255": 96.148,
+			"bytes": 41359,
+			"cell_region": [
+				512,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				42,
+				87,
+				172,
+				118
+			],
+			"edge_margin_px": 42,
+			"key": "stump",
+			"padded_atlas_region": [
+				38,
+				83,
+				180,
+				126
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/stump_0.png",
+			"sha256": "34f5d2c111f69f823a62ae3a082ceba121afec018728c92a159bc337b10b526f",
+			"source_id": "tree_stump_02",
+			"variant": 0,
+			"visible_pixel_count": 14787,
+			"world_height_m": 0.5221,
+			"world_size_m": [
+				1.5217,
+				1.3925,
+				0.5221
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.248428,
+			"alpha_weighted_luma_255": 94.324,
+			"bytes": 45935,
+			"cell_region": [
+				768,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				41,
+				84,
+				170,
+				128
+			],
+			"edge_margin_px": 41,
+			"key": "stump",
+			"padded_atlas_region": [
+				37,
+				80,
+				178,
+				136
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/stump_1.png",
+			"sha256": "3e258797712eebbb2ae4c5aaab83ef4c110fc75f7ffc384fd573db43bc7fbd27",
+			"source_id": "tree_stump_02",
+			"variant": 1,
+			"visible_pixel_count": 16281,
+			"world_height_m": 0.5221,
+			"world_size_m": [
+				1.5217,
+				1.3925,
+				0.5221
+			],
+			"yaw_deg": 151.0
+		},
+		{
+			"alpha_coverage": 0.18605,
+			"alpha_weighted_luma_255": 97.055,
+			"bytes": 37416,
+			"cell_region": [
+				1024,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				45,
+				73,
+				187,
+				116
+			],
+			"edge_margin_px": 24,
+			"key": "roots_pine",
+			"padded_atlas_region": [
+				41,
+				69,
+				195,
+				124
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/roots_pine_0.png",
+			"sha256": "f1080f3b04fde2fd5fcdf33003aab57f3d19cdb235cdc4df315c703eab2aa8a4",
+			"source_id": "pine_roots",
+			"variant": 0,
+			"visible_pixel_count": 12193,
+			"world_height_m": 0.1548,
+			"world_size_m": [
+				1.7721,
+				1.8931,
+				0.1548
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.293671,
+			"alpha_weighted_luma_255": 100.568,
+			"bytes": 56068,
+			"cell_region": [
+				1280,
+				256,
+				256,
+				256
+			],
+			"content_bounds": [
+				47,
+				37,
+				169,
+				199
+			],
+			"edge_margin_px": 20,
+			"key": "roots_pine",
+			"padded_atlas_region": [
+				43,
+				33,
+				177,
+				207
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/roots_pine_1.png",
+			"sha256": "780994a5b8ee2fac83c1b0e29a6744bfce2166b6cafbc5991ef63696f48a4cad",
+			"source_id": "pine_roots",
+			"variant": 1,
+			"visible_pixel_count": 19246,
+			"world_height_m": 0.1548,
+			"world_size_m": [
+				1.7721,
+				1.8931,
+				0.1548
+			],
+			"yaw_deg": 133.0
+		},
+		{
+			"alpha_coverage": 0.273056,
+			"alpha_weighted_luma_255": 99.951,
+			"bytes": 54638,
+			"cell_region": [
+				0,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				38,
+				70,
+				180,
+				138
+			],
+			"edge_margin_px": 38,
+			"key": "roots_cluster",
+			"padded_atlas_region": [
+				34,
+				66,
+				188,
+				146
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/roots_cluster_0.png",
+			"sha256": "c097a79dacd9dd8fbba1ee4cfadcc37f131fcb979c99fb90a3bb5ebabb7c9472",
+			"source_id": "root_cluster_01",
+			"variant": 0,
+			"visible_pixel_count": 17895,
+			"world_height_m": 1.5093,
+			"world_size_m": [
+				4.1227,
+				2.6828,
+				1.5093
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.197357,
+			"alpha_weighted_luma_255": 96.167,
+			"bytes": 41132,
+			"cell_region": [
+				256,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				43,
+				62,
+				156,
+				147
+			],
+			"edge_margin_px": 43,
+			"key": "roots_cluster",
+			"padded_atlas_region": [
+				39,
+				58,
+				164,
+				155
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/roots_cluster_1.png",
+			"sha256": "c158c86ef15d76ee1e423a8115b43c233983ccb58c017aa2461303f9d9fdb547",
+			"source_id": "root_cluster_01",
+			"variant": 1,
+			"visible_pixel_count": 12934,
+			"world_height_m": 1.5093,
+			"world_size_m": [
+				4.1227,
+				2.6828,
+				1.5093
+			],
+			"yaw_deg": 147.0
+		},
+		{
+			"alpha_coverage": 0.149628,
+			"alpha_weighted_luma_255": 70.662,
+			"bytes": 37634,
+			"cell_region": [
+				512,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				55,
+				67,
+				146,
+				150
+			],
+			"edge_margin_px": 39,
+			"key": "shrub",
+			"padded_atlas_region": [
+				51,
+				63,
+				154,
+				158
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/shrub_0.png",
+			"sha256": "72d1350f24b92217b515c9815ccbd12243dbf77d59be8dba5f460677b8800cc4",
+			"source_id": "shrub_02",
+			"variant": 0,
+			"visible_pixel_count": 9806,
+			"world_height_m": 1.5489,
+			"world_size_m": [
+				2.6678,
+				2.3153,
+				1.5489
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.141647,
+			"alpha_weighted_luma_255": 70.282,
+			"bytes": 35584,
+			"cell_region": [
+				768,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				41,
+				70,
+				175,
+				111
+			],
+			"edge_margin_px": 40,
+			"key": "shrub",
+			"padded_atlas_region": [
+				37,
+				66,
+				183,
+				119
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/shrub_1.png",
+			"sha256": "d48adf15eea89bbe936a812bc4414e5b05270092fa06863962aeeccec5834679",
+			"source_id": "shrub_02",
+			"variant": 1,
+			"visible_pixel_count": 9283,
+			"world_height_m": 1.6228,
+			"world_size_m": [
+				2.4631,
+				2.7353,
+				1.6228
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.115372,
+			"alpha_weighted_luma_255": 71.843,
+			"bytes": 29815,
+			"cell_region": [
+				1024,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				45,
+				85,
+				170,
+				98
+			],
+			"edge_margin_px": 41,
+			"key": "shrub",
+			"padded_atlas_region": [
+				41,
+				81,
+				178,
+				106
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/shrub_2.png",
+			"sha256": "7440feb9c7aec825c04a24d671c33ea76ff8c4ea28dde7196e53e32c95226033",
+			"source_id": "shrub_02",
+			"variant": 2,
+			"visible_pixel_count": 7561,
+			"world_height_m": 1.7615,
+			"world_size_m": [
+				2.5189,
+				2.9072,
+				1.7615
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.183685,
+			"alpha_weighted_luma_255": 103.381,
+			"bytes": 37244,
+			"cell_region": [
+				1280,
+				512,
+				256,
+				256
+			],
+			"content_bounds": [
+				54,
+				85,
+				174,
+				119
+			],
+			"edge_margin_px": 28,
+			"key": "fern",
+			"padded_atlas_region": [
+				50,
+				81,
+				182,
+				127
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/fern_0.png",
+			"sha256": "60b0a85b83d6bbb75acd2f6438a5f796c570cc146de89a6e4e20bc146738d58c",
+			"source_id": "fern_02",
+			"variant": 0,
+			"visible_pixel_count": 12038,
+			"world_height_m": 0.4288,
+			"world_size_m": [
+				1.4798,
+				1.2757,
+				0.4288
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.183212,
+			"alpha_weighted_luma_255": 103.226,
+			"bytes": 37131,
+			"cell_region": [
+				0,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				55,
+				87,
+				174,
+				118
+			],
+			"edge_margin_px": 27,
+			"key": "fern",
+			"padded_atlas_region": [
+				51,
+				83,
+				182,
+				126
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/fern_1.png",
+			"sha256": "54a2ad0b4019dcf59c495a729a2fe24833f3ef1b44c898700be0d2faf325cbb0",
+			"source_id": "fern_02",
+			"variant": 1,
+			"visible_pixel_count": 12007,
+			"world_height_m": 0.4521,
+			"world_size_m": [
+				1.4915,
+				1.2812,
+				0.4521
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.201935,
+			"alpha_weighted_luma_255": 73.176,
+			"bytes": 47898,
+			"cell_region": [
+				256,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				37,
+				57,
+				191,
+				145
+			],
+			"edge_margin_px": 28,
+			"key": "grass",
+			"padded_atlas_region": [
+				33,
+				53,
+				199,
+				153
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/grass_0.png",
+			"sha256": "4715cfb366bc10e29e89ae0afdfd4dfc594a43759dc5c36ce847fea9f0c83c49",
+			"source_id": "grass_medium_01",
+			"variant": 0,
+			"visible_pixel_count": 13234,
+			"world_height_m": 0.798,
+			"world_size_m": [
+				1.25,
+				1.0853,
+				0.798
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.225754,
+			"alpha_weighted_luma_255": 75.933,
+			"bytes": 53010,
+			"cell_region": [
+				512,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				36,
+				47,
+				189,
+				156
+			],
+			"edge_margin_px": 31,
+			"key": "grass",
+			"padded_atlas_region": [
+				32,
+				43,
+				197,
+				164
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/grass_1.png",
+			"sha256": "b2398e269ce294232b008afc98976e119eef660f4c5374d71697a28ca8eb1431",
+			"source_id": "grass_medium_01",
+			"variant": 1,
+			"visible_pixel_count": 14795,
+			"world_height_m": 0.7278,
+			"world_size_m": [
+				1.1497,
+				1.25,
+				0.7278
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.293976,
+			"alpha_weighted_luma_255": 70.806,
+			"bytes": 67168,
+			"cell_region": [
+				768,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				36,
+				41,
+				190,
+				178
+			],
+			"edge_margin_px": 30,
+			"key": "grass",
+			"padded_atlas_region": [
+				32,
+				37,
+				198,
+				186
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/grass_2.png",
+			"sha256": "afddc8dea0d512e205aca492149375b678abd1616ee5a544ecd2fc4239cbddd0",
+			"source_id": "grass_medium_01",
+			"variant": 2,
+			"visible_pixel_count": 19266,
+			"world_height_m": 0.6844,
+			"world_size_m": [
+				1.25,
+				1.2048,
+				0.6844
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.24707,
+			"alpha_weighted_luma_255": 100.858,
+			"bytes": 43933,
+			"cell_region": [
+				1024,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				28,
+				56,
+				175,
+				144
+			],
+			"edge_margin_px": 28,
+			"key": "rock_mossy",
+			"padded_atlas_region": [
+				24,
+				52,
+				183,
+				152
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/rock_mossy_0.png",
+			"sha256": "e6dcdf4ebc0f4a736374872154b54d4e276753f84df8585edb67a359811a4410",
+			"source_id": "rock_moss_set_02",
+			"variant": 0,
+			"visible_pixel_count": 16192,
+			"world_height_m": 0.5287,
+			"world_size_m": [
+				1.2063,
+				0.9836,
+				0.5287
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.198944,
+			"alpha_weighted_luma_255": 104.429,
+			"bytes": 35485,
+			"cell_region": [
+				1280,
+				768,
+				256,
+				256
+			],
+			"content_bounds": [
+				74,
+				37,
+				110,
+				156
+			],
+			"edge_margin_px": 37,
+			"key": "rock_mossy",
+			"padded_atlas_region": [
+				70,
+				33,
+				118,
+				164
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/rock_mossy_1.png",
+			"sha256": "2da0f0173d10ff302f26b806469638ef43a05e3e77770a9645e038b8136913ec",
+			"source_id": "rock_moss_set_02",
+			"variant": 1,
+			"visible_pixel_count": 13038,
+			"world_height_m": 1.2564,
+			"world_size_m": [
+				2.0914,
+				1.1383,
+				1.2564
+			],
+			"yaw_deg": 126.0
+		},
+		{
+			"alpha_coverage": 0.192917,
+			"alpha_weighted_luma_255": 101.917,
+			"bytes": 33079,
+			"cell_region": [
+				0,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				46,
+				65,
+				168,
+				109
+			],
+			"edge_margin_px": 42,
+			"key": "rock_mossy",
+			"padded_atlas_region": [
+				42,
+				61,
+				176,
+				117
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/rock_mossy_2.png",
+			"sha256": "3bde2a93be904aacd2f032fadddbcc1a7b4aab77869120c073af045944b6eb38",
+			"source_id": "rock_moss_set_02",
+			"variant": 2,
+			"visible_pixel_count": 12643,
+			"world_height_m": 0.7685,
+			"world_size_m": [
+				2.2029,
+				1.5516,
+				0.7685
+			],
+			"yaw_deg": 248.0
+		},
+		{
+			"alpha_coverage": 0.069366,
+			"alpha_weighted_luma_255": 72.377,
+			"bytes": 16293,
+			"cell_region": [
+				256,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				88,
+				89,
+				81,
+				86
+			],
+			"edge_margin_px": 81,
+			"key": "rock_bare",
+			"padded_atlas_region": [
+				84,
+				85,
+				89,
+				94
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/rock_bare_0.png",
+			"sha256": "268a58a6a951025276c5ebfb8f210e53f678d54699110b1d64e1b1c8306b9354",
+			"source_id": "rock_07",
+			"variant": 0,
+			"visible_pixel_count": 4546,
+			"world_height_m": 0.1437,
+			"world_size_m": [
+				0.1689,
+				0.3203,
+				0.1437
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.061584,
+			"alpha_weighted_luma_255": 94.936,
+			"bytes": 13108,
+			"cell_region": [
+				512,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				79,
+				102,
+				98,
+				53
+			],
+			"edge_margin_px": 79,
+			"key": "rock_bare",
+			"padded_atlas_region": [
+				75,
+				98,
+				106,
+				61
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/rock_bare_1.png",
+			"sha256": "1f82e7e05d6e4c4cff69745737a0eaaf29f9a3c45a16667842ca4ce678633a30",
+			"source_id": "rock_07",
+			"variant": 1,
+			"visible_pixel_count": 4036,
+			"world_height_m": 0.1437,
+			"world_size_m": [
+				0.1689,
+				0.3203,
+				0.1437
+			],
+			"yaw_deg": 139.0
+		},
+		{
+			"alpha_coverage": 0.073425,
+			"alpha_weighted_luma_255": 84.01,
+			"bytes": 20433,
+			"cell_region": [
+				768,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				32,
+				66,
+				197,
+				145
+			],
+			"edge_margin_px": 27,
+			"key": "branches",
+			"padded_atlas_region": [
+				28,
+				62,
+				205,
+				153
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/branches_0.png",
+			"sha256": "0963f501cdd96c5e66f42fdcd147f16e8479fd485d547a9b7ec9a4b8218067f7",
+			"source_id": "dry_branches_medium_01",
+			"variant": 0,
+			"visible_pixel_count": 4812,
+			"world_height_m": 0.341,
+			"world_size_m": [
+				1.0595,
+				1.2992,
+				0.341
+			],
+			"yaw_deg": 0.0
+		},
+		{
+			"alpha_coverage": 0.06427,
+			"alpha_weighted_luma_255": 83.112,
+			"bytes": 17589,
+			"cell_region": [
+				1024,
+				1024,
+				256,
+				256
+			],
+			"content_bounds": [
+				18,
+				97,
+				218,
+				92
+			],
+			"edge_margin_px": 18,
+			"key": "branches",
+			"padded_atlas_region": [
+				14,
+				93,
+				226,
+				100
+			],
+			"path": "res://assets/2d/environment/polyhaven_wild/branches_1.png",
+			"sha256": "70ac7c4191d47ace773458b999206a0512e13f0b26a52b4ff0a706daf2b5aa88",
+			"source_id": "dry_branches_medium_01",
+			"variant": 1,
+			"visible_pixel_count": 4212,
+			"world_height_m": 0.341,
+			"world_size_m": [
+				1.0595,
+				1.2992,
+				0.341
+			],
+			"yaw_deg": 154.0
+		}
+	],
+	"family": "polyhaven_wild",
+	"license": "CC0-1.0",
+	"license_evidence": "res://assets/licenses/polyhaven_cc0.md",
+	"license_url": "https://polyhaven.com/license",
+	"quality_gates": {
+		"minimum_alpha_weighted_luma_255": 34.0,
+		"minimum_frame_margin": 5,
+		"observed_minimum_luma_255": 70.282,
+		"observed_minimum_margin_px": 18
+	},
+	"render_policy": "orthographic_transparent_freestyle_agx_shared_district_rig",
+	"runtime_policy": "offline_baked_2d_atlas_only_no_runtime_mesh_or_node3d",
+	"scale_range_m": {
+		"shortest": 0.1437,
+		"tallest": 18.9251
+	},
+	"schema_version": 1,
+	"source_assets": [
+		{
+			"authors": [
+				"Jenelle van Heerden",
+				"Rico Cilliers"
+			],
+			"format": "gltf",
+			"id": "dead_tree_trunk_02",
+			"license": "CC0-1.0",
+			"name": "Dead Tree Trunk 02",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/dead_tree_trunk_02"
+		},
+		{
+			"authors": [
+				"Rico Cilliers"
+			],
+			"format": "gltf",
+			"id": "dry_branches_medium_01",
+			"license": "CC0-1.0",
+			"name": "Dry Branches Medium 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/dry_branches_medium_01"
+		},
+		{
+			"authors": [
+				"Rico Cilliers",
+				"Rob Tuytel"
+			],
+			"format": "gltf",
+			"id": "fern_02",
+			"license": "CC0-1.0",
+			"name": "Fern 02",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/fern_02"
+		},
+		{
+			"authors": [
+				"Rico Cilliers",
+				"Rob Tuytel"
+			],
+			"format": "gltf",
+			"id": "fir_tree_01",
+			"license": "CC0-1.0",
+			"name": "Fir Tree 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/fir_tree_01"
+		},
+		{
+			"authors": [
+				"Rico Cilliers",
+				"Rob Tuytel"
+			],
+			"format": "gltf",
+			"id": "grass_medium_01",
+			"license": "CC0-1.0",
+			"name": "Grass Medium 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/grass_medium_01"
+		},
+		{
+			"authors": [
+				"Rob Tuytel"
+			],
+			"format": "gltf",
+			"id": "pine_roots",
+			"license": "CC0-1.0",
+			"name": "Pine Roots",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/pine_roots"
+		},
+		{
+			"authors": [
+				"Jenelle van Heerden"
+			],
+			"format": "gltf",
+			"id": "rock_07",
+			"license": "CC0-1.0",
+			"name": "Rock 07",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/rock_07"
+		},
+		{
+			"authors": [
+				"Kless Gyzen"
+			],
+			"format": "gltf",
+			"id": "rock_moss_set_02",
+			"license": "CC0-1.0",
+			"name": "Rock Moss Set 02",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/rock_moss_set_02"
+		},
+		{
+			"authors": [
+				"Jenelle van Heerden",
+				"Rico Cilliers"
+			],
+			"format": "gltf",
+			"id": "root_cluster_01",
+			"license": "CC0-1.0",
+			"name": "Root Cluster 01",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/root_cluster_01"
+		},
+		{
+			"authors": [
+				"Rico Cilliers"
+			],
+			"format": "gltf",
+			"id": "shrub_02",
+			"license": "CC0-1.0",
+			"name": "Shrub 02",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/shrub_02"
+		},
+		{
+			"authors": [
+				"Rico Cilliers"
+			],
+			"format": "gltf",
+			"id": "tree_small_02",
+			"license": "CC0-1.0",
+			"name": "Tree Small 02",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/tree_small_02"
+		},
+		{
+			"authors": [
+				"Rob Tuytel"
+			],
+			"format": "gltf",
+			"id": "tree_stump_02",
+			"license": "CC0-1.0",
+			"name": "Tree Stump 02",
+			"resolution": "1k",
+			"type": "model",
+			"url": "https://polyhaven.com/a/tree_stump_02"
+		}
+	],
+	"source_contract": "tools/art/blender/vault/polyhaven_wild/_fetch_manifest.json",
+	"source_fetcher": "res://tools/asset_pipeline/fetch_polyhaven_models.py",
+	"source_fetcher_sha256": "4507a2eec20b50d3cc0cfcbb05b25863209f0bf2f390efdfdd8b9a092e500a27"
+}

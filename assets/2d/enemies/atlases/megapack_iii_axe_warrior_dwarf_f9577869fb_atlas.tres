@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ctixdodi665c"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_iii_axe_warrior_dwarf_70d175706b.png" id="1_fcdix"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fcdix")
+region = Rect2(0, 0, 191, 214)

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bxq08j31vyjhu"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_egg_e_78aeadbebd.png" id="1_hrlfk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5omcy"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hrlfk")
+region = Rect2(0, 0, 77, 65)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5omcy")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://tp37g01wbjxg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dryads_warrior_63f64b7671.png" id="1_w3s8y"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_w3s8y")
+region = Rect2(0, 0, 324, 310)

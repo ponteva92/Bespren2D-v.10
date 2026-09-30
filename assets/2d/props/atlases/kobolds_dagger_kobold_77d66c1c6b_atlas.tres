@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cj00pjt31boon"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/kobolds_dagger_kobold_50fc34dd4c.png" id="1_ipdap"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ipdap")
+region = Rect2(0, 0, 251, 199)

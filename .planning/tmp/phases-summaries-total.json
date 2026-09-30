@@ -1,0 +1,11 @@
+{
+  "args": [
+    "query",
+    "phases.list",
+    "--pick",
+    "summaries_total"
+  ],
+  "status": 0,
+  "stdout": "",
+  "stderr": ""
+}

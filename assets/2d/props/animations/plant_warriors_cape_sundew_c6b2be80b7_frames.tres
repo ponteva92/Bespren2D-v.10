@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://tj7v8ud3ih5k"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/plant_warriors_cape_sundew_9c00047b0e.png" id="1_bhw0e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a2qvx"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bhw0e")
+region = Rect2(0, 0, 498, 241)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a2qvx")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bsyf3lqp47yfy"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_031_carrot_f36c5b5e5d.png" id="1_dv88x"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_dv88x")
+region = Rect2(0, 0, 64, 64)

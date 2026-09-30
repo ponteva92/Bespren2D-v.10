@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://wivhamixemmo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/eldritch_fire_slimei_2b8c8cce9a.png" id="1_7sof4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vfw0e"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7sof4")
+region = Rect2(0, 0, 102, 126)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vfw0e")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

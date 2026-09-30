@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bdtguwbv0j51g"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_orc_chief_grunt_f14a7a7e09.png" id="1_hqkeo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0o23g"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hqkeo")
+region = Rect2(0, 0, 465, 352)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0o23g")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

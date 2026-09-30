@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cuswfsik7r75i"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_dryad_yggdrasil_5d01630dd1.png" id="1_sgxg7"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_sgxg7")
+region = Rect2(0, 0, 466, 415)

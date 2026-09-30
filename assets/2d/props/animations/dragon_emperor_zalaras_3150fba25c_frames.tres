@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bs8qi5v5qdstm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dragon_emperor_zalaras_1a7e16370d.png" id="1_381hm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6i6kx"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_381hm")
+region = Rect2(0, 0, 663, 489)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6i6kx")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

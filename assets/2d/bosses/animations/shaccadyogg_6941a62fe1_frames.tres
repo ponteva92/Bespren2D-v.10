@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bb5yy103ltd08"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/shaccadyogg_985097cfaf.png" id="1_anbb1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bgf36"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_anbb1")
+region = Rect2(0, 0, 120, 424)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fucb7"]
+resource_name = "frame_000_001"
+atlas = ExtResource("1_anbb1")
+region = Rect2(120, 0, 120, 424)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uxiku"]
+resource_name = "frame_000_002"
+atlas = ExtResource("1_anbb1")
+region = Rect2(240, 0, 120, 424)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bgf36")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fucb7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uxiku")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 8.0
+}]

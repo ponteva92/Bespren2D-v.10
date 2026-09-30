@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d1j1xifm680ll"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/slime_darkii_0e87588752.png" id="1_tk40t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yexpu"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_tk40t")
+region = Rect2(0, 0, 144, 146)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yexpu")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

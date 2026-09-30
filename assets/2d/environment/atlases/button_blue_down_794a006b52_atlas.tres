@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://bmqj3u4dt7pwh"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/button_blue_down_7f4d4df754.png" id="1_rasev"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_rasev")
+region = Rect2(0, 0, 16, 16)

@@ -1,0 +1,83 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://7jjwfj3feg0w"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mermaidwarrior_tex_e3f56f1a2a.png" id="1_5xpmt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dffqv"]
+resource_name = "shadow"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(118, 318, 218, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rhb3k"]
+resource_name = "hair_back"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(406, 194, 92, 124)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5j7a"]
+resource_name = "head"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(118, 242, 79, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oj7p6"]
+resource_name = "left_arm"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(462, 1, 46, 92)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hhq53"]
+resource_name = "spear"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(1, 1, 291, 239)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5pmv"]
+resource_name = "tail"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(294, 1, 166, 191)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dge2e"]
+resource_name = "body"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(1, 242, 57, 129)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f0mqq"]
+resource_name = "right_arm"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(60, 242, 56, 107)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vcw3"]
+resource_name = "shield"
+atlas = ExtResource("1_5xpmt")
+region = Rect2(294, 194, 110, 117)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dffqv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rhb3k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5j7a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oj7p6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hhq53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5pmv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dge2e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f0mqq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vcw3")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://v4fh6w1bt2hj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/xmas_snowman_a2ab24b05c.png" id="1_5b868"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_5b868")
+region = Rect2(0, 0, 386, 271)

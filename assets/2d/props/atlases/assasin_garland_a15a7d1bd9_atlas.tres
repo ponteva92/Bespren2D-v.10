@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://budklexogycl6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/assasin_garland_c9f6d25ee3.png" id="1_nuyne"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_nuyne")
+region = Rect2(0, 0, 144, 140)

@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://b1i1vmgk2rypg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/claw_and_blade/direct/food_033_bell_pepper_ca262ce873.png" id="1_6r2jo"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_6r2jo")
+region = Rect2(0, 0, 64, 64)

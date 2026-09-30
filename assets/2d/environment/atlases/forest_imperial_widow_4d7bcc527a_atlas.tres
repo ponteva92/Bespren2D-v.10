@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cadjb3ec0y6h6"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_imperial_widow_153fabdc11.png" id="1_itw8a"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_itw8a")
+region = Rect2(0, 0, 269, 258)

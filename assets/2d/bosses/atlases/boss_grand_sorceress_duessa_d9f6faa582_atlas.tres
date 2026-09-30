@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://byykqb1iha2wr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_grand_sorceress_duessa_ae02255907.png" id="1_fbj35"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_fbj35")
+region = Rect2(0, 0, 736, 545)

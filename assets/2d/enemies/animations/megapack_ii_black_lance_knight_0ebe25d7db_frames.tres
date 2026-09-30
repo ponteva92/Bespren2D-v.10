@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c48wl1laxplhm"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/megapack_ii_black_lance_knight_09ed0bf13c.png" id="1_xyrmq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vej7c"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_xyrmq")
+region = Rect2(0, 0, 567, 280)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vej7c")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

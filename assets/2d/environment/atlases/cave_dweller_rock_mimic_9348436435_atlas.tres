@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cxcnt7teue3rr"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/cave_dweller_rock_mimic_e9e883fd42.png" id="1_bct1l"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_bct1l")
+region = Rect2(0, 0, 90, 52)

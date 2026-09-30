@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://381q2j22h5jg"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/pig_move_5b80c6aea2.png" id="1_q8n08"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_q8n08")
+region = Rect2(0, 0, 64, 64)

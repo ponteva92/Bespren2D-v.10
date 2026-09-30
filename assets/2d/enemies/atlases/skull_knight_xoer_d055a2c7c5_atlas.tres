@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://digfd113d7665"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skull_knight_xoer_73aea1b5fe.png" id="1_o0dnc"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_o0dnc")
+region = Rect2(0, 0, 473, 412)

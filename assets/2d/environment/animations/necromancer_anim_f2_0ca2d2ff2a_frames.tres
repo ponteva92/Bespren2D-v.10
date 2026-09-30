@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bo8l4c103utay"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/necromancer_anim_f2_42c833fd1f.png" id="1_hpk5a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jybnd"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_hpk5a")
+region = Rect2(0, 0, 16, 23)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jybnd")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

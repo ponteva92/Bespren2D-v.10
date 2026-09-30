@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://badgwmhf064dp"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/mechasnake_tex_f8c1a4f36d.png" id="1_qdvb8"]
+
+[resource]
+resource_name = "layer_113_copy"
+atlas = ExtResource("1_qdvb8")
+region = Rect2(1, 318, 576, 39)

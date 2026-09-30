@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://by57ex7ihs0fo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/fire_turtle_49ba33f72b.png" id="1_7igcp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xu14w"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7igcp")
+region = Rect2(0, 0, 318, 222)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xu14w")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

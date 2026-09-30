@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://boj0h2jqrchli"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/dryads_archer_59b0c5e55e.png" id="1_shqpe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ohq7k"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_shqpe")
+region = Rect2(0, 0, 296, 371)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ohq7k")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

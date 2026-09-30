@@ -1,0 +1,99 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://651kufs3gdjj"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/clockworkskull_tex_c7aec4288a.png" id="1_a81ht"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h4l2y"]
+resource_name = "shadow"
+atlas = ExtResource("1_a81ht")
+region = Rect2(130, 528, 379, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_irmdq"]
+resource_name = "lower_jaw"
+atlas = ExtResource("1_a81ht")
+region = Rect2(282, 353, 147, 173)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_byvt8"]
+resource_name = "monoclec"
+atlas = ExtResource("1_a81ht")
+region = Rect2(403, 82, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsobk"]
+resource_name = "monocleb"
+atlas = ExtResource("1_a81ht")
+region = Rect2(403, 1, 77, 79)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q56gn"]
+resource_name = "monoclea"
+atlas = ExtResource("1_a81ht")
+region = Rect2(403, 161, 66, 81)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qr2un"]
+resource_name = "upper_head"
+atlas = ExtResource("1_a81ht")
+region = Rect2(1, 1, 400, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1tnjj"]
+resource_name = "second_hand"
+atlas = ExtResource("1_a81ht")
+region = Rect2(403, 244, 36, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g0eh0"]
+resource_name = "hour_hand"
+atlas = ExtResource("1_a81ht")
+region = Rect2(403, 284, 9, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rd8nx"]
+resource_name = "clock_joint"
+atlas = ExtResource("1_a81ht")
+region = Rect2(403, 321, 8, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qkm3k"]
+resource_name = "eye_gear"
+atlas = ExtResource("1_a81ht")
+region = Rect2(1, 504, 127, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g730g"]
+resource_name = "flame_eye"
+atlas = ExtResource("1_a81ht")
+region = Rect2(1, 353, 279, 149)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h4l2y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_irmdq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_byvt8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsobk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q56gn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qr2un")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1tnjj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g0eh0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rd8nx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qkm3k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g730g")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

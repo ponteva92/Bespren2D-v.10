@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ba57c5wfsf7xc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/ice_snake_16ea1b94ef.png" id="1_3iuv4"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_3iuv4")
+region = Rect2(0, 0, 123, 98)

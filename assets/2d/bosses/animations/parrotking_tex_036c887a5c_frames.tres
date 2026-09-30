@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cgrkcdx2ofe75"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/parrotking_tex_8bb5b6fd3d.png" id="1_t4gtw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_33f4k"]
+resource_name = "folder_53_copy_3"
+atlas = ExtResource("1_t4gtw")
+region = Rect2(1, 1, 343, 344)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_163qt"]
+resource_name = "layer_116"
+atlas = ExtResource("1_t4gtw")
+region = Rect2(119, 857, 363, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d2xxd"]
+resource_name = "folder_53_copy_7"
+atlas = ExtResource("1_t4gtw")
+region = Rect2(1, 659, 238, 196)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_umm4k"]
+resource_name = "folder_53_copy_5"
+atlas = ExtResource("1_t4gtw")
+region = Rect2(217, 504, 57, 102)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1jjf"]
+resource_name = "folder_53_copy_6"
+atlas = ExtResource("1_t4gtw")
+region = Rect2(217, 347, 64, 155)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_itqoo"]
+resource_name = "folder_53_copy_4"
+atlas = ExtResource("1_t4gtw")
+region = Rect2(1, 347, 214, 310)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_66omr"]
+resource_name = "layer_295_copy"
+atlas = ExtResource("1_t4gtw")
+region = Rect2(1, 857, 116, 154)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_33f4k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_163qt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d2xxd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_umm4k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1jjf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_itqoo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_66omr")
+}],
+"loop": 0,
+"name": &"atlas_parts",
+"speed": 1.0
+}]

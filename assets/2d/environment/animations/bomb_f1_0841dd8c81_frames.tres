@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bcogv0txeh4wd"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/dungeon_tileset/direct/bomb_f1_1455753768.png" id="1_65cps"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_giikk"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_65cps")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_giikk")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://q7qj0b6r8jdc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/colossal_snake_f4cf7f24b7.png" id="1_wbcxi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aa60i"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_wbcxi")
+region = Rect2(0, 0, 414, 323)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aa60i")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

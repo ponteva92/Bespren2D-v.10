@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://buqxwp4iphham"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/maxima_tex_096d169ede.png" id="1_namhv"]
+
+[resource]
+resource_name = "shadow_copy"
+atlas = ExtResource("1_namhv")
+region = Rect2(1, 765, 480, 14)

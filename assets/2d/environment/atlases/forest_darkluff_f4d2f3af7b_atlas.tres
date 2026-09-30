@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://tlvar0ff5jny"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/forest_darkluff_c177e70348.png" id="1_e3h2b"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_e3h2b")
+region = Rect2(0, 0, 71, 77)

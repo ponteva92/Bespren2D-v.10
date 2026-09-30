@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://src/visual/character_presentation.gd" id="1_view"]
+[ext_resource type="Texture2D" path="res://assets/2d/characters/heikki_topdown.png" id="2_sprite"]
+[ext_resource type="Texture2D" path="res://assets/2d/effects/radial_light.svg" id="3_light"]
+[ext_resource type="Shader" path="res://shaders/toon_emissive_outline.gdshader" id="4_toon"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_character"]
+shader = ExtResource("4_toon")
+shader_parameter/outline_color = Color(0.003, 0.004, 0.004, 1)
+shader_parameter/glow_color = Color(1, 0.62, 0.08, 1)
+shader_parameter/outline_width = 1.6
+shader_parameter/emission_strength = 0.22
+shader_parameter/pulse_speed = 1.4
+
+[node name="Heikki" type="Node2D"]
+script = ExtResource("1_view")
+character_name = &"Heikki"
+accent_color = Color(1, 0.62, 0.08, 1)
+
+[node name="IdentityGlow" type="PointLight2D" parent="."]
+z_index = -1
+color = Color(1, 0.62, 0.08, 1)
+energy = 0.26
+texture = ExtResource("3_light")
+texture_scale = 0.27
+
+[node name="Sprite" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_character")
+texture = ExtResource("2_sprite")
+scale = Vector2(0.27, 0.27)
+

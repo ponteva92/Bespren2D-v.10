@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://012w2frh6jud"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/witch_hunters_healer_9482b382b2.png" id="1_ic6pi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_al04x"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_ic6pi")
+region = Rect2(0, 0, 200, 257)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_al04x")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

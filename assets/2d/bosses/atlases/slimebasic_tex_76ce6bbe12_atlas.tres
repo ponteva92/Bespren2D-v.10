@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://blkhdrawlkmpw"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/librarium_dragonbones_megapack_i_9dbd923d7d/slimebasic_tex_7723ba5003.png" id="1_3ufgm"]
+
+[resource]
+resource_name = "shadow"
+atlas = ExtResource("1_3ufgm")
+region = Rect2(1, 151, 75, 24)

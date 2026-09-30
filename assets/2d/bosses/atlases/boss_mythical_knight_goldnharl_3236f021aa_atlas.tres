@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dpwjcuayfhuw8"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_mythical_knight_goldnharl_ebf9f976ce.png" id="1_f4ctb"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_f4ctb")
+region = Rect2(0, 0, 299, 237)

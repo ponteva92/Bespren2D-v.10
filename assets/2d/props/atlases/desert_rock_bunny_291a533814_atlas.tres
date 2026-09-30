@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cn6krr5pkmg2q"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/desert_rock_bunny_78fb7aab95.png" id="1_52pe6"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_52pe6")
+region = Rect2(0, 0, 118, 133)

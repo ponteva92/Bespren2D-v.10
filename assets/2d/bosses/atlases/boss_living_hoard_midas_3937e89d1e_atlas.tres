@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://1bs1cbef1g88"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/boss_living_hoard_midas_a81e471af8.png" id="1_0r7ct"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_0r7ct")
+region = Rect2(0, 0, 356, 198)

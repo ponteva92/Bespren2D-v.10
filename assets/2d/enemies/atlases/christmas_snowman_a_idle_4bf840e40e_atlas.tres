@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://dhhd2gwlfnjpc"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/christmas_snowman_a_idle_b0708321c4.png" id="1_kkrcy"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_kkrcy")
+region = Rect2(0, 0, 512, 512)

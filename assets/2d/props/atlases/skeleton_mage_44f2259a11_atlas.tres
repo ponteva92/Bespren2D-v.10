@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://byk5ss2mdsvgo"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/skeleton_mage_86e70c9f70.png" id="1_7gkor"]
+
+[resource]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_7gkor")
+region = Rect2(0, 0, 265, 260)

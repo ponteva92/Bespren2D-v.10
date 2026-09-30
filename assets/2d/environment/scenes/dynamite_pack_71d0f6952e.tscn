@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://q2ob3pr84dim"]
+
+[ext_resource type="Shader" path="res://assets/2d/materials/post_apocalyptic_weathering.gdshader" id="1_4yxmn"]
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/archive_2d/godot_4_tower_defense_template_master_f723e8af01/dynamite_pack_915d7a87b2.png" id="2_fydqb"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o613s"]
+resource_name = "Bespren Tech Cyan weathering"
+shader = ExtResource("1_4yxmn")
+shader_parameter/treatment = 2
+shader_parameter/weathering = 0.74
+shader_parameter/structural_damage = 0.12
+shader_parameter/rust_streaks = 0.28
+shader_parameter/toxic_intensity = 0.34
+shader_parameter/glow_color = Color(0, 1, 1, 1)
+shader_parameter/emission_strength = 0.92
+shader_parameter/pattern_scale = 35.0
+shader_parameter/damage_seed = 23.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bbbwt"]
+resource_name = "frame_000_000"
+atlas = ExtResource("2_fydqb")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m64rq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bbbwt")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="Dynamite-Pack" type="Node2D" unique_id=1867629945 groups=["weathered_2d_asset"]]
+y_sort_enabled = true
+metadata/bespren_asset_id = "dynamite_pack_71d0f6952e"
+metadata/pivot = "bottom_center"
+metadata/weathered = true
+metadata/source_kind = "standalone"
+
+[node name="WeatheredSprite" type="AnimatedSprite2D" parent="." unique_id=1013527250]
+texture_filter = 1
+material = SubResource("ShaderMaterial_o613s")
+sprite_frames = SubResource("SpriteFrames_m64rq")
+offset = Vector2(0, -48)

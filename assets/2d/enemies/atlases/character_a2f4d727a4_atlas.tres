@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://cp8sdxd4qpqfv"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/character_attack_sword_2_34870fb2b3.png" id="1_ckh5c"]
+
+[resource]
+resource_name = "attack_sword_002"
+atlas = ExtResource("1_ckh5c")
+region = Rect2(0, 0, 768, 512)

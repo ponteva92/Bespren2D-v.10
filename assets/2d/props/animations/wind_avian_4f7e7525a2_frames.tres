@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b4eq18uq5rb8l"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/wind_avian_55e45a215e.png" id="1_34s30"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lb2ll"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_34s30")
+region = Rect2(0, 0, 321, 337)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lb2ll")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

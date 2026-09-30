@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d0qy88weqlyph"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/aekashics/direct/darkness_reaper_f97cd3d90b.png" id="1_vgeub"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8f14f"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_vgeub")
+region = Rect2(0, 0, 203, 156)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8f14f")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]

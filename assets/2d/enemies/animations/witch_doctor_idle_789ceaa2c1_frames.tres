@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dtgkdjornicrx"]
+
+[ext_resource type="Texture2D" path="res://assets/2d/_source_imports/images/admurin/direct/witch_doctor_idle_a165a461cd.png" id="1_8t3tn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0vco5"]
+resource_name = "frame_000_000"
+atlas = ExtResource("1_8t3tn")
+region = Rect2(0, 0, 512, 512)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0vco5")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
